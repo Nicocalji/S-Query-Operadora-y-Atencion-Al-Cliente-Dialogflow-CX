@@ -5,6 +5,6 @@
     "uri": "https://europe-west3-s-query-op-ac.cloudfunctions.net/S_Query_OP_AC_Desarrollo"
   },
   "timeout": {
-    "seconds": 15
+    "seconds": 20
   }
 }

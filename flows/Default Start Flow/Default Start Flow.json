@@ -32,6 +32,12 @@
       } ]
     },
     "name": "7bd8f094-5895-4a5b-a203-87595c7d593e"
+  }, {
+    "event": "ACEPTADA_COLGADA",
+    "triggerFulfillment": {
+    
+    },
+    "name": "54a35ff5-3062-497d-828b-cd687fdbc05c"
   } ],
   "nluSettings": {
     "modelType": "MODEL_TYPE_ADVANCED",

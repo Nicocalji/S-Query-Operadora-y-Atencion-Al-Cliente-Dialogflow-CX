@@ -84,17 +84,6 @@
     "targetPage": "End Session",
     "event": "ACEPTADA_COLGADA",
     "triggerFulfillment": {
-      "messages": [ {
-        "text": {
-          "text": [ "Adiós." ]
-        },
-        "languageCode": "es"
-      }, {
-        "outputAudioText": {
-          "text": "Adiós."
-        },
-        "languageCode": "es"
-      } ],
       "webhook": "S-Query",
       "tag": "enviarDatos",
       "setParameterActions": [ {

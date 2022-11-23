@@ -1,6 +1,24 @@
 {
   "trainingPhrases": [ {
     "parts": [ {
+      "text": "se llama ",
+      "auto": true
+    }, {
+      "text": "Mauricio Antonio",
+      "parameterId": "nombre",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "Ruiz",
+      "parameterId": "apellido",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
       "text": "pues verás mi nombre es "
     }, {
       "text": "Jesús",

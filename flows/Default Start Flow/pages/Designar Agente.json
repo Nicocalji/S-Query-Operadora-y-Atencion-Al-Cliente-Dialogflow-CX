@@ -24,5 +24,16 @@
     },
     "targetFlow": "gestion_cita_inicio",
     "name": "4a3b4625-5009-4f24-a147-0ad270cb3b3f"
-  } ]
+  } ],
+  "advancedSettings": {
+    "speechSettings": {
+      "endpointerSensitivity": 90,
+      "noSpeechTimeout": {
+        "seconds": 20
+      }
+    }
+  },
+  "speakerIdSettings": {
+  
+  }
 }

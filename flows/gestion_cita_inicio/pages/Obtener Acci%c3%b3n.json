@@ -132,7 +132,8 @@
       "setParameterActions": [ {
         "parameter": "accion",
         "value": "medicamento"
-      } ]
+      } ],
+      "returnPartialResponses": true
     },
     "targetFlow": "general_identificar",
     "name": "1e8b8d24-f323-4787-8c16-cfdcd025b6c1"
@@ -155,7 +156,7 @@
     "name": "5304e2e2-0ab7-4ab1-b99a-4348a61d9b84"
   }, {
     "intent": "int_contactar",
-    "condition": "$session.params.hablarConAlguien = true AND $session.params.contactoExists = false",
+    "condition": "$session.params.modulos.operadora = true AND $session.params.contactoExists = false",
     "triggerFulfillment": {
       "messages": [ {
         "text": {
@@ -168,6 +169,8 @@
         },
         "languageCode": "es"
       } ],
+      "webhook": "S-Query",
+      "tag": "cargarEmpleados",
       "setParameterActions": [ {
         "parameter": "tipoAgente",
         "value": "operadora"
@@ -180,8 +183,10 @@
     "name": "e7886650-3ae5-4638-a982-217fbc014bb1"
   }, {
     "intent": "int_contactar",
-    "condition": "$session.params.hablarConAlguien = true AND $session.params.contactoExists = true",
+    "condition": "$session.params.modulos.operadora = true AND $session.params.contactoExists = true",
     "triggerFulfillment": {
+      "webhook": "S-Query",
+      "tag": "cargarEmpleados",
       "setParameterActions": [ {
         "parameter": "tipoAgente",
         "value": "operadora"
@@ -194,7 +199,7 @@
     "name": "d7d7c893-ba0b-4567-8456-0441dabfa486"
   }, {
     "intent": "int_contactar",
-    "condition": "$session.params.hablarConAlguien = false",
+    "condition": "$session.params.modulos.operadora = false",
     "triggerFulfillment": {
       "webhook": "S-Query",
       "tag": "guardarMotivo",
