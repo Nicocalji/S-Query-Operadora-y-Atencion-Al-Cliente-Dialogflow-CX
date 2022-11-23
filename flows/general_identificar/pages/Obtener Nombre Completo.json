@@ -1,0 +1,336 @@
+{
+  "name": "e64ac116-936e-465e-a39a-d55103cfa121",
+  "displayName": "Obtener Nombre Completo",
+  "form": {
+    "parameters": [ {
+      "displayName": "nombre",
+      "required": true,
+      "entityType": "@ent_nombre_compuesto",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "setParameterActions": [ {
+            "parameter": "onName",
+            "value": true
+          } ]
+        },
+        "repromptEventHandlers": [ {
+          "event": "sys.no-match-default",
+          "triggerFulfillment": {
+            "webhook": "S-Query",
+            "tag": "noEntendido",
+            "setParameterActions": [ {
+              "parameter": "mensajeError",
+              "value": "Por favor, dígame el nombre completo."
+            } ]
+          },
+          "name": "9ded6f96-b04d-47b0-92cf-ef94ae9f31a4"
+        }, {
+          "event": "sys.no-input-default",
+          "triggerFulfillment": {
+            "webhook": "S-Query",
+            "tag": "noResponde"
+          },
+          "name": "f12df84c-2991-4f41-a092-2c99e2a23386"
+        } ]
+      },
+      "advancedSettings": {
+        "dtmfSettings": {
+          "useSystemEntityRule": false
+        }
+      }
+    }, {
+      "displayName": "apellido",
+      "required": true,
+      "entityType": "@ent_apellido_compuesto",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "\u003cspeak\u003e Por favor, Dígame su apellido.\u003c/speak\u003e" ]
+            },
+            "languageCode": "es"
+          }, {
+            "outputAudioText": {
+              "ssml": "\u003cspeak\u003e Por favor, Dígame su apellido.\u003c/speak\u003e"
+            },
+            "languageCode": "es"
+          } ],
+          "setParameterActions": [ {
+            "parameter": "mensajeError",
+            "value": "Por favor, dígame su apellido."
+          }, {
+            "parameter": "mensajePersonal",
+            "value": "Genial, $session.params.nombre. Por favor, dígame su DNI sin pausas."
+          }, {
+            "parameter": "mensajeNoPersonal",
+            "value": "\u003cspeak\u003e Muy bien. Por favor. ¿Me puede decir sin pausas el DNI de $session.params.nombre? \u003c/speak\u003e"
+          }, {
+            "parameter": "mensajeEspera_en",
+            "value": "Please tell me your surname"
+          }, {
+            "parameter": "mensajeEspera_es",
+            "value": "Por favor, dígame su apellido."
+          }, {
+            "parameter": "mensajeReintento_en",
+            "value": "Please tell me your surname"
+          }, {
+            "parameter": "mensajeReintento_es",
+            "value": "Por favor, dígame su apellido."
+          }, {
+            "parameter": "mensajeNoEscucha_en",
+            "value": "Please tell me your surname"
+          }, {
+            "parameter": "mensajeNoEscucha_es",
+            "value": "Por favor, dígame su apellido."
+          }, {
+            "parameter": "mensajeRepetir_en",
+            "value": "Please tell me your surname"
+          }, {
+            "parameter": "mensajeRepetir_es",
+            "value": "Por favor, dígame su apellido."
+          }, {
+            "parameter": "onName",
+            "value": null
+          } ]
+        },
+        "repromptEventHandlers": [ {
+          "event": "sys.no-match-default",
+          "triggerFulfillment": {
+            "webhook": "S-Query",
+            "tag": "noEntendido"
+          },
+          "name": "66553ef0-6cf4-4077-bc4b-13a258844aa3"
+        }, {
+          "event": "sys.no-input-default",
+          "triggerFulfillment": {
+            "webhook": "S-Query",
+            "tag": "noResponde"
+          },
+          "name": "5c4a0755-80c0-4c76-8f20-175ebfdcea91"
+        }, {
+          "event": "sys.invalid-parameter",
+          "triggerFulfillment": {
+          
+          },
+          "name": "4a0a3fc1-e51e-4664-b53b-c5fc10712106"
+        } ]
+      },
+      "advancedSettings": {
+        "dtmfSettings": {
+          "useSystemEntityRule": false
+        }
+      }
+    } ]
+  },
+  "entryFulfillment": {
+    "setParameterActions": [ {
+      "parameter": "conteoNoEsuchado",
+      "value": 0
+    }, {
+      "parameter": "conteoReintentos",
+      "value": 0
+    }, {
+      "parameter": "mensajeEspera_en",
+      "value": "Please tell me your full name"
+    }, {
+      "parameter": "mensajeEspera_es",
+      "value": "Indíqueme su nombre completo por favor"
+    }, {
+      "parameter": "mensajeNoEscucha_en",
+      "value": "Please tell me your full name"
+    }, {
+      "parameter": "mensajeNoEscucha_es",
+      "value": "Indíqueme su nombre completo por favor"
+    }, {
+      "parameter": "mensajeReintento_en",
+      "value": "Please tell me your full name"
+    }, {
+      "parameter": "mensajeReintento_es",
+      "value": "Indíqueme su nombre completo por favor"
+    }, {
+      "parameter": "mensajeRepetir_en",
+      "value": "Please tell me your full name"
+    }, {
+      "parameter": "mensajeRepetir_es",
+      "value": "Indíqueme su nombre completo por favor"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "int_obtener_nombre_completo",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "onName",
+        "value": false
+      }, {
+        "parameter": "mensajeReintento_es",
+        "value": "Dígame su nombre completo, por favor."
+      }, {
+        "parameter": "mensajeReintento_en",
+        "value": ""
+      }, {
+        "parameter": "mensajeNoEscucha_es",
+        "value": "Dígame su nombre completo, por favor."
+      }, {
+        "parameter": "mensajeNoEscucha_en",
+        "value": ""
+      }, {
+        "parameter": "mensajeEspera_es",
+        "value": "Dígame su nombre completo, por favor."
+      }, {
+        "parameter": "mensajeEspera_en",
+        "value": ""
+      }, {
+        "parameter": "mensajeRepetir_es",
+        "value": "Dígame su nombre completo, por favor."
+      }, {
+        "parameter": "mensajeRepetir_en",
+        "value": ""
+      } ]
+    },
+    "name": "fbc37f02-6558-4703-858e-d73e698ca98d"
+  }, {
+    "condition": "$session.params.nombre != null AND $session.params.personal = true AND $session.params.apellido != null",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "\u003cspeak\u003e Muy bien, $session.params.nombre. Por favor, indíqueme sin pausas su DNI \u003c/speak\u003e" ]
+        },
+        "languageCode": "es"
+      }, {
+        "outputAudioText": {
+          "ssml": "\u003cspeak\u003e Muy bien, $session.params.nombre. Por favor, indíqueme sin pausas su DNI \u003c/speak\u003e"
+        },
+        "languageCode": "es"
+      } ]
+    },
+    "targetPage": "Obtener DNI",
+    "name": "2eb4498d-dbff-4418-85eb-a32c7b00c295"
+  }, {
+    "condition": "$session.params.nombre != null AND $session.params.personal = false AND $session.params.apellido != null",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "\u003cspeak\u003e Muy bien. Por favor. ¿Me puede decir sin pausas el DNI de $session.params.nombre? \u003c/speak\u003e" ]
+        },
+        "languageCode": "es"
+      }, {
+        "outputAudioText": {
+          "ssml": "\u003cspeak\u003e Muy bien. Por favor. ¿Me puede decir sin pausas el DNI de $session.params.nombre? \u003c/speak\u003e"
+        },
+        "languageCode": "es"
+      } ],
+      "setParameterActions": [ {
+        "parameter": "onLastName",
+        "value": false
+      }, {
+        "parameter": "onName",
+        "value": false
+      } ]
+    },
+    "targetPage": "Obtener DNI",
+    "name": "6be7f0d9-0297-4157-a51c-ce2229bda452"
+  }, {
+    "condition": "$session.params.nombre != null AND $session.params.apellido = null AND $session.params.personal = true",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "onLastName",
+        "value": true
+      }, {
+        "parameter": "onName",
+        "value": false
+      }, {
+        "parameter": "mensajeReintento_es",
+        "value": "Por favor, dígame su primer apellido."
+      }, {
+        "parameter": "mensajeReintento_en",
+        "value": ""
+      }, {
+        "parameter": "mensajeNoEscucha_es",
+        "value": "Por favor, dígame su primer apellido."
+      }, {
+        "parameter": "mensajeNoEscucha_en",
+        "value": ""
+      }, {
+        "parameter": "mensajeEspera_es",
+        "value": "Por favor, dígame su primer apellido."
+      }, {
+        "parameter": "mensajeEspera_en",
+        "value": ""
+      }, {
+        "parameter": "mensajeRepetir_es",
+        "value": "Por favor, dígame su primer apellido."
+      }, {
+        "parameter": "mensajeRepetir_en",
+        "value": ""
+      } ]
+    },
+    "name": "2d71ef80-4a97-42fc-a9a5-a10c2aac9164"
+  }, {
+    "condition": "$session.params.nombre != null AND $session.params.apellido = null AND $session.params.personal = false",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "onLastName",
+        "value": true
+      }, {
+        "parameter": "onName",
+        "value": false
+      }, {
+        "parameter": "mensajeReintento_es",
+        "value": "Por favor, dígame el primer apellido de $session.params.nombre."
+      }, {
+        "parameter": "mensajeReintento_en",
+        "value": ""
+      }, {
+        "parameter": "mensajeNoEscucha_es",
+        "value": "Por favor, dígame el primer apellido de $session.params.nombre."
+      }, {
+        "parameter": "mensajeNoEscucha_en",
+        "value": ""
+      }, {
+        "parameter": "mensajeEspera_es",
+        "value": "Por favor, dígame el primer apellido de $session.params.nombre."
+      }, {
+        "parameter": "mensajeEspera_en",
+        "value": ""
+      }, {
+        "parameter": "mensajeRepetir_es",
+        "value": "Por favor, dígame el primer apellido de $session.params.nombre."
+      }, {
+        "parameter": "mensajeRepetir_en",
+        "value": ""
+      } ]
+    },
+    "name": "2f8322da-88e0-4016-a0d4-9ce2568d09fa"
+  }, {
+    "condition": "$session.params.tipoAgente = \"operadora\" AND $session.params.pedirEmpresa = false AND $session.params.nombre != null AND $session.params.apellido != null",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "operadora_inicio",
+    "name": "b1bb4344-0e43-4a37-8187-b0a6d8779337"
+  }, {
+    "condition": "$session.params.nombre != null AND $session.params.apellido != null AND $session.params.pedirEmpresa = true",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "\u003cspeak\u003e Estupendo, $session.params.nombre . ¿Me puede decir la empresa desde la que llama, por favor? \u003c/speak\u003e" ]
+        },
+        "languageCode": "es"
+      }, {
+        "outputAudioText": {
+          "ssml": "\u003cspeak\u003e Estupendo, $session.params.nombre . ¿Me puede decir la empresa desde la que llama, por favor? \u003c/speak\u003e"
+        },
+        "languageCode": "es"
+      } ]
+    },
+    "targetPage": "Obtener Empresa",
+    "name": "bfd24b0f-1f5e-4299-98f3-5df121256f5e"
+  }, {
+    "condition": "$session.params.nombre != null AND $session.params.apellido != null AND $session.params.pedirEmpresa = false",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "operadora_inicio",
+    "name": "38ef3c94-4dcc-4625-b7e8-bdbdc9d0cc5b"
+  } ]
+}

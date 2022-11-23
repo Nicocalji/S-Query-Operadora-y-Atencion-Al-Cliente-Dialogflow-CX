@@ -1,1 +1,0 @@
-# S-Query-Operadora-y-Atencion-Al-Cliente-Dialogflow-CX

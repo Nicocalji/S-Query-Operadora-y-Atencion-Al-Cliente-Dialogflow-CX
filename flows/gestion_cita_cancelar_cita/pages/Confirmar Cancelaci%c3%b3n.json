@@ -1,0 +1,92 @@
+{
+  "name": "560b691d-9d85-4f90-bc49-10b01b6e97cf",
+  "displayName": "Confirmar Cancelación",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "\u003cspeak\u003e Muy bien. ¿me puede confirmar que la cita que quiere cancelar es el \u003csay-as interpret-as=\"date\" format=\"yyyymmdd\" detail=\"1\"\u003e $session.params.fechaCita \u003c/say-as\u003e  a las \u003csay-as interpret-as=\"time\" format=\"hm12\"\u003e $session.params.horaCita \u003c/say-as\u003e?\u003c/speak\u003e" ]
+      },
+      "languageCode": "es"
+    }, {
+      "outputAudioText": {
+        "ssml": "\u003cspeak\u003e Muy bien. ¿me puede confirmar que la cita que quiere cancelar es el \u003csay-as interpret-as=\"date\" format=\"yyyymmdd\" detail=\"1\"\u003e $session.params.fechaCita \u003c/say-as\u003e  a las \u003csay-as interpret-as=\"time\" format=\"hm12\"\u003e $session.params.horaCita \u003c/say-as\u003e?  \u003c/speak\u003e"
+      },
+      "languageCode": "es"
+    } ],
+    "setParameterActions": [ {
+      "parameter": "mensajeReintento_es",
+      "value": "Por favor, ¿me puede confirmar que la cita que quiere cancelar es el \u003csay-as interpret-as=\"date\" format=\"yyyymmdd\" detail=\"1\"\u003e $session.params.fechaCita \u003c/say-as\u003e  a las \u003csay-as interpret-as=\"time\" format=\"hm12\"\u003e $session.params.horaCita \u003c/say-as\u003e?"
+    }, {
+      "parameter": "mensajeEspera",
+      "value": "Por favor, ¿me puede confirmar que la cita que quiere cancelar es el \u003csay-as interpret-as=\"date\" format=\"yyyymmdd\" detail=\"1\"\u003e $session.params.fechaCita \u003c/say-as\u003e  a las \u003csay-as interpret-as=\"time\" format=\"hm12\"\u003e $session.params.horaCita \u003c/say-as\u003e?"
+    }, {
+      "parameter": "respuestaCorta",
+      "value": true
+    }, {
+      "parameter": "conteoNoEsuchado",
+      "value": 0
+    }, {
+      "parameter": "conteoReintentos",
+      "value": 0
+    }, {
+      "parameter": "mensajeReintento_en",
+      "value": ""
+    }, {
+      "parameter": "mensajeNoEscucha_es",
+      "value": "Por favor, ¿me puede confirmar que la cita que quiere cancelar es el \u003csay-as interpret-as=\"date\" format=\"yyyymmdd\" detail=\"1\"\u003e $session.params.fechaCita \u003c/say-as\u003e  a las \u003csay-as interpret-as=\"time\" format=\"hm12\"\u003e $session.params.horaCita \u003c/say-as\u003e?"
+    }, {
+      "parameter": "mensajeNoEscucha_en",
+      "value": ""
+    }, {
+      "parameter": "mensajeEspera_es",
+      "value": "Por favor, ¿me puede confirmar que la cita que quiere cancelar es el \u003csay-as interpret-as=\"date\" format=\"yyyymmdd\" detail=\"1\"\u003e $session.params.fechaCita \u003c/say-as\u003e  a las \u003csay-as interpret-as=\"time\" format=\"hm12\"\u003e $session.params.horaCita \u003c/say-as\u003e?"
+    }, {
+      "parameter": "mensajeEspera_en",
+      "value": ""
+    }, {
+      "parameter": "mensajeRepetir_es",
+      "value": "Por favor, ¿me puede confirmar que la cita que quiere cancelar es el \u003csay-as interpret-as=\"date\" format=\"yyyymmdd\" detail=\"1\"\u003e $session.params.fechaCita \u003c/say-as\u003e  a las \u003csay-as interpret-as=\"time\" format=\"hm12\"\u003e $session.params.horaCita \u003c/say-as\u003e?"
+    }, {
+      "parameter": "mensajeRepetir_en",
+      "value": ""
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "int_yes",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Fenomenal." ]
+        },
+        "languageCode": "es"
+      }, {
+        "outputAudioText": {
+          "text": "Fenomenal."
+        },
+        "languageCode": "es"
+      } ],
+      "setParameterActions": [ {
+        "parameter": "respuestaCorta",
+        "value": null
+      } ]
+    },
+    "targetFlow": "general_identificar",
+    "name": "cf02fa9f-d593-4842-99b3-cdbc96ef66b3"
+  }, {
+    "intent": "int_no",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "respuestaCorta",
+        "value": null
+      } ]
+    },
+    "targetPage": "Volver a Obtener Fecha",
+    "name": "493fc5c5-3020-4e2c-9411-ad9e464c25f3"
+  } ],
+  "speakerIdSettings": {
+  
+  }
+}

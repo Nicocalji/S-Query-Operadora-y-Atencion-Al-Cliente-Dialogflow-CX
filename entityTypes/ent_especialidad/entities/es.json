@@ -1,0 +1,127 @@
+{
+  "entities": [ {
+    "value": " Endocrino",
+    "synonyms": [ " Endócrino", "diabetes", "endocrino", "endocrinologo", "endocrinólogo", "glandular", "hormonal", "hormonas", "secretorio" ],
+    "languageCode": "es"
+  }, {
+    "value": "Alergología",
+    "synonyms": [ "alergia", "alergologia", "alergología", "Alergología", "alergologo", "alergólogo", "enfermeras de alergia", "vacunas" ],
+    "languageCode": "es"
+  }, {
+    "value": "Anatomía Patológica ",
+    "synonyms": [ "Anatomía Patológica ", "patología" ],
+    "languageCode": "es"
+  }, {
+    "value": "Anestesia",
+    "synonyms": [ "Anestesia", "anestesiologo", "anestesista", "duermen", "intervención quirugica", "intervencion quirurgica", "operación" ],
+    "languageCode": "es"
+  }, {
+    "value": "Cardiología ",
+    "synonyms": [ "cardio", "cardiologia", "Cardiología ", "cardiologo", "corazon", "corazón" ],
+    "languageCode": "es"
+  }, {
+    "value": "Cirugía Cardiovascular ",
+    "synonyms": [ "cirugia cardiovascular", "Cirugía Cardiovascular ", "cirugía del corazón", "intervención del corazón", "operación del corazón" ],
+    "languageCode": "es"
+  }, {
+    "value": "Cirugía General Digestiva",
+    "synonyms": [ "cirugía del estómago", "cirugía del intestino", "cirugía digestiva", "Cirugía General Digestiva", "operación del estómago", "operación gástrica", "operación tracto intestinal" ],
+    "languageCode": "es"
+  }, {
+    "value": "Dermatología",
+    "synonyms": [ "crioterapia", "derma", "dermato", "dermatologa", "dermatologia", "dermatología", "dermatologo", "piel" ],
+    "languageCode": "es"
+  }, {
+    "value": "Digestivo ",
+    "synonyms": [ "aparato digestivo", "Aparato Digestivo ", "colonoscopia", "digestión", "digestivo", "Digestivo", "endoscopia", "estómago", "gástrico", "gastroenterólogo", "gastroscopia", "intestino" ],
+    "languageCode": "es"
+  }, {
+    "value": "Farmacia",
+    "synonyms": [ "farmacia", "farmacologia", "farmacología", "Farmacología Clínica ", "medicamentos", "medicina", "pastillas", "recetas" ],
+    "languageCode": "es"
+  }, {
+    "value": "Ginecología",
+    "synonyms": [ "citologia", "diu", "gine", "gineco", "ginecóloga", "ginecologia", "Ginecología", "ginecólogo", "mujer", "mujeres" ],
+    "languageCode": "es"
+  }, {
+    "value": "Hematología",
+    "synonyms": [ "hemato", "hematologa", "hematologia", "hematología", "hematologo", "hemoterapeuta", "hemoterapia", "sangre" ],
+    "languageCode": "es"
+  }, {
+    "value": "Hospital De Dia",
+    "synonyms": [ "hospital de dia", "hospital de día", "medicina general" ],
+    "languageCode": "es"
+  }, {
+    "value": "Laboratorio",
+    "synonyms": [ "análisis", "analitica", "glucosa", "Laboratorio", "orina", "pinchar", "prueba del azucar", "pruebas de sangre" ],
+    "languageCode": "es"
+  }, {
+    "value": "Rehabilitación ",
+    "synonyms": [ "fisio", "fisioterapia", "gimnasia", "infiltracion ", "rehabilitacion", "rehabilitación", "rehabilitador", "suelo pelvico" ],
+    "languageCode": "es"
+  }, {
+    "value": "Medicina Interna",
+    "synonyms": [ "interna", "medicina interna", "Medicina Interna", "medico interno" ],
+    "languageCode": "es"
+  }, {
+    "value": "Medicina Nuclear",
+    "synonyms": [ "medicina nuclear", "Medicina Nuclear" ],
+    "languageCode": "es"
+  }, {
+    "value": "Nefrología",
+    "synonyms": [ "dialisis", "nefro", "nefróloga", "nefrologia", "Nefrología", "nefrologo", "riñon", "riñones" ],
+    "languageCode": "es"
+  }, {
+    "value": "Neumología",
+    "synonyms": [ "espirometria", "espirometría", "maquina del sueño", "máquina del sueño", "neumo", "neumóloga", "neumologia", "Neumología", "neumologo", "prueba de soplar", "prueba del sueño", "pulmon", "pulmón", "pulmones" ],
+    "languageCode": "es"
+  }, {
+    "value": "Neurocirugía",
+    "synonyms": [ "cirugía cerebral", "cirugía de los nervios", "neurocirugia", "neurocirugía", "Neurocirugía", "neurocirujana", "neurocirujano", "operación de los nervios", "operación del cerebro" ],
+    "languageCode": "es"
+  }, {
+    "value": "Neurología",
+    "synonyms": [ "cabeza", "cerebro", "electro", "electroencefalograma", "electromiografia", "electromiografía", "nervios", "neuro", "neuróloga", "neurologia", "Neurología", "neurologo", "electromiograma" ],
+    "languageCode": "es"
+  }, {
+    "value": "Oncología",
+    "synonyms": [ "cancer", "leucemia", "oncóloga", "oncologia", "oncología", "Oncología Médica ", "oncologo", "quimio", "quimioterapia" ],
+    "languageCode": "es"
+  }, {
+    "value": "Pediatría",
+    "synonyms": [ "niños", "pediatra", "pediatria", "Pediatría" ],
+    "languageCode": "es"
+  }, {
+    "value": "Psiquiatría",
+    "synonyms": [ "loquero", "piscóloga", "psicologo", "psicoterapeuta", "psiquiatria", "Psiquiatría", "terapia" ],
+    "languageCode": "es"
+  }, {
+    "value": "Reumatología",
+    "synonyms": [ "reuma", "reumato", "reumatóloga", "Reumatología", "reumatologo" ],
+    "languageCode": "es"
+  }, {
+    "value": "Urología",
+    "synonyms": [ "uroflojometria", "uroflujometria", "uroflujometría", "urologia", "Urología", "urologo" ],
+    "languageCode": "es"
+  }, {
+    "value": "Obstetricia",
+    "synonyms": [ "embarazo", "obstetra", "Obstetricia", "parto" ],
+    "languageCode": "es"
+  }, {
+    "value": "Oftalmología",
+    "synonyms": [ "gafas", "lentillas", "oculista", "oftalmóloga", "Oftalmologia", "oftalmología", "oftalmologo", "ojos", "vista" ],
+    "languageCode": "es"
+  }, {
+    "value": "Otorrinolaringología",
+    "synonyms": [ "garganta", "nariz", "oidos", "oídos", "otorrino", "Otorrinolaringología", "otorrinonaringólogo" ],
+    "languageCode": "es"
+  }, {
+    "value": "Radiología",
+    "synonyms": [ "densitometrias", "eco", "ecografias", "escaner", "mamografias", "placa", "radiodiagnóstico", "radiografia", "radióloga", "Radiologia", "radiología", "radiólogo", "rayos", "rayos equis", "rayos x", "resonancia", "tac" ],
+    "languageCode": "es"
+  }, {
+    "value": "Traumatología",
+    "synonyms": [ "esguince", "huesos", "ligamento", "quebradura", "trauma", "traumato", "traumatóloga", "Traumatología", "traumatologo" ],
+    "languageCode": "es"
+  } ]
+}

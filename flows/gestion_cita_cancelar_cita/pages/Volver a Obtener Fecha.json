@@ -1,0 +1,120 @@
+{
+  "name": "3a536316-d2fe-49ae-85e1-482d3559495d",
+  "displayName": "Volver a Obtener Fecha",
+  "form": {
+    "parameters": [ {
+      "displayName": "fechaCita",
+      "required": true,
+      "entityType": "@sys.date",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "\u003cspeak\u003e  ¿Qué día tiene su cita? \u003c/speak\u003e" ]
+            },
+            "languageCode": "es"
+          }, {
+            "outputAudioText": {
+              "ssml": "\u003cspeak\u003e ¿Qué día tiene su cita? \u003c/speak\u003e"
+            },
+            "languageCode": "es"
+          } ]
+        }
+      },
+      "advancedSettings": {
+        "dtmfSettings": {
+          "useSystemEntityRule": false
+        }
+      }
+    }, {
+      "displayName": "horaCita",
+      "required": true,
+      "entityType": "@sys.time",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "\u003cspeak\u003e¿A qué hora tiene su cita? \u003c/speak\u003e" ]
+            },
+            "languageCode": "es"
+          }, {
+            "outputAudioText": {
+              "ssml": "\u003cspeak\u003e¿A qué hora tiene su cita? \u003c/speak\u003e"
+            },
+            "languageCode": "es"
+          } ]
+        }
+      },
+      "advancedSettings": {
+        "dtmfSettings": {
+          "useSystemEntityRule": false
+        }
+      }
+    } ]
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "\u003cspeak\u003e De acuerdo. \u003c/speak\u003e" ]
+      },
+      "languageCode": "es"
+    }, {
+      "outputAudioText": {
+        "ssml": "\u003cspeak\u003e De acuerdo. \u003c/speak\u003e"
+      },
+      "languageCode": "es"
+    } ],
+    "setParameterActions": [ {
+      "parameter": "fechaCita",
+      "value": null
+    }, {
+      "parameter": "horaCita",
+      "value": null
+    }, {
+      "parameter": "conteoNoEsuchado",
+      "value": 0
+    }, {
+      "parameter": "conteoReintentos",
+      "value": 0
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "int_obtener_fecha",
+    "triggerFulfillment": {
+    
+    },
+    "name": "2fad25c5-f11f-416b-b563-7ff0e9b8ff32"
+  }, {
+    "condition": "$session.params.fechaCita != null",
+    "triggerFulfillment": {
+    
+    },
+    "name": "90d194f9-baac-4bac-bc63-8c9a8a6ee484"
+  }, {
+    "condition": "$session.params.horaCita != null",
+    "triggerFulfillment": {
+    
+    },
+    "name": "f7d63f7a-7827-4322-b261-606b9a55c8fe"
+  }, {
+    "condition": "$page.params.status = FINAL",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Confirmar Cancelación",
+    "name": "28a9639d-5a81-4210-82d2-216710d9efdd"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+    
+    },
+    "name": "27086f48-5d7e-4d6d-ad8c-ab95e584dc55"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+    
+    },
+    "name": "5f9e737f-9b68-4d27-91f4-707ffce787ca"
+  } ]
+}

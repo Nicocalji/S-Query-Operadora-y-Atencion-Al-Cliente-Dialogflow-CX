@@ -1,0 +1,45 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "perdona tengo ",
+      "auto": true
+    }, {
+      "text": "una"
+    }, {
+      "text": " pregunta",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "disculpa queria hacer una pregunta"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "tengo ",
+      "auto": true
+    }, {
+      "text": "una"
+    }, {
+      "text": " duda",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "quiero hacer ",
+      "auto": true
+    }, {
+      "text": "una"
+    }, {
+      "text": " pregunta",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  } ]
+}

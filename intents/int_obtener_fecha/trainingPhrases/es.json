@@ -1,0 +1,61 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "el "
+    }, {
+      "text": "miercoles",
+      "parameterId": "fechaCita"
+    }, {
+      "text": " a las "
+    }, {
+      "text": "5 de la tarde",
+      "parameterId": "time"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "para las "
+    }, {
+      "text": "6",
+      "parameterId": "fechaCita"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "para el "
+    }, {
+      "text": "proximo lunes",
+      "parameterId": "fechaCita"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "el "
+    }, {
+      "text": "domingo",
+      "parameterId": "fechaCita"
+    }, {
+      "text": " a las "
+    }, {
+      "text": "8",
+      "parameterId": "horaCita"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "mañana",
+      "parameterId": "fechaCita"
+    }, {
+      "text": " las "
+    }, {
+      "text": "3",
+      "parameterId": "horaCita"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  } ]
+}

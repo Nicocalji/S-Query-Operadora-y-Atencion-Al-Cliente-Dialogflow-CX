@@ -1,0 +1,10 @@
+{
+  "name": "30648b2f-b3ee-4b5e-83ef-5a230c669034",
+  "displayName": "int_medicamentos_receta",
+  "parameters": [ {
+    "id": "parentesco",
+    "entityType": "@ent_parentesco"
+  } ],
+  "priority": 500000,
+  "description": "Si el usuario tiene una consulta de medicamento o receta"
+}

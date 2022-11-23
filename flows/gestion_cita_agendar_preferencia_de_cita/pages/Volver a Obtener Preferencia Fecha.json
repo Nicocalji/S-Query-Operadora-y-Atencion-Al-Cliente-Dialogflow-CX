@@ -1,0 +1,142 @@
+{
+  "name": "c485b90d-1e0a-45af-848e-fce3676424c1",
+  "displayName": "Volver a Obtener Preferencia Fecha",
+  "form": {
+    "parameters": [ {
+      "displayName": "dias",
+      "required": true,
+      "entityType": "@ent_dias",
+      "isList": true,
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "outputAudioText": {
+              "ssml": "\u003cspeak\u003e Por favor, indíqueme nuevamente que día de la semana le va mejor para su cita. \u003c/speak\u003e"
+            },
+            "languageCode": "es"
+          }, {
+            "text": {
+              "text": [ "\u003cspeak\u003e Por favor, indíqueme nuevamente que día de la semana le va mejor para su cita. \u003c/speak\u003e" ]
+            },
+            "languageCode": "es"
+          } ],
+          "setParameterActions": [ {
+            "parameter": "mensajeError",
+            "value": "Por favor, indíqueme nuevamente que día de la semana la va mejor para su cita."
+          }, {
+            "parameter": "reintento",
+            "value": 0
+          } ]
+        },
+        "repromptEventHandlers": [ {
+          "event": "sys.no-match-default",
+          "triggerFulfillment": {
+          
+          },
+          "name": "998b1915-85b6-4edd-8642-7b1228c2d073"
+        }, {
+          "event": "sys.no-input-default",
+          "triggerFulfillment": {
+          
+          },
+          "name": "be345f05-3955-43fc-ae36-6e39e5c24ab7"
+        } ]
+      },
+      "advancedSettings": {
+        "dtmfSettings": {
+          "useSystemEntityRule": false
+        }
+      }
+    }, {
+      "displayName": "horario",
+      "required": true,
+      "entityType": "@ent_horario",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "\u003cspeak\u003e ¿Prefiere su cita para la mañana o por la tarde? \u003c/speak\u003e" ]
+            },
+            "languageCode": "es"
+          }, {
+            "outputAudioText": {
+              "ssml": "\u003cspeak\u003e ¿Prefiere su cita para la mañana o por la tarde? \u003c/speak\u003e"
+            },
+            "languageCode": "es"
+          } ],
+          "setParameterActions": [ {
+            "parameter": "reintento",
+            "value": 0
+          }, {
+            "parameter": "mensajeError",
+            "value": "Por favor, indíqueme si prefiere su cita para la mañana o por la tarde"
+          } ]
+        },
+        "repromptEventHandlers": [ {
+          "event": "sys.no-match-default",
+          "triggerFulfillment": {
+          
+          },
+          "name": "a2e1c04a-76ff-43e0-9aae-242c6b5330f0"
+        }, {
+          "event": "sys.no-input-default",
+          "triggerFulfillment": {
+          
+          },
+          "name": "83387407-4a33-4d73-8408-6ae7b68ea698"
+        } ]
+      },
+      "advancedSettings": {
+        "dtmfSettings": {
+          "useSystemEntityRule": false
+        }
+      }
+    } ]
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "\u003cspeak\u003e  De acuerdo. \u003c/speak\u003e" ]
+      },
+      "languageCode": "es"
+    }, {
+      "outputAudioText": {
+        "ssml": "\u003cspeak\u003e  De acuerdo. \u003c/speak\u003e"
+      },
+      "languageCode": "es"
+    } ],
+    "setParameterActions": [ {
+      "parameter": "horario",
+      "value": null
+    }, {
+      "parameter": "dias",
+      "value": null
+    }, {
+      "parameter": "mensajeEspera",
+      "value": ""
+    }, {
+      "parameter": "reintento",
+      "value": 0
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "int_obtener_preferencia",
+    "triggerFulfillment": {
+    
+    },
+    "name": "c6d3843b-351b-4a27-9d33-979ca05eb6f1"
+  }, {
+    "condition": "$session.params.dias != null",
+    "triggerFulfillment": {
+    
+    },
+    "name": "a9d1b15f-8ac5-4706-aee5-cc4d1a437d58"
+  }, {
+    "condition": "$page.params.status = FINAL",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Confirmar Preferencia Fecha",
+    "name": "6b079fa0-e521-4dbf-b926-817216962fc3"
+  } ]
+}

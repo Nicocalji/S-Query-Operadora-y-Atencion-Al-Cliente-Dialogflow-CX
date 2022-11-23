@@ -1,0 +1,34 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "phunciona"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "me gustaría hablar con ",
+      "auto": true
+    }, {
+      "text": "operadora"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "pasame con el "
+    }, {
+      "text": "gestor de citas"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "quiero hablar con la "
+    }, {
+      "text": "operadora"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  } ]
+}

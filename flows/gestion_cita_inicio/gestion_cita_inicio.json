@@ -1,0 +1,118 @@
+{
+  "name": "5cb7da07-046b-44b0-9e44-30709ba26afb",
+  "displayName": "gestion_cita_inicio",
+  "transitionRoutes": [ {
+    "intent": "int_esperar",
+    "triggerFulfillment": {
+      "webhook": "S-Query",
+      "tag": "esperar"
+    },
+    "name": "32542af7-5e4e-4add-9751-1e3b2ff34a7a"
+  }, {
+    "intent": "int_info_robot",
+    "triggerFulfillment": {
+      "webhook": "S-Query",
+      "tag": "mensajeIdentidad"
+    },
+    "targetPage": "Obtener Acción",
+    "name": "15da7929-5459-4e64-bc36-be0b70bd179e"
+  }, {
+    "intent": "int_repetir",
+    "triggerFulfillment": {
+      "webhook": "S-Query",
+      "tag": "repetir"
+    },
+    "name": "918d1bd8-3e62-4b4e-85d2-ce7de3c709d8"
+  }, {
+    "condition": "true",
+    "triggerFulfillment": {
+      "webhook": "S-Query",
+      "tag": "mensajeBienvenida",
+      "setParameterActions": [ {
+        "parameter": "conteoReintentos",
+        "value": 0
+      }, {
+        "parameter": "mensajeReintento_es",
+        "value": "¿En qué le puedo ayudar?"
+      }, {
+        "parameter": "onActionPage",
+        "value": false
+      }, {
+        "parameter": "mensajeEspera_es",
+        "value": "¿En qué le puedo ayudar?"
+      }, {
+        "parameter": "conteoNoEsuchado",
+        "value": 0
+      }, {
+        "parameter": "mensajeReintento_en",
+        "value": ""
+      }, {
+        "parameter": "mensajeNoEscucha_es",
+        "value": ""
+      }, {
+        "parameter": "mensajeNoEscucha_en",
+        "value": ""
+      }, {
+        "parameter": "mensajeRepetir_es",
+        "value": ""
+      }, {
+        "parameter": "mensajeRepetir_en",
+        "value": ""
+      }, {
+        "parameter": "mensajeEspera_en",
+        "value": ""
+      } ]
+    },
+    "targetPage": "Obtener Acción",
+    "name": "5d357b77-a0eb-43db-9cad-0ebcf18ba971"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "webhook": "S-Query",
+      "tag": "noEntendido"
+    },
+    "name": "8bda7157-7952-478c-91ce-ae0fdbc16b87"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "webhook": "S-Query",
+      "tag": "noResponde"
+    },
+    "name": "6f32acdf-6fa9-451d-9e92-07e373da5fad"
+  }, {
+    "targetPage": "End Session",
+    "event": "ACEPTADA_COLGADA",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Adiós." ]
+        },
+        "languageCode": "es"
+      }, {
+        "outputAudioText": {
+          "text": "Adiós."
+        },
+        "languageCode": "es"
+      } ],
+      "webhook": "S-Query",
+      "tag": "enviarDatos",
+      "setParameterActions": [ {
+        "parameter": "accion",
+        "value": "$sys.func.IF(\"$session.params.accion != null\", $session.params.accion, colgada)"
+      } ]
+    },
+    "name": "13dad476-185e-40d3-b954-02d7fb7dfda3"
+  } ],
+  "nluSettings": {
+    "modelType": "MODEL_TYPE_ADVANCED",
+    "classificationThreshold": 0.40000001,
+    "modelTrainingMode": "MODEL_TRAINING_MODE_AUTOMATIC",
+    "multiIntentSettings": {
+    
+    }
+  },
+  "advancedSettings": {
+    "enabled": true
+  }
+}

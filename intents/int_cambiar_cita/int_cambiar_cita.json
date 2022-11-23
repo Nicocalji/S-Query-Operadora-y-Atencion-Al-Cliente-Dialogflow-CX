@@ -1,0 +1,21 @@
+{
+  "name": "c541fb3c-8d3a-4962-846e-7722ed0db739",
+  "displayName": "int_cambiar_cita",
+  "parameters": [ {
+    "id": "especialidad",
+    "entityType": "@ent_especialidad"
+  }, {
+    "id": "horaCita",
+    "entityType": "@sys.time"
+  }, {
+    "id": "nuevaHora",
+    "entityType": "@sys.time"
+  }, {
+    "id": "fechaCita",
+    "entityType": "@sys.date"
+  }, {
+    "id": "parentesco",
+    "entityType": "@ent_parentesco"
+  } ],
+  "priority": 500000
+}

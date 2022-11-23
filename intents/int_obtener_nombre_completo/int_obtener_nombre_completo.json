@@ -1,0 +1,12 @@
+{
+  "name": "d15b0501-abde-4ac5-808a-3cd15ce663f1",
+  "displayName": "int_obtener_nombre_completo",
+  "parameters": [ {
+    "id": "apellido",
+    "entityType": "@ent_apellido_compuesto"
+  }, {
+    "id": "nombre",
+    "entityType": "@ent_nombre_compuesto"
+  } ],
+  "priority": 500000
+}

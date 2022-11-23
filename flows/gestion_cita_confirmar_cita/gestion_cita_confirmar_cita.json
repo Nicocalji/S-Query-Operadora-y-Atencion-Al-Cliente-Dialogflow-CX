@@ -1,0 +1,130 @@
+{
+  "name": "4d55aad4-3f27-40df-abd0-f7e4e548a04c",
+  "displayName": "gestion_cita_confirmar_cita",
+  "transitionRoutes": [ {
+    "condition": "$session.params.especialidad = null",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "\u003cspeak\u003e Perfecto, ¿Con qué especialidad tiene su cita? \u003c/speak\u003e" ]
+        },
+        "languageCode": "es"
+      }, {
+        "outputAudioText": {
+          "ssml": "\u003cspeak\u003e Perfecto, ¿Con qué especialidad tiene su cita? \u003c/speak\u003e"
+        },
+        "languageCode": "es"
+      } ],
+      "setParameterActions": [ {
+        "parameter": "onActionPage",
+        "value": false
+      }, {
+        "parameter": "mensajeReintento_es",
+        "value": "¿Con qué especialidad tiene su cita?"
+      }, {
+        "parameter": "mensajeEspera_es",
+        "value": "¿Con qué especialidad tiene su cita?"
+      }, {
+        "parameter": "mensajeReintento_en",
+        "value": ""
+      }, {
+        "parameter": "mensajeEspera_en",
+        "value": ""
+      }, {
+        "parameter": "mensajeNoEscucha_es",
+        "value": "¿Con qué especialidad tiene su cita?"
+      }, {
+        "parameter": "mensajeNoEscucha_es",
+        "value": ""
+      }, {
+        "parameter": "mensajeEspera_es",
+        "value": "¿Con qué especialidad tiene su cita?"
+      }, {
+        "parameter": "mensajeEspera_en",
+        "value": ""
+      }, {
+        "parameter": "mensajeRepetir_es",
+        "value": "¿Con qué especialidad tiene su cita?"
+      }, {
+        "parameter": "mensajeRepetir_en",
+        "value": ""
+      } ]
+    },
+    "targetFlow": "gestion_cita_especialidad",
+    "name": "fb63cef6-bf19-468c-8b84-448df0432085"
+  }, {
+    "condition": "$session.params.especialidad != null AND $session.params.especialidad != undefined",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "\u003cspeak\u003e De acuerdo. \u003c/speak\u003e" ]
+        },
+        "languageCode": "es"
+      }, {
+        "outputAudioText": {
+          "ssml": "\u003cspeak\u003e De acuerdo. \u003c/speak\u003e"
+        },
+        "languageCode": "es"
+      } ],
+      "setParameterActions": [ {
+        "parameter": "onActionPage",
+        "value": false
+      } ]
+    },
+    "targetFlow": "general_identificar",
+    "name": "0c26e17b-3f5e-4ec2-a285-187ddf7dfc47"
+  }, {
+    "condition": "$session.params.especialidad != null",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "onActionPage",
+        "value": false
+      } ]
+    },
+    "targetFlow": "general_identificar",
+    "name": "be1e5369-1908-4e6a-9b87-9c05857c69e8"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+    
+    },
+    "name": "582c9a39-6e43-48f0-a9ad-682a94aad0fd"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+    
+    },
+    "name": "b8a6d7cd-9eb4-49bd-af1f-3b485630dd1d"
+  }, {
+    "targetPage": "End Session",
+    "event": "ACEPTADA_COLGADA",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Adiós." ]
+        },
+        "languageCode": "es"
+      }, {
+        "outputAudioText": {
+          "text": "Adiós."
+        },
+        "languageCode": "es"
+      } ],
+      "webhook": "S-Query",
+      "tag": "enviarDatos"
+    },
+    "name": "bfe21e5a-35a2-4892-9c02-9e4642c3e681"
+  } ],
+  "nluSettings": {
+    "modelType": "MODEL_TYPE_ADVANCED",
+    "classificationThreshold": 0.30000001,
+    "modelTrainingMode": "MODEL_TRAINING_MODE_AUTOMATIC",
+    "multiIntentSettings": {
+    
+    }
+  },
+  "advancedSettings": {
+    "enabled": true
+  }
+}

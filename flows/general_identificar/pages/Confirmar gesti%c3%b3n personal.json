@@ -1,0 +1,220 @@
+{
+  "name": "ba68a6f4-58a5-442c-bce9-b55dcf8b2ea4",
+  "displayName": "Confirmar gestión personal",
+  "form": {
+    "parameters": [ {
+      "displayName": "parentesco",
+      "entityType": "@ent_parentesco",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+        
+        }
+      },
+      "advancedSettings": {
+        "dtmfSettings": {
+          "useSystemEntityRule": false
+        }
+      }
+    } ]
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "\u003cspeak\u003e  ¿La gestión es para usted? ¿O para otra persona?\u003c/speak\u003e" ]
+      },
+      "languageCode": "es"
+    }, {
+      "outputAudioText": {
+        "ssml": "\u003cspeak\u003e ¿La gestión es para usted? ¿O para otra persona? \u003c/speak\u003e"
+      },
+      "languageCode": "es"
+    } ],
+    "setParameterActions": [ {
+      "parameter": "onActionPage",
+      "value": false
+    }, {
+      "parameter": "onConfirmPhone",
+      "value": false
+    }, {
+      "parameter": "onGetPhone",
+      "value": false
+    }, {
+      "parameter": "conteoReintentos",
+      "value": 0
+    }, {
+      "parameter": "conteoNoEsuchado",
+      "value": 0
+    }, {
+      "parameter": "mensajeReintento_es",
+      "value": " Por favor, ¿Me puede volver a indicar si la cita es para usted o para otra persona?"
+    }, {
+      "parameter": "mensajeReintento_en",
+      "value": ""
+    }, {
+      "parameter": "mensajeNoEscucha_es",
+      "value": " Por favor, ¿Me puede volver a indicar si la cita es para usted o para otra persona?"
+    }, {
+      "parameter": "mensajeNoEscucha_en",
+      "value": ""
+    }, {
+      "parameter": "mensajeEspera_es",
+      "value": " Por favor, ¿Me puede indicar si la cita es para usted o para otra persona?"
+    }, {
+      "parameter": "mensajeEspera_en",
+      "value": ""
+    }, {
+      "parameter": "mensajeRepetir_es",
+      "value": " Por favor, ¿Me puede indicar si la cita es para usted o para otra persona?"
+    }, {
+      "parameter": "mensajeRepetir_en",
+      "value": ""
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "int_para_mi",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "\u003cspeak\u003eFabuloso. Por favor, Dígame su nombre y primer apellido.\u003c/speak\u003e" ]
+        },
+        "languageCode": "es"
+      }, {
+        "outputAudioText": {
+          "ssml": "\u003cspeak\u003eFabuloso. Por favor, Dígame su nombre y primer apellido.\u003c/speak\u003e"
+        },
+        "languageCode": "es"
+      } ],
+      "setParameterActions": [ {
+        "parameter": "personal",
+        "value": true
+      }, {
+        "parameter": "conteoReintentos",
+        "value": 0
+      }, {
+        "parameter": "mensajeReintento_es",
+        "value": "Por favor, dígame su nombre y primer apellido."
+      }, {
+        "parameter": "mensajeReintento_en",
+        "value": ""
+      }, {
+        "parameter": "mensajeNoEscucha_es",
+        "value": "Por favor, dígame su nombre y primer apellido."
+      }, {
+        "parameter": "mensajeNoEscucha_en",
+        "value": ""
+      }, {
+        "parameter": "mensajeEspera_es",
+        "value": "Por favor, dígame su nombre y primer apellido."
+      }, {
+        "parameter": "mensajeEspera_en",
+        "value": ""
+      }, {
+        "parameter": "mensajeRepetir_es",
+        "value": "Por favor, dígame su nombre y primer apellido."
+      }, {
+        "parameter": "mensajeRepetir_en",
+        "value": ""
+      } ]
+    },
+    "targetPage": "Obtener Nombre Completo",
+    "name": "4a61ea88-c034-4814-90a5-c7f7b3af1d3f"
+  }, {
+    "intent": "int_para_alguien_mas",
+    "condition": "$session.params.parentesco = null",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "\u003cspeak\u003eSensacional. Por favor, Dígame el nombre y primer apellido de la otra persona.\u003c/speak\u003e" ]
+        },
+        "languageCode": "es"
+      }, {
+        "outputAudioText": {
+          "ssml": "\u003cspeak\u003eSensacional. Por favor, Dígame el nombre y primer apellido de la otra persona.\u003c/speak\u003e"
+        },
+        "languageCode": "es"
+      } ],
+      "setParameterActions": [ {
+        "parameter": "personal",
+        "value": false
+      }, {
+        "parameter": "conteoReintentos",
+        "value": 0
+      }, {
+        "parameter": "mensajeReintento_es",
+        "value": "Por favor, dígame el nombre y primer apellido de la otra persona."
+      }, {
+        "parameter": "mensajeReintento_en",
+        "value": ""
+      }, {
+        "parameter": "mensajeNoEscucha_es",
+        "value": "Por favor, dígame el nombre y primer apellido de la otra persona."
+      }, {
+        "parameter": "mensajeNoEscucha_en",
+        "value": ""
+      }, {
+        "parameter": "mensajeEspera_es",
+        "value": "Por favor, dígame el nombre y primer apellido de la otra persona."
+      }, {
+        "parameter": "mensajeEspera_en",
+        "value": ""
+      }, {
+        "parameter": "mensajeRepetir_es",
+        "value": "Por favor, dígame el nombre y primer apellido de la otra persona."
+      }, {
+        "parameter": "mensajeRepetir_en",
+        "value": ""
+      } ]
+    },
+    "targetPage": "Obtener Nombre Completo",
+    "name": "6c4ff307-3547-4fd5-9171-cc8888894d7f"
+  }, {
+    "intent": "int_para_alguien_mas",
+    "condition": "$session.params.parentesco != null",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "\u003cspeak\u003eSensacional. Por favor, Dígame el nombre y primer apellido de su $session.params.parentesco.\u003c/speak\u003e" ]
+        },
+        "languageCode": "es"
+      }, {
+        "outputAudioText": {
+          "ssml": "\u003cspeak\u003eSensacional. Por favor, Dígame el nombre y primer apellido de su $session.params.parentesco.\u003c/speak\u003e"
+        },
+        "languageCode": "es"
+      } ],
+      "setParameterActions": [ {
+        "parameter": "conteoReintentos",
+        "value": 0
+      }, {
+        "parameter": "personal",
+        "value": false
+      }, {
+        "parameter": "mensajeReintento_es",
+        "value": "Por favor, Dígame el nombre y primer apellido de su $session.params.parentesco."
+      }, {
+        "parameter": "mensajeReintento_en",
+        "value": ""
+      }, {
+        "parameter": "mensajeNoEscucha_es",
+        "value": "Por favor, Dígame el nombre y primer apellido de su $session.params.parentesco."
+      }, {
+        "parameter": "mensajeNoEscucha_en",
+        "value": ""
+      }, {
+        "parameter": "mensajeEspera_es",
+        "value": "Por favor, Dígame el nombre y primer apellido de su $session.params.parentesco."
+      }, {
+        "parameter": "mensajeEspera_en",
+        "value": ""
+      }, {
+        "parameter": "mensajeRepetir_es",
+        "value": "Por favor, Dígame el nombre y primer apellido de su $session.params.parentesco."
+      }, {
+        "parameter": "mensajeRepetir_en",
+        "value": ""
+      } ]
+    },
+    "targetPage": "Obtener Nombre Completo",
+    "name": "4527e711-8f08-40e4-b624-5f3092f36375"
+  } ]
+}

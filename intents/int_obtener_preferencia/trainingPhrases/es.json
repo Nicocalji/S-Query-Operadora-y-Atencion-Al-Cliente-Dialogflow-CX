@@ -1,0 +1,67 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "por la ",
+      "auto": true
+    }, {
+      "text": "tarde",
+      "parameterId": "horario",
+      "auto": true
+    }, {
+      "text": " los ",
+      "auto": true
+    }, {
+      "text": "jueves",
+      "parameterId": "dias",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "por la ",
+      "auto": true
+    }, {
+      "text": "mañana",
+      "parameterId": "horario",
+      "auto": true
+    }, {
+      "text": " mejor",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "me va bien los ",
+      "auto": true
+    }, {
+      "text": "lunes",
+      "parameterId": "dias",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "me va bien los "
+    }, {
+      "text": "lunes",
+      "parameterId": "dias",
+      "auto": true
+    }, {
+      "text": " y los "
+    }, {
+      "text": "martes",
+      "parameterId": "dias"
+    }, {
+      "text": " por las "
+    }, {
+      "text": "mañanas",
+      "parameterId": "horario",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  } ]
+}

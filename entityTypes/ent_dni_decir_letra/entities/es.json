@@ -1,0 +1,75 @@
+{
+  "entities": [ {
+    "value": "letra",
+    "synonyms": [ "letra" ],
+    "languageCode": "es"
+  }, {
+    "value": "con letra",
+    "synonyms": [ "con letra" ],
+    "languageCode": "es"
+  }, {
+    "value": "con la letra",
+    "synonyms": [ "con la letra" ],
+    "languageCode": "es"
+  }, {
+    "value": "y letra",
+    "synonyms": [ "y letra" ],
+    "languageCode": "es"
+  }, {
+    "value": "y la letra",
+    "synonyms": [ "y la letra" ],
+    "languageCode": "es"
+  }, {
+    "value": "la letra es",
+    "synonyms": [ "la letra es" ],
+    "languageCode": "es"
+  }, {
+    "value": "la letra es la",
+    "synonyms": [ "la letra es la" ],
+    "languageCode": "es"
+  }, {
+    "value": "y la letra es",
+    "synonyms": [ "y la letra es" ],
+    "languageCode": "es"
+  }, {
+    "value": "y la letra es la",
+    "synonyms": [ "y la letra es la" ],
+    "languageCode": "es"
+  }, {
+    "value": "y la letra la",
+    "synonyms": [ "y la letra la" ],
+    "languageCode": "es"
+  }, {
+    "value": "y mi letra",
+    "synonyms": [ "y mi letra" ],
+    "languageCode": "es"
+  }, {
+    "value": "mi letra",
+    "synonyms": [ "mi letra" ],
+    "languageCode": "es"
+  }, {
+    "value": "mi letra la",
+    "synonyms": [ "mi letra la" ],
+    "languageCode": "es"
+  }, {
+    "value": "mi letra es la",
+    "synonyms": [ "mi letra es la" ],
+    "languageCode": "es"
+  }, {
+    "value": "y mi letra la",
+    "synonyms": [ "y mi letra la" ],
+    "languageCode": "es"
+  }, {
+    "value": "y mi letra es la",
+    "synonyms": [ "y mi letra es la" ],
+    "languageCode": "es"
+  }, {
+    "value": "siendo la letra",
+    "synonyms": [ "siendo la letra" ],
+    "languageCode": "es"
+  }, {
+    "value": "siendo la letra la",
+    "synonyms": [ "siendo la letra la" ],
+    "languageCode": "es"
+  } ]
+}

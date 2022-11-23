@@ -1,0 +1,114 @@
+{
+  "name": "630095c8-42e0-4222-a3d6-ebb881613f1a",
+  "displayName": "Confirmar Mensaje",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "\u003cspeak\u003e ¿Desea dejar un mensaje? \u003c/speak\u003e" ]
+      },
+      "languageCode": "es"
+    }, {
+      "outputAudioText": {
+        "ssml": "\u003cspeak\u003e ¿Desea dejar un mensaje? \u003c/speak\u003e"
+      },
+      "languageCode": "es"
+    }, {
+      "text": {
+        "text": [ "\u003cspeak\u003e Would you like to leave a message? \u003c/speak\u003e" ]
+      },
+      "languageCode": "en"
+    }, {
+      "outputAudioText": {
+        "ssml": "\u003cspeak\u003e Would you like to leave a message? \u003c/speak\u003e"
+      },
+      "languageCode": "en"
+    } ],
+    "setParameterActions": [ {
+      "parameter": "message_es",
+      "value": "¿Desea dejar un mensaje?"
+    }, {
+      "parameter": "reintento",
+      "value": 0
+    }, {
+      "parameter": "shortAnswer",
+      "value": true
+    }, {
+      "parameter": "reintentoNoResponde",
+      "value": 0
+    }, {
+      "parameter": "message_en",
+      "value": ""
+    }, {
+      "parameter": "mensajeReintento_es",
+      "value": "¿Desea dejar un mensaje?"
+    }, {
+      "parameter": "mensajeReintento_en",
+      "value": "¿Would you like to leave a message?"
+    }, {
+      "parameter": "mensajeNoEscucha_es",
+      "value": "¿Desea dejar un mensaje?"
+    }, {
+      "parameter": "mensajeNoEscucha_en",
+      "value": "¿Would you like to leave a message?"
+    }, {
+      "parameter": "mensajeEspera_es",
+      "value": "¿Desea dejar un mensaje?"
+    }, {
+      "parameter": "mensajeEspera_en",
+      "value": "¿Would you like to leave a message?"
+    }, {
+      "parameter": "mensajeRepetir_es",
+      "value": "¿Desea dejar un mensaje?"
+    }, {
+      "parameter": "mensajeRepetir_en",
+      "value": "¿Would you like to leave a message?"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "int_yes",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "shortAnswer",
+        "value": null
+      } ]
+    },
+    "targetFlow": "operadora_dejar_mensaje",
+    "name": "ddbea8a6-215e-465e-a200-32f0d9115df3"
+  }, {
+    "intent": "int_no",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "\u003cspeak\u003e Muy bien, muchas gracias por su amabilidad. Hasta luego  y que tenga un buen día. \u003c/speak\u003e" ]
+        },
+        "languageCode": "es"
+      }, {
+        "outputAudioText": {
+          "ssml": "\u003cspeak\u003e Muy bien, muchas gracias por su amabilidad. Hasta luego y que tenga un buen día. \u003c/speak\u003e"
+        },
+        "languageCode": "es"
+      }, {
+        "text": {
+          "text": [ "\u003cspeak\u003e Alright, thank you very much for your call. have a nice day. \u003c/speak\u003e" ]
+        },
+        "languageCode": "en"
+      }, {
+        "outputAudioText": {
+          "ssml": "\u003cspeak\u003e Alright, thank you very much for your call. have a nice day. \u003c/speak\u003e"
+        },
+        "languageCode": "en"
+      } ],
+      "webhook": "S-Query",
+      "tag": "enviarDatos",
+      "setParameterActions": [ {
+        "parameter": "shortAnswer",
+        "value": null
+      } ]
+    },
+    "targetPage": "End Session",
+    "name": "18e6ad3e-e111-4807-883f-2296de23a612"
+  } ]
+}

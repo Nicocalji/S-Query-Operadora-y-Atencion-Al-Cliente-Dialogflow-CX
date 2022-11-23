@@ -1,0 +1,127 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "Yo quiero que me pases ",
+      "auto": true
+    }, {
+      "text": "con la",
+      "auto": true
+    }, {
+      "text": " partera",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Quiero hablar ",
+      "auto": true
+    }, {
+      "text": "con la",
+      "auto": true
+    }, {
+      "text": " médica",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Pásame con ",
+      "auto": true
+    }, {
+      "text": "una",
+      "auto": true
+    }, {
+      "text": " persona",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "No quiero hablar contigo, quiero hablar ",
+      "auto": true
+    }, {
+      "text": "con la",
+      "auto": true
+    }, {
+      "text": " enfermera",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Prefiero si me pasa con ",
+      "auto": true
+    }, {
+      "text": "el doctor",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Tengo que hablar directamente con ",
+      "auto": true
+    }, {
+      "text": "el médico",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Es",
+      "auto": true
+    }, {
+      "text": " que quiero que me pase con ",
+      "auto": true
+    }, {
+      "text": "mi doctor",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Quería hablar ",
+      "auto": true
+    }, {
+      "text": "con la",
+      "auto": true
+    }, {
+      "text": " enfermera ",
+      "auto": true
+    }, {
+      "text": "de",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "radiología",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Quiero que me pase con mi enfermera",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Quiero hablar con ",
+      "auto": true
+    }, {
+      "text": "el médico",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  } ]
+}

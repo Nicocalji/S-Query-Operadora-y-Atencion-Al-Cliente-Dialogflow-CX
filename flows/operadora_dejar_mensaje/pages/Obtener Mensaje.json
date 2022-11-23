@@ -1,0 +1,120 @@
+{
+  "name": "0b192a09-ce4e-441e-ad3b-7b60717e19b0",
+  "displayName": "Obtener Mensaje",
+  "form": {
+    "parameters": [ {
+      "displayName": "mensaje",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+        
+        },
+        "repromptEventHandlers": [ {
+          "event": "sys.no-input-default",
+          "triggerFulfillment": {
+            "webhook": "S-Query",
+            "tag": "noResponde"
+          },
+          "name": "09110fba-218e-4c69-8ca0-b393491d6840"
+        } ]
+      }
+    } ]
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "\u003cspeak\u003e ¿Qué mensaje desea dejar? \u003c/speak\u003e" ]
+      },
+      "languageCode": "es"
+    }, {
+      "outputAudioText": {
+        "ssml": "\u003cspeak\u003e ¿Qué mensaje desea dejar? \u003c/speak\u003e"
+      },
+      "languageCode": "es"
+    }, {
+      "text": {
+        "text": [ "\u003cspeak\u003e What message would you like to leave? \u003c/speak\u003e" ]
+      },
+      "languageCode": "en"
+    }, {
+      "outputAudioText": {
+        "ssml": "\u003cspeak\u003e What message would you like to leave? \u003c/speak\u003e"
+      },
+      "languageCode": "en"
+    } ],
+    "setParameterActions": [ {
+      "parameter": "reintentoNoResponde",
+      "value": 0
+    }, {
+      "parameter": "mensajeReintento_es",
+      "value": "¿Qué mensaje desea dejar?"
+    }, {
+      "parameter": "mensajeReintento_en",
+      "value": "What message would you like to leave?"
+    }, {
+      "parameter": "mensajeNoEscucha_es",
+      "value": "¿Qué mensaje desea dejar?"
+    }, {
+      "parameter": "mensajeNoEscucha_en",
+      "value": "What message would you like to leave?"
+    }, {
+      "parameter": "mensajeEspera_es",
+      "value": "¿Qué mensaje desea dejar?"
+    }, {
+      "parameter": "mensajeEspera_en",
+      "value": "What message would you like to leave?"
+    }, {
+      "parameter": "mensajeRepetir_es",
+      "value": "¿Qué mensaje desea dejar?"
+    }, {
+      "parameter": "mensajeRepetir_en",
+      "value": "What message would you like to leave?"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$page.params.status = FINAL",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "\u003cspeak\u003e Perfecto $session.params.nombre, he anotado su mensaje. Gracias por su amabilidad, hasta luego y que tenga un buen día. \u003c/speak\u003e" ]
+        },
+        "languageCode": "es"
+      }, {
+        "outputAudioText": {
+          "ssml": "\u003cspeak\u003e Perfecto $session.params.nombre, he anotado su mensaje. Gracias por su amabilidad, hasta luego y que tenga un buen día.\u003c/speak\u003e"
+        },
+        "languageCode": "es"
+      }, {
+        "text": {
+          "text": [ "\u003cspeak\u003e Perfect $session.params.nombre, I will let them know. Thank you for your call. Have a nice day. \u003c/speak\u003e" ]
+        },
+        "languageCode": "en"
+      }, {
+        "outputAudioText": {
+          "ssml": "\u003cspeak\u003e Perfect $session.params.nombre, I will let them know. Thank you for your call. Have a nice day. \u003c/speak\u003e"
+        },
+        "languageCode": "en"
+      } ],
+      "webhook": "S-Query",
+      "tag": "enviarDatos"
+    },
+    "targetPage": "End Session",
+    "name": "db26fd3d-91d8-481a-8547-da35078a7ae2"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "webhook": "S-Query",
+      "tag": "noEntendido"
+    },
+    "name": "0b26f01f-9f71-40be-9e5d-175f3f61f80f"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "webhook": "S-Query",
+      "tag": "noResponde"
+    },
+    "name": "8ab7dac6-441a-405b-8d9e-79a1307aeab4"
+  } ]
+}

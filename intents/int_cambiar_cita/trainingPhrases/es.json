@@ -1,0 +1,523 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "mira que le dieron una cita "
+    }, {
+      "text": "a"
+    }, {
+      "text": " mi "
+    }, {
+      "text": "abuela",
+      "parameterId": "parentesco",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "para"
+    }, {
+      "text": " "
+    }, {
+      "text": "mañana",
+      "parameterId": "fechaCita"
+    }, {
+      "text": " pero que la quiero cambiar"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "quería cambiar ",
+      "auto": true
+    }, {
+      "text": "una"
+    }, {
+      "text": " cita que mi ",
+      "auto": true
+    }, {
+      "text": "padre",
+      "parameterId": "parentesco",
+      "auto": true
+    }, {
+      "text": " tiene con el ",
+      "auto": true
+    }, {
+      "text": "oftalmólogo",
+      "parameterId": "especialidad",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "quiero cambiar una cita que tenia el "
+    }, {
+      "text": "lunes",
+      "parameterId": "fechaCita",
+      "auto": true
+    }, {
+      "text": " con el "
+    }, {
+      "text": "oftamologo",
+      "parameterId": "especialidad"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "mira es que quiero cambiar la cita que tenía mi "
+    }, {
+      "text": "madre",
+      "parameterId": "parentesco"
+    }, {
+      "text": " con el "
+    }, {
+      "text": "oftalmólogo",
+      "parameterId": "especialidad",
+      "auto": true
+    }, {
+      "text": " le tenía el "
+    }, {
+      "text": "lunes",
+      "parameterId": "fechaCita"
+    }, {
+      "text": " a las "
+    }, {
+      "text": "4",
+      "parameterId": "horaCita",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "cambiar la fecha de una consulta para mi "
+    }, {
+      "text": "madre",
+      "parameterId": "parentesco"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "cambiar la fecha de una cita para mi "
+    }, {
+      "text": "padre",
+      "parameterId": "parentesco"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "quería pedir ",
+      "auto": true
+    }, {
+      "text": "un",
+      "auto": true
+    }, {
+      "text": " cambio de cita",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "quería reprogramar mi cita",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "llamo para hacer un cambio para mi "
+    }, {
+      "text": "madre",
+      "parameterId": "parentesco"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "quiero pasar ",
+      "auto": true
+    }, {
+      "text": "la",
+      "auto": true
+    }, {
+      "text": " cita a otro horario",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "quiero pasar la cita a otra hora para mi "
+    }, {
+      "text": "hijo",
+      "parameterId": "parentesco"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "me gustaría pasar mi cita para otro día",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "necesito ver al ",
+      "auto": true
+    }, {
+      "text": "médico",
+      "auto": true
+    }, {
+      "text": " antes se puede adelantar",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "por si se pudiera adelantar mi consulta",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "es que no sé si se puede adelantar una cita que tiene mi "
+    }, {
+      "text": "esposa"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "quería hacer ",
+      "auto": true
+    }, {
+      "text": "un",
+      "auto": true
+    }, {
+      "text": " cambio de mi cita",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "por si me pueden mover mi cita",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "será posible que me muevan la cita que tenía programada mi "
+    }, {
+      "text": "hija"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "si se pudiera aplazar mi ",
+      "auto": true
+    }, {
+      "text": "hora",
+      "auto": true
+    }, {
+      "text": " con ",
+      "auto": true
+    }, {
+      "text": "el doctor",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "quiero posponer la consulta que tengo",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "quería aplazar mi cita ",
+      "auto": true
+    }, {
+      "text": "un",
+      "auto": true
+    }, {
+      "text": " par de días",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "llamaba ",
+      "auto": true
+    }, {
+      "text": "para",
+      "auto": true
+    }, {
+      "text": " ver si se podía posponer ",
+      "auto": true
+    }, {
+      "text": "una",
+      "auto": true
+    }, {
+      "text": " cita que tengo con ",
+      "auto": true
+    }, {
+      "text": "el médico",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "quería modificar mi cita",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "corregir una cita de mi "
+    }, {
+      "text": "prima",
+      "parameterId": "parentesco"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "alterar ",
+      "auto": true
+    }, {
+      "text": "una",
+      "auto": true
+    }, {
+      "text": " cita",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "enmendar una cita de mi "
+    }, {
+      "text": "vecina",
+      "parameterId": "parentesco"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "necesitaba modificar una cita que habia hecho mi "
+    }, {
+      "text": "suegro"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "queria cambiar mi cita con el "
+    }, {
+      "text": "pediatra",
+      "parameterId": "especialidad",
+      "auto": true
+    }, {
+      "text": " que tenia mañana a las "
+    }, {
+      "text": "2",
+      "parameterId": "horaCita",
+      "auto": true
+    }, {
+      "text": " para el "
+    }, {
+      "text": "domingo",
+      "parameterId": "fechaCita"
+    }, {
+      "text": " a las "
+    }, {
+      "text": "4",
+      "parameterId": "nuevaHora"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "tenia cita con el "
+    }, {
+      "text": "psiquiatra",
+      "parameterId": "especialidad",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "mañana",
+      "auto": true
+    }, {
+      "text": " a las "
+    }, {
+      "text": "2",
+      "parameterId": "horaCita",
+      "auto": true
+    }, {
+      "text": " y quiero cambiarla"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "quiero cambiar la cita con el "
+    }, {
+      "text": "pediatra",
+      "parameterId": "especialidad",
+      "auto": true
+    }, {
+      "text": " que tenia "
+    }, {
+      "text": "mañana",
+      "parameterId": "fechaCita"
+    }, {
+      "text": " a las "
+    }, {
+      "text": "5 de la tarde",
+      "parameterId": "horaCita",
+      "auto": true
+    }, {
+      "text": " para el jueves a las "
+    }, {
+      "text": "5",
+      "parameterId": "nuevaHora"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "quiero cambiar mi cita de "
+    }, {
+      "text": "mañana",
+      "parameterId": "fechaCita"
+    }, {
+      "text": " a las "
+    }, {
+      "text": "5",
+      "parameterId": "horaCita",
+      "auto": true
+    }, {
+      "text": " con el "
+    }, {
+      "text": "psiquiatra",
+      "parameterId": "especialidad",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "quiero cambiar la cita con el "
+    }, {
+      "text": "psiquiatra",
+      "parameterId": "especialidad",
+      "auto": true
+    }, {
+      "text": " que tenia para "
+    }, {
+      "text": "mañana",
+      "parameterId": "fechaCita"
+    }, {
+      "text": " a las "
+    }, {
+      "text": "5 de la tarde",
+      "parameterId": "horaCita",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "quiero cambiar mi cita de las "
+    }, {
+      "text": "5",
+      "parameterId": "horaCita"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "cambiar cita de "
+    }, {
+      "text": "psiquiatria",
+      "parameterId": "especialidad",
+      "auto": true
+    }, {
+      "text": " para mi "
+    }, {
+      "text": "suegra"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "tenia cita con el "
+    }, {
+      "text": "pediatra",
+      "parameterId": "especialidad",
+      "auto": true
+    }, {
+      "text": " y quiero cambiarla"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "quiero cambiar mi cita con el "
+    }, {
+      "text": "alergologo",
+      "parameterId": "especialidad"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "cambiar cita de mi "
+    }, {
+      "text": "madre"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "modificar cita",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "quiero modificar ",
+      "auto": true
+    }, {
+      "text": "una"
+    }, {
+      "text": " cita",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "quiero cambiar mi cita",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  } ]
+}

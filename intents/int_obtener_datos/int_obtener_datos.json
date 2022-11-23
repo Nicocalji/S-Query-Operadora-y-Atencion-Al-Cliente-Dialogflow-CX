@@ -1,0 +1,15 @@
+{
+  "name": "8d6d0f46-4218-4927-be85-61b6acb12aa1",
+  "displayName": "int_obtener_datos",
+  "parameters": [ {
+    "id": "empresa",
+    "entityType": "@ent_empresa"
+  }, {
+    "id": "ent_nombre_compuesto",
+    "entityType": "@ent_nombre_compuesto"
+  }, {
+    "id": "ent_apellido_compuesto",
+    "entityType": "@ent_apellido_compuesto"
+  } ],
+  "priority": 500000
+}

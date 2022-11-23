@@ -1,0 +1,260 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "era por el ",
+      "auto": true
+    }, {
+      "text": "papá de mi marido",
+      "parameterId": "parentesco",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "llamaba ",
+      "auto": true
+    }, {
+      "text": "de",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "parte",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "de"
+    }, {
+      "text": " la ",
+      "auto": true
+    }, {
+      "text": "madre de mi esposo",
+      "parameterId": "parentesco",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "para ",
+      "auto": true
+    }, {
+      "text": "una",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "señora",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "de",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "la residencia",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "mi "
+    }, {
+      "text": "hermano",
+      "parameterId": "parentesco"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "para mi "
+    }, {
+      "text": "hermana",
+      "parameterId": "parentesco"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "para mi "
+    }, {
+      "text": "sobrino",
+      "parameterId": "parentesco"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "para mi "
+    }, {
+      "text": "tía",
+      "parameterId": "parentesco"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "para la ",
+      "auto": true
+    }, {
+      "text": "señora",
+      "auto": true
+    }, {
+      "text": " que cuido",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "para mi "
+    }, {
+      "text": "vecina",
+      "parameterId": "parentesco"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "para mi jefe",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "para mi "
+    }, {
+      "text": "prima",
+      "parameterId": "parentesco"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "para mi "
+    }, {
+      "text": "suegro",
+      "parameterId": "parentesco"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "para mi "
+    }, {
+      "text": "nieta",
+      "parameterId": "parentesco"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "es para mi "
+    }, {
+      "text": "suegra",
+      "parameterId": "parentesco"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "para mi "
+    }, {
+      "text": "esposa",
+      "parameterId": "parentesco"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "para mi "
+    }, {
+      "text": "mujer",
+      "parameterId": "parentesco"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "es para mi "
+    }, {
+      "text": "marido",
+      "parameterId": "parentesco"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "para mi "
+    }, {
+      "text": "padre",
+      "parameterId": "parentesco"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "para mi "
+    }, {
+      "text": "abuelo",
+      "parameterId": "parentesco"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "para mi "
+    }, {
+      "text": "hija",
+      "parameterId": "parentesco"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "para mi "
+    }, {
+      "text": "hijo",
+      "parameterId": "parentesco"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "para mi "
+    }, {
+      "text": "madre",
+      "parameterId": "parentesco"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "alguien más",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "es",
+      "auto": true
+    }, {
+      "text": " para otra persona",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  } ]
+}

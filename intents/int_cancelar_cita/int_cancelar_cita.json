@@ -1,0 +1,18 @@
+{
+  "name": "8742e31e-058e-4bfb-a40a-94c686109a9e",
+  "displayName": "int_cancelar_cita",
+  "parameters": [ {
+    "id": "especialidad",
+    "entityType": "@ent_especialidad"
+  }, {
+    "id": "fechaCita",
+    "entityType": "@sys.date"
+  }, {
+    "id": "horaCita",
+    "entityType": "@sys.time"
+  }, {
+    "id": "parentesco",
+    "entityType": "@ent_parentesco"
+  } ],
+  "priority": 500000
+}

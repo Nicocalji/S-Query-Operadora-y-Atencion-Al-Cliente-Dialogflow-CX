@@ -1,0 +1,142 @@
+{
+  "name": "d929db1a-45c7-4d75-9c15-a8fa7b9935bb",
+  "displayName": "Obtener Telefono",
+  "form": {
+    "parameters": [ {
+      "displayName": "telefonoNew",
+      "required": true,
+      "entityType": "@sys.phone-number",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+        
+        },
+        "repromptEventHandlers": [ {
+          "event": "sys.no-match-default",
+          "triggerFulfillment": {
+          
+          },
+          "name": "04e6a5c4-cc50-41dc-9048-f19d0767b349"
+        }, {
+          "event": "sys.no-input-default",
+          "triggerFulfillment": {
+          
+          },
+          "name": "dfd235e6-3a40-4689-a656-7a527544a550"
+        } ]
+      },
+      "advancedSettings": {
+        "dtmfSettings": {
+          "useSystemEntityRule": false
+        }
+      }
+    } ]
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "\u003cspeak\u003e Por favor, Indíqueme su número de teléfono sin pausas. \u003c/speak\u003e" ]
+      },
+      "languageCode": "es"
+    }, {
+      "outputAudioText": {
+        "ssml": "\u003cspeak\u003e Por favor, Indíqueme su número de teléfono sin pausas. \u003c/speak\u003e"
+      },
+      "languageCode": "es"
+    } ],
+    "setParameterActions": [ {
+      "parameter": "mensajeReintento_es",
+      "value": "Por favor. Indíqueme su número de teléfono sin pausas."
+    }, {
+      "parameter": "conteoReintentos",
+      "value": 0
+    }, {
+      "parameter": "onConfirmPhone",
+      "value": false
+    }, {
+      "parameter": "onGetPhone",
+      "value": true
+    }, {
+      "parameter": "conteoReintentos",
+      "value": 0
+    }, {
+      "parameter": "mensajeReintento_en",
+      "value": ""
+    }, {
+      "parameter": "mensajeNoEscucha_es",
+      "value": "Por favor. Indíqueme su número de teléfono sin pausas."
+    }, {
+      "parameter": "mensajeNoEscucha_en",
+      "value": ""
+    }, {
+      "parameter": "mensajeEspera_es",
+      "value": "Por favor. Indíqueme su número de teléfono sin pausas."
+    }, {
+      "parameter": "mensajeEspera_en",
+      "value": ""
+    }, {
+      "parameter": "mensajeRepetir_es",
+      "value": "Por favor. Indíqueme su número de teléfono sin pausas."
+    }, {
+      "parameter": "mensajeRepetir_en",
+      "value": ""
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$session.params.telefonoNew != null",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "telefonoNew",
+        "value": "$session.params.telefononew"
+      } ]
+    },
+    "name": "e60e27ca-9693-4dc1-8f50-02ea15e33413"
+  }, {
+    "condition": "$page.params.status = FINAL",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "\u003cspeak\u003ePor favor. ¿Me puede confirmar que su número de teléfono es el. \u003csay-as interpret-as='telephone'\u003e  $session.params.telefonoNew \u003c/say-as\u003e? \u003c/speak\u003e" ]
+        },
+        "languageCode": "es"
+      }, {
+        "outputAudioText": {
+          "ssml": "\u003cspeak\u003ePor favor. ¿Me puede confirmar que su número de teléfono es el. \u003csay-as interpret-as='telephone'\u003e  $session.params.telefonoNew \u003c/say-as\u003e? \u003c/speak\u003e"
+        },
+        "languageCode": "es"
+      } ],
+      "setParameterActions": [ {
+        "parameter": "mensajeError",
+        "value": "Por favor. ¿Me puede confirmar que su número de teléfono es el. \u003csay-as interpret-as='telephone'\u003e  $session.params.telefonoNew \u003c/say-as\u003e?"
+      }, {
+        "parameter": "mensajeEspera",
+        "value": "Por favor. ¿Me puede confirmar que su número de teléfono es el. \u003csay-as interpret-as='telephone'\u003e  $session.params.telefonoNew \u003c/say-as\u003e?"
+      }, {
+        "parameter": "mensajeReintento_es",
+        "value": "Por favor. ¿Me puede confirmar que su número de teléfono es el. \u003csay-as interpret-as='telephone'\u003e  $session.params.telefonoNew \u003c/say-as\u003e?"
+      }, {
+        "parameter": "mensajeReintento_en",
+        "value": ""
+      }, {
+        "parameter": "mensajeNoEscucha_es",
+        "value": "Por favor. ¿Me puede confirmar que su número de teléfono es el. \u003csay-as interpret-as='telephone'\u003e  $session.params.telefonoNew \u003c/say-as\u003e?"
+      }, {
+        "parameter": "mensajeNoEscucha_en",
+        "value": ""
+      }, {
+        "parameter": "mensajeEspera_es",
+        "value": "Por favor. ¿Me puede confirmar que su número de teléfono es el. \u003csay-as interpret-as='telephone'\u003e  $session.params.telefonoNew \u003c/say-as\u003e?"
+      }, {
+        "parameter": "mensajeEspera_en",
+        "value": ""
+      }, {
+        "parameter": "mensajeRepetir_es",
+        "value": "Por favor. ¿Me puede confirmar que su número de teléfono es el. \u003csay-as interpret-as='telephone'\u003e  $session.params.telefonoNew \u003c/say-as\u003e?"
+      }, {
+        "parameter": "mensajeRepetir_en",
+        "value": ""
+      } ]
+    },
+    "targetPage": "Confirmar Telefono",
+    "name": "904e079a-d5f6-409e-9336-77fb2b4d0979"
+  } ]
+}

@@ -1,0 +1,103 @@
+{
+  "name": "3d601b8a-e7cb-4f12-aa4e-eea28fa55658",
+  "displayName": "Comprobar disponibilidad",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "webhook": "S-Query",
+    "tag": "obtenerUsuarioYSuplente",
+    "setParameterActions": [ {
+      "parameter": "conteoReintentos",
+      "value": 0
+    }, {
+      "parameter": "conteoNoEsuchado",
+      "value": 0
+    }, {
+      "parameter": "counterLlamadas",
+      "value": 0
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$session.params.nombrecontactar != null",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "\u003cspeak\u003eDe acuerdo.\u003cbreak time=\"0.8\"/\u003e Un momento, por favor, voy a confirmar si $session.params.nombrecontactar está disponible. \u003cbreak time=\"1\"/\u003e\u003c/speak\u003e" ]
+        },
+        "languageCode": "es"
+      }, {
+        "outputAudioText": {
+          "ssml": "\u003cspeak\u003eDe acuerdo.\u003cbreak time=\"0.8\"/\u003e Un momento, por favor, voy a confirmar si $session.params.nombrecontactar está disponible. \u003cbreak time=\"1\"/\u003e\u003c/speak\u003e"
+        },
+        "languageCode": "es"
+      }, {
+        "text": {
+          "text": [ "\u003cspeak\u003eCertainly. One moment, please, I will confirm if $session.params.nombrecontactar is available. \u003cbreak time=\"1\"/\u003e\u003c/speak\u003e" ]
+        },
+        "languageCode": "en"
+      }, {
+        "outputAudioText": {
+          "ssml": "\u003cspeak\u003eCertainly. One moment, please, I will confirm if $session.params.nombrecontactar is available. \u003cbreak time=\"1\"/\u003e\u003c/speak\u003e"
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Pasar llamada (Start flow)",
+    "name": "66809ed8-6e32-44d4-9294-04d48ee451c2"
+  }, {
+    "condition": "$session.params.departamento != null",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "\u003cspeak\u003e De acuerdo. \u003cbreak time=\"0.8\"/\u003e Un momento, por favor, voy a confirmar si alguien del departamento $session.params.departamento está disponible.\u003cbreak time=\"1\"/\u003e\u003c/speak\u003e" ]
+        },
+        "languageCode": "es"
+      }, {
+        "outputAudioText": {
+          "ssml": "\u003cspeak\u003e De acuerdo. \u003cbreak time=\"0.8\"/\u003e Un momento, por favor, voy a confirmar si alguien del departamento $session.params.departamento está disponible.\u003cbreak time=\"1\"/\u003e\u003c/speak\u003e"
+        },
+        "languageCode": "es"
+      }, {
+        "text": {
+          "text": [ "\u003cspeak\u003eCertainly. Just a moment, please, I'll confirm if someone from $session.params.departamento is available.\u003cbreak time=\"1\"/\u003e\u003c/speak\u003e" ]
+        },
+        "languageCode": "en"
+      }, {
+        "outputAudioText": {
+          "ssml": "\u003cspeak\u003eCertainly. Just a moment, please, I'll confirm if someone from $session.params.departamento is available.\u003cbreak time=\"1\"/\u003e\u003c/speak\u003e"
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Pasar llamada (Start flow)",
+    "name": "9826c94c-ac27-485c-84c9-f37698d48886"
+  }, {
+    "condition": "$session.params.nombrecontactar = null AND $session.params.departamento = null",
+    "triggerFulfillment": {
+      "messages": [ {
+        "outputAudioText": {
+          "ssml": "\u003cspeak\u003e De acuerdo. \u003cbreak time=\"0.8\"/\u003e Un momento por favor, voy a comprobar si hay alguien disponible que pueda atenderle. \u003cbreak time=\"1\"/\u003e\u003c/speak\u003e"
+        },
+        "languageCode": "es"
+      }, {
+        "text": {
+          "text": [ "\u003cspeak\u003e De acuerdo. \u003cbreak time=\"0.8\"/\u003e Un momento por favor, voy a comprobar si hay alguien disponible que pueda atenderle. \u003cbreak time=\"1\"/\u003e\u003c/speak\u003e" ]
+        },
+        "languageCode": "es"
+      }, {
+        "text": {
+          "text": [ "\u003cspeak\u003eCertainly. One moment please, I'm going to check if there is someone available who can assist you. \u003cbreak time=\"1\"/\u003e\u003c/speak\u003e" ]
+        },
+        "languageCode": "en"
+      }, {
+        "outputAudioText": {
+          "ssml": "\u003cspeak\u003eCertainly. One moment please, I'm going to check if there is someone available who can assist you. \u003cbreak time=\"1\"/\u003e\u003c/speak\u003e"
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Pasar llamada (Start flow)",
+    "name": "8787c0f0-15a5-4a2c-8294-5dd153053b70"
+  } ]
+}

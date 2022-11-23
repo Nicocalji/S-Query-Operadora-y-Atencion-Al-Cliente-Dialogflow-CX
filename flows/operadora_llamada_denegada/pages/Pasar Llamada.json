@@ -1,0 +1,75 @@
+{
+  "name": "63b515f1-890d-4f22-a328-469ec0c48c92",
+  "displayName": "Pasar Llamada",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "setParameterActions": [ {
+      "parameter": "realizarLlamada",
+      "value": true
+    }, {
+      "parameter": "conteoNoEsuchado",
+      "value": 0
+    }, {
+      "parameter": "conteoReintentos",
+      "value": 0
+    }, {
+      "parameter": "pagina",
+      "value": null
+    } ],
+    "returnPartialResponses": true
+  },
+  "transitionRoutes": [ {
+    "condition": "$session.params.realizarLlamada = false",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "operadora_llamada_denegada",
+    "name": "1652f909-ab0a-4bfd-b5c3-c082d4862b57"
+  } ],
+  "eventHandlers": [ {
+    "event": "LLAMANDO",
+    "triggerFulfillment": {
+    
+    },
+    "name": "f09260ec-e86a-4ed3-9cb9-6b0aa21c344d"
+  }, {
+    "targetFlow": "operadora_llamada_denegada",
+    "event": "LLAMADA_DENEGADA",
+    "triggerFulfillment": {
+    
+    },
+    "name": "2cd4b4f3-b313-4ef6-baf5-dbe27b191bdf"
+  }, {
+    "targetFlow": "operadora_salientes",
+    "event": "LLAMADA_COGIDA",
+    "triggerFulfillment": {
+    
+    },
+    "name": "86bd1d6b-f6dc-4b3b-ae35-d496ecc1b1c9"
+  }, {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+    
+    },
+    "name": "441e7c1d-c893-4541-917a-438f40299ee2"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+    
+    },
+    "name": "c95f0ddf-0b30-4f3f-ad9c-0d9a46546efc"
+  } ],
+  "advancedSettings": {
+    "speechSettings": {
+      "endpointerSensitivity": 90,
+      "noSpeechTimeout": {
+        "seconds": 200
+      }
+    }
+  },
+  "speakerIdSettings": {
+  
+  }
+}

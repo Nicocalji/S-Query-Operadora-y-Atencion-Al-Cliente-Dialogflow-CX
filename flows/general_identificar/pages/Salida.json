@@ -1,0 +1,121 @@
+{
+  "name": "f68c337b-e277-4698-ad0d-11691510c00e",
+  "displayName": "Salida",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "webhook": "S-Query",
+    "tag": "enviarDatos",
+    "setParameterActions": [ {
+      "parameter": "en_dni",
+      "value": false
+    }, {
+      "parameter": "emailSent",
+      "value": true
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$session.params.accion = eliminarCita AND $session.params.fechaCita != null AND $session.params.fechaCita != undefined AND $session.params.horaCita != null AND $session.params.horaCita != undefined",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "\u003cspeak\u003e la cita del \u003csay-as interpret-as=\"date\" format=\"yyyymmdd\" detail=\"1\"\u003e $session.params.fechaCita \u003c/say-as\u003e  a las \u003csay-as interpret-as=\"time\" format=\"hm12\"\u003e $session.params.horaCita \u003c/say-as\u003e queda cancelada. Muchas gracias por su amabilidad y por habernos llamado para comunicarlo. Hasta luego y que tenga un buen día. \u003c/speak\u003e" ]
+        },
+        "languageCode": "es"
+      }, {
+        "outputAudioText": {
+          "ssml": "\u003cspeak\u003e la cita del \u003csay-as interpret-as=\"date\" format=\"yyyymmdd\" detail=\"1\"\u003e $session.params.fechaCita \u003c/say-as\u003e  a las \u003csay-as interpret-as=\"time\" format=\"hm12\"\u003e $session.params.horaCita \u003c/say-as\u003e  queda cancelada. Muchas gracias por su amabilidad y por habernos llamado para comunicarlo. Hasta luego y que tenga un buen día. \u003c/speak\u003e"
+        },
+        "languageCode": "es"
+      } ]
+    },
+    "targetPage": "End Session",
+    "name": "54c33db2-eea7-46aa-98a6-b4a51d0219d6"
+  }, {
+    "condition": "$session.params.accion = confirmarCita",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "\u003cspeak\u003eVoy a pasar estos datos que me ha dado a un compañero que le llamará lo más pronto posible para recordarle su cita. Muchas gracias por su amabilidad. Hasta luego y que tenga un buen día. \u003c/speak\u003e" ]
+        },
+        "languageCode": "es"
+      }, {
+        "outputAudioText": {
+          "ssml": "\u003cspeak\u003e Voy a pasar estos datos que me ha dado a un compañero que le llamará lo más pronto posible para recordarle su cita. Muchas gracias por su amabilidad. Hasta luego y que tenga un buen día. \u003c/speak\u003e"
+        },
+        "languageCode": "es"
+      } ]
+    },
+    "targetPage": "End Session",
+    "name": "3db37dbc-ac35-4113-9600-1a7e2a491e91"
+  }, {
+    "condition": "$session.params.accion = agendarPreferenciaCita",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "\u003cspeak\u003e Voy a pasar estos datos que me ha dado a un compañero que le llamará lo más pronto posible para reservar su cita. Muchas gracias por su amabilidad. Hasta luego y que tenga un buen día. \u003c/speak\u003e" ]
+        },
+        "languageCode": "es"
+      }, {
+        "outputAudioText": {
+          "ssml": "\u003cspeak\u003e Voy a pasar estos datos que me ha dado a un compañero que le llamará lo más pronto posible para reservar su cita. Muchas gracias por su amabilidad. Hasta luego y que tenga un buen día. \u003c/speak\u003e"
+        },
+        "languageCode": "es"
+      } ]
+    },
+    "targetPage": "End Session",
+    "name": "fecf84df-e2c3-4ff1-8c71-baed8194f6b5"
+  }, {
+    "condition": "$session.params.accion = actualizarCita",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "\u003cspeak\u003e he anotado la solicitud de cambio. Voy a pasar estos datos que me ha dado a un compañero que le llamará lo más pronto posible para realizar su cambio. Muchas gracias por su amabilidad, hasta luego y que tenga un buen día. \u003c/speak\u003e" ]
+        },
+        "languageCode": "es"
+      }, {
+        "outputAudioText": {
+          "ssml": "\u003cspeak\u003ehe anotado la solicitud de cambio. Voy a pasar estos datos que me ha dado a un compañero que le llamará lo más pronto posible para realizar su cambio. Muchas gracias por su amabilidad, hasta luego y que tenga un buen día. \u003c/speak\u003e"
+        },
+        "languageCode": "es"
+      } ]
+    },
+    "targetPage": "End Session",
+    "name": "2be78aca-25b8-437c-8da0-cb01e9452624"
+  }, {
+    "condition": "$session.params.accion = otros OR $session.params.accion = medicamento OR $session.params.accion = hablar",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "\u003cspeak\u003e Voy a pasar estos datos que me ha dado a un compañero que le llamará lo más pronto posible para resolver su consulta. Muchas gracias por su amabilidad, hasta luego y que tenga un buen día. \u003c/speak\u003e" ]
+        },
+        "languageCode": "es"
+      }, {
+        "outputAudioText": {
+          "ssml": "\u003cspeak\u003e Voy a pasar estos datos que me ha dado a un compañero que le llamará lo más pronto posible para resolver su consulta. Muchas gracias por su amabilidad, hasta luego y que tenga un buen día. \u003c/speak\u003e"
+        },
+        "languageCode": "es"
+      } ]
+    },
+    "targetPage": "End Session",
+    "name": "6d70b684-297e-4c70-826d-467d2b67bc60"
+  }, {
+    "condition": "$session.params.accion = eliminarCita",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "\u003cspeak\u003e Su cita queda cancelada. Muchas gracias por su amabilidad y por habernos llamado para comunicarlo. Hasta luego y que tenga un buen día. \u003c/speak\u003e" ]
+        },
+        "languageCode": "es"
+      }, {
+        "outputAudioText": {
+          "ssml": "\u003cspeak\u003e Su cita queda cancelada. Muchas gracias por su amabilidad y por habernos llamado para comunicarlo. Hasta luego y que tenga un buen día. \u003c/speak\u003e"
+        },
+        "languageCode": "es"
+      } ]
+    },
+    "targetPage": "End Session",
+    "name": "73756935-623d-44ff-8ab8-a475d38bb265"
+  } ]
+}

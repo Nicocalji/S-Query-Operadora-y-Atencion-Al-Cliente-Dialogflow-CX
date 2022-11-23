@@ -1,0 +1,74 @@
+{
+  "name": "4c0bb32d-c47b-4a67-9523-e41e5ebfa6f6",
+  "displayName": "operadora_llamada_denegada",
+  "transitionRoutes": [ {
+    "intent": "int_esperar",
+    "triggerFulfillment": {
+      "webhook": "S-Query",
+      "tag": "esperar",
+      "setParameterActions": [ {
+        "parameter": "wait",
+        "value": true
+      } ]
+    },
+    "name": "1cee1278-08b0-4017-8ce5-7e8e5c9405ed"
+  }, {
+    "intent": "int_repetir",
+    "triggerFulfillment": {
+      "webhook": "S-Query",
+      "tag": "repetir",
+      "setParameterActions": [ {
+        "parameter": "repeat",
+        "value": true
+      } ]
+    },
+    "name": "252bbf89-47d1-4ee7-a6a1-0deadee45652"
+  }, {
+    "condition": "true",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "conteoReintentos",
+        "value": 0
+      }, {
+        "parameter": "conteoNoEsuchado",
+        "value": 0
+      } ]
+    },
+    "targetPage": "Obtener Accion",
+    "name": "df8115db-f54d-4466-8078-ed5bcb39c6b5"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "webhook": "S-Query",
+      "tag": "noEntendido"
+    },
+    "name": "2da223a8-d5e8-40c0-bfcf-93fb1ba1f068"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "webhook": "S-Query",
+      "tag": "noResponde"
+    },
+    "name": "71bb07d1-2b5f-4ed7-a125-62cd095887b8"
+  }, {
+    "targetPage": "End Session",
+    "event": "ACEPTADA_COLGADA",
+    "triggerFulfillment": {
+      "webhook": "S-Query",
+      "tag": "enviarDatos"
+    },
+    "name": "45b9b763-371b-42a3-9ce9-a06641bc6579"
+  } ],
+  "nluSettings": {
+    "modelType": "MODEL_TYPE_ADVANCED",
+    "classificationThreshold": 0.30000001,
+    "modelTrainingMode": "MODEL_TRAINING_MODE_AUTOMATIC",
+    "multiIntentSettings": {
+    
+    }
+  },
+  "advancedSettings": {
+    "enabled": true
+  }
+}

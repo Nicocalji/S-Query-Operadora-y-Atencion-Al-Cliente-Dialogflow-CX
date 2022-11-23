@@ -1,0 +1,90 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "eliminame ",
+      "auto": true
+    }, {
+      "text": "de"
+    }, {
+      "text": " contactos",
+      "auto": true
+    } ],
+    "repeatCount": 3,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "no me guardes ",
+      "auto": true
+    }, {
+      "text": "en"
+    }, {
+      "text": " contactos",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "quitame ",
+      "auto": true
+    }, {
+      "text": "de"
+    }, {
+      "text": " la lista ",
+      "auto": true
+    }, {
+      "text": "de"
+    }, {
+      "text": " contactos",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "quiero que me "
+    }, {
+      "text": "borres"
+    }, {
+      "text": " de contactos"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "no quiero estar allí"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "borrame"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "no, "
+    }, {
+      "text": "es más quiero"
+    }, {
+      "text": " que me "
+    }, {
+      "text": "borres"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "quiero que me elimines"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "quiero eliminar mi contacto"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  } ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "1c888980-660c-4f6b-abf1-ebf96b068e0a",
+  "displayName": "Confirmar Preferencia Fecha",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "setParameterActions": [ {
+      "parameter": "reintento",
+      "value": 0
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "int_yes",
+    "triggerFulfillment": {
+    
+    },
+    "name": "143aa114-5acd-4419-a157-2665ff9f489c"
+  }, {
+    "intent": "int_no",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Volver a Obtener Preferencia Fecha",
+    "name": "b89113fd-26fa-472c-bc40-2ff77c891793"
+  } ],
+  "speakerIdSettings": {
+  
+  }
+}

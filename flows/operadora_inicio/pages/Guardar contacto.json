@@ -1,0 +1,114 @@
+{
+  "name": "e0b73672-10b4-4ee4-a525-ecfc02282bb8",
+  "displayName": "Guardar contacto",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "\u003cspeak\u003e ¡Genial $session.params.nombre! \u003cbreak time=\"0.8s\"/\u003e ¿Me permite añadirle a mis contactos para agilizar próximas llamadas? \u003c/speak\u003e" ]
+      },
+      "languageCode": "es"
+    }, {
+      "outputAudioText": {
+        "ssml": "\u003cspeak\u003e ¡Genial $session.params.nombre! \u003cbreak time=\"0.8s\"/\u003e ¿Me permite añadirle a mis contactos para agilizar próximas llamadas? \u003c/speak\u003e"
+      },
+      "languageCode": "es"
+    }, {
+      "text": {
+        "text": [ "\u003cspeak\u003ePerfect, $session.params.nombre . May I add you to my contact list to speed up this process in future calls? \u003c/speak\u003e" ]
+      },
+      "languageCode": "en"
+    }, {
+      "outputAudioText": {
+        "ssml": "\u003cspeak\u003ePerfect, $session.params.nombre .May I add you to my contact list to speed up this process in future calls? \u003c/speak\u003e"
+      },
+      "languageCode": "en"
+    } ],
+    "setParameterActions": [ {
+      "parameter": "conteoReintentos",
+      "value": 0
+    }, {
+      "parameter": "respuestaCorta",
+      "value": true
+    }, {
+      "parameter": "datosParaEnviarCorreo",
+      "value": true
+    }, {
+      "parameter": "conteoNoEsuchado",
+      "value": 0
+    }, {
+      "parameter": "mensajeReintento_es",
+      "value": "¿Me permite añadirle a mis contactos para agilizar próximas llamadas?"
+    }, {
+      "parameter": "mensajeReintento_en",
+      "value": "May I add you to my contact list to speed up this process in future calls?"
+    }, {
+      "parameter": "mensajeNoEscucha_es",
+      "value": "¿Me permite añadirle a mis contactos para agilizar próximas llamadas?"
+    }, {
+      "parameter": "mensajeNoEscucha_en",
+      "value": "May I add you to my contact list to speed up this process in future calls?"
+    }, {
+      "parameter": "mensajeEspera_es",
+      "value": "¿Me permite añadirle a mis contactos para agilizar próximas llamadas?"
+    }, {
+      "parameter": "mensajeEspera_en",
+      "value": "May I add you to my contact list to speed up this process in future calls?"
+    }, {
+      "parameter": "mensajeRepetir_es",
+      "value": "¿Me permite añadirle a mis contactos para agilizar próximas llamadas?"
+    }, {
+      "parameter": "mensajeRepetir_en",
+      "value": "May I add you to my contact list to speed up this process in future calls?"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "int_yes",
+    "triggerFulfillment": {
+      "webhook": "S-Query",
+      "tag": "guardarContacto",
+      "setParameterActions": [ {
+        "parameter": "respuestaCorta",
+        "value": null
+      } ]
+    },
+    "targetPage": "Comprobar disponibilidad",
+    "name": "c5f01285-80ff-44a1-beb7-746cdbc10f5d"
+  }, {
+    "intent": "int_no",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "respuestaCorta",
+        "value": null
+      } ],
+      "returnPartialResponses": true
+    },
+    "targetPage": "Comprobar disponibilidad",
+    "name": "066e1268-ac00-4e7a-b5a8-665271e69a9e"
+  }, {
+    "intent": "int_eliminar_contacto",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "\u003cspeak\u003eDe acuerdo, deme un segundo para poder borrar su contacto \u003c/speak\u003e" ]
+        },
+        "languageCode": "es"
+      }, {
+        "outputAudioText": {
+          "ssml": "\u003cspeak\u003eDe acuerdo, deme un segundo para poder borrar su contacto \u003c/speak\u003e"
+        },
+        "languageCode": "es"
+      } ],
+      "webhook": "S-Query",
+      "tag": "eliminarContacto",
+      "setParameterActions": [ {
+        "parameter": "shortAnswer",
+        "value": null
+      } ]
+    },
+    "targetPage": "Comprobar disponibilidad",
+    "name": "18d0185d-98dc-4072-a760-85b886ab90fe"
+  } ]
+}

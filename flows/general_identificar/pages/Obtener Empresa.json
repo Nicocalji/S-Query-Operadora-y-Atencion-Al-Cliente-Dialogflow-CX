@@ -1,0 +1,74 @@
+{
+  "name": "850d8405-8366-458a-a04d-8a69be9a2951",
+  "displayName": "Obtener Empresa",
+  "form": {
+    "parameters": [ {
+      "displayName": "empresa",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+        
+        },
+        "repromptEventHandlers": [ {
+          "event": "sys.no-match-default",
+          "triggerFulfillment": {
+            "webhook": "S-Query",
+            "tag": "noEntendido"
+          },
+          "name": "416ae32f-29cd-4f3d-b463-0cc68291e80e"
+        }, {
+          "event": "sys.no-input-default",
+          "triggerFulfillment": {
+            "webhook": "S-Query",
+            "tag": "noResponde"
+          },
+          "name": "8ea0535e-23db-45f1-9d8b-a0b202b6162c"
+        } ]
+      },
+      "advancedSettings": {
+        "dtmfSettings": {
+          "useSystemEntityRule": false
+        }
+      }
+    } ]
+  },
+  "entryFulfillment": {
+    "setParameterActions": [ {
+      "parameter": "mensajeReintento_es",
+      "value": "¿Puede volver a decirme la empresa de la que llama?"
+    }, {
+      "parameter": "mensajeNoEscucha_es",
+      "value": "¿Puede decirme la empresa de la que llama?"
+    }, {
+      "parameter": "mensajeReintento_en",
+      "value": "Can you please tell me again the company you are calling from?"
+    }, {
+      "parameter": "mensajeNoEscucha_en",
+      "value": "Can you please tell me the company you are calling from?"
+    }, {
+      "parameter": "mensajeEspera_es",
+      "value": "¿Puede decirme la empresa de la que llama?"
+    }, {
+      "parameter": "mensajeEspera_en",
+      "value": "Can you please tell me the company you are calling from?"
+    }, {
+      "parameter": "mensajeRepetir_es",
+      "value": "¿Puede decirme la empresa de la que llama?"
+    }, {
+      "parameter": "mensajeRepetir_en",
+      "value": "Can you please tell me the company you are calling from?"
+    }, {
+      "parameter": "onName",
+      "value": null
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$session.params.tipoAgente = \"operadora\" AND $session.params.empresa != null",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "operadora_inicio",
+    "name": "dec50ef2-0acf-4447-830f-c8efca2b209c"
+  } ]
+}

@@ -1,0 +1,355 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "mi nombre ",
+      "auto": true
+    }, {
+      "text": "es"
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "Pascual",
+      "parameterId": "ent_nombre_compuesto",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "Rivero Muiños",
+      "parameterId": "ent_apellido_compuesto",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "soy "
+    }, {
+      "text": "Dario jose"
+    }, {
+      "text": " "
+    }, {
+      "text": "ruiz rodriguez"
+    }, {
+      "text": " pertenezco a "
+    }, {
+      "text": "google",
+      "parameterId": "empresa"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Me llamo "
+    }, {
+      "text": "Jose Antonio"
+    }, {
+      "text": " "
+    }, {
+      "text": "de la granja"
+    }, {
+      "text": " y soy de "
+    }, {
+      "text": "apple",
+      "parameterId": "empresa"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Maria del Pilar"
+    }, {
+      "text": " "
+    }, {
+      "text": "Calzada"
+    }, {
+      "text": " y soy de "
+    }, {
+      "text": "idrus",
+      "parameterId": "empresa"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Maria del Pilar"
+    }, {
+      "text": " "
+    }, {
+      "text": "Lopez"
+    }, {
+      "text": " de "
+    }, {
+      "text": "Apple",
+      "parameterId": "empresa"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "soy "
+    }, {
+      "text": "jesus"
+    }, {
+      "text": " "
+    }, {
+      "text": "calderon"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "soy "
+    }, {
+      "text": "Nicolás"
+    }, {
+      "text": " "
+    }, {
+      "text": "Calvache"
+    }, {
+      "text": " y pertenezco a "
+    }, {
+      "text": "Vodafone",
+      "parameterId": "empresa",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "me llamo "
+    }, {
+      "text": "jesus"
+    }, {
+      "text": " "
+    }, {
+      "text": "saro"
+    }, {
+      "text": " de "
+    }, {
+      "text": "idrus",
+      "parameterId": "empresa"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "claro, mi nombre es "
+    }, {
+      "text": "marian"
+    }, {
+      "text": " "
+    }, {
+      "text": "cortez"
+    }, {
+      "text": " de "
+    }, {
+      "text": "idrus",
+      "parameterId": "empresa"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "jose maria"
+    }, {
+      "text": " "
+    }, {
+      "text": "ruiz"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "me llamo "
+    }, {
+      "text": "ruth marian"
+    }, {
+      "text": " "
+    }, {
+      "text": "cortez"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "juan"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "mi nombre "
+    }, {
+      "text": "es"
+    }, {
+      "text": " "
+    }, {
+      "text": "nicolas"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "pascual"
+    }, {
+      "text": " "
+    }, {
+      "text": "rivero"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "marian"
+    }, {
+      "text": " "
+    }, {
+      "text": "cortez"
+    }, {
+      "text": " y soy de "
+    }, {
+      "text": "idrus",
+      "parameterId": "empresa"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "juan"
+    }, {
+      "text": " sharclass"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "jesús"
+    }, {
+      "text": " "
+    }, {
+      "text": "saro"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "nicolás"
+    }, {
+      "text": " "
+    }, {
+      "text": "calvache"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Mi nombre es "
+    }, {
+      "text": "Nicolas"
+    }, {
+      "text": " "
+    }, {
+      "text": "Calvache"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "soy "
+    }, {
+      "text": "Pascual"
+    }, {
+      "text": " "
+    }, {
+      "text": "Rivero"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "me llamo "
+    }, {
+      "text": "Carlos"
+    }, {
+      "text": " "
+    }, {
+      "text": "Recio"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "mi nombre es "
+    }, {
+      "text": "Juan"
+    }, {
+      "text": " "
+    }, {
+      "text": "Sharclass"
+    }, {
+      "text": " y pertenezco a "
+    }, {
+      "text": "Idrus Innovación",
+      "parameterId": "empresa"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "soy "
+    }, {
+      "text": "Pablo"
+    }, {
+      "text": " "
+    }, {
+      "text": "López"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "soy "
+    }, {
+      "text": "ruth marian"
+    }, {
+      "text": " "
+    }, {
+      "text": "cortez"
+    }, {
+      "text": " de "
+    }, {
+      "text": "Idrus",
+      "parameterId": "empresa"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "soy "
+    }, {
+      "text": "Jesús"
+    }, {
+      "text": " "
+    }, {
+      "text": "Saro"
+    }, {
+      "text": ", miembro de Idrus"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "me llamo "
+    }, {
+      "text": "nicolas"
+    }, {
+      "text": " "
+    }, {
+      "text": "calvache"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  } ]
+}

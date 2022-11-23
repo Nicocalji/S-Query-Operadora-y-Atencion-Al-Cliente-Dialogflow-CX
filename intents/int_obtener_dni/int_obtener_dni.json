@@ -1,0 +1,9 @@
+{
+  "name": "15b9d0f8-1145-415f-8e59-90f7e8ea5776",
+  "displayName": "int_obtener_dni",
+  "parameters": [ {
+    "id": "dni",
+    "entityType": "@ent_dni"
+  } ],
+  "priority": 500000
+}

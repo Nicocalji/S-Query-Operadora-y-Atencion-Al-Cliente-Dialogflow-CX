@@ -1,0 +1,43 @@
+{
+  "entities": [ {
+    "value": "@sys.last-name:sys.last-name @sys.last-name:sys.last-name",
+    "synonyms": [ "@sys.last-name:sys.last-name @sys.last-name:sys.last-name" ],
+    "languageCode": "es"
+  }, {
+    "value": "@sys.last-name:sys.last-name",
+    "synonyms": [ "@sys.last-name:sys.last-name" ],
+    "languageCode": "es"
+  }, {
+    "value": "de @sys.last-name:sys.last-name @sys.last-name:sys.last-name",
+    "synonyms": [ "de @sys.last-name:sys.last-name @sys.last-name:sys.last-name" ],
+    "languageCode": "es"
+  }, {
+    "value": "de @sys.last-name:sys.last-name",
+    "synonyms": [ "de @sys.last-name:sys.last-name" ],
+    "languageCode": "es"
+  }, {
+    "value": "de la @sys.last-name:sys.last-name",
+    "synonyms": [ "de la @sys.last-name:sys.last-name" ],
+    "languageCode": "es"
+  }, {
+    "value": "de la @sys.last-name:sys.last-name @sys.last-name:sys.last-name",
+    "synonyms": [ "de la @sys.last-name:sys.last-name @sys.last-name:sys.last-name" ],
+    "languageCode": "es"
+  }, {
+    "value": "del @sys.last-name:sys.last-name @sys.last-name:sys.last-name",
+    "synonyms": [ "del @sys.last-name:sys.last-name @sys.last-name:sys.last-name" ],
+    "languageCode": "es"
+  }, {
+    "value": "del @sys.last-name:sys.last-name",
+    "synonyms": [ "del @sys.last-name:sys.last-name" ],
+    "languageCode": "es"
+  }, {
+    "value": "de los @sys.last-name:sys.last-name @sys.last-name:sys.last-name",
+    "synonyms": [ "de los @sys.last-name:sys.last-name @sys.last-name:sys.last-name" ],
+    "languageCode": "es"
+  }, {
+    "value": "de los @sys.last-name:sys.last-name",
+    "synonyms": [ "de los @sys.last-name:sys.last-name" ],
+    "languageCode": "es"
+  } ]
+}

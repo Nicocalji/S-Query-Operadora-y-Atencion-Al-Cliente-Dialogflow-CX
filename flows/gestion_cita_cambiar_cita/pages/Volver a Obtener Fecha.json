@@ -1,0 +1,144 @@
+{
+  "name": "92dae10f-1e84-44a4-87e9-d0e42ab61438",
+  "displayName": "Volver a Obtener Fecha",
+  "form": {
+    "parameters": [ {
+      "displayName": "fechaCita",
+      "required": true,
+      "entityType": "@sys.date",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "\u003cspeak\u003e Por favor, dígame nuevamente que día tiene su cita. \u003c/speak\u003e" ]
+            },
+            "languageCode": "es"
+          }, {
+            "outputAudioText": {
+              "ssml": "\u003cspeak\u003e Por favor, dígame nuevamente que día tiene su cita. \u003c/speak\u003e"
+            },
+            "languageCode": "es"
+          } ],
+          "setParameterActions": [ {
+            "parameter": "mensajeError",
+            "value": "Por favor, dígame nuevamente que día tiene su cita."
+          } ]
+        },
+        "repromptEventHandlers": [ {
+          "event": "sys.no-match-default",
+          "triggerFulfillment": {
+          
+          },
+          "name": "2a87cb7b-cf26-4d0e-b598-0dcb9e780fd9"
+        }, {
+          "event": "sys.no-input-default",
+          "triggerFulfillment": {
+          
+          },
+          "name": "d8de66c4-568c-4985-bdc2-e7dd63c19db4"
+        } ]
+      },
+      "advancedSettings": {
+        "dtmfSettings": {
+          "useSystemEntityRule": false
+        }
+      }
+    }, {
+      "displayName": "horaCita",
+      "required": true,
+      "entityType": "@sys.time",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "\u003cspeak\u003e ¿A qué hora tiene su cita? \u003c/speak\u003e" ]
+            },
+            "languageCode": "es"
+          }, {
+            "outputAudioText": {
+              "ssml": "\u003cspeak\u003e ¿A qué hora tiene su cita? \u003c/speak\u003e"
+            },
+            "languageCode": "es"
+          } ],
+          "setParameterActions": [ {
+            "parameter": "mensajeError",
+            "value": "¿A qué hora tiene su cita?"
+          } ]
+        },
+        "repromptEventHandlers": [ {
+          "event": "sys.no-match-default",
+          "triggerFulfillment": {
+          
+          },
+          "name": "96e97842-2335-4cdd-a0a4-024893ea9909"
+        }, {
+          "event": "sys.no-input-default",
+          "triggerFulfillment": {
+          
+          },
+          "name": "14457700-c3e3-4576-9585-385ba037ab21"
+        } ]
+      },
+      "advancedSettings": {
+        "dtmfSettings": {
+          "useSystemEntityRule": false
+        }
+      }
+    } ]
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "\u003cspeak\u003e  Muy bien. \u003c/speak\u003e" ]
+      },
+      "languageCode": "es"
+    }, {
+      "outputAudioText": {
+        "ssml": "\u003cspeak\u003e  Muy bien. \u003c/speak\u003e"
+      },
+      "languageCode": "es"
+    } ],
+    "setParameterActions": [ {
+      "parameter": "fechaCita",
+      "value": null
+    }, {
+      "parameter": "nuevaFecha",
+      "value": null
+    }, {
+      "parameter": "horario",
+      "value": null
+    }, {
+      "parameter": "dias",
+      "value": null
+    }, {
+      "parameter": "mensajeEspera",
+      "value": ""
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "int_obtener_fecha",
+    "triggerFulfillment": {
+    
+    },
+    "name": "c7d8cbaf-1e93-4209-b600-ec25a0b60a8e"
+  }, {
+    "condition": "$session.params.fechaCita != null",
+    "triggerFulfillment": {
+    
+    },
+    "name": "fcf445eb-e80b-46d8-b672-308c09fc42a6"
+  }, {
+    "condition": "$session.params.horaCita != null",
+    "triggerFulfillment": {
+    
+    },
+    "name": "b2a90302-fb72-45a6-9cbc-8680335ec1bd"
+  }, {
+    "condition": "$page.params.status = FINAL",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Volver a Obtener Preferencia",
+    "name": "cabff45a-f959-458b-83ff-402bf3c1b343"
+  } ]
+}

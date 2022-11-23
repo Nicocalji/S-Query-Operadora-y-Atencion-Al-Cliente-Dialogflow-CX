@@ -1,0 +1,112 @@
+{
+  "name": "4d9e1969-d8ce-41c0-874d-3118649cf227",
+  "displayName": "Volver a Obtener Preferencia",
+  "form": {
+    "parameters": [ {
+      "displayName": "dias",
+      "required": true,
+      "entityType": "@ent_dias",
+      "isList": true,
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "\u003cspeak\u003e ¿Qué día de la semana la va mejor para cambiar su cita? \u003c/speak\u003e" ]
+            },
+            "languageCode": "es"
+          }, {
+            "outputAudioText": {
+              "ssml": "\u003cspeak\u003e ¿Qué día de la semana la va mejor para cambiar su cita? \u003c/speak\u003e"
+            },
+            "languageCode": "es"
+          } ],
+          "setParameterActions": [ {
+            "parameter": "mensajeError",
+            "value": " ¿Qué día de la semana la va mejor para cambiar su cita?"
+          } ]
+        },
+        "repromptEventHandlers": [ {
+          "event": "sys.no-input-default",
+          "triggerFulfillment": {
+          
+          },
+          "name": "d0787251-5a41-4b1e-b2cc-d1a0024fb765"
+        }, {
+          "event": "sys.no-match-default",
+          "triggerFulfillment": {
+          
+          },
+          "name": "c311ae18-ae95-4763-8079-dea3463ab470"
+        } ]
+      },
+      "advancedSettings": {
+        "dtmfSettings": {
+          "useSystemEntityRule": false
+        }
+      }
+    }, {
+      "displayName": "horario",
+      "required": true,
+      "entityType": "@ent_horario",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "\u003cspeak\u003e ¿Prefiere su cita por la mañana o por la tarde? \u003c/speak\u003e" ]
+            },
+            "languageCode": "es"
+          }, {
+            "outputAudioText": {
+              "ssml": "\u003cspeak\u003e ¿Prefiere su cita por la mañana o por la tarde? \u003c/speak\u003e"
+            },
+            "languageCode": "es"
+          } ],
+          "setParameterActions": [ {
+            "parameter": "mensajeError",
+            "value": "¿Prefiere su cita por la mañana o por la tarde?"
+          } ]
+        },
+        "repromptEventHandlers": [ {
+          "event": "sys.no-match-default",
+          "triggerFulfillment": {
+          
+          },
+          "name": "948f0ed0-2d36-4027-bada-4daf673e34ab"
+        }, {
+          "event": "sys.no-input-default",
+          "triggerFulfillment": {
+          
+          },
+          "name": "895db11d-e26c-45dc-b8bd-2ec951605ae0"
+        } ]
+      },
+      "advancedSettings": {
+        "dtmfSettings": {
+          "useSystemEntityRule": false
+        }
+      }
+    } ]
+  },
+  "entryFulfillment": {
+  
+  },
+  "transitionRoutes": [ {
+    "intent": "int_obtener_preferencia",
+    "triggerFulfillment": {
+    
+    },
+    "name": "2b285588-34a0-4bb5-baed-e6c3f5b5659a"
+  }, {
+    "condition": "$session.params.dias != null",
+    "triggerFulfillment": {
+    
+    },
+    "name": "39407427-713f-425e-a6c4-1851ce57b70d"
+  }, {
+    "condition": "$page.params.status = FINAL",
+    "triggerFulfillment": {
+    
+    },
+    "name": "7db2e20a-57f4-430d-b7ff-86dee87ccc89"
+  } ]
+}

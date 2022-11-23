@@ -1,0 +1,19 @@
+{
+  "entities": [ {
+    "value": "Técnico",
+    "synonyms": [ "desarrollo", "parte técnica", "programación", "tecnico", "Técnico" ],
+    "languageCode": "es"
+  }, {
+    "value": "Administrativo",
+    "synonyms": [ "administracion", "Administración", "administrativo", "Administrativo", "cuentas", "economía", "económico", "finanzas", "parte jurídica" ],
+    "languageCode": "es"
+  }, {
+    "value": "Directivo",
+    "synonyms": [ "altos cargos", "altos mandos", "direccion", "Dirección", "directiva", "Directivo", "los que mandan" ],
+    "languageCode": "es"
+  }, {
+    "value": "Comercial",
+    "synonyms": [ "comercial", "Comercial", "de cara al público", "la parte de ventas", "los que venden", "publicidad", "Ventas" ],
+    "languageCode": "es"
+  } ]
+}

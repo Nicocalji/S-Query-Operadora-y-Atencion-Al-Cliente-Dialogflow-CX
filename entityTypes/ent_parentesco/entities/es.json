@@ -1,0 +1,95 @@
+{
+  "entities": [ {
+    "value": "abuela",
+    "synonyms": [ "abue", "abuela", "güela", "madre de mi madre", "madre de mi padre", "yaya" ],
+    "languageCode": "es"
+  }, {
+    "value": "abuelo",
+    "synonyms": [ "abuelo", "güelo", "padre de mi madre", "padre de mi padre", "yayo" ],
+    "languageCode": "es"
+  }, {
+    "value": "madre",
+    "synonyms": [ "madre", "mamá", "mami" ],
+    "languageCode": "es"
+  }, {
+    "value": "padre",
+    "synonyms": [ "mi viejo", "padre", "papá", "papi" ],
+    "languageCode": "es"
+  }, {
+    "value": "amiga",
+    "synonyms": [ "amiga" ],
+    "languageCode": "es"
+  }, {
+    "value": "amigo",
+    "synonyms": [ "amigo", "colega" ],
+    "languageCode": "es"
+  }, {
+    "value": "pareja",
+    "synonyms": [ "compañera", "compañero", "esposa", "esposo", "maridito", "marido", "mujer", "novia", "novio", "pareja", "prometida", "prometido", "señora" ],
+    "languageCode": "es"
+  }, {
+    "value": "hijo",
+    "synonyms": [ "hijito", "hijo" ],
+    "languageCode": "es"
+  }, {
+    "value": "hija",
+    "synonyms": [ "hija", "hijita" ],
+    "languageCode": "es"
+  }, {
+    "value": "sobrino",
+    "synonyms": [ "hijo de mi hermana", "hijo de mi hermano", "sobrinito", "sobrino" ],
+    "languageCode": "es"
+  }, {
+    "value": "sobrina",
+    "synonyms": [ "hija de mi hermana", "hija de mi hermano", "sobrina", "sobrinita" ],
+    "languageCode": "es"
+  }, {
+    "value": "tía",
+    "synonyms": [ "hermana de mi madre", "hermana de mi padre", "tía", "tita" ],
+    "languageCode": "es"
+  }, {
+    "value": "tío",
+    "synonyms": [ "hermano de mi madre", "hermano de mi padre", "tío" ],
+    "languageCode": "es"
+  }, {
+    "value": "hermana",
+    "synonyms": [ "hermana", "hermanita" ],
+    "languageCode": "es"
+  }, {
+    "value": "hermano",
+    "synonyms": [ "hermanito", "hermano" ],
+    "languageCode": "es"
+  }, {
+    "value": "nieto",
+    "synonyms": [ "nieto" ],
+    "languageCode": "es"
+  }, {
+    "value": "nieta",
+    "synonyms": [ "nieta" ],
+    "languageCode": "es"
+  }, {
+    "value": "vecina",
+    "synonyms": [ "vecina" ],
+    "languageCode": "es"
+  }, {
+    "value": "vecino",
+    "synonyms": [ "vecino" ],
+    "languageCode": "es"
+  }, {
+    "value": "suegro",
+    "synonyms": [ "padre de mi esposa", "padre de mi esposo", "padre de mi marido", "padre de mi mujer", "papá de mi esposa", "papá de mi esposo", "papá de mi marido", "papá de mi mujer", "suegrito", "suegro" ],
+    "languageCode": "es"
+  }, {
+    "value": "suegra",
+    "synonyms": [ "madre de mi esposa", "madre de mi esposo", "madre de mi marido", "madre de mi mujer", "mamá de mi esposa", "mamá de mi esposo", "mamá de mi marido", "mamá de mi mujer", "suegra", "suegrita" ],
+    "languageCode": "es"
+  }, {
+    "value": "primo",
+    "synonyms": [ "primito", "primo" ],
+    "languageCode": "es"
+  }, {
+    "value": "prima",
+    "synonyms": [ "prima", "primita" ],
+    "languageCode": "es"
+  } ]
+}

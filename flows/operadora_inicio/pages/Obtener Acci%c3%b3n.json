@@ -1,0 +1,229 @@
+{
+  "name": "f4a87e0f-fd3a-455f-b614-539022658935",
+  "displayName": "Obtener Acción",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "webhook": "S-Query",
+    "tag": "mensajeObtenerAccion",
+    "setParameterActions": [ {
+      "parameter": "conteoReintentos",
+      "value": 0
+    }, {
+      "parameter": "especialidad",
+      "value": null
+    }, {
+      "parameter": "accion",
+      "value": null
+    }, {
+      "parameter": "fechaCita",
+      "value": null
+    }, {
+      "parameter": "horaCita",
+      "value": null
+    }, {
+      "parameter": "horario",
+      "value": null
+    }, {
+      "parameter": "dias",
+      "value": null
+    }, {
+      "parameter": "reintentoDatos",
+      "value": null
+    }, {
+      "parameter": "onActionPage",
+      "value": true
+    }, {
+      "parameter": "mensajeEspera_es",
+      "value": "¿En qué le puedo ayudar?"
+    }, {
+      "parameter": "conteoNoEsuchado",
+      "value": ""
+    }, {
+      "parameter": "mensajeRepetir_es",
+      "value": "¿En qué le puedo ayudar?"
+    }, {
+      "parameter": "mensajeReintento_es",
+      "value": "¿En qué le puedo ayudar?"
+    }, {
+      "parameter": "mensajeNoEscucha_es",
+      "value": "¿En qué le puedo ayudar?"
+    }, {
+      "parameter": "mensajeNoEscucha_en",
+      "value": ""
+    }, {
+      "parameter": "mensajeEspera_en",
+      "value": ""
+    }, {
+      "parameter": "mensajeRepetir_en",
+      "value": ""
+    }, {
+      "parameter": "mensajeReintento_en",
+      "value": ""
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "int_preferencia_cita",
+    "triggerFulfillment": {
+      "webhook": "S-Query",
+      "tag": "guardarMotivo",
+      "setParameterActions": [ {
+        "parameter": "accion",
+        "value": "agendarPreferenciaCita"
+      } ]
+    },
+    "targetFlow": "gestion_cita_agendar_preferencia_de_cita",
+    "name": "acce378d-0f12-4063-8724-3359c776c40f"
+  }, {
+    "intent": "int_cambiar_cita",
+    "triggerFulfillment": {
+      "webhook": "S-Query",
+      "tag": "guardarMotivo",
+      "setParameterActions": [ {
+        "parameter": "accion",
+        "value": "actualizarCita"
+      } ]
+    },
+    "targetFlow": "gestion_cita_cambiar_cita",
+    "name": "338b551e-7afe-4eba-b16b-212700ee18aa"
+  }, {
+    "intent": "int_cancelar_cita",
+    "triggerFulfillment": {
+      "webhook": "S-Query",
+      "tag": "guardarMotivo",
+      "setParameterActions": [ {
+        "parameter": "accion",
+        "value": "eliminarCita"
+      } ]
+    },
+    "targetFlow": "gestion_cita_cancelar_cita",
+    "name": "c863f805-f21c-4fa6-afee-4ecc12045f94"
+  }, {
+    "intent": "int_consultar_cita",
+    "triggerFulfillment": {
+      "webhook": "S-Query",
+      "tag": "guardarMotivo",
+      "setParameterActions": [ {
+        "parameter": "accion",
+        "value": "confirmarCita"
+      } ]
+    },
+    "targetFlow": "gestion_cita_confirmar_cita",
+    "name": "bc97edb5-9ed6-4fe7-81b9-8f5a3a9fbc56"
+  }, {
+    "intent": "int_otras_consultas",
+    "triggerFulfillment": {
+      "webhook": "S-Query",
+      "tag": "guardarMotivo",
+      "setParameterActions": [ {
+        "parameter": "accion",
+        "value": "otros"
+      } ]
+    },
+    "targetFlow": "general_identificar",
+    "name": "c5177488-9604-4069-94e0-7a1590f462f1"
+  }, {
+    "intent": "int_medicamentos_receta",
+    "condition": "$session.params.parametrosModulos.buzon.pedirConsultaMedicamentos = true AND $session.params.modulos.buzon = true",
+    "triggerFulfillment": {
+      "webhook": "S-Query",
+      "tag": "guardarMotivo",
+      "setParameterActions": [ {
+        "parameter": "accion",
+        "value": "medicamento"
+      } ]
+    },
+    "targetFlow": "general_identificar",
+    "name": "cbfe2516-2f5c-4f00-afe7-5a4e8723c09d"
+  }, {
+    "intent": "int_medicamentos_receta",
+    "condition": "$session.params.parametrosModulos.buzon.pedirConsultaMedicamentos = false",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "\u003cspeak\u003e Lo lamento, pero por el momento no puedo ayudarle con esto. \u003cbreak time=\"0.8\"/\u003e Dígame, ¿En qué le puedo ayudar?\u003c/speak\u003e" ]
+        },
+        "languageCode": "es"
+      }, {
+        "outputAudioText": {
+          "ssml": "\u003cspeak\u003e Lo lamento, pero por el momento no puedo ayudarle con esto. \u003cbreak time=\"0.8\"/\u003e Dígame, ¿En qué le puedo ayudar?\u003c/speak\u003e"
+        },
+        "languageCode": "es"
+      } ]
+    },
+    "name": "66cf41d1-0e19-4f28-95ff-3f4b262975ff"
+  }, {
+    "intent": "int_contactar",
+    "condition": "$session.params.hablarConAlguien = true AND $session.params.contactoExists = false",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "\u003cspeak\u003e Genial. Por favor, Indíqueme su nombre y apellidos. \u003cbreak time = \"0.8\"/\u003e \u003c/speak\u003e" ]
+        },
+        "languageCode": "es"
+      }, {
+        "outputAudioText": {
+          "ssml": "\u003cspeak\u003e Genial. Por favor, Indíqueme su nombre y apellidos. \u003cbreak time = \"0.8\"/\u003e \u003c/speak\u003e"
+        },
+        "languageCode": "es"
+      } ],
+      "setParameterActions": [ {
+        "parameter": "onActionPage",
+        "value": false
+      } ]
+    },
+    "targetFlow": "general_identificar",
+    "name": "6cc2f9c5-24bb-4295-b9f8-a54a6add0590"
+  }, {
+    "intent": "int_contactar",
+    "condition": "$session.params.hablarConAlguien = true AND $session.params.contactoExists = true",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "onActionPage",
+        "value": false
+      } ]
+    },
+    "targetPage": "Comprobar disponibilidad",
+    "name": "6dbf9b03-7390-4d3d-9846-bd2f1aa2e695"
+  }, {
+    "intent": "int_contactar",
+    "condition": "$session.params.hablarConAlguien = false",
+    "triggerFulfillment": {
+      "webhook": "S-Query",
+      "tag": "guardarMotivo",
+      "setParameterActions": [ {
+        "parameter": "accion",
+        "value": "hablar"
+      } ]
+    },
+    "targetFlow": "general_identificar",
+    "name": "d4c10561-cd0d-4453-ba19-3eacae0995e2"
+  }, {
+    "intent": "int_info_identidad",
+    "triggerFulfillment": {
+      "webhook": "S-Query",
+      "tag": "mensajeIdentidad"
+    },
+    "name": "3fcf7ac3-f58c-41f6-8db0-c0e12763b109"
+  }, {
+    "intent": "int_eliminar_contacto",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "\u003cspeak\u003eDe acuerdo, eliminaré su contacto ahora mismo. \u003cbreak time=\"1.5s\"/\u003e ¿Le puedo ayudar en algo más?\u003c/speak\u003e" ]
+        },
+        "languageCode": "es"
+      }, {
+        "outputAudioText": {
+          "ssml": "\u003cspeak\u003eDe acuerdo, eliminaré su contacto ahora mismo. \u003cbreak time=\"1.5s\"/\u003e ¿Le puedo ayudar en algo más?\u003c/speak\u003e"
+        },
+        "languageCode": "es"
+      } ],
+      "webhook": "S-Query",
+      "tag": "eliminarContacto",
+      "returnPartialResponses": true
+    },
+    "name": "287d1ec1-c2fd-490f-822d-290f4e8e4f4a"
+  } ]
+}

@@ -1,0 +1,419 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "quiero una cita con el "
+    }, {
+      "text": "peditrapara",
+      "parameterId": "especialidad"
+    }, {
+      "text": " mi "
+    }, {
+      "text": "hijo",
+      "parameterId": "parentesco"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "quiero sacar una cita para mi "
+    }, {
+      "text": "marido",
+      "parameterId": "parentesco"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "quiero cita con ",
+      "auto": true
+    }, {
+      "text": "digestivo",
+      "parameterId": "especialidad",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "coger cita que tengo ",
+      "auto": true
+    }, {
+      "text": "un",
+      "auto": true
+    }, {
+      "text": " problema de espalda",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "quería hacer ",
+      "auto": true
+    }, {
+      "text": "una",
+      "auto": true
+    }, {
+      "text": " cita previa",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "era por la cita previa para mi "
+    }, {
+      "text": "hijo",
+      "parameterId": "parentesco"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "quisiera pedir cita"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "quería solicitar ",
+      "auto": true
+    }, {
+      "text": "una",
+      "auto": true
+    }, {
+      "text": " reserva ",
+      "auto": true
+    }, {
+      "text": "para",
+      "auto": true
+    }, {
+      "text": " que me atendiera ",
+      "auto": true
+    }, {
+      "text": "el médico",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "quería pedir hora para la "
+    }, {
+      "text": "gimnasia",
+      "parameterId": "especialidad",
+      "auto": true
+    }, {
+      "text": " para mi "
+    }, {
+      "text": "madre",
+      "parameterId": "parentesco"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "quería ",
+      "auto": true
+    }, {
+      "text": "una",
+      "auto": true
+    }, {
+      "text": " cita con el ",
+      "auto": true
+    }, {
+      "text": "oftalmólogo",
+      "parameterId": "especialidad",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "quería ver al ",
+      "auto": true
+    }, {
+      "text": "radiólogo",
+      "parameterId": "especialidad",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "era por agendar una cita para mi "
+    }, {
+      "text": "hija",
+      "parameterId": "parentesco"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "quiero solicitar ",
+      "auto": true
+    }, {
+      "text": "una",
+      "auto": true
+    }, {
+      "text": " cita",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "quiero solicitar hueco para mi "
+    }, {
+      "text": "padre",
+      "parameterId": "parentesco"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "quiero pedir ",
+      "auto": true
+    }, {
+      "text": "una",
+      "auto": true
+    }, {
+      "text": " cita",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "quiero pedir ",
+      "auto": true
+    }, {
+      "text": "hora",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "para",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "una",
+      "auto": true
+    }, {
+      "text": " cita",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "quiero ",
+      "auto": true
+    }, {
+      "text": "una"
+    }, {
+      "text": " cita",
+      "auto": true
+    } ],
+    "repeatCount": 3,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "quiero hora para cita previa es para mi "
+    }, {
+      "text": "pareja",
+      "parameterId": "parentesco"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "para reservar cita",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "quiero cita con el rol para mi "
+    }, {
+      "text": "prima",
+      "parameterId": "parentesco"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "quiero cita con el "
+    }, {
+      "text": "cardiólogo",
+      "parameterId": "especialidad"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "queria hora para ver al medico para mi "
+    }, {
+      "text": "tía",
+      "parameterId": "parentesco"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "queria reservar ",
+      "auto": true
+    }, {
+      "text": "una"
+    }, {
+      "text": " cita",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "quiero agendar una cita con el "
+    }, {
+      "text": "pediatra",
+      "parameterId": "especialidad"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "quiero una cita para "
+    }, {
+      "text": "urologia",
+      "parameterId": "especialidad"
+    }, {
+      "text": " para mi "
+    }, {
+      "text": "tío",
+      "parameterId": "parentesco"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "quiero una cita con el "
+    }, {
+      "text": "psiquiatra",
+      "parameterId": "especialidad",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "quiero una cita con el "
+    }, {
+      "text": "urologo",
+      "parameterId": "especialidad",
+      "auto": true
+    }, {
+      "text": " "
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "quiero una cita de "
+    }, {
+      "text": "pediatria",
+      "parameterId": "especialidad"
+    }, {
+      "text": " "
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "quiero una cita con un "
+    }, {
+      "text": "urologo",
+      "parameterId": "especialidad",
+      "auto": true
+    }, {
+      "text": " para mi "
+    }, {
+      "text": "padre",
+      "parameterId": "parentesco"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "quiero una cita con un "
+    }, {
+      "text": "urologo",
+      "parameterId": "especialidad"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "necesito cita con un "
+    }, {
+      "text": "psiquiatra",
+      "parameterId": "especialidad"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "necesito cita con el "
+    }, {
+      "text": "psiquiatra",
+      "parameterId": "especialidad"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "quiero una cita con el "
+    }, {
+      "text": "urologo",
+      "parameterId": "especialidad"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "nueva cita para mi "
+    }, {
+      "text": "hijo",
+      "parameterId": "parentesco"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "quiero registrar ",
+      "auto": true
+    }, {
+      "text": "una"
+    }, {
+      "text": " cita",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "quiero agendar ",
+      "auto": true
+    }, {
+      "text": "una"
+    }, {
+      "text": " cita",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  } ]
+}

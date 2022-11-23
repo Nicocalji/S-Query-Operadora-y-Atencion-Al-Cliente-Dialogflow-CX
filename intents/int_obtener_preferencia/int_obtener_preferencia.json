@@ -1,0 +1,13 @@
+{
+  "name": "a189a943-aa90-43f2-b579-f1842bdae051",
+  "displayName": "int_obtener_preferencia",
+  "parameters": [ {
+    "id": "dias",
+    "entityType": "@ent_dias",
+    "isList": true
+  }, {
+    "id": "horario",
+    "entityType": "@ent_horario"
+  } ],
+  "priority": 500000
+}

@@ -1,0 +1,1080 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "pues verás mi nombre es "
+    }, {
+      "text": "Jesús",
+      "parameterId": "nombre",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "Saro Calderón",
+      "parameterId": "apellido",
+      "auto": true
+    }, {
+      "text": " de idrusa"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "pues ",
+      "auto": true
+    }, {
+      "text": "mira"
+    }, {
+      "text": " mi nombre ",
+      "auto": true
+    }, {
+      "text": "es"
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "Adolfo",
+      "parameterId": "nombre",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "Gutierrez",
+      "parameterId": "apellido",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "me llamo ",
+      "auto": true
+    }, {
+      "text": "Juan",
+      "parameterId": "nombre",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "Shallcrass",
+      "parameterId": "apellido",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "mi nombre ",
+      "auto": true
+    }, {
+      "text": "es"
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "Pascual",
+      "parameterId": "nombre",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "Rivero Muiños",
+      "parameterId": "apellido",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "se llama ",
+      "auto": true
+    }, {
+      "text": "Julia Rosa",
+      "parameterId": "nombre",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "Paz",
+      "parameterId": "apellido"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Enriqueta",
+      "parameterId": "nombre",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "Bernabé",
+      "parameterId": "apellido"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "se llama "
+    }, {
+      "text": "Maria del Mar",
+      "parameterId": "nombre",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "de la Cruz",
+      "parameterId": "apellido"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "María Rosa",
+      "parameterId": "nombre",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "de la cruz",
+      "parameterId": "apellido"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Maria del carmen",
+      "parameterId": "nombre"
+    }, {
+      "text": " "
+    }, {
+      "text": "Saro",
+      "parameterId": "apellido",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Maria del Socorro",
+      "parameterId": "nombre"
+    }, {
+      "text": " "
+    }, {
+      "text": "Pineda",
+      "parameterId": "apellido",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Vicente Tomas",
+      "parameterId": "nombre",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "Pinedo",
+      "parameterId": "apellido",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Sofia",
+      "parameterId": "nombre",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "del corral",
+      "parameterId": "apellido"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Valero",
+      "parameterId": "nombre"
+    }, {
+      "text": " "
+    }, {
+      "text": "de Pelayo",
+      "parameterId": "apellido"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Antonio",
+      "parameterId": "nombre",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "del Ugarte",
+      "parameterId": "apellido"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Isaura",
+      "parameterId": "nombre",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "de Calderon",
+      "parameterId": "apellido"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Alma",
+      "parameterId": "nombre",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "de Vergara",
+      "parameterId": "apellido"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Carlota",
+      "parameterId": "nombre",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "de Bernat",
+      "parameterId": "apellido"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Chema",
+      "parameterId": "nombre",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "de Gil",
+      "parameterId": "apellido"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Simón",
+      "parameterId": "nombre",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "del Hidalgo",
+      "parameterId": "apellido"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Urbano",
+      "parameterId": "nombre",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "del Yáñez",
+      "parameterId": "apellido"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Eugenia",
+      "parameterId": "nombre",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "del Fuertes",
+      "parameterId": "apellido"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Manola",
+      "parameterId": "nombre",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "del Llamas",
+      "parameterId": "apellido"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Marcia",
+      "parameterId": "nombre",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "del Campo",
+      "parameterId": "apellido"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Eligio",
+      "parameterId": "nombre"
+    }, {
+      "text": " "
+    }, {
+      "text": "de Álvarez",
+      "parameterId": "apellido"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "María Dolores",
+      "parameterId": "nombre",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "Tamara Cuesta",
+      "parameterId": "apellido"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Luis Ángel",
+      "parameterId": "nombre",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "Galiano López",
+      "parameterId": "apellido",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Pablo",
+      "parameterId": "nombre",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "del Borrego",
+      "parameterId": "apellido"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "María Teresa",
+      "parameterId": "nombre",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "Sanmiguel-Bermudez",
+      "parameterId": "apellido",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Danilo",
+      "parameterId": "nombre",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "Salcedo Hoyos",
+      "parameterId": "apellido",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Miguel Ángel",
+      "parameterId": "nombre",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "Trillo Revilla",
+      "parameterId": "apellido",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Eloy",
+      "parameterId": "nombre",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "Carreras Castro",
+      "parameterId": "apellido"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Pablo",
+      "parameterId": "nombre",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "La Merced Herrera",
+      "parameterId": "apellido"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Marcela",
+      "parameterId": "nombre",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "Rincón"
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "de"
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "Jaramillo"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Óscar",
+      "parameterId": "nombre",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "de la Renta",
+      "parameterId": "apellido"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Martín Elías",
+      "parameterId": "nombre",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "de los Ríos Acosta",
+      "parameterId": "apellido"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Ana María",
+      "parameterId": "nombre",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "de la Peña Posada",
+      "parameterId": "apellido"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Sebastián",
+      "parameterId": "nombre",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "del Campo Yepes",
+      "parameterId": "apellido"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Efraín",
+      "parameterId": "nombre",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "de las Casas Mejía",
+      "parameterId": "apellido"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Juan Fernando",
+      "parameterId": "nombre",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "Pérez del Corral",
+      "parameterId": "apellido",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Jorge",
+      "parameterId": "nombre",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "de la Cruz Medina",
+      "parameterId": "apellido"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Maria",
+      "parameterId": "nombre",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "de la Cruz Lozano",
+      "parameterId": "apellido",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Maria del Pilar",
+      "parameterId": "nombre",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "Castillo",
+      "parameterId": "apellido",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Maria del Carmen",
+      "parameterId": "nombre",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "Triana",
+      "parameterId": "apellido",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "se llama "
+    }, {
+      "text": "Maria del Rosario",
+      "parameterId": "nombre",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "Rebellon",
+      "parameterId": "apellido",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "María del Mar",
+      "parameterId": "nombre"
+    }, {
+      "text": " "
+    }, {
+      "text": "Pérez",
+      "parameterId": "apellido",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "se llama "
+    }, {
+      "text": "Julia Rosa",
+      "parameterId": "nombre",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "De la cruz",
+      "parameterId": "apellido"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Francisco Antonio",
+      "parameterId": "nombre",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "Jiménez Sánchez",
+      "parameterId": "apellido",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Laura Isabel",
+      "parameterId": "nombre",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "Rodas Revolorio",
+      "parameterId": "apellido",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Ramon",
+      "parameterId": "nombre",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "Álvarez",
+      "parameterId": "apellido",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Eva Maria",
+      "parameterId": "nombre",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "Blanco Jiménez",
+      "parameterId": "apellido",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Jose Manuel",
+      "parameterId": "nombre",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "Ruiz",
+      "parameterId": "apellido",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Maria Carmen",
+      "parameterId": "nombre",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "Garcia Sanchez",
+      "parameterId": "apellido",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "María Rosa",
+      "parameterId": "nombre",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "De la cruz",
+      "parameterId": "apellido"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Maria Rosa",
+      "parameterId": "nombre",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "De Barrios Estrada",
+      "parameterId": "apellido"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Juan Andres",
+      "parameterId": "nombre",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "Shalcrass Rivera",
+      "parameterId": "apellido",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "mi nombre es "
+    }, {
+      "text": "Maria juana",
+      "parameterId": "nombre",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "De la cruz",
+      "parameterId": "apellido"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "soy "
+    }, {
+      "text": "María",
+      "parameterId": "nombre"
+    }, {
+      "text": " "
+    }, {
+      "text": "De los santos",
+      "parameterId": "apellido"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "jesus antonio",
+      "parameterId": "nombre",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "saro calderon",
+      "parameterId": "apellido",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "jesus",
+      "parameterId": "nombre",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "saro calderon",
+      "parameterId": "apellido"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Raquel",
+      "parameterId": "nombre",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "de Santos Samaniego",
+      "parameterId": "apellido"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Jose Luis",
+      "parameterId": "nombre",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "de las Canteras",
+      "parameterId": "apellido"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Maria Juana",
+      "parameterId": "nombre",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "Rosa Rodriguez",
+      "parameterId": "apellido"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "me llamo ",
+      "auto": true
+    }, {
+      "text": "Juan Luis",
+      "parameterId": "nombre",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "Ruiz Escobar",
+      "parameterId": "apellido",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "me llamo ",
+      "auto": true
+    }, {
+      "text": "Juan José",
+      "parameterId": "nombre",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "López",
+      "parameterId": "apellido",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Dariana Maria",
+      "parameterId": "nombre"
+    }, {
+      "text": " "
+    }, {
+      "text": "Vacaroiu",
+      "parameterId": "apellido"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Carlos Manuel",
+      "parameterId": "nombre"
+    }, {
+      "text": " "
+    }, {
+      "text": "Recio",
+      "parameterId": "apellido"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Juan José",
+      "parameterId": "nombre"
+    }, {
+      "text": " "
+    }, {
+      "text": "Pérez",
+      "parameterId": "apellido"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Soy "
+    }, {
+      "text": "Elena",
+      "parameterId": "nombre"
+    }, {
+      "text": "Garay",
+      "parameterId": "apellido"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Me llamo "
+    }, {
+      "text": "Amparo Lourdes",
+      "parameterId": "nombre"
+    }, {
+      "text": " "
+    }, {
+      "text": "Alvarenga",
+      "parameterId": "apellido"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "mi nombre es "
+    }, {
+      "text": "nicolas",
+      "parameterId": "nombre"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "juan",
+      "parameterId": "nombre"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "me llamo "
+    }, {
+      "text": "ruth marian",
+      "parameterId": "nombre"
+    }, {
+      "text": " "
+    }, {
+      "text": "cortez",
+      "parameterId": "apellido"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "jose maria",
+      "parameterId": "nombre"
+    }, {
+      "text": " "
+    }, {
+      "text": "ruiz",
+      "parameterId": "apellido"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "nicolas",
+      "parameterId": "nombre"
+    }, {
+      "text": "calvache",
+      "parameterId": "apellido"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "claro, mi nombre es "
+    }, {
+      "text": "marian",
+      "parameterId": "nombre"
+    }, {
+      "text": "cortez",
+      "parameterId": "apellido"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "me llamo "
+    }, {
+      "text": "jesus",
+      "parameterId": "nombre"
+    }, {
+      "text": "saro",
+      "parameterId": "apellido"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Mi nombre es "
+    }, {
+      "text": "Nicolas",
+      "parameterId": "nombre"
+    }, {
+      "text": "Calvache",
+      "parameterId": "apellido"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  } ]
+}

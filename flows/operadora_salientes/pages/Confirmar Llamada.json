@@ -1,0 +1,176 @@
+{
+  "name": "bca3f1c1-b05e-4a29-a929-8957db2e4f10",
+  "displayName": "Confirmar Llamada",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "\u003cspeak\u003e Buenos días $session.params.usuario.Nombre. Tiene una llamada de $session.params.nombre $session.params.apellido, de la empresa $session.params.empresa. \u003cbreak time=\"0.8\"/\u003e ¿Desea aceptarla? \u003c/speak\u003e" ]
+      },
+      "languageCode": "es"
+    }, {
+      "outputAudioText": {
+        "ssml": "\u003cspeak\u003e Buenos días $session.params.usuario.Nombre . Tiene una llamada de $session.params.nombre $session.params.apellido, de la empresa $session.params.empresa. \u003cbreak time=\"0.8\"/\u003e ¿Desea aceptarla? \u003c/speak\u003e"
+      },
+      "languageCode": "es"
+    }, {
+      "text": {
+        "text": [ "\u003cspeak\u003e Good morning $session.params.usuario.Nombre. You have a call from $session.params.nombre $session.params.apellidos, from the company $session.params.empresa. \u003cbreak time=\"0.8\"/\u003e Would you like to take the call? \u003c/speak\u003e" ]
+      },
+      "languageCode": "en"
+    }, {
+      "outputAudioText": {
+        "ssml": "\u003cspeak\u003e Good morning $session.params.usuario.Nombre. You have a call from $session.params.nombre $session.params.apellidos, from the company $session.params.empresa. \u003cbreak time=\"0.8\"/\u003e Would you like to take the call? \u003c/speak\u003e"
+      },
+      "languageCode": "en"
+    } ],
+    "setParameterActions": [ {
+      "parameter": "conteoReintentos",
+      "value": 0
+    }, {
+      "parameter": "respuestaCorta",
+      "value": true
+    }, {
+      "parameter": "conteoNoEsuchado",
+      "value": 0
+    }, {
+      "parameter": "mensajeReintento_es",
+      "value": "¿Desea aceptar la llamada de $session.params.nombre?"
+    }, {
+      "parameter": "mensajeReintento_en",
+      "value": "Would you like to take the call from $session.params.nombre?"
+    }, {
+      "parameter": "mensajeNoEscucha_es",
+      "value": "¿Desea aceptar la llamada de $session.params.nombre?"
+    }, {
+      "parameter": "mensajeNoEscucha_en",
+      "value": "Would you like to take the call from $session.params.nombre?"
+    }, {
+      "parameter": "mensajeEspera_es",
+      "value": "¿Desea aceptar la llamada de $session.params.nombre?"
+    }, {
+      "parameter": "mensajeEspera_en",
+      "value": "Would you like to take the call from $session.params.nombre?"
+    }, {
+      "parameter": "mensajeRepetir_es",
+      "value": "¿Desea aceptar la llamada de $session.params.nombre?"
+    }, {
+      "parameter": "mensajeRepetir_en",
+      "value": "Would you like to take the call from $session.params.nombre?"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "int_yes",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "\u003cspeak\u003e De acuerdo. Ahora mismo le paso con $session.params.nombre .\u003c/speak\u003e" ]
+        },
+        "languageCode": "es"
+      }, {
+        "outputAudioText": {
+          "ssml": "\u003cspeak\u003e De acuerdo. Ahora mismo le paso con $session.params.nombre . \u003c/speak\u003e"
+        },
+        "languageCode": "es"
+      }, {
+        "text": {
+          "text": [ "\u003cspeak\u003e Awesome. One moment please, I'll put $session.params.name through to you.\u003c/speak\u003e" ]
+        },
+        "languageCode": "en"
+      }, {
+        "outputAudioText": {
+          "ssml": "\u003cspeak\u003e Awesome. One moment please, I'll put $session.params.name through to you.\u003c/speak\u003e"
+        },
+        "languageCode": "en"
+      } ],
+      "setParameterActions": [ {
+        "parameter": "aceptarLlamada",
+        "value": true
+      }, {
+        "parameter": "introduction",
+        "value": false
+      }, {
+        "parameter": "respuestaCorta",
+        "value": null
+      }, {
+        "parameter": "llamadaAceptada",
+        "value": true
+      }, {
+        "parameter": "conteoReintentos",
+        "value": 0
+      }, {
+        "parameter": "conteoNoEsuchado",
+        "value": 0
+      } ]
+    },
+    "name": "03640f82-13ce-4abd-ba31-cbeef28325e7"
+  }, {
+    "intent": "int_no",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "denegarLlamada",
+        "value": true
+      }, {
+        "parameter": "introduction",
+        "value": false
+      }, {
+        "parameter": "shortAnswer",
+        "value": null
+      }, {
+        "parameter": "conteoReintentos",
+        "value": 0
+      }, {
+        "parameter": "conteoNoEsuchado",
+        "value": 0
+      } ]
+    },
+    "targetPage": "Denegar Llamada",
+    "name": "dae97ef5-ab29-4c55-92d1-f8619bf65432"
+  }, {
+    "intent": "int_detectar_buzón",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "denegarLlamada",
+        "value": true
+      }, {
+        "parameter": "introduction",
+        "value": false
+      }, {
+        "parameter": "respuestaCorta",
+        "value": null
+      } ]
+    },
+    "targetFlow": "operadora_llamada_denegada",
+    "name": "f196a2f2-0b19-447b-8eba-27074f08a76e"
+  } ],
+  "eventHandlers": [ {
+    "event": "LLAMADA_ACEPTADA",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "aceptarLlamada",
+        "value": null
+      } ]
+    },
+    "name": "a4366d3a-356d-4d83-9ca7-327ae24cfe66"
+  }, {
+    "targetFlow": "operadora_llamada_denegada",
+    "event": "LLAMADA_DENEGADA",
+    "triggerFulfillment": {
+    
+    },
+    "name": "4725ffe4-1118-41c6-88d9-9396249edff9"
+  } ],
+  "advancedSettings": {
+    "speechSettings": {
+      "endpointerSensitivity": 90,
+      "noSpeechTimeout": {
+        "seconds": 30
+      }
+    }
+  },
+  "speakerIdSettings": {
+  
+  }
+}

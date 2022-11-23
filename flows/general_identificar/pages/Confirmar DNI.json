@@ -1,0 +1,163 @@
+{
+  "name": "3da883c3-86fb-4a14-8de4-9d2708d2626c",
+  "displayName": "Confirmar DNI",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "\u003cspeak\u003e\u003cbreak time=\"0.5s\"/\u003e Por favor, confírmeme que el DNI es el. \u003cprosody rate=\"slow\"\u003e $session.params.dni.original \u003c/prosody\u003e. ¿Es esto correcto?\u003c/speak\u003e" ]
+      },
+      "languageCode": "es"
+    }, {
+      "outputAudioText": {
+        "ssml": "\u003cspeak\u003e \u003cbreak time=\"0.5s\"/\u003e Por favor, ¿Confírmeme que el DNI es el. \u003cprosody rate=\"slow\"\u003e $session.params.dni.original \u003c/prosody\u003e. ¿Es esto correcto?\u003c/speak\u003e"
+      },
+      "languageCode": "es"
+    } ],
+    "setParameterActions": [ {
+      "parameter": "reintento",
+      "value": 0
+    }, {
+      "parameter": "mensajeError",
+      "value": "Por favor, ¿Me puede confirmar que el DNI es el. \u003cprosody rate='slow'\u003e $session.params.dni.original \u003c/prosody\u003e? ¿Es esto correcto?"
+    }, {
+      "parameter": "mensajeEspera",
+      "value": "Por favor, ¿Me puede confirmar que el DNI es el. \u003cprosody rate='slow'\u003e $session.params.dni.original \u003c/prosody\u003e? ¿Es esto correcto?"
+    }, {
+      "parameter": "en_dni",
+      "value": false
+    }, {
+      "parameter": "respuestaCorta",
+      "value": true
+    }, {
+      "parameter": "reintentoNoResponde",
+      "value": 0
+    }, {
+      "parameter": "mensajeReintento_es",
+      "value": "Por favor, ¿Me puede confirmar que el DNI es el. \u003cprosody rate='slow'\u003e $session.params.dni.original \u003c/prosody\u003e? ¿Es esto correcto?"
+    }, {
+      "parameter": "mensajeReintento_en",
+      "value": ""
+    }, {
+      "parameter": "mensajeNoEscucha_es",
+      "value": "Por favor, ¿Me puede confirmar que el DNI es el. \u003cprosody rate='slow'\u003e $session.params.dni.original \u003c/prosody\u003e? ¿Es esto correcto?"
+    }, {
+      "parameter": "mensajeNoEscucha_en",
+      "value": ""
+    }, {
+      "parameter": "mensajeEspera_es",
+      "value": "Por favor, ¿Me puede confirmar que el DNI es el. \u003cprosody rate='slow'\u003e $session.params.dni.original \u003c/prosody\u003e? ¿Es esto correcto?"
+    }, {
+      "parameter": "mensajeEspera_en",
+      "value": ""
+    }, {
+      "parameter": "mensajeRepetir_es",
+      "value": "Por favor, ¿Me puede confirmar que el DNI es el. \u003cprosody rate='slow'\u003e $session.params.dni.original \u003c/prosody\u003e? ¿Es esto correcto?"
+    }, {
+      "parameter": "mensajeRepetir_en",
+      "value": ""
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "int_yes",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "respuestaCorta",
+        "value": null
+      } ],
+      "conditionalCases": [ {
+        "cases": [ {
+          "condition": "$session.params.personal = true",
+          "caseContent": [ {
+            "message": {
+              "text": {
+                "text": [ "Excelente, $session.params.nombre." ]
+              },
+              "languageCode": "es"
+            }
+          } ]
+        }, {
+          "caseContent": [ {
+            "message": {
+              "text": {
+                "text": [ "Excelente." ]
+              },
+              "languageCode": "es"
+            }
+          } ]
+        } ]
+      } ]
+    },
+    "targetPage": "Salida",
+    "name": "b5b15808-85c1-4590-a2fa-6807f6c77611"
+  }, {
+    "intent": "int_no",
+    "condition": "$session.params.reintentoDatos \u003e 1",
+    "triggerFulfillment": {
+      "webhook": "S-Query",
+      "tag": "conteoObtencionDatos",
+      "setParameterActions": [ {
+        "parameter": "dni",
+        "value": null
+      }, {
+        "parameter": "respuestaCorta",
+        "value": null
+      } ]
+    },
+    "targetPage": "Salida",
+    "name": "a1553c25-cdf1-45db-a3f0-b9fe05478134"
+  }, {
+    "intent": "int_no",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "\u003cspeak\u003e Siento no haberle entendido, por favor indíqueme el DNI nuevamente. \u003c/speak\u003e" ]
+        },
+        "languageCode": "es"
+      }, {
+        "outputAudioText": {
+          "ssml": "\u003cspeak\u003e Siento no haberle entendido, por favor indíqueme el DNI nuevamente. \u003c/speak\u003e"
+        },
+        "languageCode": "es"
+      } ],
+      "setParameterActions": [ {
+        "parameter": "mensajeError",
+        "value": "Por favor indíqueme el DNI nuevamente."
+      }, {
+        "parameter": "respuestaCorta",
+        "value": null
+      }, {
+        "parameter": "mensajeReintento_es",
+        "value": "Por favor indíqueme el DNI nuevamente."
+      }, {
+        "parameter": "mensajeReintento_en",
+        "value": ""
+      }, {
+        "parameter": "mensajeNoEscucha_es",
+        "value": "Por favor indíqueme el DNI nuevamente."
+      }, {
+        "parameter": "mensajeNoEscucha_en",
+        "value": ""
+      }, {
+        "parameter": "mensajeEspera_es",
+        "value": "Por favor indíqueme el DNI nuevamente."
+      }, {
+        "parameter": "mensajeEspera_en",
+        "value": ""
+      }, {
+        "parameter": "mensajeRepetir_es",
+        "value": "Por favor indíqueme el DNI nuevamente."
+      }, {
+        "parameter": "mensajeRepetir_en",
+        "value": ""
+      } ]
+    },
+    "targetPage": "Obtener DNI",
+    "name": "f0877854-06c4-41fc-a3bc-547cd4a9426d"
+  } ],
+  "speakerIdSettings": {
+  
+  }
+}

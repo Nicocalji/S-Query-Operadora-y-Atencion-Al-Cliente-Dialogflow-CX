@@ -1,0 +1,178 @@
+{
+  "name": "f477b0ed-3d7c-4d83-9d16-3a235cea7107",
+  "displayName": "gestion_cita_especialidad",
+  "transitionRoutes": [ {
+    "intent": "int_esperar",
+    "triggerFulfillment": {
+      "webhook": "S-Query",
+      "tag": "esperar"
+    },
+    "name": "401cff27-0857-4e1b-b50e-4f094bca4358"
+  }, {
+    "intent": "int_no_sabe_no_contesta",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "No hay problema." ]
+        },
+        "languageCode": "es"
+      }, {
+        "outputAudioText": {
+          "text": "No hay problema."
+        },
+        "languageCode": "es"
+      } ],
+      "setParameterActions": [ {
+        "parameter": "especialidad",
+        "value": "undefined"
+      }, {
+        "parameter": "enEspecialidad",
+        "value": false
+      } ]
+    },
+    "targetPage": "End Flow",
+    "name": "0ba0e560-0559-491b-9867-74582b1162ee"
+  }, {
+    "intent": "int_solicitar_hablar_persona",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Disculpe, pero por el momento no puedo pasarle con alguien más. $session.params.mensajeError" ]
+        },
+        "languageCode": "es"
+      }, {
+        "outputAudioText": {
+          "text": "Disculpe, pero por el momento no puedo pasarle con alguien más. $session.params.mensajeError"
+        },
+        "languageCode": "es"
+      } ]
+    },
+    "targetPage": "Obtener Especialidad",
+    "name": "6e3b8eba-3fac-4062-8076-bbe53256e508"
+  }, {
+    "intent": "int_info_robot",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Soy la asistente virtual del hospital del sureste. $session.params.mensajeError" ]
+        },
+        "languageCode": "es"
+      }, {
+        "outputAudioText": {
+          "text": "Soy la asistente virtual del hospital del sureste. $session.params.mensajeError"
+        },
+        "languageCode": "es"
+      } ]
+    },
+    "targetPage": "Obtener Especialidad",
+    "name": "6f8c0aa2-5ba1-4050-b446-eb45b12657d5"
+  }, {
+    "intent": "int_repetir",
+    "triggerFulfillment": {
+      "webhook": "S-Query",
+      "tag": "repetir"
+    },
+    "name": "f63be890-331c-4db8-a691-6bb3a0a6c228"
+  }, {
+    "intent": "int_pregunta",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "\u003cspeak\u003e Lo siento, por el momento no puedo responderle ninguna pregunta. $session.params.mensajeEspera \u003c/speak\u003e" ]
+        },
+        "languageCode": "es"
+      }, {
+        "outputAudioText": {
+          "ssml": "\u003cspeak\u003e Lo siento, por el momento no puedo responderle ninguna pregunta. $session.params.mensajeEspera\u003c/speak\u003e"
+        },
+        "languageCode": "es"
+      } ]
+    },
+    "name": "9004c0fe-162b-4669-be06-c3b766ce5675"
+  }, {
+    "condition": "true",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "nombreParametro",
+        "value": null
+      }, {
+        "parameter": "mensajeReintento_es",
+        "value": "¿Me puede volver a indicar la especialidad por favor?"
+      }, {
+        "parameter": "mensajeReintento_en",
+        "value": ""
+      }, {
+        "parameter": "mensajeNoEscucha_es",
+        "value": "¿Me puede volver a indicar la especialidad por favor?"
+      }, {
+        "parameter": "mensajeNoEscucha_en",
+        "value": ""
+      }, {
+        "parameter": "conteoReintentos",
+        "value": 0
+      }, {
+        "parameter": "conteoNoEsuchado",
+        "value": 0
+      }, {
+        "parameter": "mensajeEspera_es",
+        "value": "¿Me puede volver a indicar la especialidad por favor?"
+      }, {
+        "parameter": "mensajeEspera_en",
+        "value": ""
+      }, {
+        "parameter": "mensajeRepetir_es",
+        "value": "¿Me puede volver a indicar la especialidad por favor?"
+      }, {
+        "parameter": "mensajeRepetir_en",
+        "value": ""
+      } ]
+    },
+    "targetPage": "Obtener Especialidad",
+    "name": "bf20cc8d-d9cd-4f94-be4a-0c99c2ff6696"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "webhook": "S-Query",
+      "tag": "noEntendido"
+    },
+    "name": "c897cdf7-d6ee-469b-84d8-96a000274937"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "webhook": "S-Query",
+      "tag": "noResponde"
+    },
+    "name": "1708ad40-a81b-40e2-8cd2-785e6543e07f"
+  }, {
+    "targetPage": "End Session",
+    "event": "ACEPTADA_COLGADA",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Adiós." ]
+        },
+        "languageCode": "es"
+      }, {
+        "outputAudioText": {
+          "text": "Adiós."
+        },
+        "languageCode": "es"
+      } ],
+      "webhook": "S-Query",
+      "tag": "enviarDatos"
+    },
+    "name": "039b61bc-78e3-4c94-9914-d6c84eaf4203"
+  } ],
+  "nluSettings": {
+    "modelType": "MODEL_TYPE_ADVANCED",
+    "classificationThreshold": 0.30000001,
+    "modelTrainingMode": "MODEL_TRAINING_MODE_AUTOMATIC",
+    "multiIntentSettings": {
+    
+    }
+  },
+  "advancedSettings": {
+    "enabled": true
+  }
+}

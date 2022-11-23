@@ -1,0 +1,189 @@
+{
+  "name": "459ad6f6-9b60-4ee4-be64-a5c1241df497",
+  "displayName": "gestion_cita_cancelar_cita",
+  "transitionRoutes": [ {
+    "intent": "int_esperar",
+    "triggerFulfillment": {
+      "webhook": "S-Query",
+      "tag": "esperar"
+    },
+    "name": "d20968c7-78d4-445e-b486-864d5b4d6a1f"
+  }, {
+    "intent": "int_solicitar_hablar",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Disculpe, pero por el momento no puedo pasarle con alguien más. $session.params.mensajeError" ]
+        },
+        "languageCode": "es"
+      }, {
+        "outputAudioText": {
+          "ssml": "\u003cspeak\u003eDisculpe, pero por el momento no puedo pasarle con alguien más. $session.params.mensajeError\u003c/speak\u003e"
+        },
+        "languageCode": "es"
+      } ]
+    },
+    "name": "ab9bf606-b32b-42ae-aa17-841810df55d3"
+  }, {
+    "intent": "int_info_robot",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "\u003cspeak\u003eSoy la asistente virtual del hospital del sureste. $session.params.mensajeError\u003c/speak\u003e" ]
+        },
+        "languageCode": "es"
+      }, {
+        "outputAudioText": {
+          "ssml": "\u003cspeak\u003eSoy la asistente virtual del hospital del sureste. $session.params.mensajeError\u003c/speak\u003e"
+        },
+        "languageCode": "es"
+      } ]
+    },
+    "name": "58ef1da8-1535-4afc-b00a-00e9c2e296b7"
+  }, {
+    "intent": "int_repetir",
+    "triggerFulfillment": {
+      "webhook": "S-Query",
+      "tag": "repetir"
+    },
+    "name": "999874c3-320a-4a29-96b1-9546170bb8ae"
+  }, {
+    "intent": "int_pregunta",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "\u003cspeak\u003e Lo siento, por el momento no puedo responderle ninguna pregunta. $session.params.mensajeEspera \u003c/speak\u003e" ]
+        },
+        "languageCode": "es"
+      }, {
+        "outputAudioText": {
+          "ssml": "\u003cspeak\u003e Lo siento, por el momento no puedo responderle ninguna pregunta. $session.params.mensajeEspera \u003c/speak\u003e"
+        },
+        "languageCode": "es"
+      } ]
+    },
+    "name": "cae14df0-bd85-4475-83bf-73e6911e460a"
+  }, {
+    "condition": "$session.params.especialidad = null",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "\u003cspeak\u003e Perfecto. ¿Con qué especialidad tiene la cita que desea cancelar? \u003c/speak\u003e" ]
+        },
+        "languageCode": "es"
+      }, {
+        "outputAudioText": {
+          "ssml": "\u003cspeak\u003e Perfecto. ¿Con qué especialidad tiene la cita que desea cancelar? \u003c/speak\u003e"
+        },
+        "languageCode": "es"
+      } ],
+      "setParameterActions": [ {
+        "parameter": "mensajeEspera_es",
+        "value": "¿Con qué especialidad tiene la cita que desea cancelar? "
+      }, {
+        "parameter": "onActionPage",
+        "value": false
+      }, {
+        "parameter": "mensajeReintento_es",
+        "value": "¿Con qué especialidad tiene la cita que desea cancelar? "
+      }, {
+        "parameter": "mensajeEspera_en",
+        "value": ""
+      }, {
+        "parameter": "mensajeReintento_en",
+        "value": ""
+      }, {
+        "parameter": "mensajeRepetir_es",
+        "value": "¿Con qué especialidad tiene la cita que desea cancelar? "
+      }, {
+        "parameter": "mensajeRepetir_en",
+        "value": ""
+      } ]
+    },
+    "targetFlow": "gestion_cita_especialidad",
+    "name": "28ff42c6-738f-471f-b311-b749bf1edbd2"
+  }, {
+    "condition": "$session.params.especialidad != null AND $session.params.fechaCita != null AND $session.params.horaCita != null",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "onActionPage",
+        "value": false
+      } ]
+    },
+    "targetPage": "Obtener Fecha",
+    "name": "21159268-a0e2-4e21-9e08-47e6ad762e77"
+  }, {
+    "condition": "$session.params.especialidad != null AND $session.params.especialidad != undefined",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "\u003cspeak\u003e Vale. \u003c/speak\u003e" ]
+        },
+        "languageCode": "es"
+      }, {
+        "outputAudioText": {
+          "ssml": "\u003cspeak\u003e Vale. \u003c/speak\u003e"
+        },
+        "languageCode": "es"
+      } ],
+      "setParameterActions": [ {
+        "parameter": "onActionPage",
+        "value": false
+      } ]
+    },
+    "targetPage": "Obtener Fecha",
+    "name": "c5842f70-1d8f-4ef9-8aad-4855e72149e0"
+  }, {
+    "condition": "$session.params.especialidad != null",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Obtener Fecha",
+    "name": "385121c4-2cce-4aeb-945f-a64eaec288cb"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "webhook": "S-Query",
+      "tag": "noEntendido"
+    },
+    "name": "ff6a37a1-d218-41d6-9ba8-1e19acb90778"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "webhook": "S-Query",
+      "tag": "noResponde"
+    },
+    "name": "ee015b9f-4b6c-474d-a0b2-288784e38a10"
+  }, {
+    "targetPage": "End Session",
+    "event": "ACEPTADA_COLGADA",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Adiós." ]
+        },
+        "languageCode": "es"
+      }, {
+        "outputAudioText": {
+          "text": "Adiós."
+        },
+        "languageCode": "es"
+      } ],
+      "webhook": "S-Query",
+      "tag": "enviarDatos"
+    },
+    "name": "882e290a-d70a-4a1f-a5bf-19260dc93c5e"
+  } ],
+  "nluSettings": {
+    "modelType": "MODEL_TYPE_ADVANCED",
+    "classificationThreshold": 0.30000001,
+    "modelTrainingMode": "MODEL_TRAINING_MODE_AUTOMATIC",
+    "multiIntentSettings": {
+    
+    }
+  },
+  "advancedSettings": {
+    "enabled": true
+  }
+}

@@ -1,0 +1,974 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "12 345 67",
+      "parameterId": "dni",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "12 millones 345 mil 78",
+      "parameterId": "dni",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "73 millones 832 mil 3 5 5",
+      "parameterId": "dni",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "pues verás ",
+      "auto": true
+    }, {
+      "text": "es"
+    }, {
+      "text": " el ",
+      "auto": true
+    }, {
+      "text": "01 millones 290 mil 90 Y",
+      "parameterId": "dni",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "pues verás es el "
+    }, {
+      "text": "01 millones 2 9 0 mil 90",
+      "parameterId": "dni",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "si claro, es el "
+    }, {
+      "text": "01 millones 290 mil 90",
+      "parameterId": "dni",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "si claro, es el "
+    }, {
+      "text": "01 millones 290 mil 90 O",
+      "parameterId": "dni",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Es "
+    }, {
+      "text": "04415561",
+      "parameterId": "dni",
+      "auto": true
+    }, {
+      "text": " y la letra la Y de Yedah"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "mi dni es el "
+    }, {
+      "text": "85 millones 85128623",
+      "parameterId": "dni"
+    } ],
+    "repeatCount": 3,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "pues verás ",
+      "auto": true
+    }, {
+      "text": "mi dni es"
+    }, {
+      "text": " el ",
+      "auto": true
+    }, {
+      "text": "1079 57 11 y",
+      "parameterId": "dni",
+      "auto": true
+    }, {
+      "text": " creo que ",
+      "auto": true
+    }, {
+      "text": "la"
+    }, {
+      "text": " letra del final ",
+      "auto": true
+    }, {
+      "text": "es"
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "la"
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "V"
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "de"
+    }, {
+      "text": " Vilo",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "mi dni es "
+    }, {
+      "text": "09 millones 9345 90",
+      "parameterId": "dni",
+      "auto": true
+    }, {
+      "text": " y la letra es la J de Jaén"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "mi dni es el "
+    }, {
+      "text": "62 millones 031409",
+      "parameterId": "dni",
+      "auto": true
+    }, {
+      "text": " y la letra es "
+    }, {
+      "text": "la"
+    }, {
+      "text": " "
+    }, {
+      "text": "H"
+    }, {
+      "text": " "
+    }, {
+      "text": "de"
+    }, {
+      "text": " "
+    }, {
+      "text": "Huelva"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Es ",
+      "auto": true
+    }, {
+      "text": "04 41 556 1",
+      "parameterId": "dni",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Mi DNI es"
+    }, {
+      "text": " el ",
+      "auto": true
+    }, {
+      "text": "93849431F",
+      "parameterId": "dni",
+      "auto": true
+    } ],
+    "repeatCount": 3,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "A"
+    }, {
+      "text": " ver es "
+    }, {
+      "text": "8 7 4 2 9 8 4 5 E",
+      "parameterId": "dni",
+      "auto": true
+    } ],
+    "repeatCount": 3,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Es"
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "04415561 Q",
+      "parameterId": "dni",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Sin letra ",
+      "auto": true
+    }, {
+      "text": "79 82 10 02",
+      "parameterId": "dni",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Pues sin letra es ",
+      "auto": true
+    }, {
+      "text": "3 2 2 0 6 1 0 5",
+      "parameterId": "dni",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Si "
+    }, {
+      "text": "mira"
+    }, {
+      "text": " es "
+    }, {
+      "text": "90 24 78 46",
+      "parameterId": "dni",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Si ",
+      "auto": true
+    }, {
+      "text": "te"
+    }, {
+      "text": " digo ",
+      "auto": true
+    }, {
+      "text": "es"
+    }, {
+      "text": " el ",
+      "auto": true
+    }, {
+      "text": "98745074",
+      "parameterId": "dni",
+      "auto": true
+    }, {
+      "text": " letra ",
+      "auto": true
+    }, {
+      "text": "W"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "686879962S",
+      "parameterId": "dni",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "142 73 33 3 Q",
+      "parameterId": "dni",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "es"
+    }, {
+      "text": " que vocalizo mal ",
+      "auto": true
+    }, {
+      "text": "7225 2323",
+      "parameterId": "dni"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "7225 2323",
+      "parameterId": "dni"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Mi número es "
+    }, {
+      "text": "0 4 3 8 732 0 siendo la letra es la T",
+      "parameterId": "dni"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "mi dni es el "
+    }, {
+      "text": "87 654 321 y la letra la U",
+      "parameterId": "dni",
+      "auto": true
+    }, {
+      "text": " de Uganda"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "60 millones 832 mil 35 5 y la letra la T",
+      "parameterId": "dni",
+      "auto": true
+    }, {
+      "text": " de Teruel"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Pues con letra es el "
+    }, {
+      "text": "09 millones 389 mil 321 y la letra es la Y",
+      "parameterId": "dni",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "pues a ver el dni mio es el "
+    }, {
+      "text": "23 832 873 y la letra es le Y",
+      "parameterId": "dni",
+      "auto": true
+    }, {
+      "text": " de Yead"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "sin letra ",
+      "auto": true
+    }, {
+      "text": "es"
+    }, {
+      "text": " el ",
+      "auto": true
+    }, {
+      "text": "98434320",
+      "parameterId": "dni"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "pues ",
+      "auto": true
+    }, {
+      "text": "a"
+    }, {
+      "text": " ver ",
+      "auto": true
+    }, {
+      "text": "el dni"
+    }, {
+      "text": " mio ",
+      "auto": true
+    }, {
+      "text": "es"
+    }, {
+      "text": " el ",
+      "auto": true
+    }, {
+      "text": "23 832 873",
+      "parameterId": "dni"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "60 millones 832 mil 35 5",
+      "parameterId": "dni",
+      "auto": true
+    }, {
+      "text": " "
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "12345678",
+      "parameterId": "dni"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "12345 678",
+      "parameterId": "dni"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "es"
+    }, {
+      "text": " el ",
+      "auto": true
+    }, {
+      "text": "8347 4734",
+      "parameterId": "dni"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "pues ",
+      "auto": true
+    }, {
+      "text": "el dni es"
+    }, {
+      "text": " el ",
+      "auto": true
+    }, {
+      "text": "09 48 28 13",
+      "parameterId": "dni"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "sin letra es "
+    }, {
+      "text": "38 13 8 3 29",
+      "parameterId": "dni"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "pues sin la letra ",
+      "auto": true
+    }, {
+      "text": "es"
+    }, {
+      "text": " el ",
+      "auto": true
+    }, {
+      "text": "87654321",
+      "parameterId": "dni"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "el dni"
+    }, {
+      "text": " sin letra ",
+      "auto": true
+    }, {
+      "text": "es"
+    }, {
+      "text": " el ",
+      "auto": true
+    }, {
+      "text": "90928473",
+      "parameterId": "dni"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "03837273",
+      "parameterId": "dni"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "1234567 8",
+      "parameterId": "dni"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "78 65 43 89",
+      "parameterId": "dni"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "pues verás mi dni es el "
+    }, {
+      "text": "1079 57 11 y creo que la letra del final es la V",
+      "parameterId": "dni",
+      "auto": true
+    }, {
+      "text": " de Valencia"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "98 046892 N",
+      "parameterId": "dni",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Claro, es "
+    }, {
+      "text": "70771313 con letra Z",
+      "parameterId": "dni"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Mi DNI es"
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "12345678Z",
+      "parameterId": "dni",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Claro, mi número de DNI es "
+    }, {
+      "text": "72357556 y mi letra la Q",
+      "parameterId": "dni",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Si te digo, es "
+    }, {
+      "text": "16 92 66 10 letra J",
+      "parameterId": "dni"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Te"
+    }, {
+      "text": " digo ",
+      "auto": true
+    }, {
+      "text": "ahora"
+    }, {
+      "text": ", ",
+      "auto": true
+    }, {
+      "text": "es"
+    }, {
+      "text": " el ",
+      "auto": true
+    }, {
+      "text": "8 35 57 144 F",
+      "parameterId": "dni",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Si mi número es "
+    }, {
+      "text": "9 1 0 8 9 6 9 4 y mi letra B",
+      "parameterId": "dni",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Si vale mi DNI es"
+    }, {
+      "text": " el "
+    }, {
+      "text": "628 37 974 letra L",
+      "parameterId": "dni"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Por supuesto mi número es ",
+      "auto": true
+    }, {
+      "text": "73 07 18 59 y mi letra es la P",
+      "parameterId": "dni",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "si ",
+      "auto": true
+    }, {
+      "text": "es"
+    }, {
+      "text": " el ",
+      "auto": true
+    }, {
+      "text": "1 42 73 33 3Q",
+      "parameterId": "dni",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "si mi DNI es ",
+      "auto": true
+    }, {
+      "text": "142 531 02 W",
+      "parameterId": "dni",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "mi DNI es "
+    }, {
+      "text": "984 068 92 N",
+      "parameterId": "dni",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "es ",
+      "auto": true
+    }, {
+      "text": "984 068 92N",
+      "parameterId": "dni",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "mi dni es ",
+      "auto": true
+    }, {
+      "text": "9840 6892n",
+      "parameterId": "dni",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "mi dni es ",
+      "auto": true
+    }, {
+      "text": "9840 6892 n",
+      "parameterId": "dni",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "9840 6892n",
+      "parameterId": "dni"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "9840 6892 n",
+      "parameterId": "dni"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "mi dni es "
+    }, {
+      "text": "98 406892 con la letra N",
+      "parameterId": "dni",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "98 406892 con la letra n",
+      "parameterId": "dni",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "claro es ",
+      "auto": true
+    }, {
+      "text": "98 46892 N",
+      "parameterId": "dni",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "mi dni es "
+    }, {
+      "text": "98 406892 N",
+      "parameterId": "dni",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "98 406892 N",
+      "parameterId": "dni",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "4 1 6 3 7 0 7 1 X",
+      "parameterId": "dni"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "964 06892 n",
+      "parameterId": "dni"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "98 millones 406 mil 892 N",
+      "parameterId": "dni",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "98 millones 406892 N",
+      "parameterId": "dni",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "mira mi dni es "
+    }, {
+      "text": "98 millones 406 892 siendo la letra la n",
+      "parameterId": "dni"
+    }, {
+      "text": " de navarra"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "pues verás mi dni es el "
+    }, {
+      "text": "98 millones 406 892 siendo la letra la n",
+      "parameterId": "dni"
+    }, {
+      "text": " de navarra"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "mi dni es "
+    }, {
+      "text": "98 millones 406892 N",
+      "parameterId": "dni"
+    }, {
+      "text": " de noja"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "mi dni es "
+    }, {
+      "text": "98 millones 406892 N",
+      "parameterId": "dni",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "claro es "
+    }, {
+      "text": "984 068 92 V",
+      "parameterId": "dni",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "d"
+    }, {
+      "text": " valencia"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "tengo ",
+      "auto": true
+    }, {
+      "text": "el dni"
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "964 06892 n",
+      "parameterId": "dni",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "d"
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "Noja"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "984 068 92 V",
+      "parameterId": "dni",
+      "auto": true
+    }, {
+      "text": " d valencia"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "964 06892 n",
+      "parameterId": "dni"
+    }, {
+      "text": " d Noja"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "mi dni es"
+    }, {
+      "text": " "
+    }, {
+      "text": "98406892N",
+      "parameterId": "dni",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "de"
+    }, {
+      "text": " noja"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "98406892V",
+      "parameterId": "dni",
+      "auto": true
+    }, {
+      "text": " de valencia"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "98406892N",
+      "parameterId": "dni",
+      "auto": true
+    }, {
+      "text": " de noja"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "tengo el dni "
+    }, {
+      "text": "98406892N",
+      "parameterId": "dni",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "98406892N",
+      "parameterId": "dni"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "mi dni es "
+    }, {
+      "text": "98406892N",
+      "parameterId": "dni",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  } ]
+}

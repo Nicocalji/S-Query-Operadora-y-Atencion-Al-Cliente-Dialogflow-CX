@@ -1,0 +1,95 @@
+{
+  "entities": [ {
+    "value": "A",
+    "synonyms": [ "a", "A", "ah" ],
+    "languageCode": "es"
+  }, {
+    "value": "B",
+    "synonyms": [ "b", "B", "be" ],
+    "languageCode": "es"
+  }, {
+    "value": "C",
+    "synonyms": [ "c", "C", "ce" ],
+    "languageCode": "es"
+  }, {
+    "value": "D",
+    "synonyms": [ "d", "D", "de" ],
+    "languageCode": "es"
+  }, {
+    "value": "E",
+    "synonyms": [ "e", "E", "eh" ],
+    "languageCode": "es"
+  }, {
+    "value": "F",
+    "synonyms": [ "efe", "f", "F" ],
+    "languageCode": "es"
+  }, {
+    "value": "G",
+    "synonyms": [ "g", "G", "ge", "je" ],
+    "languageCode": "es"
+  }, {
+    "value": "H",
+    "synonyms": [ "h", "H", "hache" ],
+    "languageCode": "es"
+  }, {
+    "value": "J",
+    "synonyms": [ "j", "J", "jota" ],
+    "languageCode": "es"
+  }, {
+    "value": "K",
+    "synonyms": [ "ca", "k", "K", "ka" ],
+    "languageCode": "es"
+  }, {
+    "value": "L",
+    "synonyms": [ "ele", "l", "L" ],
+    "languageCode": "es"
+  }, {
+    "value": "M",
+    "synonyms": [ "eme", "m", "M" ],
+    "languageCode": "es"
+  }, {
+    "value": "N",
+    "synonyms": [ "ene", "n", "N" ],
+    "languageCode": "es"
+  }, {
+    "value": "P",
+    "synonyms": [ "p", "P", "pe" ],
+    "languageCode": "es"
+  }, {
+    "value": "Q",
+    "synonyms": [ "cu", "ku", "q", "Q", "qu", "cv" ],
+    "languageCode": "es"
+  }, {
+    "value": "R",
+    "synonyms": [ "erre", "r", "R" ],
+    "languageCode": "es"
+  }, {
+    "value": "S",
+    "synonyms": [ "ese", "s", "S" ],
+    "languageCode": "es"
+  }, {
+    "value": "T",
+    "synonyms": [ "t", "T", "te" ],
+    "languageCode": "es"
+  }, {
+    "value": "V",
+    "synonyms": [ "uve", "v", "V" ],
+    "languageCode": "es"
+  }, {
+    "value": "W",
+    "synonyms": [ "uve doble", "w", "W" ],
+    "languageCode": "es"
+  }, {
+    "value": "X",
+    "synonyms": [ "ekis", "equis", "x", "X" ],
+    "languageCode": "es"
+  }, {
+    "value": "Y",
+    "synonyms": [ "i griega", "y", "Y", "y griega" ],
+    "languageCode": "es"
+  }, {
+    "value": "Z",
+    "synonyms": [ "ceta", "z", "Z", "zeta" ],
+    "languageCode": "es"
+  } ]
+}

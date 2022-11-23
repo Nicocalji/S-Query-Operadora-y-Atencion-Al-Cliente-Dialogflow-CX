@@ -1,0 +1,111 @@
+{
+  "name": "59b4f631-00d2-4e68-98d9-2f1822e3bc0c",
+  "displayName": "general_salida",
+  "transitionRoutes": [ {
+    "condition": "$session.params.conteoReintentos = 3",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "\u003cspeak\u003e Lo siento mucho, pero no le estoy entendiendo. No se preocupe, he tomado nota de su llamada y uno de mis compañeros le llamará a la mayor brevedad posible a este número desde el que me está llamando. Disculpe las molestias y muchas gracias por su amabilidad.\u003c/speak\u003e" ]
+        },
+        "languageCode": "es"
+      }, {
+        "outputAudioText": {
+          "ssml": "\u003cspeak\u003e Lo siento mucho, pero no le estoy entendiendo. No se preocupe, he tomado nota de su llamada y uno de mis compañeros le llamará a la mayor brevedad posible a este número desde el que me está llamando. Disculpe las molestias y muchas gracias por su amabilidad.\u003c/speak\u003e"
+        },
+        "languageCode": "es"
+      } ],
+      "webhook": "S-Query",
+      "tag": "enviarDatos"
+    },
+    "targetPage": "End Session",
+    "name": "3749434a-d10e-43c9-80a5-5aa86feb22c8"
+  }, {
+    "condition": "$session.params.error != null",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "\u003cspeak\u003e $session.params.error \u003c/speak\u003e" ]
+        },
+        "languageCode": "es"
+      }, {
+        "outputAudioText": {
+          "ssml": "\u003cspeak\u003e $session.params.error \u003c/speak\u003e"
+        },
+        "languageCode": "es"
+      } ]
+    },
+    "targetPage": "End Session",
+    "name": "cef8e1b3-14b1-499f-bb46-1d209c6d6dd2"
+  }, {
+    "condition": "$session.params.error = null AND $session.params.conteoReintentos \u003c 3",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "\u003cspeak\u003e Lo siento mucho, pero no le estoy entendiendo. No se preocupe, he tomado nota de su llamada y uno de mis compañeros le llamará a la mayor brevedad posible a este número desde el que me está llamando. Disculpe las molestias y muchas gracias por su amabilidad.\u003c/speak\u003e" ]
+        },
+        "languageCode": "es"
+      }, {
+        "outputAudioText": {
+          "ssml": "\u003cspeak\u003e Lo siento mucho, pero no le estoy entendiendo. No se preocupe, he tomado nota de su llamada y uno de mis compañeros le llamará a la mayor brevedad posible a este número desde el que me está llamando. Disculpe las molestias y muchas gracias por su amabilidad.\u003c/speak\u003e"
+        },
+        "languageCode": "es"
+      } ],
+      "webhook": "S-Query",
+      "tag": "enviarDatos"
+    },
+    "targetPage": "End Session",
+    "name": "6f26940e-b4a9-46ad-bc70-18998235b09a"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Ups, no he entendido a que te refieres.", "¿Podrías repetirlo, por favor?", "¿Disculpa?", "¿Decías?", "¿Cómo?" ]
+        },
+        "languageCode": "es"
+      } ]
+    },
+    "name": "b7e7610a-c3fc-408c-8604-9d91b5ebb264"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Ups, no he entendido a que te refieres.", "¿Podrías repetirlo, por favor?", "¿Disculpa?", "¿Decías?", "¿Cómo?" ]
+        },
+        "languageCode": "es"
+      } ]
+    },
+    "name": "2fd3ebd7-4155-4edd-9ec2-69061182dc39"
+  }, {
+    "targetPage": "End Session",
+    "event": "ACEPTADA_COLGADA",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Adiós." ]
+        },
+        "languageCode": "es"
+      }, {
+        "outputAudioText": {
+          "text": "Adiós."
+        },
+        "languageCode": "es"
+      } ]
+    },
+    "name": "4dfa76cd-2d7b-488b-8ef0-7aca059e612b"
+  } ],
+  "nluSettings": {
+    "modelType": "MODEL_TYPE_ADVANCED",
+    "classificationThreshold": 0.30000001,
+    "modelTrainingMode": "MODEL_TRAINING_MODE_AUTOMATIC",
+    "multiIntentSettings": {
+    
+    }
+  },
+  "advancedSettings": {
+    "enabled": true
+  }
+}

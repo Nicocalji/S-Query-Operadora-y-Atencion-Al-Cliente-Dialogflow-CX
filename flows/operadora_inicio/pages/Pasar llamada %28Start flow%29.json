@@ -1,0 +1,72 @@
+{
+  "name": "c22cc784-db0a-4f36-92f6-06c8fdae3790",
+  "displayName": "Pasar llamada (Start flow)",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "setParameterActions": [ {
+      "parameter": "conteoReintentos",
+      "value": 0
+    }, {
+      "parameter": "conteoNoEsuchado",
+      "value": 0
+    } ],
+    "returnPartialResponses": true
+  },
+  "transitionRoutes": [ {
+    "condition": "$session.params.realizarLlamada = false",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "operadora_llamada_denegada",
+    "name": "b087db9a-26fc-4687-a505-a7c584d3637a"
+  } ],
+  "eventHandlers": [ {
+    "targetFlow": "operadora_salientes",
+    "event": "LLAMADA_COGIDA",
+    "triggerFulfillment": {
+    
+    },
+    "name": "cbba7c8f-3651-449c-b1a3-afff3229884e"
+  }, {
+    "event": "LLAMANDO",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "realizarLlamada",
+        "value": null
+      } ]
+    },
+    "name": "65fdab95-a47c-4fc9-acac-f8974a544216"
+  }, {
+    "targetFlow": "operadora_llamada_denegada",
+    "event": "LLAMADA_DENEGADA",
+    "triggerFulfillment": {
+    
+    },
+    "name": "219cae6f-6853-44a0-9f2d-f357e3755e17"
+  }, {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+    
+    },
+    "name": "da941a2d-0236-4c9d-b89d-6a48dd81f4f0"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+    
+    },
+    "name": "c8e559a1-8b7e-4a8a-93cd-e3e4cf6c6711"
+  } ],
+  "advancedSettings": {
+    "speechSettings": {
+      "endpointerSensitivity": 90,
+      "noSpeechTimeout": {
+        "seconds": 200
+      }
+    }
+  },
+  "speakerIdSettings": {
+  
+  }
+}

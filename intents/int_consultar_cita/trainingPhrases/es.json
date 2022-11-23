@@ -1,0 +1,384 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "quería que me recordarán visita de mi "
+    }, {
+      "text": "madre",
+      "parameterId": "especialidad"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "quiero acordarme una cita que tenía mi "
+    }, {
+      "text": "tía",
+      "parameterId": "especialidad"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Por saber si me han dado cita",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "No sé si me han dado la cita de mi "
+    }, {
+      "text": "hijo",
+      "parameterId": "especialidad"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "me dejaron ",
+      "auto": true
+    }, {
+      "text": "una",
+      "auto": true
+    }, {
+      "text": " cita y ",
+      "auto": true
+    }, {
+      "text": "para",
+      "auto": true
+    }, {
+      "text": " verificar cuando ",
+      "auto": true
+    }, {
+      "text": "es",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "verificar mi cita",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "tenia dudas de las fechas de las citas de mi "
+    }, {
+      "text": "marido",
+      "parameterId": "especialidad"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "por confirmar mi cita",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "perdí el recordatorio de cita de mi "
+    }, {
+      "text": "suegra",
+      "parameterId": "especialidad"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "no puedo recordar ",
+      "auto": true
+    }, {
+      "text": "la",
+      "auto": true
+    }, {
+      "text": " fecha de ",
+      "auto": true
+    }, {
+      "text": "la",
+      "auto": true
+    }, {
+      "text": " cita",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "me he olvidado cuándo tengo mi cita",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "consultar mi cita",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "información sobre mi cita",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "no recuerdo a que hora tengo que llegar a la consulta con mi "
+    }, {
+      "text": "sobrina"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "me puedes decir cuándo tengo mi cita",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "a qué hora tengo la cita con mi "
+    }, {
+      "text": "tío"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "cuándo "
+    }, {
+      "text": "es"
+    }, {
+      "text": " mi cita"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "buscaba información ",
+      "auto": true
+    }, {
+      "text": "de"
+    }, {
+      "text": " mi cita",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "quería informarme ",
+      "auto": true
+    }, {
+      "text": "de"
+    }, {
+      "text": " mi cita",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "si me puedes decir qué día tengo la cita de mi "
+    }, {
+      "text": "madre",
+      "parameterId": "especialidad"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "por consultar una cita que tenía mi "
+    }, {
+      "text": "hija"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "para confirmar mi cita",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "llamaba porque tengo ",
+      "auto": true
+    }, {
+      "text": "una"
+    }, {
+      "text": " cita ",
+      "auto": true
+    }, {
+      "text": "y"
+    }, {
+      "text": " no sé ",
+      "auto": true
+    }, {
+      "text": "en"
+    }, {
+      "text": " qué horario ",
+      "auto": true
+    }, {
+      "text": "es"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "para que me dijeran cuando tengo la consulta",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "tenía duda ",
+      "auto": true
+    }, {
+      "text": "de"
+    }, {
+      "text": " la fecha ",
+      "auto": true
+    }, {
+      "text": "de"
+    }, {
+      "text": " mi cita",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "perdí dónde tenía apuntada la cita de mi "
+    }, {
+      "text": "pareja"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "no me recuerdo cuando tengo "
+    }, {
+      "text": "la"
+    }, {
+      "text": " cita"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "he olvidado que fecha era mi cita con el ",
+      "auto": true
+    }, {
+      "text": "de"
+    }, {
+      "text": " la ",
+      "auto": true
+    }, {
+      "text": "vista",
+      "parameterId": "especialidad",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "quería confirmar mi cita con ",
+      "auto": true
+    }, {
+      "text": "el doctor"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "era para confirmar mi cita con el ",
+      "auto": true
+    }, {
+      "text": "otorrino",
+      "parameterId": "especialidad",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "quería verificar mi cita con el "
+    }, {
+      "text": "cardiólogo",
+      "parameterId": "especialidad",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "por consultar mi cita",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "me puedes decir para cuando era mi cita",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "no me acuerdo "
+    }, {
+      "text": "a"
+    }, {
+      "text": " que hora debo llegar"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "no recuerdo cuando tenía ",
+      "auto": true
+    }, {
+      "text": "la"
+    }, {
+      "text": " cita",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "olvidé ",
+      "auto": true
+    }, {
+      "text": "a"
+    }, {
+      "text": " qué ",
+      "auto": true
+    }, {
+      "text": "hora"
+    }, {
+      "text": " era mi cita",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "me puedes decir cuando tengo mi cita",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  } ]
+}

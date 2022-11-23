@@ -1,0 +1,28 @@
+{
+  "name": "bb93380f-6a33-4b59-9edd-c735bc9e1643",
+  "displayName": "Designar Agente",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "webhook": "S-Query",
+    "tag": "iniciarAgente"
+  },
+  "transitionRoutes": [ {
+    "condition": "$session.params.tipoAgente = \"operadora\"",
+    "triggerFulfillment": {
+      "webhook": "S-Query",
+      "tag": "cargarEmpleados",
+      "returnPartialResponses": true
+    },
+    "targetFlow": "operadora_inicio",
+    "name": "1989567c-3302-44c3-bd86-eb5c2171fd41"
+  }, {
+    "condition": "$session.params.tipoAgente = \"gestion_cita\"",
+    "triggerFulfillment": {
+      "returnPartialResponses": true
+    },
+    "targetFlow": "gestion_cita_inicio",
+    "name": "4a3b4625-5009-4f24-a147-0ad270cb3b3f"
+  } ]
+}

@@ -1,0 +1,38 @@
+{
+  "name": "f4d2abcc-86c6-4716-98ba-36a53666b371",
+  "displayName": "S-Query (Operadora y Atención al Cliente)",
+  "defaultLanguageCode": "es",
+  "timeZone": "Europe/Madrid",
+  "enableLogging": true,
+  "projectNumber": 752070575908,
+  "speechToTextSettings": {
+    "enableSpeechAdaptation": true
+  },
+  "startFlow": "Default Start Flow",
+  "enableStackdriverLogging": true,
+  "advancedSettings": {
+    "enabled": true,
+    "audioExportGcsDestination": {
+    
+    },
+    "speechSettings": {
+      "endpointerSensitivity": 90,
+      "noSpeechTimeout": {
+        "seconds": 5
+      }
+    },
+    "playbackInterruptionSettings": {
+    
+    },
+    "loggingSettings": {
+      "enableStackdriverLogging": true,
+      "enableInteractionLogging": true
+    }
+  },
+  "speakerIdSettings": {
+  
+  },
+  "bigqueryExportSettings": {
+  
+  }
+}

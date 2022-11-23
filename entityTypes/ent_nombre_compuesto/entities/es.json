@@ -1,0 +1,15 @@
+{
+  "entities": [ {
+    "value": "@sys.given-name:sys.given-name @sys.given-name:sys.given-name",
+    "synonyms": [ "@sys.given-name:sys.given-name @sys.given-name:sys.given-name" ],
+    "languageCode": "es"
+  }, {
+    "value": "@sys.given-name:sys.given-name",
+    "synonyms": [ "@sys.given-name:sys.given-name" ],
+    "languageCode": "es"
+  }, {
+    "value": "@sys.given-name:sys.given-name del @sys.given-name:sys.given-name",
+    "synonyms": [ "@sys.given-name:sys.given-name del @sys.given-name:sys.given-name" ],
+    "languageCode": "es"
+  } ]
+}

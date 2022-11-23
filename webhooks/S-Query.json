@@ -1,0 +1,10 @@
+{
+  "name": "a333b972-6d9c-4a63-93f1-a1c704b37f40",
+  "displayName": "S-Query",
+  "genericWebService": {
+    "uri": "https://europe-west3-s-query-op-ac.cloudfunctions.net/S_Query_OP_AC_Desarrollo"
+  },
+  "timeout": {
+    "seconds": 15
+  }
+}

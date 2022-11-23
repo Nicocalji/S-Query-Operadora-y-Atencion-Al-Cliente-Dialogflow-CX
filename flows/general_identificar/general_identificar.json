@@ -1,0 +1,461 @@
+{
+  "name": "2da5074d-0616-4c0f-bd07-1af306216d60",
+  "displayName": "general_identificar",
+  "transitionRoutes": [ {
+    "intent": "int_esperar",
+    "triggerFulfillment": {
+      "webhook": "S-Query",
+      "tag": "esperar"
+    },
+    "name": "d5c8ab88-e122-4dcf-9636-feaecf0ec395"
+  }, {
+    "intent": "int_solicitar_hablar_persona",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Disculpe, pero por el momento no puedo pasarle con alguien más. $session.params.mensajeError" ]
+        },
+        "languageCode": "es"
+      }, {
+        "outputAudioText": {
+          "ssml": "\u003cspeak\u003e Disculpe, pero por el momento no puedo pasarle con alguien más. $session.params.mensajeError \u003c/speak\u003e"
+        },
+        "languageCode": "es"
+      } ]
+    },
+    "name": "04d14d69-5cc2-42bb-89e7-32aaa32a840b"
+  }, {
+    "intent": "int_info_robot",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Soy la asistente virtual del hospital del sureste. $session.params.mensajeEspera" ]
+        },
+        "languageCode": "es"
+      }, {
+        "outputAudioText": {
+          "ssml": "\u003cspeak\u003e Soy la asistente virtual del hospital del sureste.  $session.params.mensajeEspera\u003c/speak\u003e"
+        },
+        "languageCode": "es"
+      } ]
+    },
+    "name": "6846db75-7e66-41c3-a297-4b50cfadc227"
+  }, {
+    "intent": "int_repetir",
+    "triggerFulfillment": {
+      "webhook": "S-Query",
+      "tag": "repetir"
+    },
+    "name": "b9c9b67a-3d9f-4820-af36-83136aad6d43"
+  }, {
+    "intent": "int_pregunta",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "\u003cspeak\u003e Lo siento, por el momento no puedo responderle ninguna pregunta. $session.params.mensajeEspera \u003c/speak\u003e" ]
+        },
+        "languageCode": "es"
+      }, {
+        "outputAudioText": {
+          "ssml": "\u003cspeak\u003e Lo siento, por el momento no puedo responderle ninguna pregunta. $session.params.mensajeEspera \u003c/speak\u003e"
+        },
+        "languageCode": "es"
+      } ]
+    },
+    "name": "6cfc73f4-733b-4210-826d-ca79a684af87"
+  }, {
+    "condition": "$session.params.tipoAgente = operadora",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Obtener Nombre Completo",
+    "name": "cc5bf4ee-2927-41aa-aeb3-44b057f71203"
+  }, {
+    "condition": "$session.params.accion = actualizarCita AND $session.params.horaCita != null AND $session.params.fechaCita != null AND $session.params.tipoAgente = gestion_cita",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "\u003cspeak\u003e Para gestionar su cambio de cita del \u003csay-as interpret-as=\"date\" format=\"yyyymmdd\" detail=\"1\"\u003e $session.params.fechaCita \u003c/say-as\u003e  a las \u003csay-as interpret-as=\"time\" format=\"hm12\"\u003e $session.params.horaCita \u003c/say-as\u003e necesito saber algún dato. \u003cbreak time=\"0.5s\"/\u003e Por favor. ¿Me puede confirmar que su número de teléfono es el. \u003csay-as interpret-as='telephone'\u003e  $session.params.telefono \u003c/say-as\u003e? \u003c/speak\u003e" ]
+        },
+        "languageCode": "es"
+      }, {
+        "outputAudioText": {
+          "ssml": "\u003cspeak\u003ePara gestionar su cambio de cita del \u003csay-as interpret-as=\"date\" format=\"yyyymmdd\" detail=\"1\"\u003e $session.params.fechaCita \u003c/say-as\u003e  a las \u003csay-as interpret-as=\"time\" format=\"hm12\"\u003e $session.params.horaCita \u003c/say-as\u003e necesito saber algún dato. \u003cbreak time=\"0.5s\"/\u003e Por favor. ¿Me puede confirmar que su número de teléfono es el. \u003csay-as interpret-as='telephone'\u003e $session.params.telefono \u003c/say-as\u003e? \u003c/speak\u003e"
+        },
+        "languageCode": "es"
+      } ],
+      "setParameterActions": [ {
+        "parameter": "mensajeEspera_es",
+        "value": "Por favor. ¿me puede confirmar que su número telefónico es \u003csay-as interpret-as'telephone'\u003e$session.params.telefono \u003c/say-as\u003e?"
+      }, {
+        "parameter": "reintento",
+        "value": 0
+      }, {
+        "parameter": "onActionPage",
+        "value": false
+      }, {
+        "parameter": "mensajeEspera_en",
+        "value": ""
+      }, {
+        "parameter": "mensajeRepetir_es",
+        "value": "Por favor. ¿me puede confirmar que su número telefónico es \u003csay-as interpret-as'telephone'\u003e$session.params.telefono \u003c/say-as\u003e?"
+      }, {
+        "parameter": "mensajeRepetir_en",
+        "value": ""
+      }, {
+        "parameter": "mensajeReintento_es",
+        "value": "Por favor. ¿me puede confirmar que su número telefónico es \u003csay-as interpret-as'telephone'\u003e$session.params.telefono \u003c/say-as\u003e?"
+      }, {
+        "parameter": "mensajeReintento_en",
+        "value": ""
+      }, {
+        "parameter": "mensajeNoEscucha_es",
+        "value": "Por favor. ¿me puede confirmar que su número telefónico es \u003csay-as interpret-as'telephone'\u003e$session.params.telefono \u003c/say-as\u003e?"
+      }, {
+        "parameter": "mensajeNoEscucha_en",
+        "value": ""
+      } ]
+    },
+    "targetPage": "Confirmar Telefono",
+    "name": "7149ced1-644a-4a03-b172-3ce62d94b256"
+  }, {
+    "condition": "$session.params.accion = confirmarCita AND $session.params.especialidad != null AND $session.params.especialidad != undefined AND $session.params.tipoAgente = gestion_cita",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "\u003cspeak\u003e Para gestionar su consulta de cita con $session.params.especialidad necesito saber algún dato. \u003cbreak time=\"0.5s\"/\u003e Por favor. ¿Me puede confirmar que su número de teléfono es el. \u003csay-as interpret-as=\"telephone\"\u003e$session.params.telefono \u003c/say-as\u003e? \u003c/speak\u003e" ]
+        },
+        "languageCode": "es"
+      }, {
+        "outputAudioText": {
+          "ssml": "\u003cspeak\u003e Para gestionar su consulta de cita con $session.params.especialidad necesito saber algún dato. \u003cbreak time=\"0.5s\"/\u003e Por favor. ¿Me puede confirmar que su número de teléfono es el. \u003csay-as interpret-as=\"telephone\"\u003e$session.params.telefono \u003c/say-as\u003e? \u003c/speak\u003e"
+        },
+        "languageCode": "es"
+      } ],
+      "setParameterActions": [ {
+        "parameter": "mensajeReintento_es",
+        "value": "\u003cspeak\u003e Para gestionar su consulta de cita con $session.params.especialidad necesito saber algún dato. \u003cbreak time=\"0.5s\"/\u003e Por favor. ¿Me puede confirmar que su número de teléfono es el. \u003csay-as interpret-as=\"telephone\"\u003e$session.params.telefono \u003c/say-as\u003e? \u003c/speak\u003e"
+      }, {
+        "parameter": "onActionPage",
+        "value": false
+      }, {
+        "parameter": "conteoReintentos",
+        "value": 0
+      }, {
+        "parameter": "mensajeEspera_es",
+        "value": "\u003cspeak\u003e Para gestionar su consulta de cita con $session.params.especialidad necesito saber algún dato. \u003cbreak time=\"0.5s\"/\u003e Por favor. ¿Me puede confirmar que su número de teléfono es el. \u003csay-as interpret-as=\"telephone\"\u003e$session.params.telefono \u003c/say-as\u003e? \u003c/speak\u003e"
+      }, {
+        "parameter": "mensajeReintento_en",
+        "value": ""
+      }, {
+        "parameter": "mensajeNoEscucha_en",
+        "value": ""
+      }, {
+        "parameter": "mensajeNoEscucha_es",
+        "value": "\u003cspeak\u003e Para gestionar su consulta de cita con $session.params.especialidad necesito saber algún dato. \u003cbreak time=\"0.5s\"/\u003e Por favor. ¿Me puede confirmar que su número de teléfono es el. \u003csay-as interpret-as=\"telephone\"\u003e$session.params.telefono \u003c/say-as\u003e? \u003c/speak\u003e"
+      }, {
+        "parameter": "mensajeEspera_es",
+        "value": "\u003cspeak\u003e Para gestionar su consulta de cita con $session.params.especialidad necesito saber algún dato. \u003cbreak time=\"0.5s\"/\u003e Por favor. ¿Me puede confirmar que su número de teléfono es el. \u003csay-as interpret-as=\"telephone\"\u003e$session.params.telefono \u003c/say-as\u003e? \u003c/speak\u003e"
+      }, {
+        "parameter": "mensajeRepetir_es",
+        "value": "\u003cspeak\u003e Para gestionar su consulta de cita con $session.params.especialidad necesito saber algún dato. \u003cbreak time=\"0.5s\"/\u003e Por favor. ¿Me puede confirmar que su número de teléfono es el. \u003csay-as interpret-as=\"telephone\"\u003e$session.params.telefono \u003c/say-as\u003e? \u003c/speak\u003e"
+      }, {
+        "parameter": "mensajeRepetir_en",
+        "value": ""
+      } ]
+    },
+    "targetPage": "Confirmar Telefono",
+    "name": "823f8555-d4ae-404c-9f04-075fbbe378b9"
+  }, {
+    "condition": "$session.params.accion = otros OR $session.params.accion = medicamento OR $session.params.accion = hablar",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "\u003cspeak\u003e Para poder ayudarle con esto necesito saber algún dato. \u003cbreak time=\"0.5s\"/\u003e Por favor. ¿Me puede confirmar que su número de teléfono es el. \u003csay-as interpret-as=\"telephone\"\u003e$session.params.telefono \u003c/say-as\u003e? \u003c/speak\u003e" ]
+        },
+        "languageCode": "es"
+      }, {
+        "outputAudioText": {
+          "ssml": "\u003cspeak\u003e Para poder ayudarle con esto necesito saber algún dato. \u003cbreak time=\"0.5s\"/\u003e Por favor. ¿Me puede confirmar que su número de teléfono es el. \u003csay-as interpret-as=\"telephone\"\u003e$session.params.telefono \u003c/say-as\u003e? \u003c/speak\u003e"
+        },
+        "languageCode": "es"
+      } ],
+      "setParameterActions": [ {
+        "parameter": "conteoReintentos",
+        "value": 0
+      }, {
+        "parameter": "onActionPage",
+        "value": false
+      }, {
+        "parameter": "mensajeEspera_es",
+        "value": "Por favor. ¿me puede confirmar que su número telefónico es \u003csay-as interpret-as'telephone'\u003e$session.params.telefono \u003c/say-as\u003e?"
+      }, {
+        "parameter": "mensajeError",
+        "value": "Por favor. ¿me puede confirmar que su número telefónico es \u003csay-as interpret-as'telephone'\u003e$session.params.telefono \u003c/say-as\u003e?"
+      }, {
+        "parameter": "mensajeRepetir_es",
+        "value": "Por favor. ¿me puede confirmar que su número telefónico es \u003csay-as interpret-as'telephone'\u003e$session.params.telefono \u003c/say-as\u003e?"
+      }, {
+        "parameter": "mensajeEspera_en",
+        "value": ""
+      }, {
+        "parameter": "mensajeRepetir_en",
+        "value": ""
+      }, {
+        "parameter": "mensajeReintento_es",
+        "value": "Por favor. ¿me puede confirmar que su número telefónico es \u003csay-as interpret-as'telephone'\u003e$session.params.telefono \u003c/say-as\u003e?"
+      }, {
+        "parameter": "mensajeReintento_en",
+        "value": ""
+      }, {
+        "parameter": "mensajeNoEscucha_es",
+        "value": "Por favor. ¿me puede confirmar que su número telefónico es \u003csay-as interpret-as'telephone'\u003e$session.params.telefono \u003c/say-as\u003e?"
+      }, {
+        "parameter": "mensajeNoEscucha_en",
+        "value": ""
+      } ]
+    },
+    "targetPage": "Confirmar Telefono",
+    "name": "9a817d7d-d7d8-49d3-92e0-c826428ed767"
+  }, {
+    "condition": "$session.params.accion = eliminarCita AND $session.params.tipoAgente = gestion_cita",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "\u003cspeak\u003e Para gestionar su cancelación de cita necesito saber algún dato. \u003cbreak time=\"0.5s\"/\u003e Por favor. ¿Me puede confirmar que su número de teléfono es el. \u003csay-as interpret-as=\"telephone\"\u003e$session.params.telefono \u003c/say-as\u003e? \u003c/speak\u003e" ]
+        },
+        "languageCode": "es"
+      }, {
+        "outputAudioText": {
+          "ssml": "\u003cspeak\u003e Para gestionar su cancelación de cita necesito saber algún dato. \u003cbreak time=\"0.5s\"/\u003e Por favor. ¿Me puede confirmar que su número de teléfono es el. \u003csay-as interpret-as=\"telephone\"\u003e$session.params.telefono \u003c/say-as\u003e? \u003c/speak\u003e"
+        },
+        "languageCode": "es"
+      } ],
+      "setParameterActions": [ {
+        "parameter": "onActionPage",
+        "value": false
+      }, {
+        "parameter": "mensajeEspera_es",
+        "value": "Por favor. ¿me puede confirmar que su número telefónico es \u003csay-as interpret-as='telephone'\u003e$session.params.telefono \u003c/say-as\u003e?"
+      }, {
+        "parameter": "reintento",
+        "value": 0
+      }, {
+        "parameter": "mensajeReintento_es",
+        "value": "Por favor. ¿me puede confirmar que su número telefónico es \u003csay-as interpret-as='telephone'\u003e$session.params.telefono \u003c/say-as\u003e?"
+      }, {
+        "parameter": "mensajeReintento_en",
+        "value": ""
+      }, {
+        "parameter": "mensajeNoEscucha_es",
+        "value": "Por favor. ¿me puede confirmar que su número telefónico es \u003csay-as interpret-as='telephone'\u003e$session.params.telefono \u003c/say-as\u003e?"
+      }, {
+        "parameter": "mensajeNoEscucha_en",
+        "value": ""
+      }, {
+        "parameter": "mensajeEspera_en",
+        "value": ""
+      }, {
+        "parameter": "mensajeRepetir_es",
+        "value": "Por favor. ¿me puede confirmar que su número telefónico es \u003csay-as interpret-as='telephone'\u003e$session.params.telefono \u003c/say-as\u003e?"
+      }, {
+        "parameter": "mensajeRepetir_en",
+        "value": ""
+      } ]
+    },
+    "targetPage": "Confirmar Telefono",
+    "name": "c9b20ca7-489e-4864-bac1-62d09ec4caa1"
+  }, {
+    "condition": "$session.params.accion = confirmarCita AND $session.params.tipoAgente = gestion_cita",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "\u003cspeak\u003e Para gestionar su consulta de cita necesito saber algún dato. \u003cbreak time=\"0.5s\"/\u003e Por favor. ¿Me puede confirmar que su número de teléfono es el. \u003csay-as interpret-as=\"telephone\"\u003e$session.params.telefono \u003c/say-as\u003e? \u003c/speak\u003e" ]
+        },
+        "languageCode": "es"
+      }, {
+        "outputAudioText": {
+          "ssml": "\u003cspeak\u003e Para gestionar su consulta de cita necesito saber algún dato. \u003cbreak time=\"0.5s\"/\u003e Por favor. ¿Me puede confirmar que su número de teléfono es el. \u003csay-as interpret-as=\"telephone\"\u003e$session.params.telefono \u003c/say-as\u003e? \u003c/speak\u003e"
+        },
+        "languageCode": "es"
+      } ],
+      "setParameterActions": [ {
+        "parameter": "reintento",
+        "value": 0
+      }, {
+        "parameter": "mensajeEspera",
+        "value": "Por favor. ¿me puede confirmar que su número telefónico es \u003csay-as interpret-as='telephone'\u003e$session.params.telefono \u003c/say-as\u003e?"
+      }, {
+        "parameter": "onActionPage",
+        "value": false
+      }, {
+        "parameter": "mensajeReintento_es",
+        "value": "Por favor. ¿me puede confirmar que su número telefónico es \u003csay-as interpret-as='telephone'\u003e$session.params.telefono \u003c/say-as\u003e?"
+      }, {
+        "parameter": "mensajeReintento_en",
+        "value": ""
+      }, {
+        "parameter": "mensajeNoEscucha_en",
+        "value": ""
+      }, {
+        "parameter": "mensajeNoEscucha_es",
+        "value": "Por favor. ¿me puede confirmar que su número telefónico es \u003csay-as interpret-as'telephone'\u003e$session.params.telefono \u003c/say-as\u003e?"
+      }, {
+        "parameter": "mensajeEspera_es",
+        "value": "Por favor. ¿me puede confirmar que su número telefónico es \u003csay-as interpret-as='telephone'\u003e$session.params.telefono \u003c/say-as\u003e?"
+      }, {
+        "parameter": "mensajeEspera_en",
+        "value": ""
+      }, {
+        "parameter": "mensajeRepetir_es",
+        "value": "Por favor. ¿me puede confirmar que su número telefónico es \u003csay-as interpret-as='telephone'\u003e$session.params.telefono \u003c/say-as\u003e?"
+      }, {
+        "parameter": "mensajeRepetir_en",
+        "value": ""
+      } ]
+    },
+    "targetPage": "Confirmar Telefono",
+    "name": "59f0f35b-f1c9-4fdb-bc4b-5e4411c422c5"
+  }, {
+    "condition": "$session.params.accion = agendarPreferenciaCita AND $session.params.tipoAgente = gestion_cita",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "\u003cspeak\u003e Para gestionar su cita necesito saber algún dato. \u003cbreak time=\"0.5s\"/\u003e Por favor. ¿Me puede confirmar que su número de teléfono es el. \u003csay-as interpret-as=\"telephone\"\u003e$session.params.telefono \u003c/say-as\u003e?  \u003c/speak\u003e" ]
+        },
+        "languageCode": "es"
+      }, {
+        "outputAudioText": {
+          "ssml": "\u003cspeak\u003e Para gestionar su cita necesito saber algún dato. \u003cbreak time=\"0.5s\"/\u003e Por favor. ¿Me puede confirmar que su número de teléfono es el. \u003csay-as interpret-as=\"telephone\"\u003e$session.params.telefono \u003c/say-as\u003e?  \u003c/speak\u003e"
+        },
+        "languageCode": "es"
+      } ],
+      "setParameterActions": [ {
+        "parameter": "mensajeEspera_es",
+        "value": "Por favor. ¿me puede confirmar que su número telefónico es \u003csay-as interpret-as='telephone'\u003e$session.params.telefono \u003c/say-as\u003e?"
+      }, {
+        "parameter": "reintento",
+        "value": 0
+      }, {
+        "parameter": "onActionPage",
+        "value": false
+      }, {
+        "parameter": "mensajeEspera_en",
+        "value": ""
+      }, {
+        "parameter": "mensajeRepetir_es",
+        "value": "Por favor. ¿me puede confirmar que su número telefónico es \u003csay-as interpret-as='telephone'\u003e$session.params.telefono \u003c/say-as\u003e?"
+      }, {
+        "parameter": "mensajeRepetir_en",
+        "value": ""
+      }, {
+        "parameter": "mensajeReintento_es",
+        "value": "Por favor. ¿me puede confirmar que su número telefónico es \u003csay-as interpret-as='telephone'\u003e$session.params.telefono \u003c/say-as\u003e?"
+      }, {
+        "parameter": "mensajeReintento_en",
+        "value": ""
+      }, {
+        "parameter": "mensajeNoEscucha_en",
+        "value": ""
+      }, {
+        "parameter": "mensajeNoEscucha_es",
+        "value": "Por favor. ¿me puede confirmar que su número telefónico es \u003csay-as interpret-as='telephone'\u003e$session.params.telefono \u003c/say-as\u003e?"
+      } ]
+    },
+    "targetPage": "Confirmar Telefono",
+    "name": "57688a46-bc5d-4018-999a-b652fb2b9ac4"
+  }, {
+    "condition": "$session.params.accion = actualizarCita AND $session.params.tipoAgente = gestion_cita",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "\u003cspeak\u003e Para gestionar su cambio de cita necesito saber algún dato. \u003cbreak time=\"0.5s\"/\u003e Por favor. ¿Me puede confirmar que su número de teléfono es el. \u003csay-as interpret-as='telephone'\u003e  $session.params.telefono \u003c/say-as\u003e? \u003c/speak\u003e" ]
+        },
+        "languageCode": "es"
+      }, {
+        "outputAudioText": {
+          "ssml": "\u003cspeak\u003e Para gestionar su cambio de cita necesito saber algún dato. \u003cbreak time=\"0.5s\"/\u003e Por favor. ¿Me puede confirmar que su número de teléfono es el. \u003csay-as interpret-as='telephone'\u003e  $session.params.telefono \u003c/say-as\u003e? \u003c/speak\u003e"
+        },
+        "languageCode": "es"
+      } ],
+      "setParameterActions": [ {
+        "parameter": "reintento",
+        "value": 0
+      }, {
+        "parameter": "onActionPage",
+        "value": false
+      }, {
+        "parameter": "mensajeReintento_es",
+        "value": "Por favor. ¿me puede confirmar que su número telefónico es \u003csay-as interpret-as='telephone'\u003e$session.params.telefono \u003c/say-as\u003e?"
+      }, {
+        "parameter": "mensajeReintento_en",
+        "value": ""
+      }, {
+        "parameter": "mensajeNoEscucha_es",
+        "value": "Por favor. ¿me puede confirmar que su número telefónico es \u003csay-as interpret-as='telephone'\u003e$session.params.telefono \u003c/say-as\u003e?"
+      }, {
+        "parameter": "mensajeNoEscucha_en",
+        "value": ""
+      }, {
+        "parameter": "mensajeEspera_es",
+        "value": "Por favor. ¿me puede confirmar que su número telefónico es \u003csay-as interpret-as='telephone'\u003e$session.params.telefono \u003c/say-as\u003e?"
+      }, {
+        "parameter": "mensajeEspera_en",
+        "value": ""
+      }, {
+        "parameter": "mensajeRepetir_es",
+        "value": "Por favor. ¿me puede confirmar que su número telefónico es \u003csay-as interpret-as='telephone'\u003e$session.params.telefono \u003c/say-as\u003e?"
+      }, {
+        "parameter": "mensajeRepetir_en",
+        "value": ""
+      } ]
+    },
+    "targetPage": "Confirmar Telefono",
+    "name": "1c9666be-438c-47e2-bca3-a27bb9250985"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "webhook": "S-Query",
+      "tag": "noEntendido"
+    },
+    "name": "60f52dea-74b0-47e8-940a-0347215af6f3"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "webhook": "S-Query",
+      "tag": "noResponde"
+    },
+    "name": "1790680f-3e18-4741-b55e-a0b347d89126"
+  }, {
+    "targetPage": "End Session",
+    "event": "ACEPTADA_COLGADA",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Adiós." ]
+        },
+        "languageCode": "es"
+      }, {
+        "outputAudioText": {
+          "text": "Adiós."
+        },
+        "languageCode": "es"
+      } ],
+      "webhook": "S-Query",
+      "tag": "enviarDatos"
+    },
+    "name": "783f9ab5-4c09-4795-9138-af16739045fc"
+  } ],
+  "nluSettings": {
+    "modelType": "MODEL_TYPE_ADVANCED",
+    "classificationThreshold": 0.30000001,
+    "modelTrainingMode": "MODEL_TRAINING_MODE_AUTOMATIC",
+    "multiIntentSettings": {
+    
+    }
+  },
+  "advancedSettings": {
+    "enabled": true
+  }
+}

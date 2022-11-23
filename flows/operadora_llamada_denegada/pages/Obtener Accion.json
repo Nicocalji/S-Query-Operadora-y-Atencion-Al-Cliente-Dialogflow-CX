@@ -1,0 +1,143 @@
+{
+  "name": "04a23d7c-3e42-4fb4-ad51-f1555258bc6f",
+  "displayName": "Obtener Accion",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "webhook": "S-Query",
+    "tag": "deniedCallReason",
+    "setParameterActions": [ {
+      "parameter": "primeraLlamada",
+      "value": false
+    }, {
+      "parameter": "conteoReintentos",
+      "value": 0
+    }, {
+      "parameter": "conteoNoEsuchado",
+      "value": 0
+    }, {
+      "parameter": "respuestaCorta",
+      "value": true
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "int_no",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "\u003cspeak\u003e Vale. \u003cbreak time=\"0.8\"/\u003e \u003c/speak\u003e" ]
+        },
+        "languageCode": "es"
+      }, {
+        "outputAudioText": {
+          "ssml": "\u003cspeak\u003e Vale. \u003cbreak time=\"0.8\"/\u003e \u003c/speak\u003e"
+        },
+        "languageCode": "es"
+      }, {
+        "text": {
+          "text": [ "\u003cspeak\u003e Okay. \u003cbreak time=\"0.8\"/\u003e \u003c/speak\u003e" ]
+        },
+        "languageCode": "en"
+      }, {
+        "outputAudioText": {
+          "ssml": "\u003cspeak\u003e Okay. \u003cbreak time=\"0.8\"/\u003e \u003c/speak\u003e"
+        },
+        "languageCode": "en"
+      } ],
+      "setParameterActions": [ {
+        "parameter": "respuestaCorta",
+        "value": null
+      } ]
+    },
+    "targetPage": "Confirmar Mensaje",
+    "name": "a1e62644-363a-4490-90b8-23cab1c2f381"
+  }, {
+    "intent": "int_yes",
+    "condition": "$session.params.counterLlamadas = 1",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "\u003cspeak\u003e De acuerdo. \u003cbreak time=\"0.8\"/\u003e Espere un momento por favor, voy a confirmar si hay alguien más disponible \u003c/speak\u003e" ]
+        },
+        "languageCode": "es"
+      }, {
+        "outputAudioText": {
+          "ssml": "\u003cspeak\u003e De acuerdo. \u003cbreak time=\"0.8\"/\u003e Espere un momento por favor, voy a confirmar si hay alguien más disponible \u003c/speak\u003e"
+        },
+        "languageCode": "es"
+      }, {
+        "text": {
+          "text": [ "\u003cspeak\u003e Okay. \u003cbreak time=\"0.8\"/\u003e Hold for a moment please, I'm going to confirm if anyone else is available. \u003c/speak\u003e" ]
+        },
+        "languageCode": "en"
+      }, {
+        "outputAudioText": {
+          "ssml": "\u003cspeak\u003e Okay. \u003cbreak time=\"0.8\"/\u003e Hold for a moment please, I'm going to confirm if anyone else is available. \u003c/speak\u003e"
+        },
+        "languageCode": "en"
+      } ],
+      "setParameterActions": [ {
+        "parameter": "respuestaCorta",
+        "value": null
+      } ]
+    },
+    "targetPage": "Pasar Llamada",
+    "name": "c3bb0c22-a920-476e-94c0-93261405a782"
+  }, {
+    "intent": "int_yes",
+    "condition": "$session.params.counterLlamadas = 2",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "\u003cspeak\u003e De acuerdo. \u003cbreak time=\"0.8\"/\u003e Espere un momento por favor, voy a confirmar si hay alguien del departamento que pueda atenderle\u003c/speak\u003e" ]
+        },
+        "languageCode": "es"
+      }, {
+        "outputAudioText": {
+          "ssml": "\u003cspeak\u003e De acuerdo. \u003cbreak time=\"0.8\"/\u003e Espere un momento por favor, voy a confirmar si hay alguien del departamento que pueda atenderle\u003c/speak\u003e"
+        },
+        "languageCode": "es"
+      } ],
+      "setParameterActions": [ {
+        "parameter": "respuestaCorta",
+        "value": null
+      } ]
+    },
+    "targetPage": "Pasar Llamada",
+    "name": "cdffe306-09ab-4502-974b-5df3c63f651a"
+  }, {
+    "intent": "int_yes",
+    "condition": "$session.params.counterLlamadas = 3",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "\u003cspeak\u003e De acuerdo. \u003cbreak time=\"0.8\"/\u003e Espere un momento por favor, voy a confirmar si hay alguien más de la empresa que pueda atenderle \u003c/speak\u003e" ]
+        },
+        "languageCode": "es"
+      }, {
+        "outputAudioText": {
+          "ssml": "\u003cspeak\u003e De acuerdo. \u003cbreak time=\"0.8\"/\u003e Espere un momento por favor, voy a confirmar si hay alguien más de la empresa que pueda atenderle \u003c/speak\u003e"
+        },
+        "languageCode": "es"
+      } ],
+      "setParameterActions": [ {
+        "parameter": "respuestaCorta",
+        "value": null
+      } ]
+    },
+    "targetPage": "Pasar Llamada",
+    "name": "efcd8c87-78eb-4d3b-815d-79106b11801c"
+  } ],
+  "advancedSettings": {
+    "speechSettings": {
+      "endpointerSensitivity": 90,
+      "noSpeechTimeout": {
+        "seconds": 15
+      }
+    }
+  },
+  "speakerIdSettings": {
+  
+  }
+}

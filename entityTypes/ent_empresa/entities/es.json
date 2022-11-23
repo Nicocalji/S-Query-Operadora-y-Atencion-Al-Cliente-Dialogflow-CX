@@ -1,0 +1,27 @@
+{
+  "entities": [ {
+    "value": "Idrus Soluciones e Innovación",
+    "synonyms": [ "airush", "Beirut", "drus", "hibros", "hidro", "hidros", "hilux", "hipro", "hiprus", "Hydrox", "hydrus", "Hydrus", "hydrus innovacion", "hydrus innovacion y soluciones", "hydrus soluciones", "hydrus soluciones e innovacion", "Ibros", "idris", "Idris", "idru", "idrus", "Idrus", "idrus innovacion", "idrus innovacion y soluciones", "Idrus soluciones", "IDRUS Soluciones", "idrus soluciones e innovacion", "idrus soluciones e innovación", "Idrus Soluciones e Innovación", "idrus soluciones e innovaciones", "idus", "iglu", "iglú", "iglús", "indu", "indús", "irus", "isidro", "Libros", "peligros", "peligrus" ],
+    "languageCode": "es"
+  }, {
+    "value": "Vodafone",
+    "synonyms": [ "bodafone", "vodafone", "Vodafone" ],
+    "languageCode": "es"
+  }, {
+    "value": "Apple",
+    "synonyms": [ "Apple" ],
+    "languageCode": "es"
+  }, {
+    "value": "Google",
+    "synonyms": [ "Google" ],
+    "languageCode": "es"
+  }, {
+    "value": "Amazon",
+    "synonyms": [ "Amazon", "AWS" ],
+    "languageCode": "es"
+  }, {
+    "value": "Universidad Europea del Atlántico",
+    "synonyms": [ "UNEAT", "Uneatlantico", "Universidad Europea del Atlántico" ],
+    "languageCode": "es"
+  } ]
+}

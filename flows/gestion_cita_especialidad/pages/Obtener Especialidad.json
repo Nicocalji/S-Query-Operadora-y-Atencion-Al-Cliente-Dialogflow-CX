@@ -1,0 +1,84 @@
+{
+  "name": "0c34c2dd-5516-432c-ac2c-0ca168f9e366",
+  "displayName": "Obtener Especialidad",
+  "form": {
+    "parameters": [ {
+      "displayName": "especialidad",
+      "required": true,
+      "entityType": "@ent_especialidad",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "setParameterActions": [ {
+            "parameter": "enEspecialidad",
+            "value": true
+          }, {
+            "parameter": "parametrosOmitibles",
+            "value": [ "especialidad" ]
+          }, {
+            "parameter": "nextPage",
+            "value": "END_FLOW"
+          } ]
+        },
+        "repromptEventHandlers": [ {
+          "event": "sys.no-match-default",
+          "triggerFulfillment": {
+            "webhook": "S-Query",
+            "tag": "noEntendido"
+          },
+          "name": "0cfff076-2180-4650-9fb5-b5577c6892e4"
+        }, {
+          "event": "sys.no-input-default",
+          "triggerFulfillment": {
+            "webhook": "S-Query",
+            "tag": "noResponde"
+          },
+          "name": "d4d62ab1-f755-4fb2-ae7b-73ccea75f533"
+        } ]
+      },
+      "advancedSettings": {
+        "dtmfSettings": {
+          "useSystemEntityRule": false
+        }
+      }
+    } ]
+  },
+  "entryFulfillment": {
+    "setParameterActions": [ {
+      "parameter": "enEspecialidad",
+      "value": true
+    }, {
+      "parameter": "conteoReintentos",
+      "value": 0
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "int_cancelar_accion",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "\u003cspeak\u003e De acuerdo.\u003c/speak\u003e" ]
+        },
+        "languageCode": "es"
+      }, {
+        "outputAudioText": {
+          "ssml": "\u003cspeak\u003e De acuerdo.\u003c/speak\u003e"
+        },
+        "languageCode": "es"
+      } ]
+    },
+    "name": "78d0f651-d53c-4f26-9788-cf06c745b57f"
+  }, {
+    "condition": "$page.params.status = FINAL",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "enEspecialidad",
+        "value": false
+      }, {
+        "parameter": "nombreParametro",
+        "value": null
+      } ]
+    },
+    "targetPage": "End Flow",
+    "name": "85f6b27d-96eb-42bf-b2ad-478a401be2cc"
+  } ]
+}

@@ -1,0 +1,35 @@
+{
+  "entities": [ {
+    "value": "Lunes",
+    "synonyms": [ "lunes", "Lunes", "primer dia de la semana" ],
+    "languageCode": "es"
+  }, {
+    "value": "Martes",
+    "synonyms": [ "martes", "Martes" ],
+    "languageCode": "es"
+  }, {
+    "value": "Miércoles",
+    "synonyms": [ "miercoles", "Miercoles", "miércoles", "Miércoles", "mitad de semana" ],
+    "languageCode": "es"
+  }, {
+    "value": "Jueves",
+    "synonyms": [ "jueves", "Jueves" ],
+    "languageCode": "es"
+  }, {
+    "value": "Viernes",
+    "synonyms": [ "viernes", "Viernes" ],
+    "languageCode": "es"
+  }, {
+    "value": "Sábado",
+    "synonyms": [ "sabado", "Sabado", "sábado", "Sábado" ],
+    "languageCode": "es"
+  }, {
+    "value": "Domingo",
+    "synonyms": [ "domingo", "Domingo" ],
+    "languageCode": "es"
+  }, {
+    "value": "Sin Preferencia",
+    "synonyms": [ "cualquier dia", "Cualquiera", "de lunes a viernes", "entre el lunes y el viernes", "me da igual", "todos los dias" ],
+    "languageCode": "es"
+  } ]
+}

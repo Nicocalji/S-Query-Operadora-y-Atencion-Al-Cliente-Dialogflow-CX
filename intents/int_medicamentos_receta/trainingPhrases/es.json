@@ -1,0 +1,332 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "mira es que lo dieron a mi "
+    }, {
+      "text": "madre",
+      "parameterId": "parentesco"
+    }, {
+      "text": " un medicamento pero no sabe cómo tomarselo"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "mira"
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "es"
+    }, {
+      "text": " que me ha mandado unos ",
+      "auto": true
+    }, {
+      "text": "medicamentos"
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "y"
+    }, {
+      "text": " no sé cómo tomármelo",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Quiero saber como tomar unas pastillas",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Quería saber como tomar unas pastillas",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "no entiendo la receta",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "no puedo entender la receta",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "quería preguntar por ",
+      "auto": true
+    }, {
+      "text": "una",
+      "auto": true
+    }, {
+      "text": " receta que me han dado ",
+      "auto": true
+    }, {
+      "text": "es",
+      "auto": true
+    }, {
+      "text": " que no entiendo muy bien",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "un",
+      "auto": true
+    }, {
+      "text": " par de preguntas sobre ",
+      "auto": true
+    }, {
+      "text": "la medicina",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Mi medicamento está descontinuado",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "incidencia receta ",
+      "auto": true
+    }, {
+      "text": "electrónica",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "tengo ",
+      "auto": true
+    }, {
+      "text": "un",
+      "auto": true
+    }, {
+      "text": " problema con la receta",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "tenía consultas sobre la medicación",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "No me han enviado la receta ",
+      "auto": true
+    }, {
+      "text": "electrónica",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Era por la receta",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Me da problemas la receta ",
+      "auto": true
+    }, {
+      "text": "electrónica",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Perdí ",
+      "auto": true
+    }, {
+      "text": "el papel",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "de",
+      "auto": true
+    }, {
+      "text": " la receta",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Si me puedo tomar el ",
+      "auto": true
+    }, {
+      "text": "medicamento",
+      "auto": true
+    }, {
+      "text": " con ",
+      "auto": true
+    }, {
+      "text": "café",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "No sé que hacer con mi ",
+      "auto": true
+    }, {
+      "text": "medicamento",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Era ",
+      "auto": true
+    }, {
+      "text": "una",
+      "auto": true
+    }, {
+      "text": " pregunta sobre la ",
+      "auto": true
+    }, {
+      "text": "medicina",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "En la ",
+      "auto": true
+    }, {
+      "text": "farmacia",
+      "auto": true
+    }, {
+      "text": " me han dicho que no tienen el ",
+      "auto": true
+    }, {
+      "text": "medicamento",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "No encuentro la receta",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "La receta ",
+      "auto": true
+    }, {
+      "text": "electrónica",
+      "auto": true
+    }, {
+      "text": " no tiene ",
+      "auto": true
+    }, {
+      "text": "un",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "medicamento",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Tengo ",
+      "auto": true
+    }, {
+      "text": "un",
+      "auto": true
+    }, {
+      "text": " problema ",
+      "auto": true
+    }, {
+      "text": "con la",
+      "auto": true
+    }, {
+      "text": " receta ",
+      "auto": true
+    }, {
+      "text": "electrónica",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "No puedo encontrar la ",
+      "auto": true
+    }, {
+      "text": "medicina",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Era por el ",
+      "auto": true
+    }, {
+      "text": "medicamento",
+      "auto": true
+    }, {
+      "text": " que me han recetado",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Es",
+      "auto": true
+    }, {
+      "text": " que tenía ",
+      "auto": true
+    }, {
+      "text": "una",
+      "auto": true
+    }, {
+      "text": " pregunta sobre mi ",
+      "auto": true
+    }, {
+      "text": "medicamento",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  } ]
+}

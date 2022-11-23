@@ -1,0 +1,114 @@
+{
+  "name": "68860865-9050-48b8-a2af-f668a2cb8202",
+  "displayName": "operadora_inicio",
+  "description": "A start flow created along with the agent",
+  "transitionRoutes": [ {
+    "intent": "int_repetir",
+    "triggerFulfillment": {
+      "webhook": "S-Query",
+      "tag": "repetir",
+      "setParameterActions": [ {
+        "parameter": "repeat",
+        "value": true
+      } ]
+    },
+    "name": "220eec2c-d89a-440a-96e1-dcb1c745317f"
+  }, {
+    "intent": "int_esperar",
+    "triggerFulfillment": {
+      "webhook": "S-Query",
+      "tag": "esperar",
+      "setParameterActions": [ {
+        "parameter": "wait",
+        "value": true
+      } ]
+    },
+    "name": "0de50f46-b5f1-48f1-a065-f07662cd61f2"
+  }, {
+    "condition": "$session.params.parametrosModulos.operadora.guardarContactos = false AND $session.params.nombre = null AND $session.params.apellido = null",
+    "triggerFulfillment": {
+      "webhook": "S-Query",
+      "tag": "mensajeBienvenida"
+    },
+    "targetPage": "Obtener Acción",
+    "name": "c7fd831e-f92d-49fc-9d8e-3e07c7d095c2"
+  }, {
+    "condition": "$session.params.nombre != null AND $session.params.apellido != null AND $session.params.contactoExists = false AND $session.params.parametrosModulos.operadora.guardarContactos = true",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "counterLlamadas",
+        "value": 0
+      } ]
+    },
+    "targetPage": "Guardar contacto",
+    "name": "a89cd4fa-2d8a-47a0-9eb1-29ffbe7dc759"
+  }, {
+    "condition": "$session.params.nombre != null AND $session.params.apellido != null AND $session.params.contactoExists = true",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Comprobar disponibilidad",
+    "name": "5449dc76-c8e5-4b48-beba-4185cd4acb18"
+  }, {
+    "condition": "$session.params.parametrosModulos.operadora.guardarContactos = false AND $session.params.nombre != null AND $session.params.apellido != null",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Comprobar disponibilidad",
+    "name": "55d0a168-562d-473d-8277-3c01739d39b5"
+  }, {
+    "condition": "true",
+    "triggerFulfillment": {
+      "webhook": "S-Query",
+      "tag": "mensajeBienvenida"
+    },
+    "targetPage": "Obtener Acción",
+    "name": "d62c7bd3-de59-4d47-898a-2517345ebcf5"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en"
+      } ],
+      "webhook": "S-Query",
+      "tag": "noEntendido"
+    },
+    "name": "3cea7c40-3fad-4a60-aaf6-cd9f2c124078"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en"
+      } ],
+      "webhook": "S-Query",
+      "tag": "noResponde"
+    },
+    "name": "92fee2f5-df6c-4ec0-9798-af0f6a3cfc8a"
+  }, {
+    "targetPage": "End Session",
+    "event": "ACEPTADA_COLGADA",
+    "triggerFulfillment": {
+      "webhook": "S-Query",
+      "tag": "enviarDatos"
+    },
+    "name": "ff08f6dc-efa6-41bb-85b2-d876ade48434"
+  } ],
+  "nluSettings": {
+    "modelType": "MODEL_TYPE_ADVANCED",
+    "classificationThreshold": 0.30000001,
+    "modelTrainingMode": "MODEL_TRAINING_MODE_AUTOMATIC",
+    "multiIntentSettings": {
+    
+    }
+  },
+  "advancedSettings": {
+    "enabled": true
+  }
+}

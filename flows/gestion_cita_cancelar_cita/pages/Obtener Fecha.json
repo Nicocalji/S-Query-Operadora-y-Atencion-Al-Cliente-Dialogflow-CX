@@ -1,0 +1,137 @@
+{
+  "name": "0339015f-a1f8-4721-a03e-18ac7fcea9df",
+  "displayName": "Obtener Fecha",
+  "form": {
+    "parameters": [ {
+      "displayName": "fechaCita",
+      "required": true,
+      "entityType": "@sys.date",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "setParameterActions": [ {
+            "parameter": "mensajeReintento_es",
+            "value": "Por favor, ¿puede volver a decirme para qué día tenía la cita?"
+          }, {
+            "parameter": "mensajeReintento_en",
+            "value": ""
+          }, {
+            "parameter": "mensajeNoEscucha_es",
+            "value": "Por favor, ¿puede volver a decirme para qué día tenía la cita?"
+          }, {
+            "parameter": "mensajeNoEscucha_en",
+            "value": ""
+          } ]
+        },
+        "repromptEventHandlers": [ {
+          "event": "sys.no-match-default",
+          "triggerFulfillment": {
+            "webhook": "S-Query",
+            "tag": "noEntendido"
+          },
+          "name": "a7bef624-e0c3-48aa-83a6-9a136da993b1"
+        }, {
+          "event": "sys.no-input-default",
+          "triggerFulfillment": {
+            "webhook": "S-Query",
+            "tag": "noResponde"
+          },
+          "name": "aea961e6-ec72-4640-a1fd-a88419e0c51c"
+        } ]
+      },
+      "advancedSettings": {
+        "dtmfSettings": {
+          "useSystemEntityRule": false
+        }
+      }
+    } ]
+  },
+  "entryFulfillment": {
+    "webhook": "S-Query",
+    "tag": "pedirFecha",
+    "setParameterActions": [ {
+      "parameter": "mensajeEspera_es",
+      "value": "Por favor, dígame para qué día tenía la cita."
+    }, {
+      "parameter": "conteoReintentos",
+      "value": 0
+    }, {
+      "parameter": "conteoNoEsuchado",
+      "value": 0
+    }, {
+      "parameter": "mensajePeticion_es",
+      "value": "¿para qué día tenía la cita?"
+    }, {
+      "parameter": "mensajeEspera_en",
+      "value": ""
+    }, {
+      "parameter": "mensajeRepetir_es",
+      "value": "Por favor, dígame para qué día tenía la cita."
+    }, {
+      "parameter": "mensajeRepetir_en",
+      "value": ""
+    }, {
+      "parameter": "mensajePeticion_en",
+      "value": ""
+    }, {
+      "parameter": "mensajeReintento_es",
+      "value": "Por favor, ¿puede volver a decirme para qué día tenía la cita?"
+    }, {
+      "parameter": "mensajeReintento_en",
+      "value": ""
+    }, {
+      "parameter": "mensajeNoEscucha_es",
+      "value": "Por favor, ¿puede volver a decirme para qué día tenía la cita?"
+    }, {
+      "parameter": "mensajeNoEscucha_en",
+      "value": ""
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "int_obtener_fecha",
+    "triggerFulfillment": {
+    
+    },
+    "name": "e946787c-6adc-45f3-b698-902f4916bd5a"
+  }, {
+    "intent": "int_no_sabe_no_contesta",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "No hay problema." ]
+        },
+        "languageCode": "es"
+      }, {
+        "outputAudioText": {
+          "text": "No hay problema."
+        },
+        "languageCode": "es"
+      } ]
+    },
+    "targetFlow": "general_identificar",
+    "name": "619c962d-bd74-44e0-91dd-5aa59a58f8c1"
+  }, {
+    "condition": "$session.params.fechaCita != null",
+    "triggerFulfillment": {
+      "webhook": "S-Query",
+      "tag": "verificarDia"
+    },
+    "name": "136661dd-8670-4f8c-98ab-0c6040780142"
+  }, {
+    "condition": "$page.params.status = FINAL",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Sensacional." ]
+        },
+        "languageCode": "es"
+      }, {
+        "outputAudioText": {
+          "text": "Sensacional."
+        },
+        "languageCode": "es"
+      } ]
+    },
+    "targetPage": "Obtener Hora",
+    "name": "41c620b6-14da-4d5a-a450-bb90bc3722c3"
+  } ]
+}

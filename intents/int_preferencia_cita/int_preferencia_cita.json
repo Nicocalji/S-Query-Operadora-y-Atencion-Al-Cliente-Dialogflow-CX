@@ -1,0 +1,12 @@
+{
+  "name": "91942b98-f9db-429f-a03e-6383159795e1",
+  "displayName": "int_preferencia_cita",
+  "parameters": [ {
+    "id": "especialidad",
+    "entityType": "@ent_especialidad"
+  }, {
+    "id": "parentesco",
+    "entityType": "@ent_parentesco"
+  } ],
+  "priority": 500000
+}

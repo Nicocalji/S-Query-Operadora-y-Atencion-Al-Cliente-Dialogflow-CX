@@ -1,0 +1,13 @@
+{
+  "name": "bf63775c-56c5-4090-aedd-e9ca5c0a8b86",
+  "displayName": "int_contactar",
+  "parameters": [ {
+    "id": "nombreContactar",
+    "entityType": "@ent_empleados"
+  }, {
+    "id": "departamento",
+    "entityType": "@ent_departamento"
+  } ],
+  "priority": 500000,
+  "description": "Intent cuando el usuario especifica que quiere hablar con alguien"
+}

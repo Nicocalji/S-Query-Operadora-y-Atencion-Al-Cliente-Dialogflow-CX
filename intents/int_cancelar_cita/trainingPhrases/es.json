@@ -1,0 +1,279 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "mira es que tengo una cita "
+    }, {
+      "text": "para"
+    }, {
+      "text": " mi "
+    }, {
+      "text": "madre"
+    }, {
+      "text": " "
+    }, {
+      "text": "mañana",
+      "parameterId": "fechaCita",
+      "auto": true
+    }, {
+      "text": " a las "
+    }, {
+      "text": "2",
+      "parameterId": "horaCita",
+      "auto": true
+    }, {
+      "text": " con el "
+    }, {
+      "text": "oftalmólogo",
+      "parameterId": "especialidad",
+      "auto": true
+    }, {
+      "text": " y la quería cancelar"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "queria cancelar mi cita",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "quería cancelar visita de mi "
+    }, {
+      "text": "padre",
+      "parameterId": "parentesco"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "cancelar mi cita",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "cancelar mi consulta",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Por si se puede suprimir una reserva que tenía mi "
+    }, {
+      "text": "madre",
+      "parameterId": "parentesco"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "quiero hacer la eliminación de unas citas de mi "
+    }, {
+      "text": "suegra",
+      "parameterId": "parentesco"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "quiero hacer ",
+      "auto": true
+    }, {
+      "text": "una",
+      "auto": true
+    }, {
+      "text": " cancelación",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "quiero borrar todas las citas que tengo con "
+    }, {
+      "text": "pediatría",
+      "parameterId": "especialidad"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "me podrías borrar la cita con el médico de mi "
+    }, {
+      "text": "hijo",
+      "parameterId": "parentesco"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "por deshacer mi cita",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "era por informar que no voy a ir a mi cita y la quiero cancelar"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "llamaba para anular una cita de mi "
+    }, {
+      "text": "padre",
+      "parameterId": "parentesco"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "era para ver si me podías ayudar a cancelar ",
+      "auto": true
+    }, {
+      "text": "la",
+      "auto": true
+    }, {
+      "text": " cita",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "era ",
+      "auto": true
+    }, {
+      "text": "para",
+      "auto": true
+    }, {
+      "text": " eliminar ",
+      "auto": true
+    }, {
+      "text": "una",
+      "auto": true
+    }, {
+      "text": " cita que hice la ",
+      "auto": true
+    }, {
+      "text": "semana pasada",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "quiero quitar la cita de mi "
+    }, {
+      "text": "prima",
+      "parameterId": "parentesco"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "quiero anular mi cita",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "queria cancelar una cita de mi "
+    }, {
+      "text": "esposo",
+      "parameterId": "parentesco"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "quiero cancelar ",
+      "auto": true
+    }, {
+      "text": "una"
+    }, {
+      "text": " cita",
+      "auto": true
+    } ],
+    "repeatCount": 3,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "quisiera cancelar una cita que tenia con el "
+    }, {
+      "text": "psiquiatra",
+      "parameterId": "especialidad",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "para"
+    }, {
+      "text": " el "
+    }, {
+      "text": "20 de julio",
+      "parameterId": "fechaCita"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "quiero cancelar una cita con fecha de "
+    }, {
+      "text": "mañana",
+      "parameterId": "fechaCita"
+    }, {
+      "text": " a las "
+    }, {
+      "text": "6 de la tarde",
+      "parameterId": "horaCita"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "quiero cancelar una cita con fecha de "
+    }, {
+      "text": "mañana",
+      "parameterId": "fechaCita"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "cancelar mi cita con el ",
+      "auto": true
+    }, {
+      "text": "psiquiatra",
+      "parameterId": "especialidad",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "no puedo ir a mi cita con el "
+    }, {
+      "text": "alergologo",
+      "parameterId": "especialidad"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "cancelar cita de mi "
+    }, {
+      "text": "madre",
+      "parameterId": "parentesco"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  } ]
+}

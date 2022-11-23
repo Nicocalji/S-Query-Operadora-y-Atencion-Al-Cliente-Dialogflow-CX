@@ -1,0 +1,9 @@
+{
+  "name": "3ad9ba1e-db93-4f85-b4a9-fe2eadc7adf3",
+  "displayName": "int_para_alguien_mas",
+  "parameters": [ {
+    "id": "parentesco",
+    "entityType": "@ent_parentesco"
+  } ],
+  "priority": 500000
+}

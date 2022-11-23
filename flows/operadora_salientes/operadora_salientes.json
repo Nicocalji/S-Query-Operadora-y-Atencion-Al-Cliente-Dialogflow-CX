@@ -1,0 +1,111 @@
+{
+  "name": "1d3746c9-d436-481f-bc1a-ea9825961249",
+  "displayName": "operadora_salientes",
+  "transitionRoutes": [ {
+    "intent": "int_esperar",
+    "triggerFulfillment": {
+      "webhook": "S-Query",
+      "tag": "esperar",
+      "setParameterActions": [ {
+        "parameter": "wait",
+        "value": true
+      } ]
+    },
+    "name": "f9cdd9a8-810c-43f6-a706-6d9029c5be79"
+  }, {
+    "intent": "int_repetir",
+    "triggerFulfillment": {
+      "webhook": "S-Query",
+      "tag": "repetir",
+      "setParameterActions": [ {
+        "parameter": "repeat",
+        "value": true
+      }, {
+        "parameter": "message",
+        "value": "Tiene una llamada de $session.params.nombre $session.params.apellidos, de la empresa $session.params.empresa. \u003cbreak time=\"0.8\"/\u003e\u003c/speak\u003e"
+      }, {
+        "parameter": "introduction",
+        "value": true
+      } ]
+    },
+    "targetPage": "Current Page",
+    "name": "c8d1e461-ff07-4a81-a458-cc54ddc744cf"
+  }, {
+    "condition": "true",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "contextReintento",
+        "value": "Would you like to take the call?"
+      }, {
+        "parameter": "reintento",
+        "value": 0
+      }, {
+        "parameter": "reintentoNoResponde",
+        "value": 0
+      }, {
+        "parameter": "mensajeReintento_es",
+        "value": "¿Me puede confirmar si desea aceptar la llamada?"
+      }, {
+        "parameter": "mensajeReintento_en",
+        "value": "Would you like to take the call?"
+      }, {
+        "parameter": "mensajeNoEscucha_es",
+        "value": "¿Me puede confirmar si desea aceptar la llamada?"
+      }, {
+        "parameter": "mensajeNoEscucha_en",
+        "value": "Would you like to take the call?"
+      }, {
+        "parameter": "mensajeEspera_es",
+        "value": "¿Me puede confirmar si desea aceptar la llamada?"
+      }, {
+        "parameter": "mensajeEspera_en",
+        "value": "Would you like to take the call?"
+      }, {
+        "parameter": "mensajeRepetir_es",
+        "value": "¿Me puede confirmar si desea aceptar la llamada?"
+      }, {
+        "parameter": "mensajeRepetir_en",
+        "value": "Would you like to take the call?"
+      } ]
+    },
+    "targetPage": "Confirmar Llamada",
+    "name": "4870e099-151c-424a-8a8c-ba231684d4b1"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "webhook": "S-Query",
+      "tag": "noEntendido"
+    },
+    "name": "5cd73257-4c94-4446-983f-4fe68d91ca9b"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "webhook": "S-Query",
+      "tag": "noResponde"
+    },
+    "name": "cbd0e031-34a0-4444-9538-7a7b35f7611f"
+  }, {
+    "targetPage": "End Session",
+    "event": "ACEPTADA_COLGADA",
+    "triggerFulfillment": {
+      "webhook": "S-Query",
+      "tag": "enviarDatos"
+    },
+    "name": "383a26b3-582c-434a-b092-375e95b8b306"
+  } ],
+  "nluSettings": {
+    "modelType": "MODEL_TYPE_ADVANCED",
+    "classificationThreshold": 0.30000001,
+    "modelTrainingMode": "MODEL_TRAINING_MODE_AUTOMATIC",
+    "multiIntentSettings": {
+    
+    }
+  },
+  "advancedSettings": {
+    "enabled": true,
+    "playbackInterruptionSettings": {
+    
+    }
+  }
+}

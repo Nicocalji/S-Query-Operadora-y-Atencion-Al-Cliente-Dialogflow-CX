@@ -1,0 +1,54 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "para terminar pulse almohadilla",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "lo sentimos no hemos podido grabar su mensaje deje su mensaje después "
+    }, {
+      "text": "de"
+    }, {
+      "text": " la señal"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Le atiende el contestador de 610067828"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "deje su mensaje después de oír la señal"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "le atiende el contestador de "
+    }, {
+      "text": "61006 7828"
+    }, {
+      "text": " deje su mensaje después de oír la señal"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "la persona a la que llama no está disponible"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "por favor deje su mensaje después de la señal"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  } ]
+}

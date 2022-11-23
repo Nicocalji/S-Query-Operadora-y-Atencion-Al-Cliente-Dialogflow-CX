@@ -1,0 +1,124 @@
+{
+  "name": "774b8dfa-6890-419b-97aa-b762fb6d72eb",
+  "displayName": "Obtener Hora",
+  "form": {
+    "parameters": [ {
+      "displayName": "horaCita",
+      "required": true,
+      "entityType": "@sys.time",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "setParameterActions": [ {
+            "parameter": "mensajeError",
+            "value": "¿A qué hora tiene su cita?"
+          } ]
+        },
+        "repromptEventHandlers": [ {
+          "event": "sys.no-match-default",
+          "triggerFulfillment": {
+            "webhook": "S-Query",
+            "tag": "noEntendido"
+          },
+          "name": "48ff73db-71c5-4f37-857f-e704a64d8787"
+        }, {
+          "event": "sys.no-input-default",
+          "triggerFulfillment": {
+            "webhook": "S-Query",
+            "tag": "noResponde"
+          },
+          "name": "619ef2f3-752d-44b5-a412-92755ca53c4c"
+        } ]
+      },
+      "advancedSettings": {
+        "dtmfSettings": {
+          "useSystemEntityRule": false
+        }
+      }
+    } ]
+  },
+  "entryFulfillment": {
+    "webhook": "S-Query",
+    "tag": "pedirHora",
+    "setParameterActions": [ {
+      "parameter": "mensajeEspera_es",
+      "value": "¿A qué hora tiene su cita?"
+    }, {
+      "parameter": "reintento",
+      "value": 0
+    }, {
+      "parameter": "mensajeError",
+      "value": "¿A qué hora tiene su cita?"
+    }, {
+      "parameter": "reintentoNoResponde",
+      "value": 0
+    }, {
+      "parameter": "mensajePeticion_es",
+      "value": "¿A qué hora tiene su cita?"
+    }, {
+      "parameter": "mensajeEspera_en",
+      "value": ""
+    }, {
+      "parameter": "mensajeRepetir_es",
+      "value": "¿Me puede volver a indicar a que hora tiene su cita?"
+    }, {
+      "parameter": "mensajeRepetir_en",
+      "value": ""
+    }, {
+      "parameter": "mensajePeticion_en",
+      "value": ""
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "int_obtener_fecha",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Muy bien." ]
+        },
+        "languageCode": "es"
+      }, {
+        "outputAudioText": {
+          "text": "Muy bien."
+        },
+        "languageCode": "es"
+      } ]
+    },
+    "name": "fce8c9ab-faca-42d4-85e3-a36f97c37d17"
+  }, {
+    "intent": "int_no_sabe_no_contesta",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "No hay problema." ]
+        },
+        "languageCode": "es"
+      }, {
+        "outputAudioText": {
+          "text": "No hay problema."
+        },
+        "languageCode": "es"
+      } ]
+    },
+    "targetFlow": "general_identificar",
+    "name": "3082f4a1-6043-4bb7-950c-857c1db6f8f2"
+  }, {
+    "condition": "$session.params.horaCita != null",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Fantástico." ]
+        },
+        "languageCode": "es"
+      }, {
+        "outputAudioText": {
+          "text": "Fantástico."
+        },
+        "languageCode": "es"
+      } ],
+      "webhook": "S-Query",
+      "tag": "verificarHora"
+    },
+    "targetFlow": "general_identificar",
+    "name": "7279a3c5-d579-47b2-816e-0da702a61db0"
+  } ]
+}

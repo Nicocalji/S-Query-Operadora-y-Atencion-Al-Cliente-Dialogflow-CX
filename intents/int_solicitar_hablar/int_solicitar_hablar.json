@@ -1,0 +1,6 @@
+{
+  "name": "2f8ad419-7d74-48ab-ba76-6f1f132b8f3f",
+  "displayName": "int_solicitar_hablar",
+  "priority": 500000,
+  "description": "Si el usuario quiere hablar con alguien"
+}

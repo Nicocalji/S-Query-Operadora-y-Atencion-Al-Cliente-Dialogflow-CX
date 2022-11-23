@@ -1,0 +1,450 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "pásame el ",
+      "auto": true
+    }, {
+      "text": "carlos",
+      "parameterId": "nombreContactar"
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "recio"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "pasame con ",
+      "auto": true
+    }, {
+      "text": "juan",
+      "parameterId": "nombreContactar"
+    }, {
+      "text": " por favor",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "pasame con "
+    }, {
+      "text": "jesus",
+      "parameterId": "nombreContactar",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "pasame con "
+    }, {
+      "text": "nico",
+      "parameterId": "nombreContactar"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "quiero hablar con alguien de "
+    }, {
+      "text": "desarrollo",
+      "parameterId": "departamento",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "pasame con alguien del departamento "
+    }, {
+      "text": "comercial",
+      "parameterId": "departamento",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "pasame con "
+    }, {
+      "text": "comercial",
+      "parameterId": "departamento",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "quiero hablar con "
+    }, {
+      "text": "finanzas",
+      "parameterId": "departamento",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "quiero hablar con "
+    }, {
+      "text": "desarrollo",
+      "parameterId": "departamento",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "hablar con "
+    }, {
+      "text": "dirección",
+      "parameterId": "departamento",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "quiero hablar con el departamento de "
+    }, {
+      "text": "desarrollo",
+      "parameterId": "departamento",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "quiero llamar a "
+    }, {
+      "text": "Jesús",
+      "parameterId": "nombreContactar"
+    } ],
+    "repeatCount": 3,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "hola me gustaría hablar con "
+    }, {
+      "text": "Nicolás",
+      "parameterId": "nombreContactar"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "si quería hablar con "
+    }, {
+      "text": "Marian",
+      "parameterId": "nombreContactar"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "hola buenas me podrías poner en contacto con "
+    }, {
+      "text": "Carlos",
+      "parameterId": "nombreContactar"
+    }, {
+      "text": " por favor"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "me gustaría llamar a "
+    }, {
+      "text": "Óscar",
+      "parameterId": "nombreContactar"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Quiero hacer una llamada a "
+    }, {
+      "text": "Pascual",
+      "parameterId": "nombreContactar"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "quiero hacer una llamada para "
+    }, {
+      "text": "Raúl",
+      "parameterId": "nombreContactar"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Me gustaría hablar con "
+    }, {
+      "text": "Rafael",
+      "parameterId": "nombreContactar"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "¿Me pones con "
+    }, {
+      "text": "Enrique",
+      "parameterId": "nombreContactar"
+    }, {
+      "text": "?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "¿Me puedes poner con "
+    }, {
+      "text": "Isidro",
+      "parameterId": "nombreContactar"
+    }, {
+      "text": "?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "¿Me puedes pasar con "
+    }, {
+      "text": "Roberto",
+      "parameterId": "nombreContactar"
+    }, {
+      "text": "?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Ponme en contacto con alguien"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Ponme en contacto con alguien de la empresa"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Llama a alguien de la empresa"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Quiero hablar con alguien de la empresa"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Me gustaria hablar con alguien"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Quisiera hablar con un empleado"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Podría hablar con alguien de la empresa"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Quisiera ponerme en contacto con alguien"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "me podrías poner en contacto con alguien por favor"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Pásame con "
+    }, {
+      "text": "Julián",
+      "parameterId": "nombreContactar"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Que se ponga tu "
+    }, {
+      "text": "jefe"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Me gustaría hablar con el encargado de la empresa"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "¿Me puedes transferir con alguien?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "¿Podría transferirme con el señor "
+    }, {
+      "text": "Carlos",
+      "parameterId": "nombreContactar"
+    }, {
+      "text": "?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "¿Está disponible la señora "
+    }, {
+      "text": "Marian",
+      "parameterId": "nombreContactar"
+    }, {
+      "text": "?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "No sé si se podría poner alguna persona humana"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Transfiéreme con "
+    }, {
+      "text": "Beatriz",
+      "parameterId": "nombreContactar"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "¿Puedes ponerme en contacto con "
+    }, {
+      "text": "Esther",
+      "parameterId": "nombreContactar"
+    }, {
+      "text": "?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Quiero que se ponga el encargado"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Que se ponga un empleado de la empresa"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "A ver si me puedes poner con alguien"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Me gustaría ser transferido con el "
+    }, {
+      "text": "jefe",
+      "parameterId": "nombreContactar"
+    }, {
+      "text": " de la empresa"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Quiero hablar con "
+    }, {
+      "text": "José",
+      "parameterId": "nombreContactar"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "¿Me puedes pasar con alguien de la empresa?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Hablar con "
+    }, {
+      "text": "Esther",
+      "parameterId": "nombreContactar"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "A ver si hay alguien disponible con quien hablar"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "¿Está disponible "
+    }, {
+      "text": "Luis",
+      "parameterId": "nombreContactar"
+    }, {
+      "text": "?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Si está disponible "
+    }, {
+      "text": "Diego",
+      "parameterId": "nombreContactar"
+    }, {
+      "text": " que se ponga"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Que se ponga tu "
+    }, {
+      "text": "Rubén",
+      "parameterId": "nombreContactar"
+    }, {
+      "text": " si puede"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  } ]
+}

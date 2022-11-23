@@ -1,0 +1,15 @@
+{
+  "entities": [ {
+    "value": "Mañana",
+    "synonyms": [ "mañana", "Mañana", "primera hora", "temprano" ],
+    "languageCode": "es"
+  }, {
+    "value": "Tarde",
+    "synonyms": [ "tarde", "Tarde", "ultima hora" ],
+    "languageCode": "es"
+  }, {
+    "value": "Sin preferencia",
+    "synonyms": [ "me da igual", "no me importa", "Sin preferencia", "cualquier hora" ],
+    "languageCode": "es"
+  } ]
+}

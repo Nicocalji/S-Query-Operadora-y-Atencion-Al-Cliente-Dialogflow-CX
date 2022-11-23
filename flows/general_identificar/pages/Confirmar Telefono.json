@@ -1,0 +1,171 @@
+{
+  "name": "6c29fe80-ad55-4879-b96a-a9c6bbd87911",
+  "displayName": "Confirmar Telefono",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "webhook": "S-Query",
+    "tag": "ponerMensajesContextoTelefono",
+    "setParameterActions": [ {
+      "parameter": "conteoReintentos",
+      "value": 0
+    }, {
+      "parameter": "onActionPage",
+      "value": false
+    }, {
+      "parameter": "respuestaCorta",
+      "value": true
+    }, {
+      "parameter": "onConfirmPhone",
+      "value": true
+    }, {
+      "parameter": "onGetPhone",
+      "value": false
+    }, {
+      "parameter": "conteoNoEsuchado",
+      "value": 0
+    }, {
+      "parameter": "mensajeReintento_es",
+      "value": " \"Por favor. ¿Me puede confirmar que su número de teléfono es el. \u003csay-as interpret-as=\"telephone\"\u003e$session.params.telefono \u003c/say-as\u003e?\""
+    }, {
+      "parameter": "mensajeReintento_en",
+      "value": ""
+    }, {
+      "parameter": "mensajeNoEscucha_es",
+      "value": " \"Por favor. ¿Me puede confirmar que su número de teléfono es el. \u003csay-as interpret-as=\"telephone\"\u003e$session.params.telefono \u003c/say-as\u003e?\""
+    }, {
+      "parameter": "mensajeNoEscucha_en",
+      "value": ""
+    }, {
+      "parameter": "mensajeEspera_es",
+      "value": " \"Por favor. ¿Me puede confirmar que su número de teléfono es el. \u003csay-as interpret-as=\"telephone\"\u003e$session.params.telefono \u003c/say-as\u003e?\""
+    }, {
+      "parameter": "mensajeEspera_en",
+      "value": ""
+    }, {
+      "parameter": "mensajeRepetir_es",
+      "value": " \"Por favor. ¿Me puede confirmar que su número de teléfono es el. \u003csay-as interpret-as=\"telephone\"\u003e$session.params.telefono \u003c/say-as\u003e?\""
+    }, {
+      "parameter": "mensajeRepetir_en",
+      "value": ""
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "int_yes",
+    "condition": "$session.params.parentesco = null",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "\u003cspeak\u003e Genial.\u003c/speak\u003e" ]
+        },
+        "languageCode": "es"
+      }, {
+        "outputAudioText": {
+          "ssml": "\u003cspeak\u003e Genial. \u003c/speak\u003e"
+        },
+        "languageCode": "es"
+      } ],
+      "setParameterActions": [ {
+        "parameter": "identificado",
+        "value": true
+      }, {
+        "parameter": "conteoDatos",
+        "value": null
+      }, {
+        "parameter": "nombre",
+        "value": null
+      }, {
+        "parameter": "respuestaCorta",
+        "value": null
+      } ]
+    },
+    "targetPage": "Confirmar gestión personal",
+    "name": "23e20573-fda5-48eb-85a1-8ab748913d8f"
+  }, {
+    "intent": "int_no",
+    "triggerFulfillment": {
+      "webhook": "S-Query",
+      "tag": "parametroIncorrecto",
+      "setParameterActions": [ {
+        "parameter": "telefononew",
+        "value": null
+      }, {
+        "parameter": "respuestaCorta",
+        "value": null
+      } ]
+    },
+    "targetPage": "Obtener Telefono",
+    "name": "5ece519a-6912-43a0-9747-593a00958495"
+  }, {
+    "intent": "int_yes",
+    "condition": "$session.params.parentesco != null",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "\u003cspeak\u003e Sensacional. Por favor, Dígame el nombre y primer apellido de su $session.params.parentesco.\u003c/speak\u003e" ]
+        },
+        "languageCode": "es"
+      }, {
+        "outputAudioText": {
+          "ssml": "\u003cspeak\u003e Sensacional. Por favor, Dígame el nombre y primer apellido de su $session.params.parentesco.\u003c/speak\u003e"
+        },
+        "languageCode": "es"
+      } ],
+      "setParameterActions": [ {
+        "parameter": "identificado",
+        "value": true
+      }, {
+        "parameter": "conteoDatos",
+        "value": null
+      }, {
+        "parameter": "nombre",
+        "value": null
+      }, {
+        "parameter": "respuestaCorta",
+        "value": null
+      }, {
+        "parameter": "conteoReintentos",
+        "value": 0
+      }, {
+        "parameter": "personal",
+        "value": false
+      }, {
+        "parameter": "mensajeError",
+        "value": "Por favor, dígame el nombre de su $session.params.parentesco."
+      }, {
+        "parameter": "mensajeEspera",
+        "value": "Por favor, dígame el nombre de su $session.params.parentesco."
+      }, {
+        "parameter": "mensajeReintento_es",
+        "value": "Por favor, dígame el nombre de su $session.params.parentesco."
+      }, {
+        "parameter": "mensajeReintento_en",
+        "value": ""
+      }, {
+        "parameter": "mensajeNoEscucha_es",
+        "value": "Por favor, dígame el nombre de su $session.params.parentesco."
+      }, {
+        "parameter": "mensajeNoEscucha_en",
+        "value": ""
+      }, {
+        "parameter": "mensajeEspera_es",
+        "value": "Por favor, dígame el nombre de su $session.params.parentesco."
+      }, {
+        "parameter": "mensajeEspera_en",
+        "value": ""
+      }, {
+        "parameter": "mensajeRepetir_es",
+        "value": "Por favor, dígame el nombre de su $session.params.parentesco."
+      }, {
+        "parameter": "mensajeRepetir_en",
+        "value": ""
+      } ]
+    },
+    "targetPage": "Obtener Nombre Completo",
+    "name": "ff7b7b2f-4633-47ea-9a40-29924b72d03c"
+  } ],
+  "speakerIdSettings": {
+  
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "name": "7bf8769c-c64f-4f75-8975-2dddb4bf8637",
+  "displayName": "Denegar Llamada",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+  
+  },
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+    
+    },
+    "name": "dd2d4a74-01ab-4e78-97ec-0427275c64d0"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+    
+    },
+    "name": "7fd1b3f7-76ba-4875-a5dd-a6efe938ab30"
+  }, {
+    "event": "DENEGAR_LLAMADA",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "\u003cspeak\u003e Entendido. \u003cbreak time=\"0.5\"/\u003e Le haré saber que no está disponible.  \u003cbreak time=\"0.8\"/\u003eHasta luego. \u003c/speak\u003e" ]
+        },
+        "languageCode": "es"
+      }, {
+        "outputAudioText": {
+          "ssml": "\u003cspeak\u003e Entendido. \u003cbreak time=\"0.5\"/\u003e Le haré saber que no está disponible.  \u003cbreak time=\"0.8\"/\u003eHasta luego. \u003c/speak\u003e"
+        },
+        "languageCode": "es"
+      }, {
+        "text": {
+          "text": [ "\u003cspeak\u003e Understood. \u003cbreak time=\"0.5\"/\u003eI'll let them know you're not available.  \u003cbreak time=\"0.8\"/\u003e Have a good day! \u003c/speak\u003e" ]
+        },
+        "languageCode": "en"
+      }, {
+        "outputAudioText": {
+          "ssml": "\u003cspeak\u003e Understood. \u003cbreak time=\"0.5\"/\u003eI'll let them know you're not available.  \u003cbreak time=\"0.8\"/\u003eHave a good day!\u003c/speak\u003e"
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "f64c76a9-e0fe-42e8-955e-bc357eb422ae"
+  }, {
+    "targetFlow": "operadora_llamada_denegada",
+    "event": "LLAMADA_DENEGADA",
+    "triggerFulfillment": {
+    
+    },
+    "name": "8a5280e1-462f-4e45-aa10-87d509535ac1"
+  } ],
+  "advancedSettings": {
+    "speechSettings": {
+      "endpointerSensitivity": 90,
+      "noSpeechTimeout": {
+        "seconds": 30
+      }
+    }
+  },
+  "speakerIdSettings": {
+  
+  }
+}

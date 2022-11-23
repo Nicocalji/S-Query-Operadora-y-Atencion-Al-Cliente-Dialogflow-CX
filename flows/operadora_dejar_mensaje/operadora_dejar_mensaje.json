@@ -1,0 +1,82 @@
+{
+  "name": "4ead0e7e-424f-49be-97b3-962c4b45d55c",
+  "displayName": "operadora_dejar_mensaje",
+  "transitionRoutes": [ {
+    "intent": "int_repetir",
+    "triggerFulfillment": {
+      "webhook": "S-Query",
+      "tag": "repetir",
+      "setParameterActions": [ {
+        "parameter": "repeat",
+        "value": true
+      } ]
+    },
+    "name": "5b934918-3353-4328-acc0-09c7a1f1a976"
+  }, {
+    "intent": "int_esperar",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "wait",
+        "value": true
+      } ]
+    },
+    "name": "90ed6e50-9616-4c59-ae1e-a419fcfc3ab3"
+  }, {
+    "condition": "true",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "\u003cspeak\u003e Fantástico. \u003c/speak\u003e" ]
+        },
+        "languageCode": "es"
+      }, {
+        "outputAudioText": {
+          "ssml": "\u003cspeak\u003e Fantástico. \u003c/speak\u003e"
+        },
+        "languageCode": "es"
+      } ],
+      "setParameterActions": [ {
+        "parameter": "conteoReintentos",
+        "value": 0
+      }, {
+        "parameter": "conteoNoEsuchado",
+        "value": 0
+      } ]
+    },
+    "targetPage": "Obtener Mensaje",
+    "name": "c30a64b2-bab0-49ca-b63d-bd4a8cb79195"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "webhook": "S-Query",
+      "tag": "noEntendido"
+    },
+    "name": "23fe9bdc-cfa0-4e76-abf2-e2d16c249d64"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "webhook": "S-Query",
+      "tag": "noResponde"
+    },
+    "name": "aea27f31-cc78-41b7-ac6a-67982f7688bb"
+  }, {
+    "targetPage": "End Session",
+    "event": "ACEPTADA_COLGADA",
+    "triggerFulfillment": {
+    
+    },
+    "name": "36a5bba7-ca24-4364-a182-d7c8bf8c41aa"
+  } ],
+  "nluSettings": {
+    "modelType": "MODEL_TYPE_ADVANCED",
+    "classificationThreshold": 0.30000001,
+    "modelTrainingMode": "MODEL_TRAINING_MODE_AUTOMATIC",
+    "multiIntentSettings": {
+    
+    }
+  },
+  "advancedSettings": {
+    "enabled": true
+  }
+}

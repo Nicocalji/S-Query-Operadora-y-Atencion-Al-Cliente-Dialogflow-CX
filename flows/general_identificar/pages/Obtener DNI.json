@@ -1,0 +1,124 @@
+{
+  "name": "4c094066-947a-4f1d-8230-238586cbef4e",
+  "displayName": "Obtener DNI",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "setParameterActions": [ {
+      "parameter": "en_dni",
+      "value": true
+    }, {
+      "parameter": "onLastName",
+      "value": false
+    }, {
+      "parameter": "reintentoNoResponde",
+      "value": 0
+    }, {
+      "parameter": "mensajeReintento_es",
+      "value": "Por favor. ¿me puede volver a decir el DNI todo seguido y sin letra?"
+    }, {
+      "parameter": "mensajeReintento_en",
+      "value": ""
+    }, {
+      "parameter": "mensajeNoEscucha_es",
+      "value": "Por favor. ¿me puede volver a decir el DNI todo seguido y sin letra?"
+    }, {
+      "parameter": "mensajeNoEscucha_en",
+      "value": ""
+    }, {
+      "parameter": "mensajeEspera_es",
+      "value": "Por favor. ¿me puede decir el DNI todo seguido y sin letra?"
+    }, {
+      "parameter": "mensajeEspera_en",
+      "value": ""
+    }, {
+      "parameter": "mensajeRepetir_es",
+      "value": "Por favor. ¿me puede decir el DNI todo seguido y sin letra?"
+    }, {
+      "parameter": "mensajeRepetir_en",
+      "value": ""
+    }, {
+      "parameter": "conteoReintentos",
+      "value": 0
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "int_obtener_dni",
+    "condition": "$intent.params.dni != null",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Perfecto." ]
+        },
+        "languageCode": "es"
+      }, {
+        "outputAudioText": {
+          "text": "Perfecto."
+        },
+        "languageCode": "es"
+      } ],
+      "webhook": "S-Query",
+      "tag": "verificarDni",
+      "setParameterActions": [ {
+        "parameter": "onLastName",
+        "value": false
+      } ]
+    },
+    "name": "4b0ad7b8-8428-43e2-86f1-9d1b727bfd86"
+  }, {
+    "intent": "int_obtener_dni",
+    "condition": "$intent.params.dni = null",
+    "triggerFulfillment": {
+      "webhook": "S-Query",
+      "tag": "noEntendido",
+      "setParameterActions": [ {
+        "parameter": "onLastName",
+        "value": false
+      } ]
+    },
+    "targetPage": "Obtener DNI",
+    "name": "67be882b-e02f-49b0-ae8d-e41dd9db3b1c"
+  }, {
+    "intent": "int_no_sabe_no_contesta",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "No hay problema." ]
+        },
+        "languageCode": "es"
+      }, {
+        "outputAudioText": {
+          "text": "No hay problema."
+        },
+        "languageCode": "es"
+      } ]
+    },
+    "targetPage": "Salida",
+    "name": "96f7ea34-7f1d-457b-84e8-bae81236673e"
+  }, {
+    "intent": "int_nie",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Genial." ]
+        },
+        "languageCode": "es"
+      }, {
+        "outputAudioText": {
+          "text": "Genial."
+        },
+        "languageCode": "es"
+      } ]
+    },
+    "targetPage": "Salida",
+    "name": "689166dc-5725-46eb-980c-15b327997b2a"
+  }, {
+    "condition": "false",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Confirmar DNI",
+    "name": "c3de3acd-eae9-4908-8cb3-8a3f4ba1e900"
+  } ]
+}

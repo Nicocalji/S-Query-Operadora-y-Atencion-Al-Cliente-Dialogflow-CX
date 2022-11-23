@@ -1,0 +1,6 @@
+{
+  "name": "75940ae8-8c2f-4913-900b-58382f49f5d6",
+  "displayName": "int_eliminar_contacto",
+  "priority": 500000,
+  "description": "Intent para eliminar el contacto del usuario que llama"
+}
