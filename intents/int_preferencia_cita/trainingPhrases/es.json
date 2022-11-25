@@ -1,6 +1,46 @@
 {
   "trainingPhrases": [ {
     "parts": [ {
+      "text": "podría sacarme ",
+      "auto": true
+    }, {
+      "text": "una"
+    }, {
+      "text": " cita por favor",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "quiero sacar ",
+      "auto": true
+    }, {
+      "text": "una"
+    }, {
+      "text": " cita ",
+      "auto": true
+    }, {
+      "text": "para"
+    }, {
+      "text": " mi ",
+      "auto": true
+    }, {
+      "text": "hijo",
+      "parameterId": "parentesco",
+      "auto": true
+    }, {
+      "text": " con el ",
+      "auto": true
+    }, {
+      "text": "pediatra",
+      "parameterId": "especialidad",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
       "text": "quiero una cita con el "
     }, {
       "text": "peditrapara",

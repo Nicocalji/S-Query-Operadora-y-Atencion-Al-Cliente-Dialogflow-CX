@@ -94,10 +94,8 @@
     "name": "b5b15808-85c1-4590-a2fa-6807f6c77611"
   }, {
     "intent": "int_no",
-    "condition": "$session.params.reintentoDatos \u003e 1",
+    "condition": "$session.params.conteoDatos \u003e= 1",
     "triggerFulfillment": {
-      "webhook": "S-Query",
-      "tag": "conteoObtencionDatos",
       "setParameterActions": [ {
         "parameter": "dni",
         "value": null
@@ -122,6 +120,8 @@
         },
         "languageCode": "es"
       } ],
+      "webhook": "S-Query",
+      "tag": "conteoObtencionDatos",
       "setParameterActions": [ {
         "parameter": "mensajeError",
         "value": "Por favor indíqueme el DNI nuevamente."

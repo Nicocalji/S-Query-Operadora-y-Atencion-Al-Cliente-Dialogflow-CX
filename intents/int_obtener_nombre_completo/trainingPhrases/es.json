@@ -1,6 +1,21 @@
 {
   "trainingPhrases": [ {
     "parts": [ {
+      "text": "Juan Camilo",
+      "parameterId": "nombre",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "Rebellón",
+      "parameterId": "apellido",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
       "text": "se llama ",
       "auto": true
     }, {

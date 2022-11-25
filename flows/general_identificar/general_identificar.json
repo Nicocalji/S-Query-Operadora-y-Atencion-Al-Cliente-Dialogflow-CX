@@ -64,7 +64,7 @@
     },
     "name": "6cfc73f4-733b-4210-826d-ca79a684af87"
   }, {
-    "condition": "$session.params.tipoAgente = operadora",
+    "condition": "$session.params.tipoAgente = \"operadora\"",
     "triggerFulfillment": {
     
     },

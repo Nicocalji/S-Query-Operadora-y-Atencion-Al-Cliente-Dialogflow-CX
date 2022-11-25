@@ -13,13 +13,15 @@
         "repromptEventHandlers": [ {
           "event": "sys.no-match-default",
           "triggerFulfillment": {
-          
+            "webhook": "S-Query",
+            "tag": "noEntendido"
           },
           "name": "04e6a5c4-cc50-41dc-9048-f19d0767b349"
         }, {
           "event": "sys.no-input-default",
           "triggerFulfillment": {
-          
+            "webhook": "S-Query",
+            "tag": "noResponde"
           },
           "name": "dfd235e6-3a40-4689-a656-7a527544a550"
         } ]

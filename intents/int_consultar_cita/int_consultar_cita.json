@@ -2,8 +2,8 @@
   "name": "bb1590a4-df28-442b-b6e5-ae83f1dad38d",
   "displayName": "int_consultar_cita",
   "parameters": [ {
-    "id": "especialidad",
-    "entityType": "@ent_especialidad"
+    "id": "parentesco",
+    "entityType": "@ent_parentesco"
   } ],
   "priority": 500000
 }

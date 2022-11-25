@@ -4,7 +4,7 @@
       "text": "quería que me recordarán visita de mi "
     }, {
       "text": "madre",
-      "parameterId": "especialidad"
+      "parameterId": "parentesco"
     } ],
     "repeatCount": 1,
     "languageCode": "es"
@@ -13,7 +13,7 @@
       "text": "quiero acordarme una cita que tenía mi "
     }, {
       "text": "tía",
-      "parameterId": "especialidad"
+      "parameterId": "parentesco"
     } ],
     "repeatCount": 1,
     "languageCode": "es"
@@ -29,7 +29,7 @@
       "text": "No sé si me han dado la cita de mi "
     }, {
       "text": "hijo",
-      "parameterId": "especialidad"
+      "parameterId": "parentesco"
     } ],
     "repeatCount": 1,
     "languageCode": "es"
@@ -67,7 +67,7 @@
       "text": "tenia dudas de las fechas de las citas de mi "
     }, {
       "text": "marido",
-      "parameterId": "especialidad"
+      "parameterId": "parentesco"
     } ],
     "repeatCount": 1,
     "languageCode": "es"
@@ -83,7 +83,7 @@
       "text": "perdí el recordatorio de cita de mi "
     }, {
       "text": "suegra",
-      "parameterId": "especialidad"
+      "parameterId": "parentesco"
     } ],
     "repeatCount": 1,
     "languageCode": "es"
@@ -189,7 +189,7 @@
       "text": "si me puedes decir qué día tengo la cita de mi "
     }, {
       "text": "madre",
-      "parameterId": "especialidad"
+      "parameterId": "parentesco"
     } ],
     "repeatCount": 1,
     "languageCode": "es"
@@ -260,7 +260,8 @@
     "parts": [ {
       "text": "perdí dónde tenía apuntada la cita de mi "
     }, {
-      "text": "pareja"
+      "text": "pareja",
+      "parameterId": "parentesco"
     } ],
     "repeatCount": 1,
     "languageCode": "es"
@@ -285,7 +286,7 @@
       "auto": true
     }, {
       "text": "vista",
-      "parameterId": "especialidad",
+      "parameterId": "parentesco",
       "auto": true
     } ],
     "repeatCount": 1,
@@ -305,7 +306,7 @@
       "auto": true
     }, {
       "text": "otorrino",
-      "parameterId": "especialidad",
+      "parameterId": "parentesco",
       "auto": true
     } ],
     "repeatCount": 1,
@@ -315,7 +316,7 @@
       "text": "quería verificar mi cita con el "
     }, {
       "text": "cardiólogo",
-      "parameterId": "especialidad",
+      "parameterId": "parentesco",
       "auto": true
     } ],
     "repeatCount": 1,
