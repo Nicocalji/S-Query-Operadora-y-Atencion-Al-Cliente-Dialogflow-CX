@@ -23,15 +23,16 @@
   },
   "transitionRoutes": [ {
     "intent": "int_no",
+    "condition": "$session.params.parametrosModulos.operadora.dejarMensaje = false",
     "triggerFulfillment": {
       "messages": [ {
         "text": {
-          "text": [ "\u003cspeak\u003e Vale. \u003cbreak time=\"0.8\"/\u003e \u003c/speak\u003e" ]
+          "text": [ "\u003cspeak\u003e Entendido. \u003cbreak time=\"0.8\"/\u003e No se preocupe, he tonado nota.\u003cbreak time=\"0.5\"/\u003e Muchas gracias por su amabilidad.  Hasta luego y que tenga un buen día. \u003c/speak\u003e" ]
         },
         "languageCode": "es"
       }, {
         "outputAudioText": {
-          "ssml": "\u003cspeak\u003e Vale. \u003cbreak time=\"0.8\"/\u003e \u003c/speak\u003e"
+          "ssml": "\u003cspeak\u003e Entendido. \u003cbreak time=\"0.8\"/\u003e No se preocupe, he tonado nota.\u003cbreak time=\"0.5\"/\u003e Muchas gracias por su amabilidad.  Hasta luego y que tenga un buen día. \u003c/speak\u003e"
         },
         "languageCode": "es"
       }, {
@@ -50,7 +51,7 @@
         "value": null
       } ]
     },
-    "targetPage": "Confirmar Mensaje",
+    "targetPage": "End Session",
     "name": "a1e62644-363a-4490-90b8-23cab1c2f381"
   }, {
     "intent": "int_yes",
@@ -128,6 +129,14 @@
     },
     "targetPage": "Pasar Llamada",
     "name": "efcd8c87-78eb-4d3b-815d-79106b11801c"
+  }, {
+    "intent": "int_no",
+    "condition": "$session.params.parametrosModulos.operadora.dejarMensaje = true",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Confirmar Mensaje",
+    "name": "8e332bce-ed05-48e2-be67-cc3790a56d38"
   } ],
   "advancedSettings": {
     "speechSettings": {

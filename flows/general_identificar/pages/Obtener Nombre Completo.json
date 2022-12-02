@@ -46,49 +46,16 @@
         "initialPromptFulfillment": {
           "messages": [ {
             "text": {
-              "text": [ "\u003cspeak\u003e Por favor, Dígame su apellido.\u003c/speak\u003e" ]
+              "text": [ "\u003cspeak\u003e Por favor, Dígame el apellido.\u003c/speak\u003e" ]
             },
             "languageCode": "es"
           }, {
             "outputAudioText": {
-              "ssml": "\u003cspeak\u003e Por favor, Dígame su apellido.\u003c/speak\u003e"
+              "ssml": "\u003cspeak\u003e Por favor, Dígame el apellido.\u003c/speak\u003e"
             },
             "languageCode": "es"
           } ],
           "setParameterActions": [ {
-            "parameter": "mensajeError",
-            "value": "Por favor, dígame su apellido."
-          }, {
-            "parameter": "mensajePersonal",
-            "value": "Genial, $session.params.nombre. Por favor, dígame su DNI sin pausas."
-          }, {
-            "parameter": "mensajeNoPersonal",
-            "value": "\u003cspeak\u003e Muy bien. Por favor. ¿Me puede decir sin pausas el DNI de $session.params.nombre? \u003c/speak\u003e"
-          }, {
-            "parameter": "mensajeEspera_en",
-            "value": "Please tell me your surname"
-          }, {
-            "parameter": "mensajeEspera_es",
-            "value": "Por favor, dígame su apellido."
-          }, {
-            "parameter": "mensajeReintento_en",
-            "value": "Please tell me your surname"
-          }, {
-            "parameter": "mensajeReintento_es",
-            "value": "Por favor, dígame su apellido."
-          }, {
-            "parameter": "mensajeNoEscucha_en",
-            "value": "Please tell me your surname"
-          }, {
-            "parameter": "mensajeNoEscucha_es",
-            "value": "Por favor, dígame su apellido."
-          }, {
-            "parameter": "mensajeRepetir_en",
-            "value": "Please tell me your surname"
-          }, {
-            "parameter": "mensajeRepetir_es",
-            "value": "Por favor, dígame su apellido."
-          }, {
             "parameter": "onName",
             "value": null
           } ]
@@ -129,30 +96,6 @@
     }, {
       "parameter": "conteoReintentos",
       "value": 0
-    }, {
-      "parameter": "mensajeEspera_en",
-      "value": "Please tell me your full name"
-    }, {
-      "parameter": "mensajeEspera_es",
-      "value": "Indíqueme su nombre completo por favor"
-    }, {
-      "parameter": "mensajeNoEscucha_en",
-      "value": "Please tell me your full name"
-    }, {
-      "parameter": "mensajeNoEscucha_es",
-      "value": "Indíqueme su nombre completo por favor"
-    }, {
-      "parameter": "mensajeReintento_en",
-      "value": "Please tell me your full name"
-    }, {
-      "parameter": "mensajeReintento_es",
-      "value": "Indíqueme su nombre completo por favor"
-    }, {
-      "parameter": "mensajeRepetir_en",
-      "value": "Please tell me your full name"
-    }, {
-      "parameter": "mensajeRepetir_es",
-      "value": "Indíqueme su nombre completo por favor"
     } ]
   },
   "transitionRoutes": [ {

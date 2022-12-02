@@ -1,0 +1,9 @@
+{
+  "name": "83f9c046-57e8-4df8-900f-3e0231aa9a32",
+  "displayName": "int_obtener_empresa",
+  "parameters": [ {
+    "id": "empresa",
+    "entityType": "@sys.any"
+  } ],
+  "priority": 500000
+}

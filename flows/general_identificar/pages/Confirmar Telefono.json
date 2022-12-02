@@ -27,25 +27,25 @@
       "value": 0
     }, {
       "parameter": "mensajeReintento_es",
-      "value": " \"Por favor. ¿Me puede confirmar que su número de teléfono es el. \u003csay-as interpret-as=\"telephone\"\u003e$session.params.telefono \u003c/say-as\u003e?\""
+      "value": "\"Por favor. ¿Me puede volver a confirmar que su número de teléfono es el. \u003csay-as interpret-as=\"telephone\"\u003e$session.params.telefono \u003c/say-as\u003e?\""
     }, {
       "parameter": "mensajeReintento_en",
       "value": ""
     }, {
       "parameter": "mensajeNoEscucha_es",
-      "value": " \"Por favor. ¿Me puede confirmar que su número de teléfono es el. \u003csay-as interpret-as=\"telephone\"\u003e$session.params.telefono \u003c/say-as\u003e?\""
+      "value": "\"Por favor. ¿Me puede volver a confirmar que su número de teléfono es el. \u003csay-as interpret-as=\"telephone\"\u003e$session.params.telefono \u003c/say-as\u003e?\""
     }, {
       "parameter": "mensajeNoEscucha_en",
       "value": ""
     }, {
       "parameter": "mensajeEspera_es",
-      "value": " \"Por favor. ¿Me puede confirmar que su número de teléfono es el. \u003csay-as interpret-as=\"telephone\"\u003e$session.params.telefono \u003c/say-as\u003e?\""
+      "value": "\"Por favor. ¿Me puede confirmar que su número de teléfono es el. \u003csay-as interpret-as=\"telephone\"\u003e$session.params.telefono \u003c/say-as\u003e?\""
     }, {
       "parameter": "mensajeEspera_en",
       "value": ""
     }, {
       "parameter": "mensajeRepetir_es",
-      "value": " \"Por favor. ¿Me puede confirmar que su número de teléfono es el. \u003csay-as interpret-as=\"telephone\"\u003e$session.params.telefono \u003c/say-as\u003e?\""
+      "value": "\"Por favor. ¿Me puede confirmar que su número de teléfono es el. \u003csay-as interpret-as=\"telephone\"\u003e$session.params.telefono \u003c/say-as\u003e?\""
     }, {
       "parameter": "mensajeRepetir_en",
       "value": ""
@@ -70,14 +70,14 @@
         "parameter": "identificado",
         "value": true
       }, {
-        "parameter": "conteoDatos",
-        "value": null
-      }, {
         "parameter": "nombre",
         "value": null
       }, {
         "parameter": "respuestaCorta",
         "value": null
+      }, {
+        "parameter": "conteoParametroIncorrecto",
+        "value": 0
       } ]
     },
     "targetPage": "Confirmar gestión personal",
@@ -86,7 +86,7 @@
     "intent": "int_no",
     "triggerFulfillment": {
       "webhook": "S-Query",
-      "tag": "parametroIncorrecto",
+      "tag": "telefonoIncorrecto",
       "setParameterActions": [ {
         "parameter": "telefononew",
         "value": null
@@ -115,9 +115,6 @@
       "setParameterActions": [ {
         "parameter": "identificado",
         "value": true
-      }, {
-        "parameter": "conteoDatos",
-        "value": null
       }, {
         "parameter": "nombre",
         "value": null
@@ -160,6 +157,9 @@
       }, {
         "parameter": "mensajeRepetir_en",
         "value": ""
+      }, {
+        "parameter": "conteoParametroIncorrecto",
+        "value": 0
       } ]
     },
     "targetPage": "Obtener Nombre Completo",

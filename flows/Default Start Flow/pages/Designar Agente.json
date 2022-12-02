@@ -12,7 +12,7 @@
     "condition": "$session.params.tipoAgente = \"operadora\"",
     "triggerFulfillment": {
       "webhook": "S-Query",
-      "tag": "cargarEmpleados",
+      "tag": "cargarEntidades",
       "returnPartialResponses": true
     },
     "targetFlow": "operadora_inicio",
@@ -20,6 +20,8 @@
   }, {
     "condition": "$session.params.tipoAgente = \"gestion_cita\"",
     "triggerFulfillment": {
+      "webhook": "S-Query",
+      "tag": "cargarEspecialidades",
       "returnPartialResponses": true
     },
     "targetFlow": "gestion_cita_inicio",

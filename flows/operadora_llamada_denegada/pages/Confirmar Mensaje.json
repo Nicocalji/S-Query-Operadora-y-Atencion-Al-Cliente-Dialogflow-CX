@@ -68,6 +68,12 @@
     } ]
   },
   "transitionRoutes": [ {
+    "intent": "int_dejar_mensaje",
+    "triggerFulfillment": {
+    
+    },
+    "name": "ad5c36d3-8569-401e-843a-edc5b5a8f3a3"
+  }, {
     "intent": "int_yes",
     "triggerFulfillment": {
       "setParameterActions": [ {
@@ -110,5 +116,24 @@
     },
     "targetPage": "End Session",
     "name": "18e6ad3e-e111-4807-883f-2296de23a612"
+  }, {
+    "condition": "$session.params.mensaje != null",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "\u003cspeak\u003e Perfecto $session.params.nombre, he anotado su mensaje. Gracias por su amabilidad, hasta luego y que tenga un buen día. \u003c/speak\u003e" ]
+        },
+        "languageCode": "es"
+      }, {
+        "outputAudioText": {
+          "ssml": "\u003cspeak\u003e Perfecto $session.params.nombre, he anotado su mensaje. Gracias por su amabilidad, hasta luego y que tenga un buen día. \u003c/speak\u003e"
+        },
+        "languageCode": "es"
+      } ],
+      "webhook": "S-Query",
+      "tag": "enviarDatos"
+    },
+    "targetPage": "End Session",
+    "name": "c0141327-7f95-4620-93cd-4cfd55b60740"
   } ]
 }

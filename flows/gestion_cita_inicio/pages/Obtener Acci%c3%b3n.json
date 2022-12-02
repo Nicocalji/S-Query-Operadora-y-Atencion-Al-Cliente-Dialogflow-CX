@@ -156,6 +156,24 @@
     "name": "5304e2e2-0ab7-4ab1-b99a-4348a61d9b84"
   }, {
     "intent": "int_contactar",
+    "condition": "$session.params.modulos.operadora = true AND $session.params.contactoExists = false AND $session.params.reintentoObtenerAQuienContactar = true",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "\u003cspeak\u003e Genial. Por favor, Indíqueme su nombre y apellidos. \u003cbreak time = \"0.8\"/\u003e \u003c/speak\u003e" ]
+        },
+        "languageCode": "es"
+      }, {
+        "outputAudioText": {
+          "ssml": "\u003cspeak\u003e Genial. Por favor, Indíqueme su nombre y apellidos. \u003cbreak time = \"0.8\"/\u003e \u003c/speak\u003e"
+        },
+        "languageCode": "es"
+      } ]
+    },
+    "targetFlow": "general_identificar",
+    "name": "1823e682-1d87-44cc-8d0e-7f793cf878ac"
+  }, {
+    "intent": "int_contactar",
     "condition": "$session.params.modulos.operadora = true AND $session.params.contactoExists = false",
     "triggerFulfillment": {
       "messages": [ {
@@ -170,7 +188,7 @@
         "languageCode": "es"
       } ],
       "webhook": "S-Query",
-      "tag": "cargarEmpleados",
+      "tag": "cargarEntidades",
       "setParameterActions": [ {
         "parameter": "tipoAgente",
         "value": "operadora"
@@ -186,7 +204,7 @@
     "condition": "$session.params.modulos.operadora = true AND $session.params.contactoExists = true",
     "triggerFulfillment": {
       "webhook": "S-Query",
-      "tag": "cargarEmpleados",
+      "tag": "cargarEntidades",
       "setParameterActions": [ {
         "parameter": "tipoAgente",
         "value": "operadora"
@@ -237,5 +255,13 @@
       "returnPartialResponses": true
     },
     "name": "dea6b5cc-ba07-4c46-b2e1-b5b43e80f28e"
+  }, {
+    "intent": "int_contactar",
+    "condition": "$session.params.modulos.operadora = true AND $session.params.contactoExists = true AND $session.params.reintentoObtenerAQuienContactar = true",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "operadora_inicio",
+    "name": "8da37859-c6fc-487e-a4c5-73f20c629efe"
   } ]
 }

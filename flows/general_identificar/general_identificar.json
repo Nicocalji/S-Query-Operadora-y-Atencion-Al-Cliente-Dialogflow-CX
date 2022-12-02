@@ -64,6 +64,57 @@
     },
     "name": "6cfc73f4-733b-4210-826d-ca79a684af87"
   }, {
+    "condition": "$session.params.accion = otros OR $session.params.accion = medicamento OR $session.params.accion = hablar",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "\u003cspeak\u003e Para poder ayudarle con esto necesito saber algún dato. \u003cbreak time=\"0.5s\"/\u003e Por favor. ¿Me puede confirmar que su número de teléfono es el. \u003csay-as interpret-as=\"telephone\"\u003e$session.params.telefono \u003c/say-as\u003e? \u003c/speak\u003e" ]
+        },
+        "languageCode": "es"
+      }, {
+        "outputAudioText": {
+          "ssml": "\u003cspeak\u003e Para poder ayudarle con esto necesito saber algún dato. \u003cbreak time=\"0.5s\"/\u003e Por favor. ¿Me puede confirmar que su número de teléfono es el. \u003csay-as interpret-as=\"telephone\"\u003e$session.params.telefono \u003c/say-as\u003e? \u003c/speak\u003e"
+        },
+        "languageCode": "es"
+      } ],
+      "setParameterActions": [ {
+        "parameter": "conteoReintentos",
+        "value": 0
+      }, {
+        "parameter": "onActionPage",
+        "value": false
+      }, {
+        "parameter": "mensajeEspera_es",
+        "value": "Por favor. ¿me puede confirmar que su número telefónico es \u003csay-as interpret-as'telephone'\u003e$session.params.telefono \u003c/say-as\u003e?"
+      }, {
+        "parameter": "mensajeError",
+        "value": "Por favor. ¿me puede confirmar que su número telefónico es \u003csay-as interpret-as'telephone'\u003e$session.params.telefono \u003c/say-as\u003e?"
+      }, {
+        "parameter": "mensajeRepetir_es",
+        "value": "Por favor. ¿me puede confirmar que su número telefónico es \u003csay-as interpret-as'telephone'\u003e$session.params.telefono \u003c/say-as\u003e?"
+      }, {
+        "parameter": "mensajeEspera_en",
+        "value": ""
+      }, {
+        "parameter": "mensajeRepetir_en",
+        "value": ""
+      }, {
+        "parameter": "mensajeReintento_es",
+        "value": "Por favor. ¿me puede confirmar que su número telefónico es \u003csay-as interpret-as'telephone'\u003e$session.params.telefono \u003c/say-as\u003e?"
+      }, {
+        "parameter": "mensajeReintento_en",
+        "value": ""
+      }, {
+        "parameter": "mensajeNoEscucha_es",
+        "value": "Por favor. ¿me puede confirmar que su número telefónico es \u003csay-as interpret-as'telephone'\u003e$session.params.telefono \u003c/say-as\u003e?"
+      }, {
+        "parameter": "mensajeNoEscucha_en",
+        "value": ""
+      } ]
+    },
+    "targetPage": "Confirmar Telefono",
+    "name": "9a817d7d-d7d8-49d3-92e0-c826428ed767"
+  }, {
     "condition": "$session.params.tipoAgente = \"operadora\"",
     "triggerFulfillment": {
     
@@ -167,57 +218,6 @@
     "targetPage": "Confirmar Telefono",
     "name": "823f8555-d4ae-404c-9f04-075fbbe378b9"
   }, {
-    "condition": "$session.params.accion = otros OR $session.params.accion = medicamento OR $session.params.accion = hablar",
-    "triggerFulfillment": {
-      "messages": [ {
-        "text": {
-          "text": [ "\u003cspeak\u003e Para poder ayudarle con esto necesito saber algún dato. \u003cbreak time=\"0.5s\"/\u003e Por favor. ¿Me puede confirmar que su número de teléfono es el. \u003csay-as interpret-as=\"telephone\"\u003e$session.params.telefono \u003c/say-as\u003e? \u003c/speak\u003e" ]
-        },
-        "languageCode": "es"
-      }, {
-        "outputAudioText": {
-          "ssml": "\u003cspeak\u003e Para poder ayudarle con esto necesito saber algún dato. \u003cbreak time=\"0.5s\"/\u003e Por favor. ¿Me puede confirmar que su número de teléfono es el. \u003csay-as interpret-as=\"telephone\"\u003e$session.params.telefono \u003c/say-as\u003e? \u003c/speak\u003e"
-        },
-        "languageCode": "es"
-      } ],
-      "setParameterActions": [ {
-        "parameter": "conteoReintentos",
-        "value": 0
-      }, {
-        "parameter": "onActionPage",
-        "value": false
-      }, {
-        "parameter": "mensajeEspera_es",
-        "value": "Por favor. ¿me puede confirmar que su número telefónico es \u003csay-as interpret-as'telephone'\u003e$session.params.telefono \u003c/say-as\u003e?"
-      }, {
-        "parameter": "mensajeError",
-        "value": "Por favor. ¿me puede confirmar que su número telefónico es \u003csay-as interpret-as'telephone'\u003e$session.params.telefono \u003c/say-as\u003e?"
-      }, {
-        "parameter": "mensajeRepetir_es",
-        "value": "Por favor. ¿me puede confirmar que su número telefónico es \u003csay-as interpret-as'telephone'\u003e$session.params.telefono \u003c/say-as\u003e?"
-      }, {
-        "parameter": "mensajeEspera_en",
-        "value": ""
-      }, {
-        "parameter": "mensajeRepetir_en",
-        "value": ""
-      }, {
-        "parameter": "mensajeReintento_es",
-        "value": "Por favor. ¿me puede confirmar que su número telefónico es \u003csay-as interpret-as'telephone'\u003e$session.params.telefono \u003c/say-as\u003e?"
-      }, {
-        "parameter": "mensajeReintento_en",
-        "value": ""
-      }, {
-        "parameter": "mensajeNoEscucha_es",
-        "value": "Por favor. ¿me puede confirmar que su número telefónico es \u003csay-as interpret-as'telephone'\u003e$session.params.telefono \u003c/say-as\u003e?"
-      }, {
-        "parameter": "mensajeNoEscucha_en",
-        "value": ""
-      } ]
-    },
-    "targetPage": "Confirmar Telefono",
-    "name": "9a817d7d-d7d8-49d3-92e0-c826428ed767"
-  }, {
     "condition": "$session.params.accion = eliminarCita AND $session.params.tipoAgente = gestion_cita",
     "triggerFulfillment": {
       "messages": [ {
@@ -282,9 +282,6 @@
       "setParameterActions": [ {
         "parameter": "reintento",
         "value": 0
-      }, {
-        "parameter": "mensajeEspera",
-        "value": "Por favor. ¿me puede confirmar que su número telefónico es \u003csay-as interpret-as='telephone'\u003e$session.params.telefono \u003c/say-as\u003e?"
       }, {
         "parameter": "onActionPage",
         "value": false
@@ -412,6 +409,13 @@
     },
     "targetPage": "Confirmar Telefono",
     "name": "1c9666be-438c-47e2-bca3-a27bb9250985"
+  }, {
+    "condition": "true",
+    "triggerFulfillment": {
+      "webhook": "S-Query",
+      "tag": "IdentificarSelectReason"
+    },
+    "name": "02873643-1854-4d58-bda8-d8b231b3a86e"
   } ],
   "eventHandlers": [ {
     "event": "sys.no-match-default",

@@ -17,7 +17,17 @@
   "transitionRoutes": [ {
     "condition": "$session.params.realizarLlamada = false",
     "triggerFulfillment": {
-    
+      "messages": [ {
+        "outputAudioText": {
+          "ssml": "\u003cspeak\u003e\n  \u003caudio src=\"https://storage.googleapis.com/general-s-query/musica-espera_ulaw.wav\"\u003e\n  \u003c/audio\u003e\n\u003c/speak\u003e"
+        },
+        "languageCode": "es"
+      }, {
+        "text": {
+          "text": [ "\u003cspeak\u003e\r\n  \u003caudio src=\"https://storage.googleapis.com/general-s-query/musica-espera_ulaw.wav\"\u003e\r\n  \u003c/audio\u003e\r\n\u003c/speak\u003e" ]
+        },
+        "languageCode": "es"
+      } ]
     },
     "targetFlow": "operadora_llamada_denegada",
     "name": "b087db9a-26fc-4687-a505-a7c584d3637a"

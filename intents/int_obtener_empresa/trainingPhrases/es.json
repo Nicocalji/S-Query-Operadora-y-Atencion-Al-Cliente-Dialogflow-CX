@@ -1,0 +1,649 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "soy "
+    }, {
+      "text": "de"
+    }, {
+      "text": " "
+    }, {
+      "text": "vodafone",
+      "parameterId": "empresa"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "llama ",
+      "auto": true
+    }, {
+      "text": "a"
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "Idrus",
+      "parameterId": "empresa"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "desde "
+    }, {
+      "text": "FontBella",
+      "parameterId": "empresa"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "desde el "
+    }, {
+      "text": "Hospital San Juan de Dios",
+      "parameterId": "empresa"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "del "
+    }, {
+      "text": "Hospital San Juan de Dios",
+      "parameterId": "empresa"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "llamo desde el "
+    }, {
+      "text": "Hospital San Juan de Dios",
+      "parameterId": "empresa"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "llamo de "
+    }, {
+      "text": "San Juan de Dios",
+      "parameterId": "empresa"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "ramo de "
+    }, {
+      "text": "San Juan de Dios",
+      "parameterId": "empresa"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "vulcanizados Manolo",
+      "parameterId": "empresa"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "de "
+    }, {
+      "text": "conservas Ana María",
+      "parameterId": "empresa"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "de"
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "Carrefour",
+      "parameterId": "empresa"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "desde ",
+      "auto": true
+    }, {
+      "text": "Eroski",
+      "parameterId": "empresa"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "desde ",
+      "auto": true
+    }, {
+      "text": "Atos",
+      "parameterId": "empresa"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Te"
+    }, {
+      "text": " estoy llamando desde ",
+      "auto": true
+    }, {
+      "text": "Atos",
+      "parameterId": "empresa"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "no tengo trabajo",
+      "parameterId": "empresa"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "estoy "
+    }, {
+      "text": "parado",
+      "parameterId": "empresa"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Sin empleo",
+      "parameterId": "empresa"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "te"
+    }, {
+      "text": " llamo "
+    }, {
+      "text": "de"
+    }, {
+      "text": " "
+    }, {
+      "text": "Makro",
+      "parameterId": "empresa"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "llamo desde ",
+      "auto": true
+    }, {
+      "text": "Makro",
+      "parameterId": "empresa"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "de "
+    }, {
+      "text": "Facebook",
+      "parameterId": "empresa"
+    } ],
+    "repeatCount": 3,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "de"
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "Funiber",
+      "parameterId": "empresa"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "desde ",
+      "auto": true
+    }, {
+      "text": "Amazon",
+      "parameterId": "empresa"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "ya me desde ",
+      "auto": true
+    }, {
+      "text": "Google",
+      "parameterId": "empresa"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "desde ",
+      "auto": true
+    }, {
+      "text": "Unicaja",
+      "parameterId": "empresa"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "BP",
+      "parameterId": "empresa"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "pues verás llamo desde ",
+      "auto": true
+    }, {
+      "text": "Endesa",
+      "parameterId": "empresa"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "de "
+    }, {
+      "text": "Shell",
+      "parameterId": "empresa"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "De"
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "Repsol",
+      "parameterId": "empresa"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "desde ",
+      "auto": true
+    }, {
+      "text": "Repsol",
+      "parameterId": "empresa"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "llamo desde "
+    }, {
+      "text": "Repsol",
+      "parameterId": "empresa"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "desde "
+    }, {
+      "text": "GitHub",
+      "parameterId": "empresa"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "de"
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "PostMan",
+      "parameterId": "empresa"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "de"
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "Samsung",
+      "parameterId": "empresa"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "desde ",
+      "auto": true
+    }, {
+      "text": "Apple",
+      "parameterId": "empresa"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Apple",
+      "parameterId": "empresa"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "FuenteLiviana",
+      "parameterId": "empresa"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "llamo desde la empresa "
+    }, {
+      "text": "Lego",
+      "parameterId": "empresa"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "de"
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "Ikea",
+      "parameterId": "empresa"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "de"
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "la empresa"
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "Google",
+      "parameterId": "empresa"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "de"
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "Amazon",
+      "parameterId": "empresa"
+    } ],
+    "repeatCount": 3,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "llamo desde ",
+      "auto": true
+    }, {
+      "text": "Ikea",
+      "parameterId": "empresa"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "trabajo en ninguna empresa "
+    }, {
+      "text": "autónomo",
+      "parameterId": "empresa"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "soy "
+    }, {
+      "text": "autónomo",
+      "parameterId": "empresa"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Asus",
+      "parameterId": "empresa"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Uneatlantico",
+      "parameterId": "empresa"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "vengo ",
+      "auto": true
+    }, {
+      "text": "de"
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "AMD",
+      "parameterId": "empresa"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "llamo desde ",
+      "auto": true
+    }, {
+      "text": "Intel",
+      "parameterId": "empresa"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "de"
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "PCComponentes",
+      "parameterId": "empresa"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "desde ",
+      "auto": true
+    }, {
+      "text": "Asus",
+      "parameterId": "empresa"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "dialogflow",
+      "parameterId": "empresa"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "pues verás llamo desde la empresa "
+    }, {
+      "text": "Avía",
+      "parameterId": "empresa"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "pues llamo ",
+      "auto": true
+    }, {
+      "text": "de"
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "Siemens",
+      "parameterId": "empresa"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "llamo desde ",
+      "auto": true
+    }, {
+      "text": "Endesa",
+      "parameterId": "empresa"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "llamaba desde ",
+      "auto": true
+    }, {
+      "text": "Uneatlantico",
+      "parameterId": "empresa"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "de la empresa "
+    }, {
+      "text": "DHL",
+      "parameterId": "empresa"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "de"
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "Google",
+      "parameterId": "empresa"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "pues ",
+      "auto": true
+    }, {
+      "text": "mira"
+    }, {
+      "text": " llamo desde la empresa ",
+      "auto": true
+    }, {
+      "text": "Idrus Soluciones e Innovación",
+      "parameterId": "empresa"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "desde ",
+      "auto": true
+    }, {
+      "text": "Idrus",
+      "parameterId": "empresa"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "desde ",
+      "auto": true
+    }, {
+      "text": "Santander",
+      "parameterId": "empresa"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "llamo desde "
+    }, {
+      "text": "Movistar",
+      "parameterId": "empresa"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Repsol",
+      "parameterId": "empresa"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Vodafone",
+      "parameterId": "empresa"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Idrus",
+      "parameterId": "empresa"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "pertenezco ",
+      "auto": true
+    }, {
+      "text": "a"
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "Idrus",
+      "parameterId": "empresa"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  } ]
+}

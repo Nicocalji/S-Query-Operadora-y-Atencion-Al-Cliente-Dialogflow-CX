@@ -1,0 +1,28 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "claro, "
+    }, {
+      "text": "dile que me llame cuando pueda",
+      "parameterId": "mensaje"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "necesito atencion urgente",
+      "parameterId": "mensaje"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "si, "
+    }, {
+      "text": "dile que me llame urgentemente",
+      "parameterId": "mensaje"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  } ]
+}

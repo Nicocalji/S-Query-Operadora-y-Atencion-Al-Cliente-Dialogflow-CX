@@ -66,6 +66,18 @@
     }, {
       "parameter": "mensajePeticion_en",
       "value": ""
+    }, {
+      "parameter": "mensajeReintento_es",
+      "value": "¿Me puede indicar a que hora tiene su cita?"
+    }, {
+      "parameter": "mensajeReintento_en",
+      "value": ""
+    }, {
+      "parameter": "mensajeNoEscucha_es",
+      "value": "¿Me puede indicar a que hora tiene su cita?"
+    }, {
+      "parameter": "mensajeNoEscucha_en",
+      "value": ""
     } ]
   },
   "transitionRoutes": [ {

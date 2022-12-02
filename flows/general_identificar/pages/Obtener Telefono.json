@@ -86,10 +86,8 @@
   "transitionRoutes": [ {
     "condition": "$session.params.telefonoNew != null",
     "triggerFulfillment": {
-      "setParameterActions": [ {
-        "parameter": "telefonoNew",
-        "value": "$session.params.telefononew"
-      } ]
+      "webhook": "S-Query",
+      "tag": "verificarTelefono"
     },
     "name": "e60e27ca-9693-4dc1-8f50-02ea15e33413"
   }, {

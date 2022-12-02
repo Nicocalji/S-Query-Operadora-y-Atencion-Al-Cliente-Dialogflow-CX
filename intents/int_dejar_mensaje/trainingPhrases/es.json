@@ -1,0 +1,101 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "claro, "
+    }, {
+      "text": "dile que me llame cuando pueda",
+      "parameterId": "mensaje"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "necesito atención urgente",
+      "parameterId": "mensaje"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "si, "
+    }, {
+      "text": "dile que me llame urgentemente",
+      "parameterId": "mensaje"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "si, "
+    }, {
+      "text": "no puedo venir a la conferencia",
+      "parameterId": "mensaje"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "si, "
+    }, {
+      "text": "dile que no es necesario que venga",
+      "parameterId": "mensaje"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "me ha surgido un problema",
+      "parameterId": "mensaje"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "me ha ocurrido algo ven rápido por favor",
+      "parameterId": "mensaje"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "que me llame que es urgente",
+      "parameterId": "mensaje"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "dígale que me llame",
+      "parameterId": "mensaje"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "si "
+    }, {
+      "text": "llámame en cuanto puedas por favor",
+      "parameterId": "mensaje"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "si, "
+    }, {
+      "text": "que me llame",
+      "parameterId": "mensaje"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "si "
+    }, {
+      "text": "dile que me llame",
+      "parameterId": "mensaje"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  } ]
+}

@@ -2,36 +2,7 @@
   "name": "850d8405-8366-458a-a04d-8a69be9a2951",
   "displayName": "Obtener Empresa",
   "form": {
-    "parameters": [ {
-      "displayName": "empresa",
-      "required": true,
-      "entityType": "@sys.any",
-      "fillBehavior": {
-        "initialPromptFulfillment": {
-        
-        },
-        "repromptEventHandlers": [ {
-          "event": "sys.no-match-default",
-          "triggerFulfillment": {
-            "webhook": "S-Query",
-            "tag": "noEntendido"
-          },
-          "name": "416ae32f-29cd-4f3d-b463-0cc68291e80e"
-        }, {
-          "event": "sys.no-input-default",
-          "triggerFulfillment": {
-            "webhook": "S-Query",
-            "tag": "noResponde"
-          },
-          "name": "8ea0535e-23db-45f1-9d8b-a0b202b6162c"
-        } ]
-      },
-      "advancedSettings": {
-        "dtmfSettings": {
-          "useSystemEntityRule": false
-        }
-      }
-    } ]
+  
   },
   "entryFulfillment": {
     "setParameterActions": [ {
@@ -64,6 +35,12 @@
     } ]
   },
   "transitionRoutes": [ {
+    "intent": "int_obtener_empresa",
+    "triggerFulfillment": {
+    
+    },
+    "name": "e4660c38-486e-455a-bd77-0c706ccb1f30"
+  }, {
     "condition": "$session.params.tipoAgente = \"operadora\" AND $session.params.empresa != null",
     "triggerFulfillment": {
     

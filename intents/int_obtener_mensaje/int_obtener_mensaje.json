@@ -1,0 +1,9 @@
+{
+  "name": "847ab1a4-bf83-461e-b368-66df41e3313b",
+  "displayName": "int_obtener_mensaje",
+  "parameters": [ {
+    "id": "mensaje",
+    "entityType": "@sys.any"
+  } ],
+  "priority": 500000
+}

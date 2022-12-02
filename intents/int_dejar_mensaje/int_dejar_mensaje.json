@@ -1,0 +1,9 @@
+{
+  "name": "9c2d27eb-4b3b-4c4b-bbde-e41931ca0193",
+  "displayName": "int_dejar_mensaje",
+  "parameters": [ {
+    "id": "mensaje",
+    "entityType": "@sys.any"
+  } ],
+  "priority": 500000
+}

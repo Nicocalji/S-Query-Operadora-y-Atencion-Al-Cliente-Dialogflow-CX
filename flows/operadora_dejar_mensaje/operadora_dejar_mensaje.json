@@ -64,7 +64,8 @@
     "targetPage": "End Session",
     "event": "ACEPTADA_COLGADA",
     "triggerFulfillment": {
-    
+      "webhook": "S-Query",
+      "tag": "enviarDatos"
     },
     "name": "36a5bba7-ca24-4364-a182-d7c8bf8c41aa"
   } ],

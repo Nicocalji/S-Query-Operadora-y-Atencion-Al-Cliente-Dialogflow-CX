@@ -28,11 +28,12 @@
         "value": true
       } ]
     },
-    "targetPage": "Current Page",
     "name": "c8d1e461-ff07-4a81-a458-cc54ddc744cf"
   }, {
     "condition": "true",
     "triggerFulfillment": {
+      "webhook": "S-Query",
+      "tag": "mensajeBienvenidaSalientes",
       "setParameterActions": [ {
         "parameter": "contextReintento",
         "value": "Would you like to take the call?"
@@ -75,14 +76,14 @@
     "event": "sys.no-match-default",
     "triggerFulfillment": {
       "webhook": "S-Query",
-      "tag": "noEntendido"
+      "tag": "noEntendidoSalientes"
     },
     "name": "5cd73257-4c94-4446-983f-4fe68d91ca9b"
   }, {
     "event": "sys.no-input-default",
     "triggerFulfillment": {
       "webhook": "S-Query",
-      "tag": "noResponde"
+      "tag": "noRespondeSalientes"
     },
     "name": "cbd0e031-34a0-4444-9538-7a7b35f7611f"
   }, {
