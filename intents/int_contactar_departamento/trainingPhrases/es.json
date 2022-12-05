@@ -1,0 +1,92 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "quiero hablar con el departamento ",
+      "auto": true
+    }, {
+      "text": "de",
+      "parameterId": "ent_letra_dni",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "desarrollo",
+      "parameterId": "ent_departamento",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "hablar con ",
+      "auto": true
+    }, {
+      "text": "dirección",
+      "parameterId": "ent_departamento",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "quiero hablar con ",
+      "auto": true
+    }, {
+      "text": "desarrollo",
+      "parameterId": "ent_departamento",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "quiero hablar con ",
+      "auto": true
+    }, {
+      "text": "finanzas",
+      "parameterId": "ent_departamento",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "pasame con ",
+      "auto": true
+    }, {
+      "text": "comercial",
+      "parameterId": "ent_departamento",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "pasame con alguien del departamento ",
+      "auto": true
+    }, {
+      "text": "comercial",
+      "parameterId": "ent_departamento",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "quiero hablar con alguien ",
+      "auto": true
+    }, {
+      "text": "de"
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "desarrollo",
+      "parameterId": "ent_departamento",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  } ]
+}

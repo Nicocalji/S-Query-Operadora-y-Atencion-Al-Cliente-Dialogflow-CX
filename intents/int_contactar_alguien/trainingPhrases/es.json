@@ -1,0 +1,185 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "A"
+    }, {
+      "text": " ver si hay alguien disponible con quien hablar",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "¿Me puedes pasar con alguien ",
+      "auto": true
+    }, {
+      "text": "de"
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "la empresa"
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "A"
+    }, {
+      "text": " ver si me puedes poner con alguien",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Quiero que se ponga el encargado",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "No sé si se podría poner alguna persona humana",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "¿Me puedes transferir con alguien?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Me gustaría hablar con el encargado de la empresa"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "me podrías poner ",
+      "auto": true
+    }, {
+      "text": "en"
+    }, {
+      "text": " contacto con alguien por favor",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Quisiera ponerme ",
+      "auto": true
+    }, {
+      "text": "en"
+    }, {
+      "text": " contacto con alguien",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Podría hablar con alguien ",
+      "auto": true
+    }, {
+      "text": "de"
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "la empresa"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Quisiera hablar con ",
+      "auto": true
+    }, {
+      "text": "un"
+    }, {
+      "text": " empleado",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Me gustaría hablar con alguien"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Quiero hablar con alguien ",
+      "auto": true
+    }, {
+      "text": "de"
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "la empresa"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Llama ",
+      "auto": true
+    }, {
+      "text": "a"
+    }, {
+      "text": " alguien ",
+      "auto": true
+    }, {
+      "text": "de"
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "la empresa"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Ponme ",
+      "auto": true
+    }, {
+      "text": "en"
+    }, {
+      "text": " contacto con alguien ",
+      "auto": true
+    }, {
+      "text": "de"
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "la empresa"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Ponme ",
+      "auto": true
+    }, {
+      "text": "en"
+    }, {
+      "text": " contacto con alguien",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  } ]
+}

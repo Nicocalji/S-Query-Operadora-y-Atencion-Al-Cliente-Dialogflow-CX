@@ -1,0 +1,366 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "con ",
+      "auto": true
+    }, {
+      "text": "Maria Dolores",
+      "parameterId": "nombreContactar",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "con ",
+      "auto": true
+    }, {
+      "text": "Jose Luis",
+      "parameterId": "nombreContactar",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "con ",
+      "auto": true
+    }, {
+      "text": "Francisco",
+      "parameterId": "nombreContactar",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "con ",
+      "auto": true
+    }, {
+      "text": "José",
+      "parameterId": "nombreContactar",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Que se ponga tu ",
+      "auto": true
+    }, {
+      "text": "Rubén",
+      "parameterId": "nombreContactar",
+      "auto": true
+    }, {
+      "text": " si puede",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Si está disponible ",
+      "auto": true
+    }, {
+      "text": "Diego",
+      "parameterId": "nombreContactar",
+      "auto": true
+    }, {
+      "text": " que se ponga",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "¿Está disponible ",
+      "auto": true
+    }, {
+      "text": "Luis",
+      "parameterId": "nombreContactar",
+      "auto": true
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Hablar con ",
+      "auto": true
+    }, {
+      "text": "Esther",
+      "parameterId": "nombreContactar",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Quiero hablar con ",
+      "auto": true
+    }, {
+      "text": "José",
+      "parameterId": "nombreContactar",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Me gustaría ser transferido con el jefe ",
+      "auto": true
+    }, {
+      "text": "de",
+      "parameterId": "ent_letra_dni",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "la empresa",
+      "parameterId": "location",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "¿Puedes ponerme ",
+      "auto": true
+    }, {
+      "text": "en"
+    }, {
+      "text": " contacto con ",
+      "auto": true
+    }, {
+      "text": "Esther",
+      "parameterId": "nombreContactar",
+      "auto": true
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Transfiéreme con ",
+      "auto": true
+    }, {
+      "text": "Beatriz",
+      "parameterId": "nombreContactar",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "¿Está disponible la señora "
+    }, {
+      "text": "Marian",
+      "parameterId": "nombreContactar",
+      "auto": true
+    }, {
+      "text": "?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "¿Podría transferirme con el ",
+      "auto": true
+    }, {
+      "text": "señor"
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "Carlos",
+      "parameterId": "nombreContactar",
+      "auto": true
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Pásame con ",
+      "auto": true
+    }, {
+      "text": "Julián",
+      "parameterId": "nombreContactar",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "¿Me puedes pasar con ",
+      "auto": true
+    }, {
+      "text": "Roberto",
+      "parameterId": "nombreContactar",
+      "auto": true
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "¿Me puedes poner con ",
+      "auto": true
+    }, {
+      "text": "Isidro",
+      "parameterId": "nombreContactar"
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "¿Me pones con ",
+      "auto": true
+    }, {
+      "text": "Enrique",
+      "parameterId": "nombreContactar",
+      "auto": true
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Me gustaría hablar con ",
+      "auto": true
+    }, {
+      "text": "Rafael",
+      "parameterId": "nombreContactar",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "quiero hacer ",
+      "auto": true
+    }, {
+      "text": "una"
+    }, {
+      "text": " llamada ",
+      "auto": true
+    }, {
+      "text": "para"
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "Raúl",
+      "parameterId": "nombreContactar",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Quiero hacer ",
+      "auto": true
+    }, {
+      "text": "una"
+    }, {
+      "text": " llamada ",
+      "auto": true
+    }, {
+      "text": "a"
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "Pascual",
+      "parameterId": "nombreContactar",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "me gustaría llamar "
+    }, {
+      "text": "a"
+    }, {
+      "text": " "
+    }, {
+      "text": "Óscar",
+      "parameterId": "nombreContactar",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "hola buenas me podrías poner ",
+      "auto": true
+    }, {
+      "text": "en"
+    }, {
+      "text": " contacto con ",
+      "auto": true
+    }, {
+      "text": "Carlos",
+      "parameterId": "nombreContactar",
+      "auto": true
+    }, {
+      "text": " por favor",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "si quería hablar con ",
+      "auto": true
+    }, {
+      "text": "Marian",
+      "parameterId": "nombreContactar",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "hola me gustaría hablar con ",
+      "auto": true
+    }, {
+      "text": "Nicolás",
+      "parameterId": "nombreContactar",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "quiero llamar ",
+      "auto": true
+    }, {
+      "text": "a"
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "Jesús",
+      "parameterId": "nombreContactar",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  } ]
+}

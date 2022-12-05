@@ -64,6 +64,13 @@
     },
     "name": "6cfc73f4-733b-4210-826d-ca79a684af87"
   }, {
+    "condition": "true",
+    "triggerFulfillment": {
+      "webhook": "S-Query",
+      "tag": "IdentificarSelectReason"
+    },
+    "name": "02873643-1854-4d58-bda8-d8b231b3a86e"
+  }, {
     "condition": "$session.params.accion = otros OR $session.params.accion = medicamento OR $session.params.accion = hablar",
     "triggerFulfillment": {
       "messages": [ {
@@ -409,13 +416,6 @@
     },
     "targetPage": "Confirmar Telefono",
     "name": "1c9666be-438c-47e2-bca3-a27bb9250985"
-  }, {
-    "condition": "true",
-    "triggerFulfillment": {
-      "webhook": "S-Query",
-      "tag": "IdentificarSelectReason"
-    },
-    "name": "02873643-1854-4d58-bda8-d8b231b3a86e"
   } ],
   "eventHandlers": [ {
     "event": "sys.no-match-default",

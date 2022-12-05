@@ -259,9 +259,6 @@
       "setParameterActions": [ {
         "parameter": "onActionPage",
         "value": false
-      }, {
-        "parameter": "reintentoContactar",
-        "value": 1
       } ]
     },
     "targetPage": "Comprobar disponibilidad",

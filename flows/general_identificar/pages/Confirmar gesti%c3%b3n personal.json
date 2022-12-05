@@ -75,12 +75,12 @@
     "triggerFulfillment": {
       "messages": [ {
         "text": {
-          "text": [ "\u003cspeak\u003eFabuloso. Por favor, Dígame su nombre y primer apellido.\u003c/speak\u003e" ]
+          "text": [ "\u003cspeak\u003eDe acuerdo. Por favor, Dígame su nombre y primer apellido.\u003c/speak\u003e" ]
         },
         "languageCode": "es"
       }, {
         "outputAudioText": {
-          "ssml": "\u003cspeak\u003eFabuloso. Por favor, Dígame su nombre y primer apellido.\u003c/speak\u003e"
+          "ssml": "\u003cspeak\u003eDe acuerdo. Por favor, Dígame su nombre y primer apellido.\u003c/speak\u003e"
         },
         "languageCode": "es"
       } ],
@@ -124,12 +124,12 @@
     "triggerFulfillment": {
       "messages": [ {
         "text": {
-          "text": [ "\u003cspeak\u003eSensacional. Por favor, Dígame el nombre y primer apellido de la otra persona.\u003c/speak\u003e" ]
+          "text": [ "\u003cspeak\u003eDe acuerdo. Por favor, Dígame el nombre y primer apellido de la otra persona.\u003c/speak\u003e" ]
         },
         "languageCode": "es"
       }, {
         "outputAudioText": {
-          "ssml": "\u003cspeak\u003eSensacional. Por favor, Dígame el nombre y primer apellido de la otra persona.\u003c/speak\u003e"
+          "ssml": "\u003cspeak\u003eDe acuerdo. Por favor, Dígame el nombre y primer apellido de la otra persona.\u003c/speak\u003e"
         },
         "languageCode": "es"
       } ],
@@ -173,12 +173,12 @@
     "triggerFulfillment": {
       "messages": [ {
         "text": {
-          "text": [ "\u003cspeak\u003eSensacional. Por favor, Dígame el nombre y primer apellido de su $session.params.parentesco.\u003c/speak\u003e" ]
+          "text": [ "\u003cspeak\u003eDe acuerdo. Por favor, Dígame el nombre y primer apellido de su $session.params.parentesco.\u003c/speak\u003e" ]
         },
         "languageCode": "es"
       }, {
         "outputAudioText": {
-          "ssml": "\u003cspeak\u003eSensacional. Por favor, Dígame el nombre y primer apellido de su $session.params.parentesco.\u003c/speak\u003e"
+          "ssml": "\u003cspeak\u003eDe acuerdo. Por favor, Dígame el nombre y primer apellido de su $session.params.parentesco.\u003c/speak\u003e"
         },
         "languageCode": "es"
       } ],

@@ -1,6 +1,35 @@
 {
   "trainingPhrases": [ {
     "parts": [ {
+      "text": "con ",
+      "auto": true
+    }, {
+      "text": "Pepe",
+      "parameterId": "nombreContactar"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "con ",
+      "auto": true
+    }, {
+      "text": "Ramón",
+      "parameterId": "nombreContactar"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Con "
+    }, {
+      "text": "Carlos",
+      "parameterId": "nombreContactar"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
       "text": "pásame el ",
       "auto": true
     }, {
@@ -249,7 +278,7 @@
     "languageCode": "es"
   }, {
     "parts": [ {
-      "text": "Me gustaria hablar con alguien"
+      "text": "Me gustaría hablar con alguien"
     } ],
     "repeatCount": 1,
     "languageCode": "es"
@@ -288,9 +317,7 @@
     "languageCode": "es"
   }, {
     "parts": [ {
-      "text": "Que se ponga tu "
-    }, {
-      "text": "jefe"
+      "text": "Que se ponga tu jefe"
     } ],
     "repeatCount": 1,
     "languageCode": "es"

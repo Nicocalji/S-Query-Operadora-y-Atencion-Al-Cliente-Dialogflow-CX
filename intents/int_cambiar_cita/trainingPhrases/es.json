@@ -1,6 +1,39 @@
 {
   "trainingPhrases": [ {
     "parts": [ {
+      "text": "quiero cambiar ",
+      "auto": true
+    }, {
+      "text": "una"
+    }, {
+      "text": " cita que tenia con el ",
+      "auto": true
+    }, {
+      "text": "pediatra",
+      "parameterId": "especialidad",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "mañana",
+      "parameterId": "fechaCita"
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "a"
+    }, {
+      "text": " las ",
+      "auto": true
+    }, {
+      "text": "2",
+      "parameterId": "horaCita"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
       "text": "mira que le dieron una cita "
     }, {
       "text": "a"
