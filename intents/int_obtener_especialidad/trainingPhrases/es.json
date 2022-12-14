@@ -1,0 +1,19 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "tengo que hacerme ",
+      "auto": true
+    }, {
+      "text": "una"
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "radiologia",
+      "parameterId": "especialidad",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  } ]
+}

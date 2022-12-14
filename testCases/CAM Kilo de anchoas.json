@@ -1,0 +1,405 @@
+{
+  "name": "95da2ff1-b51d-47b2-9a5b-5da1fbf9dc53",
+  "displayName": "CAM Kilo de anchoas",
+  "testCaseConversationTurns": [ {
+    "userInput": {
+      "injectedParameters": {
+        "numeroAgente": 34942480434
+      },
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "idrus"
+        },
+        "languageCode": "es"
+      }
+    },
+    "virtualAgentOutput": {
+      "sessionParameters": {
+        "contactoExists": false,
+        "conteoNoEsuchado": "",
+        "conteoReintentos": 0,
+        "datosObligatorios": false,
+        "emailEnviado": false,
+        "emailsGeneral": [ "nicolas.calvache@idrus-si.com", "jesus.saro@idrus-si.com", "marian.cortez@idrus-si.com" ],
+        "empresaBienvenida": "Conservas Ana María",
+        "entidadesCargadas": true,
+        "enviarEmails": true,
+        "mensajeEspera_en": "",
+        "mensajeEspera_es": "¿En qué le puedo ayudar?",
+        "mensajeNoEscucha_en": "",
+        "mensajeNoEscucha_es": "¿En qué le puedo ayudar?",
+        "mensajeReintento_en": "",
+        "mensajeReintento_es": "¿En qué le puedo ayudar?",
+        "mensajeRepetir_en": "",
+        "mensajeRepetir_es": "¿En qué le puedo ayudar?",
+        "modulos": {
+          "buzon": true,
+          "gestion_cita": false,
+          "operadora": false
+        },
+        "nombreAgente": "Olga",
+        "nombreEmpresa": "idrus_template",
+        "numeroAgente": 34942480434,
+        "onActionPage": true,
+        "parametrosModulos": {
+          "buzon": {
+            "pedirConsultaMedicamentos": false,
+            "pedirOtrasConsultas": false
+          },
+          "email": {
+            "tratoAlUsuario": "cliente"
+          },
+          "gestion_cita": {
+            "pedirFechaCambio": false,
+            "pedirFechaNueva": false,
+            "presentarOpcionesCita": false
+          },
+          "identificar": {
+            "confirmarGestionPersonal": false,
+            "confirmarNumero": true,
+            "pedirDni": false,
+            "pedirEmpresa": false,
+            "pedirNombre": true
+          },
+          "operadora": {
+            "dejarMensaje": false,
+            "guardarContactos": false,
+            "numeroSuplenteGeneral": 610067828
+          }
+        },
+        "pedirDni": true,
+        "pedirEmpresa": false,
+        "prefijo": "de",
+        "prefijoEmail": "Idrus-SI-Desarrollo",
+        "puedeDejarMensaje": false,
+        "reintentoContactar": 0,
+        "reintentoObtenerAQuienContactar": false,
+        "saludoInicial": true,
+        "sexo": "F",
+        "telefonoDelQueLlama": "12345678",
+        "tenemosServicios": false,
+        "tiempoInicio": 1670860712366,
+        "tipoAgente": "operadora"
+      },
+      "triggeredIntent": {
+        "name": "Default Welcome Intent"
+      },
+      "currentPage": {
+        "name": "Obtener Acción",
+        "flow": "operadora_inicio"
+      },
+      "textResponses": [ {
+        "text": [ "\u003cspeak\u003e Buenas tardes , soy Olga. la asistente virtual de Conservas Ana María.\u003cbreak time=\"0.8\"/\u003e Por su seguridad, esta conversación será grabada. \u003c/speak\u003e" ]
+      }, {
+        "text": [ "\u003cspeak\u003e Dígame,  ¿En qué le puedo ayudar? \u003c/speak\u003e" ]
+      } ]
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "mira es que queria comprar un kilo de anchoas"
+        },
+        "languageCode": "es"
+      }
+    },
+    "virtualAgentOutput": {
+      "sessionParameters": {
+        "accion": "otros",
+        "contactoExists": false,
+        "conteoNoEsuchado": 0,
+        "conteoReintentos": 0,
+        "datosObligatorios": false,
+        "emailEnviado": false,
+        "emailsGeneral": [ "nicolas.calvache@idrus-si.com", "jesus.saro@idrus-si.com", "marian.cortez@idrus-si.com" ],
+        "empresaBienvenida": "Conservas Ana María",
+        "entidadesCargadas": true,
+        "enviarEmails": true,
+        "mensajeEspera_en": "",
+        "mensajeEspera_es": "Por favor. ¿me puede confirmar que su número telefónico es \u003csay-as interpret-as='telephone'\u003e undefined \u003c/say-as\u003e?",
+        "mensajeNoEscucha_en": "",
+        "mensajeNoEscucha_es": "Por favor. ¿me puede confirmar que su número telefónico es \u003csay-as interpret-as='telephone'\u003e undefined \u003c/say-as\u003e?",
+        "mensajeReintento_en": "",
+        "mensajeReintento_es": "Por favor. ¿me puede confirmar que su número telefónico es \u003csay-as interpret-as='telephone'\u003e undefined \u003c/say-as\u003e?",
+        "mensajeRepetir_en": "",
+        "mensajeRepetir_es": "Por favor. ¿me puede confirmar que su número telefónico es \u003csay-as interpret-as='telephone'\u003e undefined \u003c/say-as\u003e?",
+        "modulos": {
+          "buzon": true,
+          "gestion_cita": false,
+          "operadora": false
+        },
+        "motivo": {
+          "text": "mira es que queria comprar un kilo de anchoas"
+        },
+        "nombreAgente": "Olga",
+        "nombreEmpresa": "idrus_template",
+        "numeroAgente": 34942480434,
+        "onActionPage": false,
+        "onConfirmPhone": true,
+        "onGetPhone": false,
+        "parametrosModulos": {
+          "buzon": {
+            "pedirConsultaMedicamentos": false,
+            "pedirOtrasConsultas": false
+          },
+          "email": {
+            "tratoAlUsuario": "cliente"
+          },
+          "gestion_cita": {
+            "pedirFechaCambio": false,
+            "pedirFechaNueva": false,
+            "presentarOpcionesCita": false
+          },
+          "identificar": {
+            "confirmarGestionPersonal": false,
+            "confirmarNumero": true,
+            "pedirDni": false,
+            "pedirEmpresa": false,
+            "pedirNombre": true
+          },
+          "operadora": {
+            "dejarMensaje": false,
+            "guardarContactos": false,
+            "numeroSuplenteGeneral": 610067828
+          }
+        },
+        "pedirDni": true,
+        "pedirEmpresa": false,
+        "prefijo": "de",
+        "prefijoEmail": "Idrus-SI-Desarrollo",
+        "puedeDejarMensaje": false,
+        "reintento": 0,
+        "reintentoContactar": 0,
+        "reintentoObtenerAQuienContactar": false,
+        "respuestaCorta": true,
+        "saludoInicial": true,
+        "sexo": "F",
+        "telefonoDelQueLlama": "12345678",
+        "tenemosServicios": false,
+        "tiempoInicio": 1670860712366,
+        "tipoAgente": "operadora"
+      },
+      "currentPage": {
+        "name": "Confirmar Telefono",
+        "flow": "general_identificar"
+      },
+      "textResponses": [ {
+        "text": [ "\u003cspeak\u003e Para poder ayudarle con esto necesito saber algún dato. \u003cbreak time=\"0.5s\"/\u003e Por favor. ¿Me puede confirmar que su número de teléfono es el. \u003csay-as interpret-as=\"telephone\"\u003eundefined \u003c/say-as\u003e ? \u003c/speak\u003e" ]
+      } ]
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "si"
+        },
+        "languageCode": "es"
+      }
+    },
+    "virtualAgentOutput": {
+      "sessionParameters": {
+        "accion": "otros",
+        "contactoExists": false,
+        "conteoNoEsuchado": 0,
+        "conteoParametroIncorrecto": 0,
+        "conteoReintentos": 0,
+        "datosObligatorios": false,
+        "emailEnviado": false,
+        "emailsGeneral": [ "nicolas.calvache@idrus-si.com", "jesus.saro@idrus-si.com", "marian.cortez@idrus-si.com" ],
+        "empresaBienvenida": "Conservas Ana María",
+        "entidadesCargadas": true,
+        "enviarEmails": true,
+        "identificado": true,
+        "mensajeEspera_en": "",
+        "mensajeEspera_es": "Por favor. ¿me puede confirmar que su número telefónico es \u003csay-as interpret-as='telephone'\u003e undefined \u003c/say-as\u003e?",
+        "mensajeNoEscucha_en": "",
+        "mensajeNoEscucha_es": "Por favor. ¿me puede confirmar que su número telefónico es \u003csay-as interpret-as='telephone'\u003e undefined \u003c/say-as\u003e?",
+        "mensajeReintento_en": "",
+        "mensajeReintento_es": "Por favor. ¿me puede confirmar que su número telefónico es \u003csay-as interpret-as='telephone'\u003e undefined \u003c/say-as\u003e?",
+        "mensajeRepetir_en": "",
+        "mensajeRepetir_es": "Por favor. ¿me puede confirmar que su número telefónico es \u003csay-as interpret-as='telephone'\u003e undefined \u003c/say-as\u003e?",
+        "modulos": {
+          "buzon": true,
+          "gestion_cita": false,
+          "operadora": false
+        },
+        "motivo": {
+          "text": "mira es que queria comprar un kilo de anchoas"
+        },
+        "nombreAgente": "Olga",
+        "nombreEmpresa": "idrus_template",
+        "numeroAgente": 34942480434,
+        "onActionPage": false,
+        "onConfirmPhone": true,
+        "onGetPhone": false,
+        "onName": true,
+        "parametrosModulos": {
+          "buzon": {
+            "pedirConsultaMedicamentos": false,
+            "pedirOtrasConsultas": false
+          },
+          "email": {
+            "tratoAlUsuario": "cliente"
+          },
+          "gestion_cita": {
+            "pedirFechaCambio": false,
+            "pedirFechaNueva": false,
+            "presentarOpcionesCita": false
+          },
+          "identificar": {
+            "confirmarGestionPersonal": false,
+            "confirmarNumero": true,
+            "pedirDni": false,
+            "pedirEmpresa": false,
+            "pedirNombre": true
+          },
+          "operadora": {
+            "dejarMensaje": false,
+            "guardarContactos": false,
+            "numeroSuplenteGeneral": 610067828
+          }
+        },
+        "pedirDni": true,
+        "pedirEmpresa": false,
+        "prefijo": "de",
+        "prefijoEmail": "Idrus-SI-Desarrollo",
+        "puedeDejarMensaje": false,
+        "reintento": 0,
+        "reintentoContactar": 0,
+        "reintentoObtenerAQuienContactar": false,
+        "saludoInicial": true,
+        "sexo": "F",
+        "telefonoDelQueLlama": "12345678",
+        "tenemosServicios": false,
+        "tiempoInicio": 1670860712366,
+        "tipoAgente": "operadora"
+      },
+      "triggeredIntent": {
+        "name": "int_yes"
+      },
+      "currentPage": {
+        "name": "Obtener Nombre Completo",
+        "flow": "general_identificar"
+      },
+      "textResponses": [ {
+        "text": [ "\u003cspeak\u003eDe acuerdo. Por favor, Dígame su nombre y primer apellido.\u003c/speak\u003e" ]
+      } ]
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "nicolas antonio calvache jimenez"
+        },
+        "languageCode": "es"
+      }
+    },
+    "virtualAgentOutput": {
+      "sessionParameters": {
+        "accion": "otros",
+        "apellido": {
+          "original": "calvache jimenez",
+          "sys.last-name": [ "Calvache", "Jimenez" ]
+        },
+        "contactoExists": false,
+        "conteoNoEsuchado": 0,
+        "conteoParametroIncorrecto": 0,
+        "conteoReintentos": 0,
+        "datosObligatorios": false,
+        "emailEnviado": true,
+        "emailSent": true,
+        "emailsGeneral": [ "nicolas.calvache@idrus-si.com", "jesus.saro@idrus-si.com", "marian.cortez@idrus-si.com" ],
+        "empresaBienvenida": "Conservas Ana María",
+        "en_dni": false,
+        "entidadesCargadas": true,
+        "enviarEmails": true,
+        "identificado": true,
+        "mensajeEspera_en": "",
+        "mensajeEspera_es": "Por favor. ¿me puede confirmar que su número telefónico es \u003csay-as interpret-as='telephone'\u003e undefined \u003c/say-as\u003e?",
+        "mensajeNoEscucha_en": "",
+        "mensajeNoEscucha_es": "Por favor. ¿me puede confirmar que su número telefónico es \u003csay-as interpret-as='telephone'\u003e undefined \u003c/say-as\u003e?",
+        "mensajeReintento_en": "",
+        "mensajeReintento_es": "Por favor. ¿me puede confirmar que su número telefónico es \u003csay-as interpret-as='telephone'\u003e undefined \u003c/say-as\u003e?",
+        "mensajeRepetir_en": "",
+        "mensajeRepetir_es": "Por favor. ¿me puede confirmar que su número telefónico es \u003csay-as interpret-as='telephone'\u003e undefined \u003c/say-as\u003e?",
+        "modulos": {
+          "buzon": true,
+          "gestion_cita": false,
+          "operadora": false
+        },
+        "motivo": {
+          "text": "mira es que queria comprar un kilo de anchoas"
+        },
+        "nombre": {
+          "original": "nicolas antonio",
+          "sys.given-name": [ "Nicolas", "Antonio" ]
+        },
+        "nombreAgente": "Olga",
+        "nombreEmpresa": "idrus_template",
+        "numeroAgente": 34942480434,
+        "onActionPage": false,
+        "onConfirmPhone": true,
+        "onGetPhone": false,
+        "onName": true,
+        "parametrosModulos": {
+          "buzon": {
+            "pedirConsultaMedicamentos": false,
+            "pedirOtrasConsultas": false
+          },
+          "email": {
+            "tratoAlUsuario": "cliente"
+          },
+          "gestion_cita": {
+            "pedirFechaCambio": false,
+            "pedirFechaNueva": false,
+            "presentarOpcionesCita": false
+          },
+          "identificar": {
+            "confirmarGestionPersonal": false,
+            "confirmarNumero": true,
+            "pedirDni": false,
+            "pedirEmpresa": false,
+            "pedirNombre": true
+          },
+          "operadora": {
+            "dejarMensaje": false,
+            "guardarContactos": false,
+            "numeroSuplenteGeneral": 610067828
+          }
+        },
+        "pedirDni": true,
+        "pedirEmpresa": false,
+        "prefijo": "de",
+        "prefijoEmail": "Idrus-SI-Desarrollo",
+        "puedeDejarMensaje": false,
+        "reintento": 0,
+        "reintentoContactar": 0,
+        "reintentoObtenerAQuienContactar": false,
+        "saludoInicial": true,
+        "sexo": "F",
+        "telefonoDelQueLlama": "12345678",
+        "tenemosServicios": false,
+        "tiempoInicio": 1670860712366,
+        "tipoAgente": "operadora"
+      },
+      "currentPage": {
+        "name": "End Session",
+        "flow": "general_identificar"
+      },
+      "textResponses": [ {
+        "text": [ "\u003cspeak\u003e Voy a pasar estos datos que me ha dado a un compañero que le llamará lo más pronto posible para resolver su consulta. Muchas gracias por su amabilidad, hasta luego y que tenga un buen día. \u003c/speak\u003e" ]
+      } ]
+    }
+  } ],
+  "creationTime": {
+    "seconds": 1670860782,
+    "nanos": 739284000
+  },
+  "testConfig": {
+    "flow": "Default Start Flow"
+  }
+}

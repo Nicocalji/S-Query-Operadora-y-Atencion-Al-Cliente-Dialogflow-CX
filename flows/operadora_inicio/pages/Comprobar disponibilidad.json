@@ -5,8 +5,6 @@
   
   },
   "entryFulfillment": {
-    "webhook": "S-Query",
-    "tag": "obtenerUsuarioYSuplente",
     "setParameterActions": [ {
       "parameter": "conteoReintentos",
       "value": 0
@@ -40,12 +38,12 @@
     "triggerFulfillment": {
       "messages": [ {
         "text": {
-          "text": [ "\u003cspeak\u003e De acuerdo. \u003cbreak time=\"0.8\"/\u003e Un momento, por favor, voy a confirmar si alguien del departamento $session.params.departamento está disponible.\u003cbreak time=\"4\"/\u003e\u003c/speak\u003e" ]
+          "text": [ "\u003cspeak\u003e De acuerdo. \u003cbreak time=\"0.8\"/\u003e Un momento, por favor, voy a confirmar si alguien del departamento $session.params.departamento está disponible.\u003c/speak\u003e" ]
         },
         "languageCode": "es"
       }, {
         "outputAudioText": {
-          "ssml": "\u003cspeak\u003e De acuerdo. \u003cbreak time=\"0.8\"/\u003e Un momento, por favor, voy a confirmar si alguien del departamento $session.params.departamento está disponible.\u003cbreak time=\"4\"/\u003e\u003c/speak\u003e"
+          "ssml": "\u003cspeak\u003e De acuerdo. \u003cbreak time=\"0.8\"/\u003e Un momento, por favor, voy a confirmar si alguien del departamento $session.params.departamento está disponible.\u003c/speak\u003e"
         },
         "languageCode": "es"
       } ]
@@ -57,12 +55,12 @@
     "triggerFulfillment": {
       "messages": [ {
         "text": {
-          "text": [ "\u003cspeak\u003e De acuerdo. \u003cbreak time=\"0.8\"/\u003e Un momento por favor, voy a comprobar si hay alguien disponible que pueda atenderle. \u003cbreak time=\"4\"/\u003e\u003c/speak\u003e" ]
+          "text": [ "\u003cspeak\u003e De acuerdo. \u003cbreak time=\"0.8\"/\u003e Un momento por favor, voy a comprobar si hay alguien disponible que pueda atenderle. \u003c/speak\u003e" ]
         },
         "languageCode": "es"
       }, {
         "outputAudioText": {
-          "ssml": "\u003cspeak\u003e De acuerdo. \u003cbreak time=\"0.8\"/\u003e Un momento por favor, voy a comprobar si hay alguien disponible que pueda atenderle. \u003cbreak time=\"4\"/\u003e\u003c/speak\u003e"
+          "ssml": "\u003cspeak\u003e De acuerdo. \u003cbreak time=\"0.8\"/\u003e Un momento por favor, voy a comprobar si hay alguien disponible que pueda atenderle. \u003c/speak\u003e"
         },
         "languageCode": "es"
       } ]

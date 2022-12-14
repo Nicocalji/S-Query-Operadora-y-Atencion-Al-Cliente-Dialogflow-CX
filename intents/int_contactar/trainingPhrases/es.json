@@ -1,6 +1,132 @@
 {
   "trainingPhrases": [ {
     "parts": [ {
+      "text": "pásame con el departamento ",
+      "auto": true
+    }, {
+      "text": "técnico",
+      "parameterId": "departamento",
+      "auto": true
+    }, {
+      "text": " por favor",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "pasame con los ",
+      "auto": true
+    }, {
+      "text": "directivos",
+      "parameterId": "departamento",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "quiero"
+    }, {
+      "text": " hablar con los "
+    }, {
+      "text": "de"
+    }, {
+      "text": " "
+    }, {
+      "text": "direccion",
+      "parameterId": "departamento",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "pásame con alguien del departamento ",
+      "auto": true
+    }, {
+      "text": "técnico",
+      "parameterId": "departamento",
+      "auto": true
+    }, {
+      "text": " por favor",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "comunicame con ",
+      "auto": true
+    }, {
+      "text": "marian",
+      "parameterId": "nombreContactar"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "quiero hablar con ",
+      "auto": true
+    }, {
+      "text": "josé",
+      "parameterId": "nombreContactar"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "quiero hablar con ",
+      "auto": true
+    }, {
+      "text": "manuel",
+      "parameterId": "nombreContactar"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Pasame con ",
+      "auto": true
+    }, {
+      "text": "Carlos",
+      "parameterId": "nombreContactar"
+    }, {
+      "text": " por favor",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "quiero hablar con ",
+      "auto": true
+    }, {
+      "text": "Carlos",
+      "parameterId": "nombreContactar"
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "recio"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "para ver si me puedes pasar con "
+    }, {
+      "text": "Nicolás",
+      "parameterId": "nombreContactar"
+    }, {
+      "text": " "
+    }, {
+      "text": "Calvache"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
       "text": "con ",
       "auto": true
     }, {

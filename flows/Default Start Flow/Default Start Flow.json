@@ -5,7 +5,8 @@
   "transitionRoutes": [ {
     "intent": "Default Welcome Intent",
     "triggerFulfillment": {
-    
+      "webhook": "S-Query",
+      "tag": "iniciarAgente"
     },
     "targetPage": "Designar Agente",
     "name": "19f26d28-f8fa-4081-aa2c-86400903c402"

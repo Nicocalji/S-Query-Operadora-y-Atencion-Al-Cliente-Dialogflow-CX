@@ -1,0 +1,9 @@
+{
+  "name": "7df2ea44-1342-4e2a-aa63-144d0486843d",
+  "displayName": "int_obtener_especialidad",
+  "parameters": [ {
+    "id": "especialidad",
+    "entityType": "@ent_especialidad"
+  } ],
+  "priority": 500000
+}

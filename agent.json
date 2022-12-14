@@ -31,6 +31,7 @@
   
   },
   "bigqueryExportSettings": {
-  
+    "enabled": true,
+    "bigqueryTable": "projects/s-query-op-ac/datasets/conversaciones/tables/dialogflow_bigquery_export_data"
   }
 }

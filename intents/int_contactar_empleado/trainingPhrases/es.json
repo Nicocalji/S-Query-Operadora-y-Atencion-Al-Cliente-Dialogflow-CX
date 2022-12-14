@@ -1,6 +1,140 @@
 {
   "trainingPhrases": [ {
     "parts": [ {
+      "text": "pasame con doña "
+    }, {
+      "text": "Marian",
+      "parameterId": "nombreContactar",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "me puede pasar con don "
+    }, {
+      "text": "Juan",
+      "parameterId": "nombreContactar",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "pasame a Don "
+    }, {
+      "text": "Carlos",
+      "parameterId": "nombreContactar",
+      "auto": true
+    }, {
+      "text": " Recio"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "pasame ",
+      "auto": true
+    }, {
+      "text": "a"
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "Juan",
+      "parameterId": "nombreContactar",
+      "auto": true
+    }, {
+      "text": " por favor",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "que me pases "
+    }, {
+      "text": "a"
+    }, {
+      "text": " "
+    }, {
+      "text": "Rodolfo",
+      "parameterId": "nombreContactar",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "nicolás",
+      "parameterId": "nombreContactar",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "con ",
+      "auto": true
+    }, {
+      "text": "nico",
+      "parameterId": "nombreContactar",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "me puedes pasar con el ",
+      "auto": true
+    }, {
+      "text": "señor"
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "nicolás",
+      "parameterId": "nombreContactar",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "calvache"
+    }, {
+      "text": " por favor",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "pasame con don "
+    }, {
+      "text": "nicolas",
+      "parameterId": "nombreContactar",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "quiero hablar con ",
+      "auto": true
+    }, {
+      "text": "Carlos",
+      "parameterId": "nombreContactar",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "recio"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
       "text": "con ",
       "auto": true
     }, {
@@ -109,19 +243,12 @@
     "languageCode": "es"
   }, {
     "parts": [ {
-      "text": "Me gustaría ser transferido con el jefe ",
-      "auto": true
+      "text": "Me gustaría ser transferido con el "
     }, {
-      "text": "de",
-      "parameterId": "ent_letra_dni",
-      "auto": true
+      "text": "jefe",
+      "parameterId": "nombreContactar"
     }, {
-      "text": " ",
-      "auto": true
-    }, {
-      "text": "la empresa",
-      "parameterId": "location",
-      "auto": true
+      "text": " de la empresa"
     } ],
     "repeatCount": 1,
     "languageCode": "es"

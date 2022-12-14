@@ -184,85 +184,47 @@
     },
     "name": "66cf41d1-0e19-4f28-95ff-3f4b262975ff"
   }, {
-    "intent": "int_contactar",
-    "condition": "$session.params.contactoExists = false AND $session.params.reintentoObtenerAQuienContactar = true",
+    "intent": "int_contactar_empleado",
     "triggerFulfillment": {
-      "messages": [ {
-        "text": {
-          "text": [ "\u003cspeak\u003e Genial. Por favor, Indíqueme su nombre y apellidos. \u003cbreak time = \"0.8\"/\u003e \u003c/speak\u003e" ]
-        },
-        "languageCode": "es"
-      }, {
-        "outputAudioText": {
-          "ssml": "\u003cspeak\u003e Genial. Por favor, Indíqueme su nombre y apellidos. \u003cbreak time = \"0.8\"/\u003e\u003c/speak\u003e"
-        },
-        "languageCode": "es"
-      } ]
-    },
-    "targetFlow": "general_identificar",
-    "name": "a21d77bb-8559-4106-8114-44966335580f"
-  }, {
-    "intent": "int_contactar",
-    "condition": "$session.params.contactoExists = true AND $session.params.reintentoObtenerAQuienContactar = true",
-    "triggerFulfillment": {
-    
-    },
-    "targetPage": "Comprobar disponibilidad",
-    "name": "3a0bdb7a-3b3c-4143-b65d-6cec80d7192e"
-  }, {
-    "intent": "int_contactar",
-    "condition": "$session.params.nombrecontactar = null AND $session.params.departamento = null",
-    "triggerFulfillment": {
-      "messages": [ {
-        "text": {
-          "text": [ "\u003cspeak\u003e Lo siento pero no le he entendido bien. \u003cbreak time=\"0.8\"/\u003e ¿Me puede volver a indicar con quien quiere hablar?\u003c/speak\u003e" ]
-        },
-        "languageCode": "es"
-      }, {
-        "outputAudioText": {
-          "ssml": "\u003cspeak\u003e Lo siento pero no le he entendido bien. \u003cbreak time=\"0.8\"/\u003e ¿Me puede volver a indicar con quien quiere hablar?\u003c/speak\u003e"
-        },
-        "languageCode": "es"
-      } ],
-      "setParameterActions": [ {
-        "parameter": "reintentoObtenerAQuienContactar",
-        "value": true
-      } ]
-    },
-    "name": "ccef2897-7a9d-4b39-ab87-9ccc56ce9196"
-  }, {
-    "intent": "int_contactar",
-    "condition": "$session.params.contactoExists = false",
-    "triggerFulfillment": {
-      "messages": [ {
-        "text": {
-          "text": [ "\u003cspeak\u003e Genial. Por favor, Indíqueme su nombre y apellidos. \u003cbreak time = \"0.8\"/\u003e2 \u003c/speak\u003e" ]
-        },
-        "languageCode": "es"
-      }, {
-        "outputAudioText": {
-          "ssml": "\u003cspeak\u003e Genial. Por favor, Indíqueme su nombre y apellidos. \u003cbreak time = \"0.8\"/\u003e 2\u003c/speak\u003e"
-        },
-        "languageCode": "es"
-      } ],
+      "webhook": "S-Query",
+      "tag": "buscarEmpleado",
       "setParameterActions": [ {
         "parameter": "onActionPage",
         "value": false
+      }, {
+        "parameter": "accion",
+        "value": null
       } ]
     },
-    "targetFlow": "general_identificar",
     "name": "6cc2f9c5-24bb-4295-b9f8-a54a6add0590"
   }, {
-    "intent": "int_contactar",
-    "condition": "$session.params.contactoExists = true",
+    "intent": "int_contactar_empleado_alias",
     "triggerFulfillment": {
+      "webhook": "S-Query",
+      "tag": "buscarEmpleado",
       "setParameterActions": [ {
         "parameter": "onActionPage",
         "value": false
+      }, {
+        "parameter": "accion",
+        "value": null
       } ]
     },
-    "targetPage": "Comprobar disponibilidad",
-    "name": "6dbf9b03-7390-4d3d-9846-bd2f1aa2e695"
+    "name": "d9b9ac3b-5f65-4268-859c-df83c1f9aaff"
+  }, {
+    "intent": "int_contactar_departamento",
+    "triggerFulfillment": {
+      "webhook": "S-Query",
+      "tag": "buscarDepartamento"
+    },
+    "name": "87185b07-119e-41ad-a21a-f29ffd876934"
+  }, {
+    "intent": "int_contactar_alguien",
+    "triggerFulfillment": {
+      "webhook": "S-Query",
+      "tag": "buscarSuplenteGeneral"
+    },
+    "name": "a10c73e9-3768-4135-b1e8-f4b897506e59"
   }, {
     "intent": "int_info_identidad",
     "condition": "$session.params.modulos.gestion_cita = true",

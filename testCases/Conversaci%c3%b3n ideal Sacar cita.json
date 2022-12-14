@@ -1,0 +1,1087 @@
+{
+  "name": "f00ea4ec-d5b8-4765-8ba3-857700c9e76f",
+  "displayName": "Conversación ideal Sacar cita",
+  "testCaseConversationTurns": [ {
+    "userInput": {
+      "injectedParameters": {
+        "numeroAgente": 34942480170
+      },
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "idrus"
+        },
+        "languageCode": "es"
+      }
+    },
+    "virtualAgentOutput": {
+      "sessionParameters": {
+        "contactoExists": false,
+        "conteoNoEsuchado": "",
+        "conteoReintentos": 0,
+        "datosObligatorios": false,
+        "emailEnviado": false,
+        "emailsGeneral": [ "nicolas.calvache@idrus-si.com" ],
+        "empresaBienvenida": "Hospital del sureste",
+        "entidadesCargadas": true,
+        "enviarEmails": true,
+        "mensajeEspera_en": "",
+        "mensajeEspera_es": "¿En qué le puedo ayudar?",
+        "mensajeNoEscucha_en": "",
+        "mensajeNoEscucha_es": "¿En qué le puedo ayudar?",
+        "mensajeReintento_en": "",
+        "mensajeReintento_es": "¿En qué le puedo ayudar?",
+        "mensajeRepetir_en": "",
+        "mensajeRepetir_es": "¿En qué le puedo ayudar?",
+        "modulos": {
+          "buzon": true,
+          "gestion_cita": true,
+          "operadora": false
+        },
+        "nombreAgente": "Iona",
+        "nombreEmpresa": "idrus_demo_desarrollo",
+        "numeroAgente": 34942480170,
+        "onActionPage": true,
+        "parametrosModulos": {
+          "buzon": {
+            "pedirConsultaMedicamentos": true,
+            "pedirOtrasConsultas": true
+          },
+          "email": {
+            "tratoAlUsuario": "paciente"
+          },
+          "gestion_cita": {
+            "pedirFechaCambio": false,
+            "pedirFechaNueva": false,
+            "presentarOpcionesCita": false
+          },
+          "identificar": {
+            "confirmarGestionPersonal": true,
+            "confirmarNumero": true,
+            "pedirDni": true,
+            "pedirEmpresa": false,
+            "pedirNombre": true
+          },
+          "operadora": {
+            "dejarMensaje": true,
+            "guardarContactos": false,
+            "numeroSuplenteGeneral": 610067828
+          }
+        },
+        "pedirDni": true,
+        "pedirEmpresa": false,
+        "prefijo": "del",
+        "prefijoEmail": "Phunciona-Pruebas",
+        "puedeDejarMensaje": false,
+        "reintentoContactar": 0,
+        "reintentoObtenerAQuienContactar": false,
+        "saludoInicial": true,
+        "sexo": "F",
+        "telefonoDelQueLlama": "12345678",
+        "tenemosServicios": false,
+        "tiempoInicio": 1671006919132,
+        "tipoAgente": "operadora"
+      },
+      "triggeredIntent": {
+        "name": "Default Welcome Intent"
+      },
+      "currentPage": {
+        "name": "Obtener Acción",
+        "flow": "operadora_inicio"
+      },
+      "textResponses": [ {
+        "text": [ "\u003cspeak\u003e Buenos días , soy Iona. la asistente virtual del Hospital del sureste.\u003cbreak time=\"0.8\"/\u003e Por su seguridad, esta conversación será grabada. \u003c/speak\u003e" ]
+      }, {
+        "text": [ "\u003cspeak\u003e Dígame,  ¿En qué le puedo ayudar? \u003c/speak\u003e" ]
+      } ]
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "quiero agendar una cita"
+        },
+        "languageCode": "es"
+      }
+    },
+    "virtualAgentOutput": {
+      "sessionParameters": {
+        "accion": "agendarPreferenciaCita",
+        "contactoExists": false,
+        "conteoNoEsuchado": 0,
+        "conteoReintentos": 0,
+        "datosObligatorios": false,
+        "emailEnviado": false,
+        "emailsGeneral": [ "nicolas.calvache@idrus-si.com" ],
+        "empresaBienvenida": "Hospital del sureste",
+        "enEspecialidad": true,
+        "entidadesCargadas": true,
+        "enviarEmails": true,
+        "mensajeEspera_en": "",
+        "mensajeEspera_es": "¿Me puede volver a indicar la especialidad por favor?",
+        "mensajeNoEscucha_en": "",
+        "mensajeNoEscucha_es": "¿Me puede volver a indicar la especialidad por favor?",
+        "mensajeReintento_en": "",
+        "mensajeReintento_es": "¿Me puede volver a indicar la especialidad por favor?",
+        "mensajeRepetir_en": "",
+        "mensajeRepetir_es": "¿Me puede volver a indicar la especialidad por favor?",
+        "modulos": {
+          "buzon": true,
+          "gestion_cita": true,
+          "operadora": false
+        },
+        "motivo": {
+          "text": "quiero agendar una cita"
+        },
+        "nextPage": "END_FLOW",
+        "nombreAgente": "Iona",
+        "nombreEmpresa": "idrus_demo_desarrollo",
+        "numeroAgente": 34942480170,
+        "onActionPage": false,
+        "parametrosModulos": {
+          "buzon": {
+            "pedirConsultaMedicamentos": true,
+            "pedirOtrasConsultas": true
+          },
+          "email": {
+            "tratoAlUsuario": "paciente"
+          },
+          "gestion_cita": {
+            "pedirFechaCambio": false,
+            "pedirFechaNueva": false,
+            "presentarOpcionesCita": false
+          },
+          "identificar": {
+            "confirmarGestionPersonal": true,
+            "confirmarNumero": true,
+            "pedirDni": true,
+            "pedirEmpresa": false,
+            "pedirNombre": true
+          },
+          "operadora": {
+            "dejarMensaje": true,
+            "guardarContactos": false,
+            "numeroSuplenteGeneral": 610067828
+          }
+        },
+        "parametrosOmitibles": [ "especialidad" ],
+        "pedirDni": true,
+        "pedirEmpresa": false,
+        "prefijo": "del",
+        "prefijoEmail": "Phunciona-Pruebas",
+        "puedeDejarMensaje": false,
+        "reintentoContactar": 0,
+        "reintentoObtenerAQuienContactar": false,
+        "saludoInicial": true,
+        "sexo": "F",
+        "telefonoDelQueLlama": "12345678",
+        "tenemosServicios": false,
+        "tiempoInicio": 1671006919132,
+        "tipoAgente": "gestion_cita"
+      },
+      "triggeredIntent": {
+        "name": "int_preferencia_cita"
+      },
+      "currentPage": {
+        "name": "Obtener Especialidad",
+        "flow": "gestion_cita_especialidad"
+      },
+      "textResponses": [ {
+        "text": [ "\u003cspeak\u003e Perfecto. Por favor, ¿Me puede decir con qué especialidad quiere su cita? \u003c/speak\u003e" ]
+      } ]
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "con el con el otorrino"
+        },
+        "languageCode": "es"
+      }
+    },
+    "virtualAgentOutput": {
+      "sessionParameters": {
+        "accion": "agendarPreferenciaCita",
+        "contactoExists": false,
+        "conteoNoEsuchado": 0,
+        "conteoReintentos": 0,
+        "datosObligatorios": false,
+        "emailEnviado": false,
+        "emailsGeneral": [ "nicolas.calvache@idrus-si.com" ],
+        "empresaBienvenida": "Hospital del sureste",
+        "enEspecialidad": false,
+        "entidadesCargadas": true,
+        "enviarEmails": true,
+        "especialidad": "Otorrinolaringología",
+        "mensajeEspera_en": "",
+        "mensajeEspera_es": "Por favor. ¿me puede confirmar que su número telefónico es \u003csay-as interpret-as='telephone'\u003e undefined \u003c/say-as\u003e?",
+        "mensajeNoEscucha_en": "",
+        "mensajeNoEscucha_es": "Por favor. ¿me puede confirmar que su número telefónico es \u003csay-as interpret-as='telephone'\u003e undefined \u003c/say-as\u003e?",
+        "mensajeReintento_en": "",
+        "mensajeReintento_es": "Por favor. ¿me puede confirmar que su número telefónico es \u003csay-as interpret-as='telephone'\u003e undefined \u003c/say-as\u003e?",
+        "mensajeRepetir_en": "",
+        "mensajeRepetir_es": "Por favor. ¿me puede confirmar que su número telefónico es \u003csay-as interpret-as='telephone'\u003e undefined \u003c/say-as\u003e?",
+        "modulos": {
+          "buzon": true,
+          "gestion_cita": true,
+          "operadora": false
+        },
+        "motivo": {
+          "text": "quiero agendar una cita"
+        },
+        "nextPage": "END_FLOW",
+        "nombreAgente": "Iona",
+        "nombreEmpresa": "idrus_demo_desarrollo",
+        "numeroAgente": 34942480170,
+        "onActionPage": false,
+        "onConfirmPhone": true,
+        "onGetPhone": false,
+        "parametrosModulos": {
+          "buzon": {
+            "pedirConsultaMedicamentos": true,
+            "pedirOtrasConsultas": true
+          },
+          "email": {
+            "tratoAlUsuario": "paciente"
+          },
+          "gestion_cita": {
+            "pedirFechaCambio": false,
+            "pedirFechaNueva": false,
+            "presentarOpcionesCita": false
+          },
+          "identificar": {
+            "confirmarGestionPersonal": true,
+            "confirmarNumero": true,
+            "pedirDni": true,
+            "pedirEmpresa": false,
+            "pedirNombre": true
+          },
+          "operadora": {
+            "dejarMensaje": true,
+            "guardarContactos": false,
+            "numeroSuplenteGeneral": 610067828
+          }
+        },
+        "parametrosOmitibles": [ "especialidad" ],
+        "pedirDni": true,
+        "pedirEmpresa": false,
+        "prefijo": "del",
+        "prefijoEmail": "Phunciona-Pruebas",
+        "puedeDejarMensaje": false,
+        "reintento": 0,
+        "reintentoContactar": 0,
+        "reintentoObtenerAQuienContactar": false,
+        "respuestaCorta": true,
+        "saludoInicial": true,
+        "sexo": "F",
+        "telefonoDelQueLlama": "12345678",
+        "tenemosServicios": false,
+        "tiempoInicio": 1671006919132,
+        "tipoAgente": "gestion_cita"
+      },
+      "currentPage": {
+        "name": "Confirmar Telefono",
+        "flow": "general_identificar"
+      },
+      "textResponses": [ {
+        "text": [ "\u003cspeak\u003e De acuerdo. \u003c/speak\u003e" ]
+      }, {
+        "text": [ "\u003cspeak\u003e Para gestionar su cita necesito saber algún dato. \u003cbreak time=\"0.5s\"/\u003e Por favor. ¿Me puede confirmar que su número de teléfono es el. \u003csay-as interpret-as=\"telephone\"\u003eundefined \u003c/say-as\u003e ? \u003c/speak\u003e" ]
+      } ]
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "si"
+        },
+        "languageCode": "es"
+      }
+    },
+    "virtualAgentOutput": {
+      "sessionParameters": {
+        "accion": "agendarPreferenciaCita",
+        "contactoExists": false,
+        "conteoNoEsuchado": 0,
+        "conteoParametroIncorrecto": 0,
+        "conteoReintentos": 0,
+        "datosObligatorios": false,
+        "emailEnviado": false,
+        "emailsGeneral": [ "nicolas.calvache@idrus-si.com" ],
+        "empresaBienvenida": "Hospital del sureste",
+        "enEspecialidad": false,
+        "entidadesCargadas": true,
+        "enviarEmails": true,
+        "especialidad": "Otorrinolaringología",
+        "identificado": true,
+        "mensajeEspera_en": "",
+        "mensajeEspera_es": " Por favor, ¿Me puede indicar si la cita es para usted o para otra persona?",
+        "mensajeNoEscucha_en": "",
+        "mensajeNoEscucha_es": " Por favor, ¿Me puede volver a indicar si la cita es para usted o para otra persona?",
+        "mensajeReintento_en": "",
+        "mensajeReintento_es": " Por favor, ¿Me puede volver a indicar si la cita es para usted o para otra persona?",
+        "mensajeRepetir_en": "",
+        "mensajeRepetir_es": " Por favor, ¿Me puede indicar si la cita es para usted o para otra persona?",
+        "modulos": {
+          "buzon": true,
+          "gestion_cita": true,
+          "operadora": false
+        },
+        "motivo": {
+          "text": "quiero agendar una cita"
+        },
+        "nextPage": "END_FLOW",
+        "nombreAgente": "Iona",
+        "nombreEmpresa": "idrus_demo_desarrollo",
+        "numeroAgente": 34942480170,
+        "onActionPage": false,
+        "onConfirmPhone": false,
+        "onGetPhone": false,
+        "parametrosModulos": {
+          "buzon": {
+            "pedirConsultaMedicamentos": true,
+            "pedirOtrasConsultas": true
+          },
+          "email": {
+            "tratoAlUsuario": "paciente"
+          },
+          "gestion_cita": {
+            "pedirFechaCambio": false,
+            "pedirFechaNueva": false,
+            "presentarOpcionesCita": false
+          },
+          "identificar": {
+            "confirmarGestionPersonal": true,
+            "confirmarNumero": true,
+            "pedirDni": true,
+            "pedirEmpresa": false,
+            "pedirNombre": true
+          },
+          "operadora": {
+            "dejarMensaje": true,
+            "guardarContactos": false,
+            "numeroSuplenteGeneral": 610067828
+          }
+        },
+        "parametrosOmitibles": [ "especialidad" ],
+        "pedirDni": true,
+        "pedirEmpresa": false,
+        "prefijo": "del",
+        "prefijoEmail": "Phunciona-Pruebas",
+        "puedeDejarMensaje": false,
+        "reintento": 0,
+        "reintentoContactar": 0,
+        "reintentoObtenerAQuienContactar": false,
+        "saludoInicial": true,
+        "sexo": "F",
+        "telefonoDelQueLlama": "12345678",
+        "tenemosServicios": false,
+        "tiempoInicio": 1671006919132,
+        "tipoAgente": "gestion_cita"
+      },
+      "triggeredIntent": {
+        "name": "int_yes"
+      },
+      "currentPage": {
+        "name": "Confirmar gestión personal",
+        "flow": "general_identificar"
+      },
+      "textResponses": [ {
+        "text": [ "\u003cspeak\u003e Genial.\u003c/speak\u003e" ]
+      }, {
+        "text": [ "\u003cspeak\u003e  ¿La gestión es para usted? ¿O para otra persona?\u003c/speak\u003e" ]
+      } ]
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "para mi"
+        },
+        "languageCode": "es"
+      }
+    },
+    "virtualAgentOutput": {
+      "sessionParameters": {
+        "accion": "agendarPreferenciaCita",
+        "contactoExists": false,
+        "conteoNoEsuchado": 0,
+        "conteoParametroIncorrecto": 0,
+        "conteoReintentos": 0,
+        "datosObligatorios": false,
+        "emailEnviado": false,
+        "emailsGeneral": [ "nicolas.calvache@idrus-si.com" ],
+        "empresaBienvenida": "Hospital del sureste",
+        "enEspecialidad": false,
+        "entidadesCargadas": true,
+        "enviarEmails": true,
+        "especialidad": "Otorrinolaringología",
+        "identificado": true,
+        "mensajeEspera_en": "",
+        "mensajeEspera_es": "Por favor, dígame su nombre y primer apellido.",
+        "mensajeNoEscucha_en": "",
+        "mensajeNoEscucha_es": "Por favor, dígame su nombre y primer apellido.",
+        "mensajeReintento_en": "",
+        "mensajeReintento_es": "Por favor, dígame su nombre y primer apellido.",
+        "mensajeRepetir_en": "",
+        "mensajeRepetir_es": "Por favor, dígame su nombre y primer apellido.",
+        "modulos": {
+          "buzon": true,
+          "gestion_cita": true,
+          "operadora": false
+        },
+        "motivo": {
+          "text": "quiero agendar una cita"
+        },
+        "nextPage": "END_FLOW",
+        "nombreAgente": "Iona",
+        "nombreEmpresa": "idrus_demo_desarrollo",
+        "numeroAgente": 34942480170,
+        "onActionPage": false,
+        "onConfirmPhone": false,
+        "onGetPhone": false,
+        "onName": true,
+        "parametrosModulos": {
+          "buzon": {
+            "pedirConsultaMedicamentos": true,
+            "pedirOtrasConsultas": true
+          },
+          "email": {
+            "tratoAlUsuario": "paciente"
+          },
+          "gestion_cita": {
+            "pedirFechaCambio": false,
+            "pedirFechaNueva": false,
+            "presentarOpcionesCita": false
+          },
+          "identificar": {
+            "confirmarGestionPersonal": true,
+            "confirmarNumero": true,
+            "pedirDni": true,
+            "pedirEmpresa": false,
+            "pedirNombre": true
+          },
+          "operadora": {
+            "dejarMensaje": true,
+            "guardarContactos": false,
+            "numeroSuplenteGeneral": 610067828
+          }
+        },
+        "parametrosOmitibles": [ "especialidad" ],
+        "pedirDni": true,
+        "pedirEmpresa": false,
+        "personal": true,
+        "prefijo": "del",
+        "prefijoEmail": "Phunciona-Pruebas",
+        "puedeDejarMensaje": false,
+        "reintento": 0,
+        "reintentoContactar": 0,
+        "reintentoObtenerAQuienContactar": false,
+        "saludoInicial": true,
+        "sexo": "F",
+        "telefonoDelQueLlama": "12345678",
+        "tenemosServicios": false,
+        "tiempoInicio": 1671006919132,
+        "tipoAgente": "gestion_cita"
+      },
+      "triggeredIntent": {
+        "name": "int_para_mi"
+      },
+      "currentPage": {
+        "name": "Obtener Nombre Completo",
+        "flow": "general_identificar"
+      },
+      "textResponses": [ {
+        "text": [ "\u003cspeak\u003eDe acuerdo. Por favor, Dígame su nombre y primer apellido.\u003c/speak\u003e" ]
+      } ]
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "ewgrw"
+        },
+        "languageCode": "es"
+      }
+    },
+    "virtualAgentOutput": {
+      "sessionParameters": {
+        "accion": "agendarPreferenciaCita",
+        "contactoExists": false,
+        "conteoNoEsuchado": 0,
+        "conteoParametroIncorrecto": 0,
+        "conteoReintentos": 1,
+        "datosObligatorios": false,
+        "emailEnviado": false,
+        "emailsGeneral": [ "nicolas.calvache@idrus-si.com" ],
+        "empresaBienvenida": "Hospital del sureste",
+        "enEspecialidad": false,
+        "entidadesCargadas": true,
+        "enviarEmails": true,
+        "especialidad": "Otorrinolaringología",
+        "identificado": true,
+        "mensajeError": "Por favor, dígame el nombre completo.",
+        "mensajeEspera_en": "",
+        "mensajeEspera_es": "Por favor, dígame su nombre y primer apellido.",
+        "mensajeNoEscucha_en": "",
+        "mensajeNoEscucha_es": "Por favor, dígame su nombre y primer apellido.",
+        "mensajeReintento_en": "",
+        "mensajeReintento_es": "Por favor, dígame su nombre y primer apellido.",
+        "mensajeRepetir_en": "",
+        "mensajeRepetir_es": "Por favor, dígame su nombre y primer apellido.",
+        "modulos": {
+          "buzon": true,
+          "gestion_cita": true,
+          "operadora": false
+        },
+        "motivo": {
+          "text": "quiero agendar una cita"
+        },
+        "nextPage": "END_FLOW",
+        "nombreAgente": "Iona",
+        "nombreEmpresa": "idrus_demo_desarrollo",
+        "numeroAgente": 34942480170,
+        "onActionPage": false,
+        "onConfirmPhone": false,
+        "onGetPhone": false,
+        "onName": true,
+        "parametrosModulos": {
+          "buzon": {
+            "pedirConsultaMedicamentos": true,
+            "pedirOtrasConsultas": true
+          },
+          "email": {
+            "tratoAlUsuario": "paciente"
+          },
+          "gestion_cita": {
+            "pedirFechaCambio": false,
+            "pedirFechaNueva": false,
+            "presentarOpcionesCita": false
+          },
+          "identificar": {
+            "confirmarGestionPersonal": true,
+            "confirmarNumero": true,
+            "pedirDni": true,
+            "pedirEmpresa": false,
+            "pedirNombre": true
+          },
+          "operadora": {
+            "dejarMensaje": true,
+            "guardarContactos": false,
+            "numeroSuplenteGeneral": 610067828
+          }
+        },
+        "parametrosOmitibles": [ "especialidad" ],
+        "pedirDni": true,
+        "pedirEmpresa": false,
+        "personal": true,
+        "prefijo": "del",
+        "prefijoEmail": "Phunciona-Pruebas",
+        "puedeDejarMensaje": false,
+        "reintento": 0,
+        "reintentoContactar": 0,
+        "reintentoObtenerAQuienContactar": false,
+        "saludoInicial": true,
+        "sexo": "F",
+        "telefonoDelQueLlama": "12345678",
+        "tenemosServicios": false,
+        "tiempoInicio": 1671006919132,
+        "tipoAgente": "gestion_cita"
+      },
+      "currentPage": {
+        "name": "Obtener Nombre Completo",
+        "flow": "general_identificar"
+      },
+      "textResponses": [ {
+        "text": [ "\u003cspeak\u003e Perdóneme, no le he entendido. \u003cbreak time='0.5s' /\u003e  Por favor, dígame su nombre y primer apellido. \u003c/speak\u003e" ]
+      } ]
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "nicolas antonio calvache jimenez"
+        },
+        "languageCode": "es"
+      }
+    },
+    "virtualAgentOutput": {
+      "sessionParameters": {
+        "accion": "agendarPreferenciaCita",
+        "apellido": {
+          "original": "calvache jimenez",
+          "sys.last-name": [ "Calvache", "Jimenez" ]
+        },
+        "contactoExists": false,
+        "conteoNoEsuchado": 0,
+        "conteoParametroIncorrecto": 0,
+        "conteoReintentos": 0,
+        "datosObligatorios": false,
+        "emailEnviado": false,
+        "emailsGeneral": [ "nicolas.calvache@idrus-si.com" ],
+        "empresaBienvenida": "Hospital del sureste",
+        "enEspecialidad": false,
+        "en_dni": true,
+        "entidadesCargadas": true,
+        "enviarEmails": true,
+        "especialidad": "Otorrinolaringología",
+        "identificado": true,
+        "mensajeError": "Por favor, dígame el nombre completo.",
+        "mensajeEspera_en": "",
+        "mensajeEspera_es": "Por favor. ¿me puede decir el DNI todo seguido y sin letra?",
+        "mensajeNoEscucha_en": "",
+        "mensajeNoEscucha_es": "Por favor. ¿me puede volver a decir el DNI todo seguido y sin letra?",
+        "mensajeReintento_en": "",
+        "mensajeReintento_es": "Por favor. ¿me puede volver a decir el DNI todo seguido y sin letra?",
+        "mensajeRepetir_en": "",
+        "mensajeRepetir_es": "Por favor. ¿me puede decir el DNI todo seguido y sin letra?",
+        "modulos": {
+          "buzon": true,
+          "gestion_cita": true,
+          "operadora": false
+        },
+        "motivo": {
+          "text": "quiero agendar una cita"
+        },
+        "nextPage": "END_FLOW",
+        "nombre": {
+          "original": "nicolas antonio",
+          "sys.given-name": [ "Nicolas", "Antonio" ]
+        },
+        "nombreAgente": "Iona",
+        "nombreEmpresa": "idrus_demo_desarrollo",
+        "numeroAgente": 34942480170,
+        "onActionPage": false,
+        "onConfirmPhone": false,
+        "onGetPhone": false,
+        "onLastName": false,
+        "onName": true,
+        "parametrosModulos": {
+          "buzon": {
+            "pedirConsultaMedicamentos": true,
+            "pedirOtrasConsultas": true
+          },
+          "email": {
+            "tratoAlUsuario": "paciente"
+          },
+          "gestion_cita": {
+            "pedirFechaCambio": false,
+            "pedirFechaNueva": false,
+            "presentarOpcionesCita": false
+          },
+          "identificar": {
+            "confirmarGestionPersonal": true,
+            "confirmarNumero": true,
+            "pedirDni": true,
+            "pedirEmpresa": false,
+            "pedirNombre": true
+          },
+          "operadora": {
+            "dejarMensaje": true,
+            "guardarContactos": false,
+            "numeroSuplenteGeneral": 610067828
+          }
+        },
+        "parametrosOmitibles": [ "especialidad" ],
+        "pedirDni": true,
+        "pedirEmpresa": false,
+        "personal": true,
+        "prefijo": "del",
+        "prefijoEmail": "Phunciona-Pruebas",
+        "puedeDejarMensaje": false,
+        "reintento": 0,
+        "reintentoContactar": 0,
+        "reintentoNoResponde": 0,
+        "reintentoObtenerAQuienContactar": false,
+        "saludoInicial": true,
+        "sexo": "F",
+        "telefonoDelQueLlama": "12345678",
+        "tenemosServicios": false,
+        "tiempoInicio": 1671006919132,
+        "tipoAgente": "gestion_cita"
+      },
+      "currentPage": {
+        "name": "Obtener DNI",
+        "flow": "general_identificar"
+      },
+      "textResponses": [ {
+        "text": [ "\u003cspeak\u003e Muy bien, nicolas antonio. Por favor, indíqueme sin pausas su DNI \u003c/speak\u003e" ]
+      } ]
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "dame un segundo"
+        },
+        "languageCode": "es"
+      }
+    },
+    "virtualAgentOutput": {
+      "sessionParameters": {
+        "accion": "agendarPreferenciaCita",
+        "apellido": {
+          "original": "calvache jimenez",
+          "sys.last-name": [ "Calvache", "Jimenez" ]
+        },
+        "contactoExists": false,
+        "conteoNoEsuchado": 0,
+        "conteoParametroIncorrecto": 0,
+        "conteoReintentos": 0,
+        "datosObligatorios": false,
+        "emailEnviado": false,
+        "emailsGeneral": [ "nicolas.calvache@idrus-si.com" ],
+        "empresaBienvenida": "Hospital del sureste",
+        "enEspecialidad": false,
+        "en_dni": true,
+        "entidadesCargadas": true,
+        "enviarEmails": true,
+        "especialidad": "Otorrinolaringología",
+        "identificado": true,
+        "mensajeError": "Por favor, dígame el nombre completo.",
+        "mensajeEspera_en": "",
+        "mensajeEspera_es": "Por favor. ¿me puede decir el DNI todo seguido y sin letra?",
+        "mensajeNoEscucha_en": "",
+        "mensajeNoEscucha_es": "Por favor. ¿me puede volver a decir el DNI todo seguido y sin letra?",
+        "mensajeReintento_en": "",
+        "mensajeReintento_es": "Por favor. ¿me puede volver a decir el DNI todo seguido y sin letra?",
+        "mensajeRepetir_en": "",
+        "mensajeRepetir_es": "Por favor. ¿me puede decir el DNI todo seguido y sin letra?",
+        "modulos": {
+          "buzon": true,
+          "gestion_cita": true,
+          "operadora": false
+        },
+        "motivo": {
+          "text": "quiero agendar una cita"
+        },
+        "nextPage": "END_FLOW",
+        "nombre": {
+          "original": "nicolas antonio",
+          "sys.given-name": [ "Nicolas", "Antonio" ]
+        },
+        "nombreAgente": "Iona",
+        "nombreEmpresa": "idrus_demo_desarrollo",
+        "numeroAgente": 34942480170,
+        "onActionPage": false,
+        "onConfirmPhone": false,
+        "onGetPhone": false,
+        "onLastName": false,
+        "onName": true,
+        "parametrosModulos": {
+          "buzon": {
+            "pedirConsultaMedicamentos": true,
+            "pedirOtrasConsultas": true
+          },
+          "email": {
+            "tratoAlUsuario": "paciente"
+          },
+          "gestion_cita": {
+            "pedirFechaCambio": false,
+            "pedirFechaNueva": false,
+            "presentarOpcionesCita": false
+          },
+          "identificar": {
+            "confirmarGestionPersonal": true,
+            "confirmarNumero": true,
+            "pedirDni": true,
+            "pedirEmpresa": false,
+            "pedirNombre": true
+          },
+          "operadora": {
+            "dejarMensaje": true,
+            "guardarContactos": false,
+            "numeroSuplenteGeneral": 610067828
+          }
+        },
+        "parametrosOmitibles": [ "especialidad" ],
+        "pedirDni": true,
+        "pedirEmpresa": false,
+        "personal": true,
+        "prefijo": "del",
+        "prefijoEmail": "Phunciona-Pruebas",
+        "puedeDejarMensaje": false,
+        "reintento": 0,
+        "reintentoContactar": 0,
+        "reintentoNoResponde": 0,
+        "reintentoObtenerAQuienContactar": false,
+        "saludoInicial": true,
+        "sexo": "F",
+        "telefonoDelQueLlama": "12345678",
+        "tenemosServicios": false,
+        "tiempoInicio": 1671006919132,
+        "tipoAgente": "gestion_cita"
+      },
+      "triggeredIntent": {
+        "name": "int_esperar"
+      },
+      "currentPage": {
+        "name": "Obtener DNI",
+        "flow": "general_identificar"
+      },
+      "textResponses": [ {
+        "text": [ "\u003cspeak\u003e De acuerdo,\u003cbreak time=\"0.5s\"/\u003e esperaré un momento \u003cbreak time=\"5s\"/\u003e Por favor. ¿me puede decir el DNI todo seguido y sin letra? \u003c/speak\u003e" ]
+      } ]
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "9584 38 80 M"
+        },
+        "languageCode": "es"
+      }
+    },
+    "virtualAgentOutput": {
+      "sessionParameters": {
+        "accion": "agendarPreferenciaCita",
+        "apellido": {
+          "original": "calvache jimenez",
+          "sys.last-name": [ "Calvache", "Jimenez" ]
+        },
+        "contactoExists": false,
+        "conteoNoEsuchado": 0,
+        "conteoParametroIncorrecto": 0,
+        "conteoReintentos": 0,
+        "datosObligatorios": false,
+        "dni": {
+          "original": "95843880M"
+        },
+        "emailEnviado": false,
+        "emailsGeneral": [ "nicolas.calvache@idrus-si.com" ],
+        "empresaBienvenida": "Hospital del sureste",
+        "enEspecialidad": false,
+        "en_dni": false,
+        "entidadesCargadas": true,
+        "enviarEmails": true,
+        "especialidad": "Otorrinolaringología",
+        "identificado": true,
+        "mensajeError": "Por favor, ¿Me puede confirmar que el DNI es el. \u003cprosody rate='slow'\u003e 95843880M \u003c/prosody\u003e? ¿Es esto correcto?",
+        "mensajeEspera": "Por favor, ¿Me puede confirmar que el DNI es el. \u003cprosody rate='slow'\u003e 95843880M \u003c/prosody\u003e? ¿Es esto correcto?",
+        "mensajeEspera_en": "",
+        "mensajeEspera_es": "Por favor, ¿Me puede confirmar que el DNI es el. \u003cprosody rate='slow'\u003e 95843880M \u003c/prosody\u003e? ¿Es esto correcto?",
+        "mensajeNoEscucha_en": "",
+        "mensajeNoEscucha_es": "Por favor, ¿Me puede confirmar que el DNI es el. \u003cprosody rate='slow'\u003e 95843880M \u003c/prosody\u003e? ¿Es esto correcto?",
+        "mensajeReintento_en": "",
+        "mensajeReintento_es": "Por favor, ¿Me puede confirmar que el DNI es el. \u003cprosody rate='slow'\u003e 95843880M \u003c/prosody\u003e? ¿Es esto correcto?",
+        "mensajeRepetir_en": "",
+        "mensajeRepetir_es": "Por favor, ¿Me puede confirmar que el DNI es el. \u003cprosody rate='slow'\u003e 95843880M \u003c/prosody\u003e? ¿Es esto correcto?",
+        "modulos": {
+          "buzon": true,
+          "gestion_cita": true,
+          "operadora": false
+        },
+        "motivo": {
+          "text": "quiero agendar una cita"
+        },
+        "nextPage": "END_FLOW",
+        "nombre": {
+          "original": "nicolas antonio",
+          "sys.given-name": [ "Nicolas", "Antonio" ]
+        },
+        "nombreAgente": "Iona",
+        "nombreEmpresa": "idrus_demo_desarrollo",
+        "numeroAgente": 34942480170,
+        "onActionPage": false,
+        "onConfirmPhone": false,
+        "onGetPhone": false,
+        "onLastName": false,
+        "onName": true,
+        "parametrosModulos": {
+          "buzon": {
+            "pedirConsultaMedicamentos": true,
+            "pedirOtrasConsultas": true
+          },
+          "email": {
+            "tratoAlUsuario": "paciente"
+          },
+          "gestion_cita": {
+            "pedirFechaCambio": false,
+            "pedirFechaNueva": false,
+            "presentarOpcionesCita": false
+          },
+          "identificar": {
+            "confirmarGestionPersonal": true,
+            "confirmarNumero": true,
+            "pedirDni": true,
+            "pedirEmpresa": false,
+            "pedirNombre": true
+          },
+          "operadora": {
+            "dejarMensaje": true,
+            "guardarContactos": false,
+            "numeroSuplenteGeneral": 610067828
+          }
+        },
+        "parametrosOmitibles": [ "especialidad" ],
+        "pedirDni": true,
+        "pedirEmpresa": false,
+        "personal": true,
+        "prefijo": "del",
+        "prefijoEmail": "Phunciona-Pruebas",
+        "puedeDejarMensaje": false,
+        "reintento": 0,
+        "reintentoContactar": 0,
+        "reintentoNoResponde": 0,
+        "reintentoObtenerAQuienContactar": false,
+        "respuestaCorta": true,
+        "saludoInicial": true,
+        "sexo": "F",
+        "telefonoDelQueLlama": "12345678",
+        "tenemosServicios": false,
+        "tiempoInicio": 1671006919132,
+        "tipoAgente": "gestion_cita"
+      },
+      "triggeredIntent": {
+        "name": "int_obtener_dni"
+      },
+      "currentPage": {
+        "name": "Confirmar DNI",
+        "flow": "general_identificar"
+      },
+      "textResponses": [ {
+        "text": [ "Perfecto." ]
+      }, {
+        "text": [ "\u003cspeak\u003e\u003cbreak time=\"0.5s\"/\u003e Por favor, confírmeme que el DNI es el. \u003cprosody rate=\"slow\"\u003e 95843880M \u003c/prosody\u003e. ¿Es esto correcto?\u003c/speak\u003e" ]
+      } ]
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "correcto"
+        },
+        "languageCode": "es"
+      }
+    },
+    "virtualAgentOutput": {
+      "sessionParameters": {
+        "accion": "agendarPreferenciaCita",
+        "apellido": {
+          "original": "calvache jimenez",
+          "sys.last-name": [ "Calvache", "Jimenez" ]
+        },
+        "contactoExists": false,
+        "conteoNoEsuchado": 0,
+        "conteoParametroIncorrecto": 0,
+        "conteoReintentos": 0,
+        "datosObligatorios": false,
+        "dni": {
+          "original": "95843880M"
+        },
+        "emailEnviado": true,
+        "emailSent": true,
+        "emailsGeneral": [ "nicolas.calvache@idrus-si.com" ],
+        "empresaBienvenida": "Hospital del sureste",
+        "enEspecialidad": false,
+        "en_dni": false,
+        "entidadesCargadas": true,
+        "enviarEmails": true,
+        "especialidad": "Otorrinolaringología",
+        "identificado": true,
+        "mensajeError": "Por favor, ¿Me puede confirmar que el DNI es el. \u003cprosody rate='slow'\u003e 95843880M \u003c/prosody\u003e? ¿Es esto correcto?",
+        "mensajeEspera": "Por favor, ¿Me puede confirmar que el DNI es el. \u003cprosody rate='slow'\u003e 95843880M \u003c/prosody\u003e? ¿Es esto correcto?",
+        "mensajeEspera_en": "",
+        "mensajeEspera_es": "Por favor, ¿Me puede confirmar que el DNI es el. \u003cprosody rate='slow'\u003e 95843880M \u003c/prosody\u003e? ¿Es esto correcto?",
+        "mensajeNoEscucha_en": "",
+        "mensajeNoEscucha_es": "Por favor, ¿Me puede confirmar que el DNI es el. \u003cprosody rate='slow'\u003e 95843880M \u003c/prosody\u003e? ¿Es esto correcto?",
+        "mensajeReintento_en": "",
+        "mensajeReintento_es": "Por favor, ¿Me puede confirmar que el DNI es el. \u003cprosody rate='slow'\u003e 95843880M \u003c/prosody\u003e? ¿Es esto correcto?",
+        "mensajeRepetir_en": "",
+        "mensajeRepetir_es": "Por favor, ¿Me puede confirmar que el DNI es el. \u003cprosody rate='slow'\u003e 95843880M \u003c/prosody\u003e? ¿Es esto correcto?",
+        "modulos": {
+          "buzon": true,
+          "gestion_cita": true,
+          "operadora": false
+        },
+        "motivo": {
+          "text": "quiero agendar una cita"
+        },
+        "nextPage": "END_FLOW",
+        "nombre": {
+          "original": "nicolas antonio",
+          "sys.given-name": [ "Nicolas", "Antonio" ]
+        },
+        "nombreAgente": "Iona",
+        "nombreEmpresa": "idrus_demo_desarrollo",
+        "numeroAgente": 34942480170,
+        "onActionPage": false,
+        "onConfirmPhone": false,
+        "onGetPhone": false,
+        "onLastName": false,
+        "onName": true,
+        "parametrosModulos": {
+          "buzon": {
+            "pedirConsultaMedicamentos": true,
+            "pedirOtrasConsultas": true
+          },
+          "email": {
+            "tratoAlUsuario": "paciente"
+          },
+          "gestion_cita": {
+            "pedirFechaCambio": false,
+            "pedirFechaNueva": false,
+            "presentarOpcionesCita": false
+          },
+          "identificar": {
+            "confirmarGestionPersonal": true,
+            "confirmarNumero": true,
+            "pedirDni": true,
+            "pedirEmpresa": false,
+            "pedirNombre": true
+          },
+          "operadora": {
+            "dejarMensaje": true,
+            "guardarContactos": false,
+            "numeroSuplenteGeneral": 610067828
+          }
+        },
+        "parametrosOmitibles": [ "especialidad" ],
+        "pedirDni": true,
+        "pedirEmpresa": false,
+        "personal": true,
+        "prefijo": "del",
+        "prefijoEmail": "Phunciona-Pruebas",
+        "puedeDejarMensaje": false,
+        "reintento": 0,
+        "reintentoContactar": 0,
+        "reintentoNoResponde": 0,
+        "reintentoObtenerAQuienContactar": false,
+        "saludoInicial": true,
+        "sexo": "F",
+        "telefonoDelQueLlama": "12345678",
+        "tenemosServicios": false,
+        "tiempoInicio": 1671006919132,
+        "tipoAgente": "gestion_cita"
+      },
+      "triggeredIntent": {
+        "name": "int_yes"
+      },
+      "currentPage": {
+        "name": "End Session",
+        "flow": "general_identificar"
+      },
+      "textResponses": [ {
+        "text": [ "Excelente, nicolas antonio." ]
+      }, {
+        "text": [ "\u003cspeak\u003e Voy a pasar estos datos que me ha dado a un compañero que le llamará lo más pronto posible para reservar su cita. Muchas gracias por su amabilidad. Hasta luego y que tenga un buen día. \u003c/speak\u003e" ]
+      } ]
+    }
+  } ],
+  "creationTime": {
+    "seconds": 1671007130,
+    "nanos": 664826000
+  },
+  "testConfig": {
+    "flow": "Default Start Flow"
+  }
+}

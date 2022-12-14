@@ -1,6 +1,82 @@
 {
   "trainingPhrases": [ {
     "parts": [ {
+      "text": "vengo ",
+      "auto": true
+    }, {
+      "text": "de",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "parte"
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "de"
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "nappa",
+      "parameterId": "empresa"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "claro"
+    }, {
+      "text": " llamo desde ",
+      "auto": true
+    }, {
+      "text": "athos",
+      "parameterId": "empresa"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "ya llamo desde ",
+      "auto": true
+    }, {
+      "text": "correos",
+      "parameterId": "empresa"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "te llamo del "
+    }, {
+      "text": "Gobierno Nacional",
+      "parameterId": "empresa"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "te llamo del "
+    }, {
+      "text": "Gobierno Regional",
+      "parameterId": "empresa"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "pues llamo desde ",
+      "auto": true
+    }, {
+      "text": "Vodafone",
+      "parameterId": "empresa"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
       "text": "soy "
     }, {
       "text": "de"

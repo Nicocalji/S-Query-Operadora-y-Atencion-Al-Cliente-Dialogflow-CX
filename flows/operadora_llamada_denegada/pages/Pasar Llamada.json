@@ -6,9 +6,6 @@
   },
   "entryFulfillment": {
     "setParameterActions": [ {
-      "parameter": "realizarLlamada",
-      "value": true
-    }, {
       "parameter": "conteoNoEsuchado",
       "value": 0
     }, {
@@ -17,6 +14,9 @@
     }, {
       "parameter": "pagina",
       "value": null
+    }, {
+      "parameter": "realizarLlamada",
+      "value": true
     } ],
     "returnPartialResponses": true
   },

@@ -46,25 +46,25 @@
       "value": 0
     }, {
       "parameter": "mensajeReintento_es",
-      "value": " Por favor, ¿Me puede volver a indicar si la cita es para usted o para otra persona?"
+      "value": " Por favor, ¿Me puede volver a indicar si la gestión es para usted o para otra persona?"
     }, {
       "parameter": "mensajeReintento_en",
       "value": ""
     }, {
       "parameter": "mensajeNoEscucha_es",
-      "value": " Por favor, ¿Me puede volver a indicar si la cita es para usted o para otra persona?"
+      "value": " Por favor, ¿Me puede volver a gestión si la cita es para usted o para otra persona?"
     }, {
       "parameter": "mensajeNoEscucha_en",
       "value": ""
     }, {
       "parameter": "mensajeEspera_es",
-      "value": " Por favor, ¿Me puede indicar si la cita es para usted o para otra persona?"
+      "value": " Por favor, ¿Me puede indicar si la gestión es para usted o para otra persona?"
     }, {
       "parameter": "mensajeEspera_en",
       "value": ""
     }, {
       "parameter": "mensajeRepetir_es",
-      "value": " Por favor, ¿Me puede indicar si la cita es para usted o para otra persona?"
+      "value": " Por favor, ¿Me puede indicar si la gestión es para usted o para otra persona?"
     }, {
       "parameter": "mensajeRepetir_en",
       "value": ""

@@ -67,7 +67,11 @@
     "condition": "true",
     "triggerFulfillment": {
       "webhook": "S-Query",
-      "tag": "IdentificarSelectReason"
+      "tag": "IdentificarSelectReason",
+      "setParameterActions": [ {
+        "parameter": "enEspecialidad",
+        "value": false
+      } ]
     },
     "name": "02873643-1854-4d58-bda8-d8b231b3a86e"
   }, {

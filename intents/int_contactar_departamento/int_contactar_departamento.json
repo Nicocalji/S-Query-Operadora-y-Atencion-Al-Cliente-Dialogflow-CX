@@ -2,11 +2,8 @@
   "name": "32812f25-1fbb-470a-9553-473cf1c42bda",
   "displayName": "int_contactar_departamento",
   "parameters": [ {
-    "id": "ent_departamento",
+    "id": "departamento",
     "entityType": "@ent_departamento"
-  }, {
-    "id": "ent_letra_dni",
-    "entityType": "@ent_letra_dni"
   } ],
   "priority": 500000
 }

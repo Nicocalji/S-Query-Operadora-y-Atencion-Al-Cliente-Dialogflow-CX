@@ -1,15 +1,9 @@
 {
   "name": "7dacbcdf-c024-4827-bc85-e0f98c697b4d",
-  "displayName": "int_contactar_nombre",
+  "displayName": "int_contactar_empleado",
   "parameters": [ {
     "id": "nombreContactar",
     "entityType": "@ent_nombre_compuesto"
-  }, {
-    "id": "ent_letra_dni",
-    "entityType": "@ent_letra_dni"
-  }, {
-    "id": "location",
-    "entityType": "@sys.location"
   } ],
   "priority": 500000
 }

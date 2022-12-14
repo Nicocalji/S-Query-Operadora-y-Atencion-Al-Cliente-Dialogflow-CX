@@ -1,18 +1,14 @@
 {
   "trainingPhrases": [ {
     "parts": [ {
-      "text": "quiero hablar con el departamento ",
-      "auto": true
+      "text": "quiero hablar con el departamento "
     }, {
-      "text": "de",
-      "parameterId": "ent_letra_dni",
-      "auto": true
+      "text": "de"
     }, {
-      "text": " ",
-      "auto": true
+      "text": " "
     }, {
       "text": "desarrollo",
-      "parameterId": "ent_departamento",
+      "parameterId": "departamento",
       "auto": true
     } ],
     "repeatCount": 1,
@@ -23,7 +19,7 @@
       "auto": true
     }, {
       "text": "dirección",
-      "parameterId": "ent_departamento",
+      "parameterId": "departamento",
       "auto": true
     } ],
     "repeatCount": 1,
@@ -34,7 +30,7 @@
       "auto": true
     }, {
       "text": "desarrollo",
-      "parameterId": "ent_departamento",
+      "parameterId": "departamento",
       "auto": true
     } ],
     "repeatCount": 1,
@@ -45,7 +41,7 @@
       "auto": true
     }, {
       "text": "finanzas",
-      "parameterId": "ent_departamento",
+      "parameterId": "departamento",
       "auto": true
     } ],
     "repeatCount": 1,
@@ -56,7 +52,7 @@
       "auto": true
     }, {
       "text": "comercial",
-      "parameterId": "ent_departamento",
+      "parameterId": "departamento",
       "auto": true
     } ],
     "repeatCount": 1,
@@ -67,7 +63,7 @@
       "auto": true
     }, {
       "text": "comercial",
-      "parameterId": "ent_departamento",
+      "parameterId": "departamento",
       "auto": true
     } ],
     "repeatCount": 1,
@@ -83,7 +79,7 @@
       "auto": true
     }, {
       "text": "desarrollo",
-      "parameterId": "ent_departamento",
+      "parameterId": "departamento",
       "auto": true
     } ],
     "repeatCount": 1,

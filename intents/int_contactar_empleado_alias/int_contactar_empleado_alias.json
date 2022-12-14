@@ -1,0 +1,9 @@
+{
+  "name": "67dbce31-ed64-4155-8ac8-9c38c7f25a0a",
+  "displayName": "int_contactar_empleado_alias",
+  "parameters": [ {
+    "id": "nombrecontactar",
+    "entityType": "@ent_empleados"
+  } ],
+  "priority": 500000
+}

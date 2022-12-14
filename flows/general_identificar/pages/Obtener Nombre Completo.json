@@ -96,6 +96,9 @@
     }, {
       "parameter": "conteoReintentos",
       "value": 0
+    }, {
+      "parameter": "onName",
+      "value": true
     } ]
   },
   "transitionRoutes": [ {
@@ -131,6 +134,13 @@
       } ]
     },
     "name": "fbc37f02-6558-4703-858e-d73e698ca98d"
+  }, {
+    "condition": "$session.params.nombre != null AND $session.params.modulos.buzon = true AND $session.params.accion = \"otros\" AND $session.params.parametrosModulos.identificar.pedirDni = false",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Salida",
+    "name": "17314ac5-a557-4a8f-9153-77f8b69e6414"
   }, {
     "condition": "$session.params.nombre != null AND $session.params.personal = true AND $session.params.apellido != null",
     "triggerFulfillment": {
@@ -245,7 +255,7 @@
     },
     "name": "2f8322da-88e0-4016-a0d4-9ce2568d09fa"
   }, {
-    "condition": "$session.params.tipoAgente = \"operadora\" AND $session.params.pedirEmpresa = false AND $session.params.nombre != null AND $session.params.apellido != null",
+    "condition": "$session.params.tipoAgente = \"operadora\" AND $session.params.pedirEmpresa = false AND $session.params.nombre != null AND $session.params.apellido != null AND $session.params.modulos.operadora = true",
     "triggerFulfillment": {
     
     },
@@ -269,7 +279,7 @@
     "targetPage": "Obtener Empresa",
     "name": "bfd24b0f-1f5e-4299-98f3-5df121256f5e"
   }, {
-    "condition": "$session.params.nombre != null AND $session.params.apellido != null AND $session.params.pedirEmpresa = false",
+    "condition": "$session.params.nombre != null AND $session.params.apellido != null AND $session.params.pedirEmpresa = false AND $session.params.modulos.operadora = true",
     "triggerFulfillment": {
     
     },

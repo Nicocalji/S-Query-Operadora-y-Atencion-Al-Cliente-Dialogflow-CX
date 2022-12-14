@@ -1,6 +1,25 @@
 {
   "trainingPhrases": [ {
     "parts": [ {
+      "text": "mira"
+    }, {
+      "text": " quería ",
+      "auto": true
+    }, {
+      "text": "saber"
+    }, {
+      "text": " si me puedes sacar ",
+      "auto": true
+    }, {
+      "text": "una"
+    }, {
+      "text": " cita",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
       "text": "podría sacarme ",
       "auto": true
     }, {

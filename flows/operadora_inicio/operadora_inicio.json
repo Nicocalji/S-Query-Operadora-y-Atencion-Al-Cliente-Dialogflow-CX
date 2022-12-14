@@ -25,6 +25,20 @@
     },
     "name": "0de50f46-b5f1-48f1-a065-f07662cd61f2"
   }, {
+    "intent": "int_info_robot",
+    "triggerFulfillment": {
+      "webhook": "S-Query",
+      "tag": "infoRobot"
+    },
+    "name": "fa620e48-19fc-48ef-be14-00a31784a2f4"
+  }, {
+    "intent": "int_pregunta",
+    "triggerFulfillment": {
+      "webhook": "S-Query",
+      "tag": "pregunta"
+    },
+    "name": "187c063b-b609-49de-845d-006380005f6e"
+  }, {
     "condition": "$session.params.nombre != null AND $session.params.apellido != null AND $session.params.contactoExists = false AND $session.params.parametrosModulos.operadora.guardarContactos = true",
     "triggerFulfillment": {
       "setParameterActions": [ {
@@ -81,7 +95,11 @@
     "event": "ACEPTADA_COLGADA",
     "triggerFulfillment": {
       "webhook": "S-Query",
-      "tag": "enviarDatos"
+      "tag": "enviarDatos",
+      "setParameterActions": [ {
+        "parameter": "accion",
+        "value": "$sys.func.IF(\"$session.params.accion != null\", $session.params.accion, colgada)"
+      } ]
     },
     "name": "ff08f6dc-efa6-41bb-85b2-d876ade48434"
   } ],

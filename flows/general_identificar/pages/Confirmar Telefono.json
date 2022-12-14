@@ -66,6 +66,8 @@
         },
         "languageCode": "es"
       } ],
+      "webhook": "S-Query",
+      "tag": "telefonoConfirmado",
       "setParameterActions": [ {
         "parameter": "identificado",
         "value": true
@@ -112,6 +114,8 @@
         },
         "languageCode": "es"
       } ],
+      "webhook": "S-Query",
+      "tag": "telefonoConfirmado",
       "setParameterActions": [ {
         "parameter": "identificado",
         "value": true

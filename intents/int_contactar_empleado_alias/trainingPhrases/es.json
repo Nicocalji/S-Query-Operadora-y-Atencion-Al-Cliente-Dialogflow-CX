@@ -1,0 +1,54 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "pasame con ",
+      "auto": true
+    }, {
+      "text": "nico",
+      "parameterId": "nombrecontactar"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "puedes pasarme con el "
+    }, {
+      "text": "jefe",
+      "parameterId": "nombrecontactar"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "comunicame con ",
+      "auto": true
+    }, {
+      "text": "juan",
+      "parameterId": "nombrecontactar"
+    }, {
+      "text": " por favor",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "quiero hablar con ",
+      "auto": true
+    }, {
+      "text": "Jesus",
+      "parameterId": "nombrecontactar"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "pasame con el "
+    }, {
+      "text": "ceo",
+      "parameterId": "nombrecontactar"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  } ]
+}

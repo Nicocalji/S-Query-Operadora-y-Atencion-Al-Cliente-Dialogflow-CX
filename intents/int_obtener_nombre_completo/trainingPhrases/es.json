@@ -1,6 +1,73 @@
 {
   "trainingPhrases": [ {
     "parts": [ {
+      "text": "nicolas antonio",
+      "parameterId": "nombre",
+      "auto": true
+    }, {
+      "text": "de la fuente",
+      "parameterId": "apellido"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Julia Rosa",
+      "parameterId": "nombre",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "Paz",
+      "parameterId": "apellido"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "María del Mar",
+      "parameterId": "nombre",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "Jiménez",
+      "parameterId": "apellido",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "soy "
+    }, {
+      "text": "José Antonio",
+      "parameterId": "nombre",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "Rodríguez de la Fuente",
+      "parameterId": "apellido",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "Justiniano Rodríguez",
+      "parameterId": "nombre"
+    }, {
+      "text": " "
+    }, {
+      "text": "de la Fuente",
+      "parameterId": "apellido"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
       "text": "Juan Camilo",
       "parameterId": "nombre",
       "auto": true

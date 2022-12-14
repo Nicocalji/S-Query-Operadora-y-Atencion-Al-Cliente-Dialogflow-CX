@@ -68,6 +68,12 @@
     },
     "name": "78d0f651-d53c-4f26-9788-cf06c745b57f"
   }, {
+    "intent": "int_obtener_especialidad",
+    "triggerFulfillment": {
+    
+    },
+    "name": "a741e887-1777-4db9-b7b9-f89179ff9f26"
+  }, {
     "condition": "$page.params.status = FINAL",
     "triggerFulfillment": {
       "setParameterActions": [ {

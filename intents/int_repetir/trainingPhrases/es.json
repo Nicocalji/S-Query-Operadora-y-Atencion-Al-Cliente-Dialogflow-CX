@@ -1,6 +1,20 @@
 {
   "trainingPhrases": [ {
     "parts": [ {
+      "text": "repite por favor",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "repite please",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
       "text": "puedes decirlo "
     }, {
       "text": "de",

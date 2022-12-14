@@ -156,8 +156,8 @@
     "synonyms": [ "@sys.number:number @sys.number:number millones @sys.number:number @ent_dni_decir_letra:ent_dni_decir_letra @ent_letra_dni:ent_letra_dni" ],
     "languageCode": "es"
   }, {
-    "value": "@sys.number:number millones @sys.number:number @sys.number:number  @sys.number:number mil @sys.number:number @ent_dni_letra:ent_dni_letra",
-    "synonyms": [ "@sys.number:number millones @sys.number:number @sys.number:number  @sys.number:number mil @sys.number:number @ent_dni_letra:ent_dni_letra" ],
+    "value": "@sys.number:number millones @sys.number:number @sys.number:number  @sys.number:number mil @sys.number:number @ent_letra_dni:ent_letra_dni",
+    "synonyms": [ "@sys.number:number millones @sys.number:number @sys.number:number  @sys.number:number mil @sys.number:number @ent_letra_dni:ent_letra_dni" ],
     "languageCode": "es"
   }, {
     "value": "@sys.number:number millones @sys.number:number @sys.number:number mil @sys.number:number @ent_letra_dni:ent_letra_dni",
