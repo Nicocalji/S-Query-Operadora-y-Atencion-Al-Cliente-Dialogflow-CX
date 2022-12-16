@@ -1,6 +1,18 @@
 {
   "trainingPhrases": [ {
     "parts": [ {
+      "text": "de"
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "Apple",
+      "parameterId": "empresa"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
       "text": "vengo ",
       "auto": true
     }, {

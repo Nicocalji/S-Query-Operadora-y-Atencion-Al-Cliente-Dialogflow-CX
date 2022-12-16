@@ -1,6 +1,23 @@
 {
   "trainingPhrases": [ {
     "parts": [ {
+      "text": "quería actualizar ",
+      "auto": true
+    }, {
+      "text": "una",
+      "auto": true
+    }, {
+      "text": " cita que tengo con el ",
+      "auto": true
+    }, {
+      "text": "radiólogo",
+      "parameterId": "especialidad",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
       "text": "quiero cambiar ",
       "auto": true
     }, {

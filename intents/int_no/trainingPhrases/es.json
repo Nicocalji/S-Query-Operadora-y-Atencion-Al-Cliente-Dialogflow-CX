@@ -1,6 +1,12 @@
 {
   "trainingPhrases": [ {
     "parts": [ {
+      "text": "Noel"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
       "text": "no estoy ocupado\r "
     } ],
     "repeatCount": 1,

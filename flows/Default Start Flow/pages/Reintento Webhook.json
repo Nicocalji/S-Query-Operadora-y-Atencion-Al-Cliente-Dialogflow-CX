@@ -1,0 +1,16 @@
+{
+  "name": "e69e9d80-ec32-40f4-9310-ede8613749a4",
+  "displayName": "Reintento Webhook",
+  "form": {
+  
+  },
+  "transitionRoutes": [ {
+    "condition": "true",
+    "triggerFulfillment": {
+      "webhook": "S-Query",
+      "tag": "iniciarAgente"
+    },
+    "targetPage": "Designar Agente",
+    "name": "9c15e82f-60e4-4968-a3ea-f15bcaa83fe6"
+  } ]
+}

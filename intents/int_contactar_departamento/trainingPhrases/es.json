@@ -1,6 +1,28 @@
 {
   "trainingPhrases": [ {
     "parts": [ {
+      "text": "con ",
+      "auto": true
+    }, {
+      "text": "técnico",
+      "parameterId": "departamento",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "pasame con el departamento ",
+      "auto": true
+    }, {
+      "text": "técnico",
+      "parameterId": "departamento",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
       "text": "quiero hablar con el departamento "
     }, {
       "text": "de"

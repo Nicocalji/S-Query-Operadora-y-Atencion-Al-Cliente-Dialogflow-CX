@@ -5,6 +5,8 @@
   
   },
   "entryFulfillment": {
+    "webhook": "S-Query",
+    "tag": "comprobarDisponibilidad",
     "setParameterActions": [ {
       "parameter": "conteoReintentos",
       "value": 0

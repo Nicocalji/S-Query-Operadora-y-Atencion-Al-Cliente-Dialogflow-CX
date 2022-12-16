@@ -1,6 +1,31 @@
 {
   "trainingPhrases": [ {
     "parts": [ {
+      "text": "es",
+      "auto": true
+    }, {
+      "text": " con el ",
+      "auto": true
+    }, {
+      "text": "pediatra",
+      "parameterId": "especialidad",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "el ",
+      "auto": true
+    }, {
+      "text": "radiólogo",
+      "parameterId": "especialidad",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
       "text": "tengo que hacerme ",
       "auto": true
     }, {

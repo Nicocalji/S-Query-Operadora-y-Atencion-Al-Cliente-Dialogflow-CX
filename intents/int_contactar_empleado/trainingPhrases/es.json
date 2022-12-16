@@ -1,6 +1,102 @@
 {
   "trainingPhrases": [ {
     "parts": [ {
+      "text": "hablar con ",
+      "auto": true
+    }, {
+      "text": "Estela",
+      "parameterId": "nombreContactar",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "me gustaría hablar con ",
+      "auto": true
+    }, {
+      "text": "Rodrigo",
+      "parameterId": "nombreContactar",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "pasame con "
+    }, {
+      "text": "Beatriz",
+      "parameterId": "nombreContactar",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "me puede pasar con "
+    }, {
+      "text": "Luis Ángel",
+      "parameterId": "nombreContactar",
+      "auto": true
+    }, {
+      "text": " Cobo Ruiz por favor"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "pasame "
+    }, {
+      "text": "a"
+    }, {
+      "text": " "
+    }, {
+      "text": "Rubén",
+      "parameterId": "nombreContactar",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "quiero contactar con ",
+      "auto": true
+    }, {
+      "text": "Eugenio",
+      "parameterId": "nombreContactar",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "con ",
+      "auto": true
+    }, {
+      "text": "María Dolores",
+      "parameterId": "nombreContactar",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
+      "text": "pasame ",
+      "auto": true
+    }, {
+      "text": "a"
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "Raúl",
+      "parameterId": "nombreContactar",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "es"
+  }, {
+    "parts": [ {
       "text": "pasame con doña "
     }, {
       "text": "Marian",
